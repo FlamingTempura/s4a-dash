@@ -1,6 +1,25 @@
-<h1>Projects</h1>
-<ul>
-	<li ng-repeat="project in projects">
-		<a href="project/{{id}}">{{name}}</a>
-	</li>
-</ul>
+<h1>Project: {{ project.name }}</h1>
+
+<a ng-href="project.url">Website</a>
+
+<div>
+	{{ project.tasks.complete }}
+	Complete tasks out of
+	{{ project.tasks.complete + project.tasks.incomplete }}
+</div>
+
+<div>
+	{{ project.rows }}
+	Rows of data
+</div>
+
+<div>
+	{{ project.months.length }}
+	Months
+</div>
+
+<div>
+	{{ project.users.ids + project.users.ips }}
+	Users
+</div>
+

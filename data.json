@@ -1,338 +1,624 @@
 {
-	"users": {
-		"registered": 1730,
-		"anonymous": 7427,
-		"total": 9157
-	},
 	"months": [
 		{
+			"month": "2014-07",
 			"users": {
-				"registered": 52,
-				"anonymous": 160,
-				"total": 212
-			}
+				"ids": 52,
+				"ips": 160
+			},
+			"newUsers": {
+				"ids": 52,
+				"ips": 160
+			},
+			"rows": 5108,
+			"tasks": 637
 		},
 		{
+			"month": "2014-08",
 			"users": {
-				"registered": 792,
-				"anonymous": 4638,
-				"total": 5430
-			}
+				"ids": 792,
+				"ips": 4638
+			},
+			"newUsers": {
+				"ids": 786,
+				"ips": 4637
+			},
+			"rows": 68980,
+			"tasks": 5407
 		},
 		{
+			"month": "2014-09",
 			"users": {
-				"registered": 199,
-				"anonymous": 499,
-				"total": 698
-			}
+				"ids": 199,
+				"ips": 499
+			},
+			"newUsers": {
+				"ids": 175,
+				"ips": 485
+			},
+			"rows": 12980,
+			"tasks": 2633
 		},
 		{
+			"month": "2014-10",
 			"users": {
-				"registered": 128,
-				"anonymous": 343,
-				"total": 471
-			}
+				"ids": 128,
+				"ips": 343
+			},
+			"newUsers": {
+				"ids": 105,
+				"ips": 340
+			},
+			"rows": 10837,
+			"tasks": 1150
 		},
 		{
+			"month": "2014-11",
 			"users": {
-				"registered": 56,
-				"anonymous": 105,
-				"total": 161
-			}
+				"ids": 56,
+				"ips": 105
+			},
+			"newUsers": {
+				"ids": 35,
+				"ips": 102
+			},
+			"rows": 3899,
+			"tasks": 798
 		},
 		{
+			"month": "2014-12",
 			"users": {
-				"registered": 78,
-				"anonymous": 339,
-				"total": 417
-			}
+				"ids": 78,
+				"ips": 339
+			},
+			"newUsers": {
+				"ids": 60,
+				"ips": 339
+			},
+			"rows": 11727,
+			"tasks": 1581
 		},
 		{
+			"month": "2015-01",
 			"users": {
-				"registered": 107,
-				"anonymous": 210,
-				"total": 317
-			}
+				"ids": 107,
+				"ips": 210
+			},
+			"newUsers": {
+				"ids": 75,
+				"ips": 205
+			},
+			"rows": 8515,
+			"tasks": 1239
 		},
 		{
+			"month": "2015-02",
 			"users": {
-				"registered": 45,
-				"anonymous": 45,
-				"total": 90
-			}
+				"ids": 45,
+				"ips": 45
+			},
+			"newUsers": {
+				"ids": 29,
+				"ips": 42
+			},
+			"rows": 3548,
+			"tasks": 1079
 		},
 		{
+			"month": "2015-03",
 			"users": {
-				"registered": 23,
-				"anonymous": 56,
-				"total": 79
-			}
+				"ids": 23,
+				"ips": 56
+			},
+			"newUsers": {
+				"ids": 15,
+				"ips": 54
+			},
+			"rows": 1315,
+			"tasks": 692
 		},
 		{
+			"month": "2015-04",
 			"users": {
-				"registered": 35,
-				"anonymous": 54,
-				"total": 89
-			}
+				"ids": 35,
+				"ips": 54
+			},
+			"newUsers": {
+				"ids": 21,
+				"ips": 54
+			},
+			"rows": 2327,
+			"tasks": 967
 		},
 		{
+			"month": "2015-05",
 			"users": {
-				"registered": 32,
-				"anonymous": 33,
-				"total": 65
-			}
+				"ids": 32,
+				"ips": 33
+			},
+			"newUsers": {
+				"ids": 18,
+				"ips": 33
+			},
+			"rows": 2166,
+			"tasks": 1119
 		},
 		{
+			"month": "2015-06",
 			"users": {
-				"registered": 34,
-				"anonymous": 32,
-				"total": 66
-			}
+				"ids": 34,
+				"ips": 32
+			},
+			"newUsers": {
+				"ids": 20,
+				"ips": 28
+			},
+			"rows": 1215,
+			"tasks": 664
 		},
 		{
+			"month": "2015-07",
 			"users": {
-				"registered": 14,
-				"anonymous": 37,
-				"total": 51
-			}
+				"ids": 14,
+				"ips": 37
+			},
+			"newUsers": {
+				"ids": 7,
+				"ips": 35
+			},
+			"rows": 1244,
+			"tasks": 602
 		},
 		{
+			"month": "2015-08",
 			"users": {
-				"registered": 62,
-				"anonymous": 156,
-				"total": 218
-			}
+				"ids": 62,
+				"ips": 156
+			},
+			"newUsers": {
+				"ids": 56,
+				"ips": 154
+			},
+			"rows": 4463,
+			"tasks": 1037
 		},
 		{
+			"month": "2015-09",
 			"users": {
-				"registered": 30,
-				"anonymous": 32,
-				"total": 62
-			}
+				"ids": 30,
+				"ips": 32
+			},
+			"newUsers": {
+				"ids": 17,
+				"ips": 32
+			},
+			"rows": 843,
+			"tasks": 260
 		},
 		{
+			"month": "2015-10",
 			"users": {
-				"registered": 31,
-				"anonymous": 38,
-				"total": 69
-			}
+				"ids": 31,
+				"ips": 38
+			},
+			"newUsers": {
+				"ids": 16,
+				"ips": 37
+			},
+			"rows": 2791,
+			"tasks": 1763
 		},
 		{
+			"month": "2015-11",
 			"users": {
-				"registered": 18,
-				"anonymous": 19,
-				"total": 37
-			}
+				"ids": 18,
+				"ips": 19
+			},
+			"newUsers": {
+				"ids": 8,
+				"ips": 19
+			},
+			"rows": 1491,
+			"tasks": 712
 		},
 		{
+			"month": "2015-12",
 			"users": {
-				"registered": 23,
-				"anonymous": 22,
-				"total": 45
-			}
+				"ids": 23,
+				"ips": 22
+			},
+			"newUsers": {
+				"ids": 18,
+				"ips": 21
+			},
+			"rows": 1401,
+			"tasks": 849
 		},
 		{
+			"month": "2016-01",
 			"users": {
-				"registered": 22,
-				"anonymous": 41,
-				"total": 63
-			}
+				"ids": 22,
+				"ips": 41
+			},
+			"newUsers": {
+				"ids": 14,
+				"ips": 41
+			},
+			"rows": 2006,
+			"tasks": 1419
 		},
 		{
+			"month": "2016-02",
 			"users": {
-				"registered": 16,
-				"anonymous": 43,
-				"total": 59
-			}
+				"ids": 16,
+				"ips": 43
+			},
+			"newUsers": {
+				"ids": 10,
+				"ips": 41
+			},
+			"rows": 933,
+			"tasks": 470
 		},
 		{
+			"month": "2016-03",
 			"users": {
-				"registered": 23,
-				"anonymous": 42,
-				"total": 65
-			}
+				"ids": 23,
+				"ips": 42
+			},
+			"newUsers": {
+				"ids": 11,
+				"ips": 40
+			},
+			"rows": 1268,
+			"tasks": 676
 		},
 		{
+			"month": "2016-04",
 			"users": {
-				"registered": 29,
-				"anonymous": 86,
-				"total": 115
-			}
+				"ids": 29,
+				"ips": 86
+			},
+			"newUsers": {
+				"ids": 23,
+				"ips": 86
+			},
+			"rows": 2218,
+			"tasks": 282
 		},
 		{
+			"month": "2016-05",
 			"users": {
-				"registered": 15,
-				"anonymous": 56,
-				"total": 71
-			}
+				"ids": 15,
+				"ips": 56
+			},
+			"newUsers": {
+				"ids": 9,
+				"ips": 54
+			},
+			"rows": 938,
+			"tasks": 533
 		},
 		{
+			"month": "2016-06",
 			"users": {
-				"registered": 28,
-				"anonymous": 58,
-				"total": 86
-			}
+				"ids": 28,
+				"ips": 58
+			},
+			"newUsers": {
+				"ids": 22,
+				"ips": 54
+			},
+			"rows": 3490,
+			"tasks": 797
 		},
 		{
+			"month": "2016-07",
 			"users": {
-				"registered": 16,
-				"anonymous": 34,
-				"total": 50
-			}
+				"ids": 16,
+				"ips": 34
+			},
+			"newUsers": {
+				"ids": 8,
+				"ips": 33
+			},
+			"rows": 579,
+			"tasks": 130
 		},
 		{
+			"month": "2016-08",
 			"users": {
-				"registered": 12,
-				"anonymous": 50,
-				"total": 62
-			}
+				"ids": 12,
+				"ips": 50
+			},
+			"newUsers": {
+				"ids": 9,
+				"ips": 50
+			},
+			"rows": 499,
+			"tasks": 179
 		},
 		{
+			"month": "2016-09",
 			"users": {
-				"registered": 11,
-				"anonymous": 22,
-				"total": 33
-			}
+				"ids": 11,
+				"ips": 22
+			},
+			"newUsers": {
+				"ids": 7,
+				"ips": 20
+			},
+			"rows": 356,
+			"tasks": 174
 		},
 		{
+			"month": "2016-10",
 			"users": {
-				"registered": 16,
-				"anonymous": 20,
-				"total": 36
-			}
+				"ids": 16,
+				"ips": 20
+			},
+			"newUsers": {
+				"ids": 15,
+				"ips": 19
+			},
+			"rows": 409,
+			"tasks": 175
 		},
 		{
+			"month": "2016-11",
 			"users": {
-				"registered": 20,
-				"anonymous": 22,
-				"total": 42
-			}
+				"ids": 20,
+				"ips": 22
+			},
+			"newUsers": {
+				"ids": 18,
+				"ips": 22
+			},
+			"rows": 625,
+			"tasks": 130
 		},
 		{
+			"month": "2016-12",
 			"users": {
-				"registered": 12,
-				"anonymous": 8,
-				"total": 20
-			}
+				"ids": 12,
+				"ips": 8
+			},
+			"newUsers": {
+				"ids": 8,
+				"ips": 7
+			},
+			"rows": 136,
+			"tasks": 41
 		},
 		{
+			"month": "2017-01",
 			"users": {
-				"registered": 18,
-				"anonymous": 18,
-				"total": 36
-			}
+				"ids": 18,
+				"ips": 18
+			},
+			"newUsers": {
+				"ids": 14,
+				"ips": 17
+			},
+			"rows": 409,
+			"tasks": 208
 		},
 		{
+			"month": "2017-02",
 			"users": {
-				"registered": 7,
-				"anonymous": 17,
-				"total": 24
-			}
+				"ids": 7,
+				"ips": 17
+			},
+			"newUsers": {
+				"ids": 6,
+				"ips": 16
+			},
+			"rows": 137,
+			"tasks": 33
 		},
 		{
+			"month": "2017-03",
 			"users": {
-				"registered": 14,
-				"anonymous": 24,
-				"total": 38
-			}
+				"ids": 14,
+				"ips": 24
+			},
+			"newUsers": {
+				"ids": 9,
+				"ips": 23
+			},
+			"rows": 347,
+			"tasks": 110
 		},
 		{
+			"month": "2017-04",
 			"users": {
-				"registered": 4,
-				"anonymous": 7,
-				"total": 11
-			}
+				"ids": 4,
+				"ips": 7
+			},
+			"newUsers": {
+				"ids": 2,
+				"ips": 7
+			},
+			"rows": 223,
+			"tasks": 91
 		},
 		{
+			"month": "2017-05",
 			"users": {
-				"registered": 7,
-				"anonymous": 8,
-				"total": 15
-			}
+				"ids": 7,
+				"ips": 8
+			},
+			"newUsers": {
+				"ids": 5,
+				"ips": 8
+			},
+			"rows": 182,
+			"tasks": 60
 		},
 		{
+			"month": "2017-06",
 			"users": {
-				"registered": 3,
-				"anonymous": 5,
-				"total": 8
-			}
+				"ids": 3,
+				"ips": 5
+			},
+			"newUsers": {
+				"ids": 2,
+				"ips": 4
+			},
+			"rows": 95,
+			"tasks": 35
 		},
 		{
+			"month": "2017-07",
 			"users": {
-				"registered": 1,
-				"anonymous": 3,
-				"total": 4
-			}
+				"ids": 1,
+				"ips": 3
+			},
+			"newUsers": {
+				"ids": 1,
+				"ips": 3
+			},
+			"rows": 29,
+			"tasks": 15
 		},
 		{
+			"month": "2017-08",
 			"users": {
-				"registered": 4,
-				"anonymous": 7,
-				"total": 11
-			}
+				"ids": 4,
+				"ips": 7
+			},
+			"newUsers": {
+				"ids": 2,
+				"ips": 7
+			},
+			"rows": 199,
+			"tasks": 78
 		},
 		{
+			"month": "2017-09",
 			"users": {
-				"registered": 1,
-				"anonymous": 6,
-				"total": 7
-			}
+				"ids": 1,
+				"ips": 6
+			},
+			"newUsers": {
+				"ids": 1,
+				"ips": 6
+			},
+			"rows": 45,
+			"tasks": 23
 		},
 		{
+			"month": "2017-10",
 			"users": {
-				"registered": 4,
-				"anonymous": 16,
-				"total": 20
-			}
+				"ids": 4,
+				"ips": 16
+			},
+			"newUsers": {
+				"ids": 3,
+				"ips": 16
+			},
+			"rows": 282,
+			"tasks": 63
 		},
 		{
+			"month": "2017-11",
 			"users": {
-				"registered": 4,
-				"anonymous": 13,
-				"total": 17
-			}
+				"ids": 4,
+				"ips": 13
+			},
+			"newUsers": {
+				"ids": 4,
+				"ips": 13
+			},
+			"rows": 126,
+			"tasks": 28
 		},
 		{
+			"month": "2017-12",
 			"users": {
-				"registered": 2,
-				"anonymous": 10,
-				"total": 12
-			}
+				"ids": 2,
+				"ips": 10
+			},
+			"newUsers": {
+				"ids": 0,
+				"ips": 9
+			},
+			"rows": 58,
+			"tasks": 25
 		},
 		{
+			"month": "2018-01",
 			"users": {
-				"registered": 5,
-				"anonymous": 26,
-				"total": 31
-			}
+				"ids": 5,
+				"ips": 26
+			},
+			"newUsers": {
+				"ids": 3,
+				"ips": 25
+			},
+			"rows": 459,
+			"tasks": 138
 		},
 		{
+			"month": "2018-02",
 			"users": {
-				"registered": 3,
-				"anonymous": 8,
-				"total": 11
-			}
+				"ids": 3,
+				"ips": 8
+			},
+			"newUsers": {
+				"ids": 2,
+				"ips": 7
+			},
+			"rows": 95,
+			"tasks": 32
 		},
 		{
+			"month": "2018-03",
 			"users": {
-				"registered": 4,
-				"anonymous": 7,
-				"total": 11
-			}
+				"ids": 4,
+				"ips": 7
+			},
+			"newUsers": {
+				"ids": 3,
+				"ips": 5
+			},
+			"rows": 76,
+			"tasks": 33
 		},
 		{
+			"month": "2018-04",
 			"users": {
-				"registered": 3,
-				"anonymous": 9,
-				"total": 12
-			}
+				"ids": 3,
+				"ips": 9
+			},
+			"newUsers": {
+				"ids": 3,
+				"ips": 9
+			},
+			"rows": 190,
+			"tasks": 157
 		},
 		{
+			"month": "2018-05",
 			"users": {
-				"registered": 3,
-				"anonymous": 8,
-				"total": 11
-			}
+				"ids": 3,
+				"ips": 8
+			},
+			"newUsers": {
+				"ids": 3,
+				"ips": 8
+			},
+			"rows": 785,
+			"tasks": 435
 		}
-	]
+	],
+	"users": {
+		"ids": 1730,
+		"ips": 7427
+	},
+	"rows": 162044,
+	"tasks": {
+		"complete": 8950,
+		"incomplete": 440
+	}
 }

@@ -1,70 +1,58 @@
 [
 	{
+		"id": "cities-at-night",
 		"name": "Cities at Night"
 	},
 	{
-		"name": "Dark Skies ISS",
-		"partOf": "Cities at Night",
-		"url": "https://crowdcrafting.org/project/darkskies/tasks/",
-		"note": "Data available from \"Export Task Runs\" link. Data is incomplete - Only represents 2/3rds of the total number of tasks - all of these are available through 'export tasks', but user data is only available through task runs."
-	},
-	{
-		"name": "Lost at Night",
-		"partOf": "Cities at Night",
-		"url": "https://crowdcrafting.org/project/LostAtNight/tasks/",
-		"note": "Same as Dark Skies, but all the data is there",
-		"datasets": [
-			{ "path": "data/LostAtNight_task.csv", "parser": "crowdcrafting" },
-			{ "path": "data/LostAtNight_task.csv", "parser": "crowdcrafting" }
-		]
-	},
-	{
-		"name": "Night Cities",
-		"partOf": "Cities at Night",
-		"url": "https://crowdcrafting.org/project/nightcitiesiss/",
-		"note": "Same as Dark Skies, but all the data is there"
-	},
-	{
+		"id": "night-knights",
 		"name": "Night Knights",
 		"partOf": "Cities at Night",
 		"url": "https://www.nightknights.eu",
 		"note": "Don't have access to the API yet"
 	},
 	{
+		"id": "nixnox",
 		"name": "NixNox",
 		"url": "https://www.nightknights.eu",
 		"note": "No dataset available. If there's no way to remove from the website, then I'll either have to copy it down for you or we just give up"
 	},
 	{
+		"id": "photometer-network",
 		"name": "Photometer network",
 		"url": "http://ckan.stars4all.eu/",
 		"note": "Available (as monthly CSVs) through this link"
 	},
 	{
+		"id": "my-sky-at-night",
 		"name": "My Sky at Night",
 		"url": "http://www.myskyatnight.com"
 	},
 	{
+		"id": "loss-of-the-night",
 		"name": "Loss of the Night",
 		"group": "My Sky at Night",
 		"url": "http://lossofthenight.blogspot.de/2015/01/brief-introduction-to-loss-of-night-app.html"
 	},
 	{
+		"id": "globe-at-night",
 		"name": "Globe at Night",
 		"partOf": "My Sky at Night",
 		"url": "http://www.globeatnight.org/"
 	},
 	{
+		"id": "sky-quality-meter",
 		"name": "Sky Quality Meter",
 		"partOf": "My Sky at Night",
 		"url": "http://www.unihedron.com/projects/sqm-l/"
 	},
 	{
+		"id": "dark-sky-meter",
 		"name": "Dark Sky Meter",
 		"partOf": "My Sky at Night",
 		"url": "http://wordpress.redirectingat.com/?id=725X1342&site=light2015blogdotorg.wordpress.com&xs=1&isjs=1&url=https%3A%2F%2Fitunes.apple.com%2Fapp%2Fdark-sky-meter-lite%2Fid626796278%3Fmt%3D8&xguid=ca62db2bb15b70f2a0bd4eca9745dbea&xuuid=37e63d502c"
 	},
 	{
+		"id": "buiometria-participativa",
 		"name": "Buiometria Participativa",
 		"url": "http://www.lucadelu.org/bmp/",
 		"note": "Data appears to be missing. Just putting this here so I don't forget."

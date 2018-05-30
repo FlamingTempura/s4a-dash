@@ -1,4 +1,3 @@
-const projects = require('./projects.json');
 const Bluebird = require('bluebird');
 const fs = Bluebird.promisifyAll(require('fs-extra'));
 const { rollup } = require('rollup');
@@ -24,9 +23,7 @@ const bundle = () => {
 			plugins: [
 				virtual({ templates }),
 				resolve({ browser: true, jsnext: true, preferBuiltins: false }),
-				commonjs({
-					namedExports: { events: [ 'EventEmitter' ] } // needed for pouchdb
-				})
+				commonjs({ })
 			],
 			onwarn(warning) {
 				if (warning.code === 'CIRCULAR_DEPENDENCY') { return; }
@@ -41,27 +38,19 @@ const bundle = () => {
 		.then(() => console.timeEnd('Compiled scripts'));
 };
 
-const generateDataFiles = () => {
-	return Bluebird.map(projects, project => {
-		let js = `window.projects["${project.name}"] = ${JSON.stringify(project, null, '\t')};`;
-		return fs.writeFileAsync(`${__dirname}/build/projects/${project.id}.js`, js, 'utf8');
-	});
-};
-
 const generateHTML = () => {
-	return fs.readFileAsync(`${__dirname}/src/index.html`, 'utf8')
-		.then(html => {
-			let scripts = projects.map(p => `<script src="data/${p.id}.js"></script>`);
+	return Bluebird
+		.all([
+			fs.readFileAsync(`${__dirname}/src/index.html`, 'utf8'),
+			fs.readdirAsync(`${__dirname}/projects`)
+		])
+		.spread((html, projects) => {
+			let scripts = projects.map(p => `<script src="projects/${p}.js"></script>`);
 			html = html.replace('<!-- @DATA -->', scripts.join('\n'));
 			return fs.writeFileAsync(`${__dirname}/build/index.html`, html, 'utf8');
 		});
 };
 
-projects.forEach(project => {
-	project.id = project.name.toLowerCase().replace(/\W/g, '-');
-});
-
-fs.removeAsync(`${__dirname}/build/`)
-	.then(() => fs.ensureDirAsync(`${__dirname}/build/projects`))
-	.then(() => Bluebird.all(generateDataFiles(), bundle(), generateHTML()));
+fs.ensureDirAsync(`${__dirname}/build/`)
+	.then(() => Bluebird.all([bundle(), generateHTML()]));
 	
