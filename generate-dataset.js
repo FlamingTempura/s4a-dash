@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 
-const id = 'night-cities';
+const id = 'european-photometer-network';
 
 const project = require(`${__dirname}/projects/${id}/project.json`);
 const parse = require(`${__dirname}/projects/${id}/parser.js`);
