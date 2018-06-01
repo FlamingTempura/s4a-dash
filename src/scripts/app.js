@@ -1,11 +1,17 @@
 import angular from 'angular';
 import '@uirouter/angularjs';
 import * as d3 from 'd3';
+import moment from 'moment';
 
 const app = angular.module('app', ['ui.router']);
 
 app.config(function ($urlServiceProvider) {
 	$urlServiceProvider.rules.otherwise({ state: 'projects' });
+	window.projects.forEach(project => {
+		project.months.forEach(m => m.month = moment(m.month, 'YYYY-MM').format('MMM YYYY'));
+		project.subprojects = window.projects.filter(p => p.partOf === project.id);
+		project.partOf = window.projects.find(p => p.id === project.partOf);
+	});
 });
 
 app.config($stateProvider => {
@@ -13,10 +19,7 @@ app.config($stateProvider => {
 		url: '/',
 		templateUrl: '/templates/projects.html',
 		controller: function ($scope) {
-			$scope.projects = window.projects.map(p => ({
-				id: p.id,
-				name: p.name
-			}));
+			$scope.projects = window.projects;
 		}
 	});
 
@@ -27,10 +30,28 @@ app.config($stateProvider => {
 			$scope.project = window.projects.find(p => p.id === $state.params.id);
 			console.log($scope.project);
 
-			$scope.usersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.users.ids + m.users.ips }));
-			$scope.newUsersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.newUsers.ids + m.newUsers.ips }));
+			if ($scope.project.users) {
+				$scope.usersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.users.ids + m.users.ips }));
+				$scope.newUsersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.newUsers.ids + m.newUsers.ips }));
+			}
+			if ($scope.project.contributions) {
+				$scope.contributionsOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.contributions }));
+			}
+			if ($scope.project.complete) {
+				$scope.completeOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.complete }));
+			}
+			if ($scope.project.tasks) {
+				$scope.tasksOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.tasks }));
+			}
 			$scope.rowsOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.rows }));
+
+			$scope.month = $scope.project.months[$scope.project.months.length - 1];
 		}
+	});
+
+	$stateProvider.state('about', {
+		url: '/about',
+		templateUrl: '/templates/about.html'
 	});
 });
 
@@ -42,8 +63,8 @@ app.component('histogram', {
 		rightLabel: '='
 	},
 	controller: function ($element) {
-		var svg = d3.select($element[0]).append('svg').attr('width', 600).attr('height', 340),
-		    margin = {top: 20, right: 20, bottom: 30, left: 40},
+		var svg = d3.select($element[0]).append('svg').attr('width', 900).attr('height', 340),
+		    margin = {top: 20, right: 20, bottom: 60, left: 70},
 		    width = +svg.attr("width") - margin.left - margin.right,
 		    height = +svg.attr("height") - margin.top - margin.bottom;
 
@@ -58,28 +79,28 @@ app.component('histogram', {
 			  y.domain([0, d3.max(this.left, d => d.value)]);
 
 			  g.append("g")
-			      .attr("class", "axis axis--x")
+			      .attr("class", "axis x")
 			      .attr("transform", "translate(0," + height + ")")
 			      .call(d3.axisBottom(x));
 
 			  g.append("g")
-			      .attr("class", "axis axis--y")
+			      .attr("class", "axis y")
 			      .call(d3.axisLeft(y))
 			    .append("text")
 			      .attr("transform", "rotate(-90)")
 			      .attr("y", 6)
 			      .attr("dy", "0.71em")
 			      .attr("text-anchor", "end")
-			      .text("Frequency");
+			      .text(this.leftLabel);
 
 			  g.selectAll(".bar")
 			    .data(this.left)
 			    .enter().append("rect")
 			      .attr("class", "bar")
-			      .attr("x", function(d) { return x(d.label); })
-			      .attr("y", function(d) { return y(d.value); })
+			      .attr("x", d => x(d.label))
+			      .attr("y", d => y(d.value))
 			      .attr("width", x.bandwidth())
-			      .attr("height", function(d) { return height - y(d.value); });
+			      .attr("height", d => height - y(d.value));
 		};
 	}
 });

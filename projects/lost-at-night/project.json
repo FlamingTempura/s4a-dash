@@ -1,6 +1,6 @@
 {
 	"name": "Lost at Night",
-	"partOf": "Cities at Night",
+	"partOf": "cities-at-night",
 	"url": "https://crowdcrafting.org/project/LostAtNight/tasks/",
 	"note": "Same as Dark Skies, but all the data is there"
 }

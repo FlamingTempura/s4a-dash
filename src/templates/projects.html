@@ -1,6 +1,25 @@
-<h1>Projects</h1>
-<ul>
-	<li ng-repeat="project in projects">
-		<a ui-sref="project({ id: project.id })">{{ project.name }}</a>
-	</li>
-</ul>
+<h2>Projects</h2>
+
+<div ng-repeat="project in projects">
+	<h3><a ui-sref="project({ id: project.id })">{{ project.name }}</a></h3>
+
+	<div ng-show="project.tasks.complete">
+		{{ project.tasks.complete | number }}
+		tasks out of
+		{{ project.tasks.complete + project.tasks.incomplete | number }} completed
+		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)
+	</div>
+
+	<div>
+		{{ project.months.length | number }}
+		months of data
+		({{ project.rows | number }} rows)
+	</div>
+
+	<div>
+		{{ project.users.ids + project.users.ips | number }}
+		Users
+	</div>
+
+	<a ui-sref="project({ id: project.id })">See more...</a>
+</div>

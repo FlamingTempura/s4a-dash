@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 
-const id = 'european-photometer-network';
+const id = process.argv.pop();
 
 const project = require(`${__dirname}/projects/${id}/project.json`);
 const parse = require(`${__dirname}/projects/${id}/parser.js`);

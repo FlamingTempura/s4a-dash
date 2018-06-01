@@ -1,36 +1,81 @@
-<h1>Project: {{ project.name }}</h1>
+<div class="breadcrumb">
+	<a ui-sref="projects">Projects</a> &gt;
+	<a ui-sref="project({ id: project.id })">{{ project.name }}</a>
+</div>
+<h2>Project: {{ project.name }}</h2>
 
 <a ng-href="project.url">Website</a>
 
-<div>
-	{{ project.tasks.complete }}
-	Complete tasks out of
-	{{ project.tasks.complete + project.tasks.incomplete }}
+<div ng-if="project.subprojects.length > 0">
+	Child projects:
+	<ul>
+		<li ng-repeat="child in project.subprojects">
+			<a ui-sref="project({ id: child.id })">{{ child.name }}</a>
+		</li>
+	</ul>
+</div>
+
+<div ng-if="project.partOf">
+	Part of <a ui-sref="project({ id: project.partOf.id })">{{ project.partOf.name }}</a>
+</div>
+
+<div ng-if="project.tasks.complete">
+	{{ project.tasks.complete | number }}
+	tasks out of
+	{{ project.tasks.complete + project.tasks.incomplete | number }} completed
+	({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)
 </div>
 
 <div>
-	{{ project.rows }}
-	Rows of data
+	{{ project.months.length | number }}
+	months of data
+	({{ project.rows | number }} rows)
 </div>
 
-<div>
-	{{ project.months.length }}
-	Months
+<div ng-if="project.contributions">
+	{{ project.contributions | number }} contributions
 </div>
 
-<div>
-	{{ project.users.ids + project.users.ips }}
+<div ng-if="project.users">
+	{{ project.users.ids + project.users.ips | number }}
 	Users
 </div>
 
-<h3>Users over time</h3>
-<histogram left="usersOverTime" left-name="'Users'" right="rowsOverTime" right-label="'Contributions'"></histogram>
+<h3>{{ month.month }}</h3>
 
-<h3>New users over time</h3>
+<div ng-if="project.users">
+	{{ month.users.ids + month.users.ips | number }} users ({{ month.newUsers.ids + month.newUsers.ips | number }} of whom were new)
+</div>
 
-<histogram left="newUsersOverTime"></histogram>
+<div ng-if="month.contributions">
+	{{ month.contributions | number }} contributions
+</div>
 
-<h3>Contributions over time</h3>
+<div ng-if="month.tasks">
+	{{ month.tasks | number }} tasks
+</div>
 
+<div ng-if="project.users">
+	<h3>Tasks over time</h3>
+	<histogram left="tasksOverTime" left-name="'Tasks'"></histogram>
+</div>
 
-<histogram left="rowsOverTime"></histogram>
+<div ng-if="project.users">
+	<h3>Users over time</h3>
+	<histogram left="usersOverTime" left-name="'Users'" right="rowsOverTime" right-label="'Contributions'"></histogram>
+</div>
+
+<div ng-if="project.users">
+	<h3>New users over time</h3>
+	<histogram left="newUsersOverTime"></histogram>
+</div>
+
+<div ng-if="project.contributions">
+	<h3>Contributions over time</h3>
+	<histogram left="contributionsOverTime"></histogram>
+</div>
+
+<div>
+	<h3>Rows over time</h3>
+	<histogram left="rowsOverTime"></histogram>
+</div>

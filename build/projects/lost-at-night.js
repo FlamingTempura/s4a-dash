@@ -1,6 +1,6 @@
 window.projects.push({
 	"name": "Lost at Night",
-	"partOf": "Cities at Night",
+	"partOf": "cities-at-night",
 	"url": "https://crowdcrafting.org/project/LostAtNight/tasks/",
 	"note": "Same as Dark Skies, but all the data is there",
 	"months": [
@@ -15,6 +15,7 @@ window.projects.push({
 				"ips": 160
 			},
 			"rows": 5108,
+			"contributions": 1781,
 			"tasks": 637
 		},
 		{
@@ -28,6 +29,7 @@ window.projects.push({
 				"ips": 4637
 			},
 			"rows": 68980,
+			"contributions": 7668,
 			"tasks": 5407
 		},
 		{
@@ -41,6 +43,7 @@ window.projects.push({
 				"ips": 485
 			},
 			"rows": 12980,
+			"contributions": 1196,
 			"tasks": 2633
 		},
 		{
@@ -54,6 +57,7 @@ window.projects.push({
 				"ips": 340
 			},
 			"rows": 10837,
+			"contributions": 2529,
 			"tasks": 1150
 		},
 		{
@@ -67,6 +71,7 @@ window.projects.push({
 				"ips": 102
 			},
 			"rows": 3899,
+			"contributions": 1422,
 			"tasks": 798
 		},
 		{
@@ -80,6 +85,7 @@ window.projects.push({
 				"ips": 339
 			},
 			"rows": 11727,
+			"contributions": 2485,
 			"tasks": 1581
 		},
 		{
@@ -93,6 +99,7 @@ window.projects.push({
 				"ips": 205
 			},
 			"rows": 8515,
+			"contributions": 1372,
 			"tasks": 1239
 		},
 		{
@@ -106,6 +113,7 @@ window.projects.push({
 				"ips": 42
 			},
 			"rows": 3548,
+			"contributions": 1026,
 			"tasks": 1079
 		},
 		{
@@ -119,6 +127,7 @@ window.projects.push({
 				"ips": 54
 			},
 			"rows": 1315,
+			"contributions": 388,
 			"tasks": 692
 		},
 		{
@@ -132,6 +141,7 @@ window.projects.push({
 				"ips": 54
 			},
 			"rows": 2327,
+			"contributions": 674,
 			"tasks": 967
 		},
 		{
@@ -145,6 +155,7 @@ window.projects.push({
 				"ips": 33
 			},
 			"rows": 2166,
+			"contributions": 435,
 			"tasks": 1119
 		},
 		{
@@ -158,6 +169,7 @@ window.projects.push({
 				"ips": 28
 			},
 			"rows": 1215,
+			"contributions": 403,
 			"tasks": 664
 		},
 		{
@@ -171,6 +183,7 @@ window.projects.push({
 				"ips": 35
 			},
 			"rows": 1244,
+			"contributions": 401,
 			"tasks": 602
 		},
 		{
@@ -184,6 +197,7 @@ window.projects.push({
 				"ips": 154
 			},
 			"rows": 4463,
+			"contributions": 644,
 			"tasks": 1037
 		},
 		{
@@ -197,6 +211,7 @@ window.projects.push({
 				"ips": 32
 			},
 			"rows": 843,
+			"contributions": 152,
 			"tasks": 260
 		},
 		{
@@ -210,6 +225,7 @@ window.projects.push({
 				"ips": 37
 			},
 			"rows": 2791,
+			"contributions": 651,
 			"tasks": 1763
 		},
 		{
@@ -223,6 +239,7 @@ window.projects.push({
 				"ips": 19
 			},
 			"rows": 1491,
+			"contributions": 472,
 			"tasks": 712
 		},
 		{
@@ -236,6 +253,7 @@ window.projects.push({
 				"ips": 21
 			},
 			"rows": 1401,
+			"contributions": 359,
 			"tasks": 849
 		},
 		{
@@ -249,6 +267,7 @@ window.projects.push({
 				"ips": 41
 			},
 			"rows": 2006,
+			"contributions": 536,
 			"tasks": 1419
 		},
 		{
@@ -262,6 +281,7 @@ window.projects.push({
 				"ips": 41
 			},
 			"rows": 933,
+			"contributions": 210,
 			"tasks": 470
 		},
 		{
@@ -275,6 +295,7 @@ window.projects.push({
 				"ips": 40
 			},
 			"rows": 1268,
+			"contributions": 205,
 			"tasks": 676
 		},
 		{
@@ -288,6 +309,7 @@ window.projects.push({
 				"ips": 86
 			},
 			"rows": 2218,
+			"contributions": 345,
 			"tasks": 282
 		},
 		{
@@ -301,6 +323,7 @@ window.projects.push({
 				"ips": 54
 			},
 			"rows": 938,
+			"contributions": 110,
 			"tasks": 533
 		},
 		{
@@ -314,6 +337,7 @@ window.projects.push({
 				"ips": 54
 			},
 			"rows": 3490,
+			"contributions": 1406,
 			"tasks": 797
 		},
 		{
@@ -327,6 +351,7 @@ window.projects.push({
 				"ips": 33
 			},
 			"rows": 579,
+			"contributions": 81,
 			"tasks": 130
 		},
 		{
@@ -340,6 +365,7 @@ window.projects.push({
 				"ips": 50
 			},
 			"rows": 499,
+			"contributions": 19,
 			"tasks": 179
 		},
 		{
@@ -353,6 +379,7 @@ window.projects.push({
 				"ips": 20
 			},
 			"rows": 356,
+			"contributions": 66,
 			"tasks": 174
 		},
 		{
@@ -366,6 +393,7 @@ window.projects.push({
 				"ips": 19
 			},
 			"rows": 409,
+			"contributions": 57,
 			"tasks": 175
 		},
 		{
@@ -379,6 +407,7 @@ window.projects.push({
 				"ips": 22
 			},
 			"rows": 625,
+			"contributions": 58,
 			"tasks": 130
 		},
 		{
@@ -392,6 +421,7 @@ window.projects.push({
 				"ips": 7
 			},
 			"rows": 136,
+			"contributions": 14,
 			"tasks": 41
 		},
 		{
@@ -405,6 +435,7 @@ window.projects.push({
 				"ips": 17
 			},
 			"rows": 409,
+			"contributions": 48,
 			"tasks": 208
 		},
 		{
@@ -418,6 +449,7 @@ window.projects.push({
 				"ips": 16
 			},
 			"rows": 137,
+			"contributions": 18,
 			"tasks": 33
 		},
 		{
@@ -431,6 +463,7 @@ window.projects.push({
 				"ips": 23
 			},
 			"rows": 347,
+			"contributions": 32,
 			"tasks": 110
 		},
 		{
@@ -444,6 +477,7 @@ window.projects.push({
 				"ips": 7
 			},
 			"rows": 223,
+			"contributions": 33,
 			"tasks": 91
 		},
 		{
@@ -457,6 +491,7 @@ window.projects.push({
 				"ips": 8
 			},
 			"rows": 182,
+			"contributions": 33,
 			"tasks": 60
 		},
 		{
@@ -470,6 +505,7 @@ window.projects.push({
 				"ips": 4
 			},
 			"rows": 95,
+			"contributions": 11,
 			"tasks": 35
 		},
 		{
@@ -483,6 +519,7 @@ window.projects.push({
 				"ips": 3
 			},
 			"rows": 29,
+			"contributions": 0,
 			"tasks": 15
 		},
 		{
@@ -496,6 +533,7 @@ window.projects.push({
 				"ips": 7
 			},
 			"rows": 199,
+			"contributions": 45,
 			"tasks": 78
 		},
 		{
@@ -509,6 +547,7 @@ window.projects.push({
 				"ips": 6
 			},
 			"rows": 45,
+			"contributions": 1,
 			"tasks": 23
 		},
 		{
@@ -522,6 +561,7 @@ window.projects.push({
 				"ips": 16
 			},
 			"rows": 282,
+			"contributions": 37,
 			"tasks": 63
 		},
 		{
@@ -535,6 +575,7 @@ window.projects.push({
 				"ips": 13
 			},
 			"rows": 126,
+			"contributions": 15,
 			"tasks": 28
 		},
 		{
@@ -548,6 +589,7 @@ window.projects.push({
 				"ips": 9
 			},
 			"rows": 58,
+			"contributions": 4,
 			"tasks": 25
 		},
 		{
@@ -561,6 +603,7 @@ window.projects.push({
 				"ips": 25
 			},
 			"rows": 459,
+			"contributions": 71,
 			"tasks": 138
 		},
 		{
@@ -574,6 +617,7 @@ window.projects.push({
 				"ips": 7
 			},
 			"rows": 95,
+			"contributions": 34,
 			"tasks": 32
 		},
 		{
@@ -587,6 +631,7 @@ window.projects.push({
 				"ips": 5
 			},
 			"rows": 76,
+			"contributions": 5,
 			"tasks": 33
 		},
 		{
@@ -600,6 +645,7 @@ window.projects.push({
 				"ips": 9
 			},
 			"rows": 190,
+			"contributions": 3,
 			"tasks": 157
 		},
 		{
@@ -613,6 +659,7 @@ window.projects.push({
 				"ips": 8
 			},
 			"rows": 785,
+			"contributions": 16,
 			"tasks": 435
 		}
 	],
@@ -621,6 +668,7 @@ window.projects.push({
 		"ips": 7427
 	},
 	"rows": 162044,
+	"contributions": 27571,
 	"tasks": {
 		"complete": 8950,
 		"incomplete": 440

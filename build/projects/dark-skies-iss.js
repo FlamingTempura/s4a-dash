@@ -1,6 +1,6 @@
 window.projects.push({
 	"name": "Dark Skies ISS",
-	"partOf": "Cities at Night",
+	"partOf": "cities-at-night",
 	"url": "https://crowdcrafting.org/project/darkskies/tasks/",
 	"note": "Data available from \"Export Task Runs\" link. Data is incomplete - Only represents 2/3rds of the total number of tasks - all of these are available through 'export tasks', but user data is only available through task runs.",
 	"months": [
@@ -15,6 +15,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 35,
+			"contributions": 0,
 			"tasks": 34
 		},
 		{
@@ -28,6 +29,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 1646,
+			"contributions": 0,
 			"tasks": 835
 		},
 		{
@@ -41,6 +43,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 2666,
+			"contributions": 0,
 			"tasks": 1412
 		},
 		{
@@ -54,6 +57,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 17447,
+			"contributions": 0,
 			"tasks": 2625
 		},
 		{
@@ -67,6 +71,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 540287,
+			"contributions": 0,
 			"tasks": 62435
 		},
 		{
@@ -80,6 +85,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 377362,
+			"contributions": 0,
 			"tasks": 69384
 		},
 		{
@@ -93,6 +99,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 40532,
+			"contributions": 0,
 			"tasks": 24111
 		},
 		{
@@ -106,6 +113,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 10227,
+			"contributions": 0,
 			"tasks": 9881
 		},
 		{
@@ -119,6 +127,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 19971,
+			"contributions": 0,
 			"tasks": 18393
 		},
 		{
@@ -132,6 +141,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 22289,
+			"contributions": 0,
 			"tasks": 15381
 		},
 		{
@@ -145,6 +155,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 8674,
+			"contributions": 0,
 			"tasks": 8593
 		},
 		{
@@ -158,6 +169,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 5905,
+			"contributions": 0,
 			"tasks": 5892
 		},
 		{
@@ -171,6 +183,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 9335,
+			"contributions": 0,
 			"tasks": 9309
 		},
 		{
@@ -184,6 +197,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 7340,
+			"contributions": 0,
 			"tasks": 7296
 		},
 		{
@@ -197,6 +211,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 2052,
+			"contributions": 0,
 			"tasks": 2027
 		},
 		{
@@ -210,6 +225,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 10145,
+			"contributions": 0,
 			"tasks": 5031
 		},
 		{
@@ -223,6 +239,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 24645,
+			"contributions": 0,
 			"tasks": 5827
 		},
 		{
@@ -236,6 +253,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 12758,
+			"contributions": 0,
 			"tasks": 3064
 		},
 		{
@@ -249,6 +267,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 24381,
+			"contributions": 0,
 			"tasks": 5705
 		},
 		{
@@ -262,6 +281,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 16344,
+			"contributions": 0,
 			"tasks": 5036
 		},
 		{
@@ -275,6 +295,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 10246,
+			"contributions": 0,
 			"tasks": 4179
 		},
 		{
@@ -288,6 +309,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 19315,
+			"contributions": 0,
 			"tasks": 7993
 		},
 		{
@@ -301,6 +323,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 10007,
+			"contributions": 0,
 			"tasks": 5030
 		},
 		{
@@ -314,6 +337,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 20340,
+			"contributions": 0,
 			"tasks": 14943
 		},
 		{
@@ -327,6 +351,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 25513,
+			"contributions": 0,
 			"tasks": 17277
 		},
 		{
@@ -340,6 +365,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 5828,
+			"contributions": 0,
 			"tasks": 2784
 		},
 		{
@@ -353,6 +379,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 5874,
+			"contributions": 0,
 			"tasks": 2181
 		},
 		{
@@ -366,6 +393,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 4625,
+			"contributions": 0,
 			"tasks": 1564
 		},
 		{
@@ -379,6 +407,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 7963,
+			"contributions": 0,
 			"tasks": 2220
 		},
 		{
@@ -392,6 +421,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 3172,
+			"contributions": 0,
 			"tasks": 1104
 		},
 		{
@@ -405,6 +435,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 3739,
+			"contributions": 0,
 			"tasks": 1928
 		},
 		{
@@ -418,6 +449,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 4317,
+			"contributions": 0,
 			"tasks": 2214
 		},
 		{
@@ -431,6 +463,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 1329,
+			"contributions": 0,
 			"tasks": 683
 		},
 		{
@@ -444,6 +477,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 4101,
+			"contributions": 0,
 			"tasks": 2051
 		},
 		{
@@ -457,6 +491,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 2395,
+			"contributions": 0,
 			"tasks": 1207
 		},
 		{
@@ -470,6 +505,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 7901,
+			"contributions": 0,
 			"tasks": 4606
 		},
 		{
@@ -483,6 +519,7 @@ window.projects.push({
 				"ips": 0
 			},
 			"rows": 233,
+			"contributions": 0,
 			"tasks": 233
 		}
 	],
@@ -491,6 +528,7 @@ window.projects.push({
 		"ips": 0
 	},
 	"rows": 1290939,
+	"contributions": 0,
 	"tasks": {
 		"complete": 188234,
 		"incomplete": 4856

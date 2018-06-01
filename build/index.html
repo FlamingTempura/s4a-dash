@@ -1,12 +1,63 @@
 <html ng-app="app">
 <head>
+<title>Stars4All Dashboard</title>
+<style>
+body {
+	font-family: sans-serif;
+	color: #222;
+	line-height: 1.3em;
+	margin: 0;
+}
+h1 {
+	font-weight: 100;
+}
+ui-view {
+	display: block;
+	padding: 40px;
+}
+header {
+	background: #1E8BC3;
+	padding: 20px 40px;
+}
+header > * {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 24px;
+	color: white;
+}
+svg rect {
+	fill: #1E8BC3;
+	stroke: none;
+}
+svg .x.axis .tick line {
+	stroke: none;
+}
+svg .x.axis .tick text {
+	transform: rotateZ(90deg) translateX(6px) translateY(-13px);
+	text-anchor: start;
+}
+</style>
 </head>
 <body>
+	<header>
+		<h1>Stars4All Dashboard</h1>
+		<a ui-sref="projects">Projects</a>
+		<a ui-sref="about">About</a>
+	</header>
 	<ui-view></ui-view>
 	<script src="bundle.js"></script>
-	<script src="projects/dark-skies-iss.js"></script>
+	<script src="projects/buiometria-participativa.js"></script>
+<script src="projects/cities-at-night.js"></script>
+<script src="projects/dark-skies-iss.js"></script>
+<script src="projects/dark-sky-meter.js"></script>
 <script src="projects/european-photometer-network.js"></script>
+<script src="projects/globe-at-night.js"></script>
+<script src="projects/loss-of-the-night.js"></script>
 <script src="projects/lost-at-night.js"></script>
+<script src="projects/my-sky-at-night.js"></script>
 <script src="projects/night-cities.js"></script>
+<script src="projects/night-knights.js"></script>
+<script src="projects/nixnox.js"></script>
+<script src="projects/sky-quality-meter.js"></script>
 </body>
 </html>
