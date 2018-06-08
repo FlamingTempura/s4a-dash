@@ -5,7 +5,9 @@ window.projects.push({
 	"files": [
 		"./data/myskyatnight.csv"
 	],
+	"id": "sky-quality-meter",
 	"contributions": 5601,
+	"rows": 8484,
 	"days": [
 		{
 			"day": "2007-03-09",

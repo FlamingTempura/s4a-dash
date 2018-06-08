@@ -6,7 +6,7 @@ module.exports = {
 	files: [`./data/nightcitiesiss_task_run.csv`],
 	parseRow: row => ({
 		date: new Date(row.created),
-		isContribution: !!row.info_LONLAT,
+		isContribution: true,
 		user: row.user_id || row.user_ip
 	})
 };

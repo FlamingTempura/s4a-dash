@@ -24,15 +24,42 @@ header {
 	}
 }
 svg {
-	rect {
-		fill: #1E8BC3;
+	.bar, .area {
+		fill: #F62459;
 		stroke: none;
 	}
-	.x.axis .tick line {
+	.domain {
 		stroke: none;
 	}
-	.x.axis .tick text {
-		transform: rotateZ(90deg) translateX(6px) translateY(-13px);
-		text-anchor: start;
+	.tick {
+		line {
+			//stroke: none;
+		}
+		text {
+			//transform: rotateZ(90deg) translateX(6px) translateY(-13px);
+			//text-anchor: start;
+		}
+	}
+}
+
+.project {
+	height: 40px;
+	position: relative;
+	border-bottom: 1px solid #eee;
+	.name {
+		position: absolute;
+		left: 0;
+		top: 20px;
+		font-size: 14px;
+	}
+	.weekdays {
+		position: absolute;
+		left: 160px;
+		top: 0;
+	}
+	.days {
+		position: absolute;
+		left: 280px;
+		top: 0;
 	}
 }

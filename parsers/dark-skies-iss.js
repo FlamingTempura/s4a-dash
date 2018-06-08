@@ -6,7 +6,7 @@ module.exports = {
 	files: ['./data/darkskies_task_run.csv'],
 	parseRow: row => ({
 		date: new Date(row.task_run__created),
-		isContribution: !!row.task_run__info_LONLAT,
+		isContribution: true,
 		user: row.task_run__user_id || row.task_run__user_ip
 	})
 };

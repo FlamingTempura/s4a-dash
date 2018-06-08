@@ -1581,16 +1581,34 @@ header > * {
   padding-right: 24px;
   color: white;
 }
-svg rect {
-  fill: #1E8BC3;
+svg .bar,
+svg .area {
+  fill: #F62459;
   stroke: none;
 }
-svg .x.axis .tick line {
+svg .domain {
   stroke: none;
 }
-svg .x.axis .tick text {
-  transform: rotateZ(90deg) translateX(6px) translateY(-13px);
-  text-anchor: start;
+.project {
+  height: 40px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+.project .name {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 14px;
+}
+.project .weekdays {
+  position: absolute;
+  left: 160px;
+  top: 0;
+}
+.project .days {
+  position: absolute;
+  left: 280px;
+  top: 0;
 }
 
 </style>
@@ -1603,19 +1621,16 @@ svg .x.axis .tick text {
 	</header>
 	<ui-view></ui-view>
 	<script src="bundle.js"></script>
-	<script src="projects/buiometria-participativa.js.js"></script>
-<script src="projects/cities-at-night.js.js"></script>
-<script src="projects/dark-skies-iss.js.js"></script>
-<script src="projects/dark-sky-meter.js.js"></script>
-<script src="projects/data.js"></script>
-<script src="projects/european-photometer-network.js.js"></script>
-<script src="projects/globe-at-night.js.js"></script>
-<script src="projects/loss-of-the-night.js.js"></script>
-<script src="projects/lost-at-night.js.js"></script>
-<script src="projects/my-sky-at-night.js.js"></script>
-<script src="projects/night-cities.js.js"></script>
-<script src="projects/night-knights.js.js"></script>
-<script src="projects/nixnox.js.js"></script>
-<script src="projects/sky-quality-meter.js.js"></script>
+	<script src="projects/cities-at-night.js"></script>
+<script src="projects/dark-skies-iss.js"></script>
+<script src="projects/dark-sky-meter.js"></script>
+<script src="projects/european-photometer-network.js"></script>
+<script src="projects/globe-at-night.js"></script>
+<script src="projects/loss-of-the-night.js"></script>
+<script src="projects/lost-at-night.js"></script>
+<script src="projects/my-sky-at-night.js"></script>
+<script src="projects/night-cities.js"></script>
+<script src="projects/night-knights.js"></script>
+<script src="projects/sky-quality-meter.js"></script>
 </body>
 </html>

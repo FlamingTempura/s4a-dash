@@ -1,17 +1,20 @@
-<h2>Projects</h2>
+<h2>Project Contributions</h2>
 
-<div ng-repeat="project in projects">
+<p>Number of contributions throughout the day (left) and over time (right). 
+
+<div ng-repeat="(i, project) in projects" class="project">
 
 	<div class="name">
 		{{ project.name }}
+		{{ project.parent.id }}
 	</div>
 
 	<div class="weekdays">
-		<hist data="project.weekdays"></hist>
+		<weekdaygraph data="project.weekdays" axis="i === projects.length - 1"></weekdaygraph>
 	</div>
 
-	<div class="alltime">
-		<hist data="project.alltime"></hist>
+	<div class="days">
+		<daygraph data="project.days" axis="i === projects.length - 1"></daygraph>
 	</div>
 
 </div>

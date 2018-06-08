@@ -53,10 +53,10 @@ const generateHTML = (js, css) => {
 	return Bluebird
 		.all([
 			fs.readFileAsync(`${__dirname}/src/index.html`, 'utf8'),
-			fs.readdirAsync(`${__dirname}/projects`)
+			fs.readdirAsync(`${__dirname}/parsers`)
 		])
 		.spread((html, projects) => {
-			let scripts = projects.map(p => `<script src="projects/${p}.js"></script>`);
+			let scripts = projects.map(p => `<script src="projects/${p}"></script>`);
 			html = html
 				.replace('@DATA', scripts.join('\n'))
 				.replace('@CSS', css)

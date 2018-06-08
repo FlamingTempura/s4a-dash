@@ -12,7 +12,7 @@ module.exports = {
 		country = Object.keys(countrycodes).find(code => country.startsWith(countrycodes[code])); // allows United States - New York to match
 		return {
 			date: new Date(row.date_utc),
-			isContribution: !!(row.sky_comment || row.location_comment),
+			isContribution: true,
 			user: row.obs_id,
 			country
 		};

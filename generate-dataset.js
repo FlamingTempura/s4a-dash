@@ -9,6 +9,7 @@ const WEEKDAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 const generate = id => {
 	id = id.replace(/.js$/, ''); // string extension
 	const project = require(`${__dirname}/parsers/${id}`);
+	project.id = id;
 
 	console.log(`Parsing ${id}...`);
 	console.time(`Successfully parsed ${id}`);
@@ -88,6 +89,7 @@ const generate = id => {
 				});
 
 			project.contributions = rows.filter(d => d.isContribution).length;
+			project.rows = rows.length;
 
 			project.days = Object.keys(days)
 				.sort()
