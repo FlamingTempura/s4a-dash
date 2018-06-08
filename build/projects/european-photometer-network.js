@@ -21,394 +21,9 @@ window.projects.push({
 		"./data/tess-oct-2017.csv",
 		"./data/tess-october-2016.csv"
 	],
-	"users": [
-		{
-			"id": 0,
-			"contributions": 185400,
-			"rows": 185400
-		},
-		{
-			"id": 1,
-			"contributions": 564083,
-			"rows": 564083
-		},
-		{
-			"id": 2,
-			"contributions": 1019148,
-			"rows": 1019148
-		},
-		{
-			"id": 3,
-			"contributions": 415853,
-			"rows": 415853
-		},
-		{
-			"id": 4,
-			"contributions": 365896,
-			"rows": 365896
-		},
-		{
-			"id": 5,
-			"contributions": 352089,
-			"rows": 352089
-		},
-		{
-			"id": 6,
-			"contributions": 1251765,
-			"rows": 1251765
-		},
-		{
-			"id": 7,
-			"contributions": 900347,
-			"rows": 900347
-		},
-		{
-			"id": 8,
-			"contributions": 598854,
-			"rows": 598854
-		},
-		{
-			"id": 9,
-			"contributions": 489848,
-			"rows": 489848
-		},
-		{
-			"id": 10,
-			"contributions": 584768,
-			"rows": 584768
-		},
-		{
-			"id": 11,
-			"contributions": 295454,
-			"rows": 295454
-		},
-		{
-			"id": 12,
-			"contributions": 69106,
-			"rows": 69106
-		},
-		{
-			"id": 13,
-			"contributions": 558371,
-			"rows": 558371
-		},
-		{
-			"id": 14,
-			"contributions": 327559,
-			"rows": 327559
-		},
-		{
-			"id": 15,
-			"contributions": 189323,
-			"rows": 189323
-		},
-		{
-			"id": 16,
-			"contributions": 235671,
-			"rows": 235671
-		},
-		{
-			"id": 17,
-			"contributions": 147122,
-			"rows": 147122
-		},
-		{
-			"id": 18,
-			"contributions": 145014,
-			"rows": 145014
-		},
-		{
-			"id": 19,
-			"contributions": 96949,
-			"rows": 96949
-		},
-		{
-			"id": 20,
-			"contributions": 221899,
-			"rows": 221899
-		},
-		{
-			"id": 21,
-			"contributions": 327909,
-			"rows": 327909
-		},
-		{
-			"id": 22,
-			"contributions": 340318,
-			"rows": 340318
-		},
-		{
-			"id": 23,
-			"contributions": 226495,
-			"rows": 226495
-		},
-		{
-			"id": 24,
-			"contributions": 267197,
-			"rows": 267197
-		},
-		{
-			"id": 25,
-			"contributions": 198746,
-			"rows": 198746
-		},
-		{
-			"id": 26,
-			"contributions": 131561,
-			"rows": 131561
-		},
-		{
-			"id": 27,
-			"contributions": 296183,
-			"rows": 296183
-		},
-		{
-			"id": 28,
-			"contributions": 152167,
-			"rows": 152167
-		},
-		{
-			"id": 29,
-			"contributions": 377061,
-			"rows": 377061
-		},
-		{
-			"id": 30,
-			"contributions": 16210,
-			"rows": 16210
-		},
-		{
-			"id": 31,
-			"contributions": 255483,
-			"rows": 255483
-		},
-		{
-			"id": 32,
-			"contributions": 211219,
-			"rows": 211219
-		},
-		{
-			"id": 33,
-			"contributions": 45232,
-			"rows": 45232
-		},
-		{
-			"id": 34,
-			"contributions": 308701,
-			"rows": 308701
-		},
-		{
-			"id": 35,
-			"contributions": 106000,
-			"rows": 106000
-		},
-		{
-			"id": 36,
-			"contributions": 157254,
-			"rows": 157254
-		},
-		{
-			"id": 37,
-			"contributions": 194144,
-			"rows": 194144
-		},
-		{
-			"id": 38,
-			"contributions": 114740,
-			"rows": 114740
-		},
-		{
-			"id": 39,
-			"contributions": 150329,
-			"rows": 150329
-		},
-		{
-			"id": 40,
-			"contributions": 131638,
-			"rows": 131638
-		},
-		{
-			"id": 41,
-			"contributions": 93511,
-			"rows": 93511
-		},
-		{
-			"id": 42,
-			"contributions": 157139,
-			"rows": 157139
-		},
-		{
-			"id": 43,
-			"contributions": 110898,
-			"rows": 110898
-		},
-		{
-			"id": 44,
-			"contributions": 192545,
-			"rows": 192545
-		},
-		{
-			"id": 45,
-			"contributions": 106413,
-			"rows": 106413
-		},
-		{
-			"id": 46,
-			"contributions": 25092,
-			"rows": 25092
-		},
-		{
-			"id": 47,
-			"contributions": 76338,
-			"rows": 76338
-		},
-		{
-			"id": 48,
-			"contributions": 615,
-			"rows": 615
-		},
-		{
-			"id": 49,
-			"contributions": 615,
-			"rows": 615
-		},
-		{
-			"id": 50,
-			"contributions": 12033,
-			"rows": 12033
-		},
-		{
-			"id": 51,
-			"contributions": 25863,
-			"rows": 25863
-		},
-		{
-			"id": 52,
-			"contributions": 206459,
-			"rows": 206459
-		},
-		{
-			"id": 53,
-			"contributions": 47069,
-			"rows": 47069
-		},
-		{
-			"id": 54,
-			"contributions": 517,
-			"rows": 517
-		},
-		{
-			"id": 55,
-			"contributions": 97213,
-			"rows": 97213
-		},
-		{
-			"id": 56,
-			"contributions": 6094,
-			"rows": 6094
-		},
-		{
-			"id": 57,
-			"contributions": 138,
-			"rows": 138
-		},
-		{
-			"id": 58,
-			"contributions": 163,
-			"rows": 163
-		},
-		{
-			"id": 59,
-			"contributions": 650,
-			"rows": 650
-		},
-		{
-			"id": 60,
-			"contributions": 9297,
-			"rows": 9297
-		},
-		{
-			"id": 61,
-			"contributions": 2524,
-			"rows": 2524
-		},
-		{
-			"id": 62,
-			"contributions": 3299,
-			"rows": 3299
-		},
-		{
-			"id": 63,
-			"contributions": 40853,
-			"rows": 40853
-		},
-		{
-			"id": 64,
-			"contributions": 37480,
-			"rows": 37480
-		},
-		{
-			"id": 65,
-			"contributions": 61,
-			"rows": 61
-		},
-		{
-			"id": 66,
-			"contributions": 61,
-			"rows": 61
-		},
-		{
-			"id": 67,
-			"contributions": 1818,
-			"rows": 1818
-		},
-		{
-			"id": 68,
-			"contributions": 834,
-			"rows": 834
-		},
-		{
-			"id": 69,
-			"contributions": 93245,
-			"rows": 93245
-		},
-		{
-			"id": 70,
-			"contributions": 29310,
-			"rows": 29310
-		},
-		{
-			"id": 71,
-			"contributions": 38547,
-			"rows": 38547
-		},
-		{
-			"id": 72,
-			"contributions": 1111,
-			"rows": 1111
-		},
-		{
-			"id": 73,
-			"contributions": 67,
-			"rows": 67
-		},
-		{
-			"id": 74,
-			"contributions": 1405,
-			"rows": 1405
-		},
-		{
-			"id": 75,
-			"contributions": 352,
-			"rows": 352
-		},
-		{
-			"id": 76,
-			"contributions": 66208,
-			"rows": 66208
-		}
-	],
+	"id": "european-photometer-network",
 	"contributions": 14508943,
+	"rows": 14508943,
 	"days": [
 		{
 			"day": "2016-10-01",
@@ -3845,5 +3460,392 @@ window.projects.push({
 			"starters": 0
 		}
 	],
-	"countries": []
+	"countries": [],
+	"users": [
+		{
+			"id": 0,
+			"contributions": 185400,
+			"rows": 185400
+		},
+		{
+			"id": 1,
+			"contributions": 564083,
+			"rows": 564083
+		},
+		{
+			"id": 2,
+			"contributions": 1019148,
+			"rows": 1019148
+		},
+		{
+			"id": 3,
+			"contributions": 415853,
+			"rows": 415853
+		},
+		{
+			"id": 4,
+			"contributions": 365896,
+			"rows": 365896
+		},
+		{
+			"id": 5,
+			"contributions": 352089,
+			"rows": 352089
+		},
+		{
+			"id": 6,
+			"contributions": 1251765,
+			"rows": 1251765
+		},
+		{
+			"id": 7,
+			"contributions": 900347,
+			"rows": 900347
+		},
+		{
+			"id": 8,
+			"contributions": 598854,
+			"rows": 598854
+		},
+		{
+			"id": 9,
+			"contributions": 489848,
+			"rows": 489848
+		},
+		{
+			"id": 10,
+			"contributions": 584768,
+			"rows": 584768
+		},
+		{
+			"id": 11,
+			"contributions": 295454,
+			"rows": 295454
+		},
+		{
+			"id": 12,
+			"contributions": 69106,
+			"rows": 69106
+		},
+		{
+			"id": 13,
+			"contributions": 558371,
+			"rows": 558371
+		},
+		{
+			"id": 14,
+			"contributions": 327559,
+			"rows": 327559
+		},
+		{
+			"id": 15,
+			"contributions": 189323,
+			"rows": 189323
+		},
+		{
+			"id": 16,
+			"contributions": 235671,
+			"rows": 235671
+		},
+		{
+			"id": 17,
+			"contributions": 147122,
+			"rows": 147122
+		},
+		{
+			"id": 18,
+			"contributions": 145014,
+			"rows": 145014
+		},
+		{
+			"id": 19,
+			"contributions": 96949,
+			"rows": 96949
+		},
+		{
+			"id": 20,
+			"contributions": 221899,
+			"rows": 221899
+		},
+		{
+			"id": 21,
+			"contributions": 327909,
+			"rows": 327909
+		},
+		{
+			"id": 22,
+			"contributions": 340318,
+			"rows": 340318
+		},
+		{
+			"id": 23,
+			"contributions": 226495,
+			"rows": 226495
+		},
+		{
+			"id": 24,
+			"contributions": 267197,
+			"rows": 267197
+		},
+		{
+			"id": 25,
+			"contributions": 198746,
+			"rows": 198746
+		},
+		{
+			"id": 26,
+			"contributions": 131561,
+			"rows": 131561
+		},
+		{
+			"id": 27,
+			"contributions": 296183,
+			"rows": 296183
+		},
+		{
+			"id": 28,
+			"contributions": 152167,
+			"rows": 152167
+		},
+		{
+			"id": 29,
+			"contributions": 377061,
+			"rows": 377061
+		},
+		{
+			"id": 30,
+			"contributions": 16210,
+			"rows": 16210
+		},
+		{
+			"id": 31,
+			"contributions": 255483,
+			"rows": 255483
+		},
+		{
+			"id": 32,
+			"contributions": 211219,
+			"rows": 211219
+		},
+		{
+			"id": 33,
+			"contributions": 45232,
+			"rows": 45232
+		},
+		{
+			"id": 34,
+			"contributions": 308701,
+			"rows": 308701
+		},
+		{
+			"id": 35,
+			"contributions": 106000,
+			"rows": 106000
+		},
+		{
+			"id": 36,
+			"contributions": 157254,
+			"rows": 157254
+		},
+		{
+			"id": 37,
+			"contributions": 194144,
+			"rows": 194144
+		},
+		{
+			"id": 38,
+			"contributions": 114740,
+			"rows": 114740
+		},
+		{
+			"id": 39,
+			"contributions": 150329,
+			"rows": 150329
+		},
+		{
+			"id": 40,
+			"contributions": 131638,
+			"rows": 131638
+		},
+		{
+			"id": 41,
+			"contributions": 93511,
+			"rows": 93511
+		},
+		{
+			"id": 42,
+			"contributions": 157139,
+			"rows": 157139
+		},
+		{
+			"id": 43,
+			"contributions": 110898,
+			"rows": 110898
+		},
+		{
+			"id": 44,
+			"contributions": 192545,
+			"rows": 192545
+		},
+		{
+			"id": 45,
+			"contributions": 106413,
+			"rows": 106413
+		},
+		{
+			"id": 46,
+			"contributions": 25092,
+			"rows": 25092
+		},
+		{
+			"id": 47,
+			"contributions": 76338,
+			"rows": 76338
+		},
+		{
+			"id": 48,
+			"contributions": 615,
+			"rows": 615
+		},
+		{
+			"id": 49,
+			"contributions": 615,
+			"rows": 615
+		},
+		{
+			"id": 50,
+			"contributions": 12033,
+			"rows": 12033
+		},
+		{
+			"id": 51,
+			"contributions": 25863,
+			"rows": 25863
+		},
+		{
+			"id": 52,
+			"contributions": 206459,
+			"rows": 206459
+		},
+		{
+			"id": 53,
+			"contributions": 47069,
+			"rows": 47069
+		},
+		{
+			"id": 54,
+			"contributions": 517,
+			"rows": 517
+		},
+		{
+			"id": 55,
+			"contributions": 97213,
+			"rows": 97213
+		},
+		{
+			"id": 56,
+			"contributions": 6094,
+			"rows": 6094
+		},
+		{
+			"id": 57,
+			"contributions": 138,
+			"rows": 138
+		},
+		{
+			"id": 58,
+			"contributions": 163,
+			"rows": 163
+		},
+		{
+			"id": 59,
+			"contributions": 650,
+			"rows": 650
+		},
+		{
+			"id": 60,
+			"contributions": 9297,
+			"rows": 9297
+		},
+		{
+			"id": 61,
+			"contributions": 2524,
+			"rows": 2524
+		},
+		{
+			"id": 62,
+			"contributions": 3299,
+			"rows": 3299
+		},
+		{
+			"id": 63,
+			"contributions": 40853,
+			"rows": 40853
+		},
+		{
+			"id": 64,
+			"contributions": 37480,
+			"rows": 37480
+		},
+		{
+			"id": 65,
+			"contributions": 61,
+			"rows": 61
+		},
+		{
+			"id": 66,
+			"contributions": 61,
+			"rows": 61
+		},
+		{
+			"id": 67,
+			"contributions": 1818,
+			"rows": 1818
+		},
+		{
+			"id": 68,
+			"contributions": 834,
+			"rows": 834
+		},
+		{
+			"id": 69,
+			"contributions": 93245,
+			"rows": 93245
+		},
+		{
+			"id": 70,
+			"contributions": 29310,
+			"rows": 29310
+		},
+		{
+			"id": 71,
+			"contributions": 38547,
+			"rows": 38547
+		},
+		{
+			"id": 72,
+			"contributions": 1111,
+			"rows": 1111
+		},
+		{
+			"id": 73,
+			"contributions": 67,
+			"rows": 67
+		},
+		{
+			"id": 74,
+			"contributions": 1405,
+			"rows": 1405
+		},
+		{
+			"id": 75,
+			"contributions": 352,
+			"rows": 352
+		},
+		{
+			"id": 76,
+			"contributions": 66208,
+			"rows": 66208
+		}
+	]
 });

@@ -1,46 +1,35 @@
-<h2>Project Contributions</h2>
-
-<p>Number of contributions throughout the day (left) and over time (right). </p>
-
-<div class="options">
+<div class="options" style="float: right">
 	<a ng-click="y = 'contributions'" ng-class="{ active: y === 'contributions' }">Contributions</a>
 	<a ng-click="y = 'users'" ng-class="{ active: y === 'users' }">Contributors</a>
 	<a ng-click="y = 'starters'" ng-class="{ active: y === 'starters' }">New Contributors</a>
 </div>
 
-<div ng-repeat="(i, project) in projects" class="project">
+<h1>Stars4All Project Contributions</h1>
 
-	<div class="name">
-		{{ project.name }}
-		{{ project.parent.id }}
+<p>This dashboard summarises the amount of contributions and contributors for each Stars4All project.</p>
+
+<p>Below, each project is listed with the number of contributions (a submission made by a user) and contributors (a user who has made a contribution). The charts display the number of {{ y === 'users' ? 'contributors' : y === 'starters' ? 'new contributors' : y }} per weekday (left), the number of {{ y === 'users' ? 'contributors' : y === 'starters' ? 'new contributors' : y }} over time (centre), and the amount of submissions each contributor has made. Click a project to view more details.</p>
+
+<div class="projects">
+	<div ng-repeat="(i, project) in projects" class="project" ui-sref="project({ id: project.id })">
+
+		<div class="name">
+			<strong>{{ project.name }}</strong>
+			<div class="parent-icon" ng-class="project.parent.id" ng-show="project.parent" ng-attr-title="Part of the {{ project.parent.name }} project"></div>
+			<br>
+			{{ project.contributions | number }} contributions by {{ project.users.length | number }} contributors
+		</div>
+
+		<weekdaygraph data="project.weekdays" y="y"></weekdaygraph>
+
+		<daygraph data="project.days" y="y"></daygraph>
+
+		<effortgraph data="project.users" y="y"></effortgraph>
+
 	</div>
-
-	<weekdaygraph class="weekdays" data="project.weekdays" axis="i === projects.length - 1" y="y"></weekdaygraph>
-
-	<daygraph class="days" data="project.days" axis="i === projects.length - 1" y="y"></daygraph>
-
 </div>
 
-<div ng-repeat="project in projects">
-	<h3><a ui-sref="project({ id: project.id })">{{ project.name }}</a></h3>
-
-	<div ng-show="project.tasks.complete">
-		{{ project.tasks.complete | number }}
-		tasks out of
-		{{ project.tasks.complete + project.tasks.incomplete | number }} completed
-		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)
-	</div>
-
-	<div>
-		{{ project.months.length | number }}
-		months of data
-		({{ project.rows | number }} rows)
-	</div>
-
-	<div>
-		{{ project.users.ids + project.users.ips | number }}
-		Users
-	</div>
-
-	<a ui-sref="project({ id: project.id })">See more...</a>
-</div>
+<p class="legend">
+	<span class="parent-icon my-sky-at-night"></span> = Part of the <emph>My Sky at Night</emph> project &nbsp;&nbsp;&nbsp;&nbsp;
+	<span class="parent-icon cities-at-night"></span> = Part of the <emph>Cities at Night</emph> project
+</p>

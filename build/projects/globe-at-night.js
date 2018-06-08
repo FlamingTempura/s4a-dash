@@ -5,7 +5,9 @@ window.projects.push({
 	"files": [
 		"./data/myskyatnight.csv"
 	],
+	"id": "globe-at-night",
 	"contributions": 45902,
+	"rows": 72942,
 	"days": [
 		{
 			"day": "2006-03-22",

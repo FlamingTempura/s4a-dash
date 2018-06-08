@@ -4,7 +4,9 @@ window.projects.push({
 	"files": [
 		"./data/myskyatnight.csv"
 	],
+	"id": "my-sky-at-night",
 	"contributions": 51503,
+	"rows": 153850,
 	"days": [
 		{
 			"day": "2006-03-22",

@@ -11,6 +11,7 @@ const app = angular.module('app', ['ui.router']);
 let dateStart, dateEnd;
 
 const WEEKDAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const chartHeight = 90;
 
 app.config(function ($urlServiceProvider) {
 	$urlServiceProvider.rules.otherwise({ state: 'projects' });
@@ -53,7 +54,7 @@ app.config($stateProvider => {
 		templateUrl: '/templates/project.html',
 		controller: function ($state, $scope) {
 			$scope.project = window.projects.find(p => p.id === $state.params.id);
-			console.log($scope.project);
+			console.log($scope.project);/*
 
 			if ($scope.project.users) {
 				$scope.usersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.users.ids + m.users.ips }));
@@ -70,7 +71,7 @@ app.config($stateProvider => {
 			}
 			$scope.rowsOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.rows }));
 
-			$scope.month = $scope.project.months[$scope.project.months.length - 1];
+			$scope.month = $scope.project.months[$scope.project.months.length - 1];*/
 		}
 	});
 
@@ -133,19 +134,18 @@ app.component('histogram', {
 app.component('daygraph', {
 	bindings: {
 		data: '<',
-		axis: '<',
 		y: '<'
 	},
 	controller: function ($element) {
-		let svg = d3.select($element[0]).append('svg').attr('width', 610).attr('height', 60),
-			margin = {top: 0, right: 0, bottom: 20, left: 0},
+		let svg = d3.select($element[0]).append('svg').attr('width', 530).attr('height', chartHeight),
+			margin = {top: 0, right: 0, bottom: 30, left: 20 },
 			width = +svg.attr("width") - margin.left - margin.right,
 			height = +svg.attr("height") - margin.top - margin.bottom;
 
 		let g = svg.append("g")
 			.attr("transform", `translate(${margin.left},${margin.top})`);
 
-		let dateStart = new Date(2015, 1, 1)
+		let dateStart = new Date(2015, 1, 1);
 
 		let x = d3.scaleTime()
 			.domain([dateStart, dateEnd])
@@ -157,18 +157,16 @@ app.component('daygraph', {
 		let path = g.append("path")
 			.attr('class', 'area');
 
-		let axis;
-		this.$onInit = () => {
-			if (this.axis) {
-				axis = g.append("g")
-					.attr("transform", `translate(0,${height})`)
-					.call(d3.axisBottom(x));
-			}
-		};
-
 		let area = d3.area()
 			.x(d => x(d.date));
 
+		let xaxis = g.append("g")
+			.attr('class', 'x axis')
+			.attr("transform", `translate(0,${height})`);
+
+		let yaxis = g.append("g")
+			.attr('class', 'y axis');
+		
 		this.$onChanges = () => {
 			let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
 
@@ -182,9 +180,8 @@ app.component('daygraph', {
 				.duration(500)
 				.attr("d", area);
 
-			if (axis) {
-				axis.call(d3.axisBottom(x));
-			}
+			xaxis.call(d3.axisBottom(x));
+			yaxis.call(d3.axisLeft(y));
 		};
 	}
 });
@@ -194,12 +191,11 @@ app.component('daygraph', {
 app.component('weekdaygraph', {
 	bindings: {
 		data: '<',
-		axis: '<',
 		y: '<'
 	},
 	controller: function ($element) {
-		let svg = d3.select($element[0]).append('svg').attr('width', 100).attr('height', 60),
-			margin = {top: 0, right: 0, bottom: 20, left: 0 },
+		let svg = d3.select($element[0]).append('svg').attr('width', 120).attr('height', chartHeight),
+			margin = {top: 0, right: 0, bottom: 30, left: 20 },
 			width = +svg.attr("width") - margin.left - margin.right,
 			height = +svg.attr("height") - margin.top - margin.bottom;
 
@@ -213,14 +209,12 @@ app.component('weekdaygraph', {
 		let y = d3.scaleLinear()
 			.range([height, 0]);
 
-		let axis;
+		let xaxis = g.append("g")
+			.attr('class', 'x axis')
+			.attr("transform", `translate(0,${height})`);
 
-		this.$onInit = () => {
-			if (this.axis) {
-				axis = g.append("g")
-					.attr("transform", "translate(0," + height + ")");
-			}
-		};
+		let yaxis = g.append("g")
+			.attr('class', 'y axis');
 
 		this.$onChanges = () => {
 			y.domain([0, d3.max(this.data, d => d[this.y])]);
@@ -242,10 +236,77 @@ app.component('weekdaygraph', {
 				.attr('y', d => y(d[this.y]))
 				.attr("height", d => height - y(d[this.y]));
 
-			if (axis) {
-				axis.call(d3.axisBottom(x)
-					.tickFormat(s => s.charAt(0).toUpperCase()));
-			}
+			xaxis.call(d3.axisBottom(x)
+				.tickFormat(s => s.charAt(0).toUpperCase()));
+
+			yaxis.call(d3.axisLeft(y));
+		};
+	}
+});
+
+
+app.component('effortgraph', {
+	bindings: {
+		data: '<',
+		y: '<'
+	},
+	controller: function ($element) {
+		let svg = d3.select($element[0]).append('svg').attr('width', 150).attr('height', chartHeight),
+			margin = {top: 0, right: 5, bottom: 30, left: 20 },
+			width = +svg.attr("width") - margin.left - margin.right,
+			height = +svg.attr("height") - margin.top - margin.bottom;
+
+		let g = svg.append("g")
+			.attr("transform", `translate(${margin.left},${margin.top})`);
+
+		let x = d3.scaleLinear()
+			.rangeRound([0, width]);
+
+		let y = d3.scaleLog()
+			.range([height, 0]);
+
+		let path = g.append("path")
+			.attr('class', 'area');
+
+		let area = d3.area()
+			.x(d => x(d.index))
+			.y1(d => y(d.users));
+
+		let xaxis = g.append("g")
+			.attr('class', 'x axis rotate')
+			.attr("transform", `translate(0,${height})`);
+
+		let yaxis = g.append("g")
+			.attr('class', 'y axis');
+
+		this.$onChanges = () => {
+
+			let binSize = 10,
+				bins = (new Array(100)).fill(0);
+
+			this.data.forEach(user => {
+				let index = Math.floor(user.contributions / binSize);
+				if (index < bins.length) {
+					bins[index]++;
+				}
+			});
+
+			let data = bins.map((users, index) => ({ index, users: users + 1 }));
+
+			x.domain([0, bins.length]);
+			y.domain([1, d3.max(bins)]);
+
+			area.y0(y(1));
+
+			path.datum(data)
+				.transition()
+				.duration(500)
+				.attr("d", area);
+
+			xaxis.call(d3.axisBottom(x)
+				.tickFormat(s => Math.floor(s * 100)));
+
+			yaxis.call(d3.axisLeft(y));
 		};
 	}
 });

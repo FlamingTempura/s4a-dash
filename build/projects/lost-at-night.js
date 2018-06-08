@@ -6,7 +6,9 @@ window.projects.push({
 	"files": [
 		"./data/LostAtNight_task_run.csv"
 	],
+	"id": "lost-at-night",
 	"contributions": 27571,
+	"rows": 162044,
 	"days": [
 		{
 			"day": "2014-07-08",
