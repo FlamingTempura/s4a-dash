@@ -44,6 +44,7 @@ app.config($stateProvider => {
 		templateUrl: '/templates/projects.html',
 		controller: function ($scope) {
 			$scope.projects = window.projects;
+			$scope.y = 'contributions';
 		}
 	});
 
@@ -129,60 +130,11 @@ app.component('histogram', {
 	}
 });
 
-
-
-app.component('daygraphold', {
-	bindings: {
-		data: '<'
-	},
-	controller: function ($element) {
-		let svg = d3.select($element[0]).append('svg').attr('width', 510).attr('height', 40),
-			margin = {top: 0, right: 0, bottom: 0, left: 0},
-			width = +svg.attr("width") - margin.left - margin.right,
-			height = +svg.attr("height") - margin.top - margin.bottom;
-
-		let g = svg.append("g")
-			.attr("transform", `translate(${margin.left},${margin.top})`);
-
-		let x = d3.scaleLinear()
-			.domain([dateStart, dateEnd])
-			.rangeRound([0, width]);
-
-		let y = d3.scaleLog()
-			.range([height, 0]);
-
-
-
-		this.$onInit = () => {
-
-			y.domain([1, d3.max(this.data, d => d.contributions + 1)]);
-
-			console.log(y(1000));
-
-			g.selectAll(".bar")
-				.data(this.data)
-				.enter().append("rect")
-					.attr("class", "bar")
-					.attr("x", d => x(d.date))
-					.attr('y', d => y(d.contributions + 1))
-					.attr("width", width / this.data.length)
-					.attr("height", d => height - y(d.contributions + 1));
-
-			/*g.append("g")
-				.attr("transform", "translate(0," + height + ")")
-				.call(d3.axisBottom(x));
-
-			g.append("g")
-				.call(d3.axisLeft(y));*/
-		};
-	}
-});
-
-
 app.component('daygraph', {
 	bindings: {
 		data: '<',
-		axis: '<'
+		axis: '<',
+		y: '<'
 	},
 	controller: function ($element) {
 		let svg = d3.select($element[0]).append('svg').attr('width', 610).attr('height', 60),
@@ -202,31 +154,36 @@ app.component('daygraph', {
 		let y = d3.scaleLog()
 			.range([height, 0]);
 
+		let path = g.append("path")
+			.attr('class', 'area');
 
-var area = d3.area()
-    .x(function(d) { return x(d.date); })
-    .y1(function(d) { return y(d.contributions + 1); });
-
+		let axis;
 		this.$onInit = () => {
+			if (this.axis) {
+				axis = g.append("g")
+					.attr("transform", `translate(0,${height})`)
+					.call(d3.axisBottom(x));
+			}
+		};
 
+		let area = d3.area()
+			.x(d => x(d.date));
+
+		this.$onChanges = () => {
 			let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
 
-			y.domain([1, d3.max(data, d => d.contributions + 1)]);
+			y.domain([1, d3.max(data, d => d[this.y] + 1)]);
 
-			console.log(this.axis);
+			area.y0(y(1))
+				.y1(d => y(d[this.y] + 1));
 
-			area.y0(y(1));
-
-			g.append("path")
-				.datum(data)
-				.attr('class', 'area')
-				.attr("fill", "steelblue")
+			path.datum(data)
+				.transition()
+				.duration(500)
 				.attr("d", area);
-			
-			if (this.axis) {
-				g.append("g")
-					.attr("transform", "translate(0," + height + ")")
-					.call(d3.axisBottom(x));
+
+			if (axis) {
+				axis.call(d3.axisBottom(x));
 			}
 		};
 	}
@@ -237,7 +194,8 @@ var area = d3.area()
 app.component('weekdaygraph', {
 	bindings: {
 		data: '<',
-		axis: '<'
+		axis: '<',
+		y: '<'
 	},
 	controller: function ($element) {
 		let svg = d3.select($element[0]).append('svg').attr('width', 100).attr('height', 60),
@@ -255,23 +213,38 @@ app.component('weekdaygraph', {
 		let y = d3.scaleLinear()
 			.range([height, 0]);
 
+		let axis;
+
 		this.$onInit = () => {
-			y.domain([0, d3.max(this.data, d => d.contributions)]);
-
-			g.selectAll(".bar")
-				.data(this.data)
-				.enter().append("rect")
-					.attr("class", "bar")
-					.attr("x", d => x(d.weekday))
-					.attr('y', d => y(d.contributions))
-					.attr("width", width / this.data.length - 1)
-					.attr("height", d => height - y(d.contributions));
-
 			if (this.axis) {
-				g.append("g")
-					.attr("transform", "translate(0," + height + ")")
-					.call(d3.axisBottom(x)
-						.tickFormat(s => s.charAt(0).toUpperCase()));
+				axis = g.append("g")
+					.attr("transform", "translate(0," + height + ")");
+			}
+		};
+
+		this.$onChanges = () => {
+			y.domain([0, d3.max(this.data, d => d[this.y])]);
+
+			let bar = g.selectAll(".bar")
+				.data(this.data);
+
+			bar.exit().remove();
+
+			bar.enter().append("rect")
+				.attr("class", "bar")
+				.attr("x", d => x(d.weekday))
+				.attr("width", width / this.data.length - 1)
+				.attr('y', d => y(d[this.y]))
+				.attr("height", d => height - y(d[this.y]));
+
+			bar.transition()
+				.duration(500)
+				.attr('y', d => y(d[this.y]))
+				.attr("height", d => height - y(d[this.y]));
+
+			if (axis) {
+				axis.call(d3.axisBottom(x)
+					.tickFormat(s => s.charAt(0).toUpperCase()));
 			}
 		};
 	}

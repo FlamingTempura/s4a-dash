@@ -1,6 +1,12 @@
 <h2>Project Contributions</h2>
 
-<p>Number of contributions throughout the day (left) and over time (right). 
+<p>Number of contributions throughout the day (left) and over time (right). </p>
+
+<div class="options">
+	<a ng-click="y = 'contributions'" ng-class="{ active: y === 'contributions' }">Contributions</a>
+	<a ng-click="y = 'users'" ng-class="{ active: y === 'users' }">Contributors</a>
+	<a ng-click="y = 'starters'" ng-class="{ active: y === 'starters' }">New Contributors</a>
+</div>
 
 <div ng-repeat="(i, project) in projects" class="project">
 
@@ -9,13 +15,9 @@
 		{{ project.parent.id }}
 	</div>
 
-	<div class="weekdays">
-		<weekdaygraph data="project.weekdays" axis="i === projects.length - 1"></weekdaygraph>
-	</div>
+	<weekdaygraph class="weekdays" data="project.weekdays" axis="i === projects.length - 1" y="y"></weekdaygraph>
 
-	<div class="days">
-		<daygraph data="project.days" axis="i === projects.length - 1"></daygraph>
-	</div>
+	<daygraph class="days" data="project.days" axis="i === projects.length - 1" y="y"></daygraph>
 
 </div>
 

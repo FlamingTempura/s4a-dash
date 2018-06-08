@@ -6,6 +6,14 @@ body {
 	line-height: 1.3em;
 	margin: 0;
 }
+a, a:visited {
+	color: #1E8BC3;
+	text-decoration: underline;
+	cursor: pointer;
+	&:hover {
+		background: #eee;
+	}
+}
 h1 {
 	font-weight: 100;
 }
@@ -61,5 +69,12 @@ svg {
 		position: absolute;
 		left: 280px;
 		top: 0;
+	}
+}
+
+.options {
+	a.active {
+		color: inherit;
+		text-decoration: none;
 	}
 }

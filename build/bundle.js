@@ -57127,6 +57127,7 @@
   		templateUrl: '/templates/projects.html',
   		controller: function ($scope) {
   			$scope.projects = window.projects;
+  			$scope.y = 'contributions';
   		}
   	});
 
@@ -57212,60 +57213,11 @@
   	}
   });
 
-
-
-  app.component('daygraphold', {
-  	bindings: {
-  		data: '<'
-  	},
-  	controller: function ($element) {
-  		let svg$$1 = select($element[0]).append('svg').attr('width', 510).attr('height', 40),
-  			margin = {top: 0, right: 0, bottom: 0, left: 0},
-  			width = +svg$$1.attr("width") - margin.left - margin.right,
-  			height = +svg$$1.attr("height") - margin.top - margin.bottom;
-
-  		let g = svg$$1.append("g")
-  			.attr("transform", `translate(${margin.left},${margin.top})`);
-
-  		let x = linear$2()
-  			.domain([dateStart, dateEnd])
-  			.rangeRound([0, width]);
-
-  		let y = log$1()
-  			.range([height, 0]);
-
-
-
-  		this.$onInit = () => {
-
-  			y.domain([1, max(this.data, d => d.contributions + 1)]);
-
-  			console.log(y(1000));
-
-  			g.selectAll(".bar")
-  				.data(this.data)
-  				.enter().append("rect")
-  					.attr("class", "bar")
-  					.attr("x", d => x(d.date))
-  					.attr('y', d => y(d.contributions + 1))
-  					.attr("width", width / this.data.length)
-  					.attr("height", d => height - y(d.contributions + 1));
-
-  			/*g.append("g")
-  				.attr("transform", "translate(0," + height + ")")
-  				.call(d3.axisBottom(x));
-
-  			g.append("g")
-  				.call(d3.axisLeft(y));*/
-  		};
-  	}
-  });
-
-
   app.component('daygraph', {
   	bindings: {
   		data: '<',
-  		axis: '<'
+  		axis: '<',
+  		y: '<'
   	},
   	controller: function ($element) {
   		let svg$$1 = select($element[0]).append('svg').attr('width', 610).attr('height', 60),
@@ -57285,31 +57237,36 @@
   		let y = log$1()
   			.range([height, 0]);
 
+  		let path$$1 = g.append("path")
+  			.attr('class', 'area');
 
-  var area = area$3()
-      .x(function(d) { return x(d.date); })
-      .y1(function(d) { return y(d.contributions + 1); });
-
+  		let axis;
   		this.$onInit = () => {
+  			if (this.axis) {
+  				axis = g.append("g")
+  					.attr("transform", `translate(0,${height})`)
+  					.call(axisBottom(x));
+  			}
+  		};
 
+  		let area = area$3()
+  			.x(d => x(d.date));
+
+  		this.$onChanges = () => {
   			let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
 
-  			y.domain([1, max(data, d => d.contributions + 1)]);
+  			y.domain([1, max(data, d => d[this.y] + 1)]);
 
-  			console.log(this.axis);
+  			area.y0(y(1))
+  				.y1(d => y(d[this.y] + 1));
 
-  			area.y0(y(1));
-
-  			g.append("path")
-  				.datum(data)
-  				.attr('class', 'area')
-  				.attr("fill", "steelblue")
+  			path$$1.datum(data)
+  				.transition()
+  				.duration(500)
   				.attr("d", area);
-  			
-  			if (this.axis) {
-  				g.append("g")
-  					.attr("transform", "translate(0," + height + ")")
-  					.call(axisBottom(x));
+
+  			if (axis) {
+  				axis.call(axisBottom(x));
   			}
   		};
   	}
@@ -57320,7 +57277,8 @@
   app.component('weekdaygraph', {
   	bindings: {
   		data: '<',
-  		axis: '<'
+  		axis: '<',
+  		y: '<'
   	},
   	controller: function ($element) {
   		let svg$$1 = select($element[0]).append('svg').attr('width', 100).attr('height', 60),
@@ -57338,23 +57296,38 @@
   		let y = linear$2()
   			.range([height, 0]);
 
+  		let axis;
+
   		this.$onInit = () => {
-  			y.domain([0, max(this.data, d => d.contributions)]);
-
-  			g.selectAll(".bar")
-  				.data(this.data)
-  				.enter().append("rect")
-  					.attr("class", "bar")
-  					.attr("x", d => x(d.weekday))
-  					.attr('y', d => y(d.contributions))
-  					.attr("width", width / this.data.length - 1)
-  					.attr("height", d => height - y(d.contributions));
-
   			if (this.axis) {
-  				g.append("g")
-  					.attr("transform", "translate(0," + height + ")")
-  					.call(axisBottom(x)
-  						.tickFormat(s => s.charAt(0).toUpperCase()));
+  				axis = g.append("g")
+  					.attr("transform", "translate(0," + height + ")");
+  			}
+  		};
+
+  		this.$onChanges = () => {
+  			y.domain([0, max(this.data, d => d[this.y])]);
+
+  			let bar = g.selectAll(".bar")
+  				.data(this.data);
+
+  			bar.exit().remove();
+
+  			bar.enter().append("rect")
+  				.attr("class", "bar")
+  				.attr("x", d => x(d.weekday))
+  				.attr("width", width / this.data.length - 1)
+  				.attr('y', d => y(d[this.y]))
+  				.attr("height", d => height - y(d[this.y]));
+
+  			bar.transition()
+  				.duration(500)
+  				.attr('y', d => y(d[this.y]))
+  				.attr("height", d => height - y(d[this.y]));
+
+  			if (axis) {
+  				axis.call(axisBottom(x)
+  					.tickFormat(s => s.charAt(0).toUpperCase()));
   			}
   		};
   	}
@@ -57363,7 +57336,7 @@
   angular.module('app').run(['$templateCache', function ($templateCache) {
   $templateCache.put('/templates/about.html', '<h2>About</h2>\n\n<p></p>');
   $templateCache.put('/templates/project.html', '<div class=\"breadcrumb\">\n	<a ui-sref=\"projects\">Projects</a> &gt;\n	<a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a>\n</div>\n<h2>Project: {{ project.name }}</h2>\n\n<a ng-href=\"project.url\">Website</a>\n\n<div ng-if=\"project.subprojects.length > 0\">\n	Child projects:\n	<ul>\n		<li ng-repeat=\"child in project.subprojects\">\n			<a ui-sref=\"project({ id: child.id })\">{{ child.name }}</a>\n		</li>\n	</ul>\n</div>\n\n<div ng-if=\"project.partOf\">\n	Part of <a ui-sref=\"project({ id: project.partOf.id })\">{{ project.partOf.name }}</a>\n</div>\n\n<div ng-if=\"project.tasks.complete\">\n	{{ project.tasks.complete | number }}\n	tasks out of\n	{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n	({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n</div>\n\n<div>\n	{{ project.months.length | number }}\n	months of data\n	({{ project.rows | number }} rows)\n</div>\n\n<div ng-if=\"project.contributions\">\n	{{ project.contributions | number }} contributions\n</div>\n\n<div ng-if=\"project.users\">\n	{{ project.users.ids + project.users.ips | number }}\n	Users\n</div>\n\n<div ng-if=\"project.countries\">\n	<ul>\n		<li ng-repeat=\"country in project.countries\">\n			<span ng-class=\"\'flag-icon flag-icon-\' + country.code.toLowerCase()\"></span>\n			{{ country.name || \'Unknown\' }}: {{ country.count }}\n		</li>\n	</ul>\n</div>\n\n<h3>{{ month.month }}</h3>\n\n<div ng-if=\"project.users\">\n	{{ month.users.ids + month.users.ips | number }} users ({{ month.newUsers.ids + month.newUsers.ips | number }} of whom were new)\n</div>\n\n<div ng-if=\"month.contributions\">\n	{{ month.contributions | number }} contributions\n</div>\n\n<div ng-if=\"month.tasks\">\n	{{ month.tasks | number }} tasks\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>Tasks over time</h3>\n	<histogram left=\"tasksOverTime\" left-name=\"\'Tasks\'\"></histogram>\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>Users over time</h3>\n	<histogram left=\"usersOverTime\" left-name=\"\'Users\'\" right=\"rowsOverTime\" right-label=\"\'Contributions\'\"></histogram>\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>New users over time</h3>\n	<histogram left=\"newUsersOverTime\"></histogram>\n</div>\n\n<div ng-if=\"project.contributions\">\n	<h3>Contributions over time</h3>\n	<histogram left=\"contributionsOverTime\"></histogram>\n</div>\n\n<div>\n	<h3>Rows over time</h3>\n	<histogram left=\"rowsOverTime\"></histogram>\n</div>');
-  $templateCache.put('/templates/projects.html', '<h2>Project Contributions</h2>\n\n<p>Number of contributions throughout the day (left) and over time (right). \n\n<div ng-repeat=\"(i, project) in projects\" class=\"project\">\n\n	<div class=\"name\">\n		{{ project.name }}\n		{{ project.parent.id }}\n	</div>\n\n	<div class=\"weekdays\">\n		<weekdaygraph data=\"project.weekdays\" axis=\"i === projects.length - 1\"></weekdaygraph>\n	</div>\n\n	<div class=\"days\">\n		<daygraph data=\"project.days\" axis=\"i === projects.length - 1\"></daygraph>\n	</div>\n\n</div>\n\n<div ng-repeat=\"project in projects\">\n	<h3><a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a></h3>\n\n	<div ng-show=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div>\n\n	<div>\n		{{ project.months.length | number }}\n		months of data\n		({{ project.rows | number }} rows)\n	</div>\n\n	<div>\n		{{ project.users.ids + project.users.ips | number }}\n		Users\n	</div>\n\n	<a ui-sref=\"project({ id: project.id })\">See more...</a>\n</div>');
+  $templateCache.put('/templates/projects.html', '<h2>Project Contributions</h2>\n\n<p>Number of contributions throughout the day (left) and over time (right). </p>\n\n<div class=\"options\">\n	<a ng-click=\"y = \'contributions\'\" ng-class=\"{ active: y === \'contributions\' }\">Contributions</a>\n	<a ng-click=\"y = \'users\'\" ng-class=\"{ active: y === \'users\' }\">Contributors</a>\n	<a ng-click=\"y = \'starters\'\" ng-class=\"{ active: y === \'starters\' }\">New Contributors</a>\n</div>\n\n<div ng-repeat=\"(i, project) in projects\" class=\"project\">\n\n	<div class=\"name\">\n		{{ project.name }}\n		{{ project.parent.id }}\n	</div>\n\n	<weekdaygraph class=\"weekdays\" data=\"project.weekdays\" axis=\"i === projects.length - 1\" y=\"y\"></weekdaygraph>\n\n	<daygraph class=\"days\" data=\"project.days\" axis=\"i === projects.length - 1\" y=\"y\"></daygraph>\n\n</div>\n\n<div ng-repeat=\"project in projects\">\n	<h3><a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a></h3>\n\n	<div ng-show=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div>\n\n	<div>\n		{{ project.months.length | number }}\n		months of data\n		({{ project.rows | number }} rows)\n	</div>\n\n	<div>\n		{{ project.users.ids + project.users.ips | number }}\n		Users\n	</div>\n\n	<a ui-sref=\"project({ id: project.id })\">See more...</a>\n</div>');
   }]);
 
   window.projects = []; // set up global array for project data
