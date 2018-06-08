@@ -2,40 +2,7 @@
 <head>
 <title>Stars4All Dashboard</title>
 <style>
-body {
-	font-family: sans-serif;
-	color: #222;
-	line-height: 1.3em;
-	margin: 0;
-}
-h1 {
-	font-weight: 100;
-}
-ui-view {
-	display: block;
-	padding: 40px;
-}
-header {
-	background: #1E8BC3;
-	padding: 20px 40px;
-}
-header > * {
-	display: inline-block;
-	vertical-align: middle;
-	padding-right: 24px;
-	color: white;
-}
-svg rect {
-	fill: #1E8BC3;
-	stroke: none;
-}
-svg .x.axis .tick line {
-	stroke: none;
-}
-svg .x.axis .tick text {
-	transform: rotateZ(90deg) translateX(6px) translateY(-13px);
-	text-anchor: start;
-}
+@CSS
 </style>
 </head>
 <body>
@@ -45,7 +12,7 @@ svg .x.axis .tick text {
 		<a ui-sref="about">About</a>
 	</header>
 	<ui-view></ui-view>
-	<script src="bundle.js"></script>
-	<!-- @DATA -->
+	@JS
+	@DATA
 </body>
 </html>

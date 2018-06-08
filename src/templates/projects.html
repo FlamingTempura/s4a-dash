@@ -1,6 +1,22 @@
 <h2>Projects</h2>
 
 <div ng-repeat="project in projects">
+
+	<div class="name">
+		{{ project.name }}
+	</div>
+
+	<div class="weekdays">
+		<hist data="project.weekdays"></hist>
+	</div>
+
+	<div class="alltime">
+		<hist data="project.alltime"></hist>
+	</div>
+
+</div>
+
+<div ng-repeat="project in projects">
 	<h3><a ui-sref="project({ id: project.id })">{{ project.name }}</a></h3>
 
 	<div ng-show="project.tasks.complete">

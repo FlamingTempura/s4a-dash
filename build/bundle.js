@@ -55051,6 +55051,1446 @@
       MONTH: 'YYYY-MM'                                // <input type="month" />
   };
 
+  var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+
+  function createCommonjsModule(fn, module) {
+  	return module = { exports: {} }, fn(module, module.exports), module.exports;
+  }
+
+  /**
+       * Safer Object.hasOwnProperty
+       */
+       function hasOwn$1(obj, prop){
+           return Object.prototype.hasOwnProperty.call(obj, prop);
+       }
+
+       var hasOwn_1 = hasOwn$1;
+
+  var _hasDontEnumBug,
+          _dontEnums;
+
+      function checkDontEnum(){
+          _dontEnums = [
+                  'toString',
+                  'toLocaleString',
+                  'valueOf',
+                  'hasOwnProperty',
+                  'isPrototypeOf',
+                  'propertyIsEnumerable',
+                  'constructor'
+              ];
+
+          _hasDontEnumBug = true;
+
+          for (var key in {'toString': null}) {
+              _hasDontEnumBug = false;
+          }
+      }
+
+      /**
+       * Similar to Array/forEach but works over object properties and fixes Don't
+       * Enum bug on IE.
+       * based on: http://whattheheadsaid.com/2010/10/a-safer-object-keys-compatibility-implementation
+       */
+      function forIn(obj, fn, thisObj){
+          var key, i = 0;
+          // no need to check if argument is a real object that way we can use
+          // it for arrays, functions, date, etc.
+
+          //post-pone check till needed
+          if (_hasDontEnumBug == null) checkDontEnum();
+
+          for (key in obj) {
+              if (exec(fn, obj, key, thisObj) === false) {
+                  break;
+              }
+          }
+
+
+          if (_hasDontEnumBug) {
+              var ctor = obj.constructor,
+                  isProto = !!ctor && obj === ctor.prototype;
+
+              while (key = _dontEnums[i++]) {
+                  // For constructor, if it is a prototype object the constructor
+                  // is always non-enumerable unless defined otherwise (and
+                  // enumerated above).  For non-prototype objects, it will have
+                  // to be defined on this object, since it cannot be defined on
+                  // any prototype objects.
+                  //
+                  // For other [[DontEnum]] properties, check if the value is
+                  // different than Object prototype value.
+                  if (
+                      (key !== 'constructor' ||
+                          (!isProto && hasOwn_1(obj, key))) &&
+                      obj[key] !== Object.prototype[key]
+                  ) {
+                      if (exec(fn, obj, key, thisObj) === false) {
+                          break;
+                      }
+                  }
+              }
+          }
+      }
+
+      function exec(fn, obj, key, thisObj){
+          return fn.call(thisObj, obj[key], key, obj);
+      }
+
+      var forIn_1 = forIn;
+
+  /**
+       * return a list of all enumerable properties that have function values
+       */
+      function functions(obj){
+          var keys = [];
+          forIn_1(obj, function(val, key){
+              if (typeof val === 'function'){
+                  keys.push(key);
+              }
+          });
+          return keys.sort();
+      }
+
+      var functions_1 = functions;
+
+  /**
+       * Create slice of source array or array-like object
+       */
+      function slice$7(arr, start, end){
+          var len = arr.length;
+
+          if (start == null) {
+              start = 0;
+          } else if (start < 0) {
+              start = Math.max(len + start, 0);
+          } else {
+              start = Math.min(start, len);
+          }
+
+          if (end == null) {
+              end = len;
+          } else if (end < 0) {
+              end = Math.max(len + end, 0);
+          } else {
+              end = Math.min(end, len);
+          }
+
+          var result = [];
+          while (start < end) {
+              result.push(arr[start++]);
+          }
+
+          return result;
+      }
+
+      var slice_1 = slice$7;
+
+  /**
+       * Return a function that will execute in the given context, optionally adding any additional supplied parameters to the beginning of the arguments collection.
+       * @param {Function} fn  Function.
+       * @param {object} context   Execution context.
+       * @param {rest} args    Arguments (0...n arguments).
+       * @return {Function} Wrapped Function.
+       */
+      function bind(fn, context, args){
+          var argsArr = slice_1(arguments, 2); //curried args
+          return function(){
+              return fn.apply(context, argsArr.concat(slice_1(arguments)));
+          };
+      }
+
+      var bind_1 = bind;
+
+  /**
+       * Array forEach
+       */
+      function forEach$1(arr, callback, thisObj) {
+          if (arr == null) {
+              return;
+          }
+          var i = -1,
+              len = arr.length;
+          while (++i < len) {
+              // we iterate over sparse items since there is no way to make it
+              // work properly on IE 7-8. see #64
+              if ( callback.call(thisObj, arr[i], i, arr) === false ) {
+                  break;
+              }
+          }
+      }
+
+      var forEach_1 = forEach$1;
+
+  /**
+       * Binds methods of the object to be run in it's own context.
+       */
+      function bindAll(obj, rest_methodNames){
+          var keys = arguments.length > 1?
+                      slice_1(arguments, 1) : functions_1(obj);
+          forEach_1(keys, function(key){
+              obj[key] = bind_1(obj[key], obj);
+          });
+      }
+
+      var bindAll_1 = bindAll;
+
+  /**
+       * Similar to Array/forEach but works over object properties and fixes Don't
+       * Enum bug on IE.
+       * based on: http://whattheheadsaid.com/2010/10/a-safer-object-keys-compatibility-implementation
+       */
+      function forOwn(obj, fn, thisObj){
+          forIn_1(obj, function(val, key){
+              if (hasOwn_1(obj, key)) {
+                  return fn.call(thisObj, obj[key], key, obj);
+              }
+          });
+      }
+
+      var forOwn_1 = forOwn;
+
+  /**
+       * Returns the first argument provided to it.
+       */
+      function identity$a(val){
+          return val;
+      }
+
+      var identity_1 = identity$a;
+
+  /**
+       * Returns a function that gets a property of the passed object
+       */
+      function prop$1(name){
+          return function(obj){
+              return obj[name];
+          };
+      }
+
+      var prop_1 = prop$1;
+
+  var _rKind = /^\[object (.*)\]$/,
+          _toString = Object.prototype.toString,
+          UNDEF;
+
+      /**
+       * Gets the "kind" of value. (e.g. "String", "Number", etc)
+       */
+      function kindOf(val) {
+          if (val === null) {
+              return 'Null';
+          } else if (val === UNDEF) {
+              return 'Undefined';
+          } else {
+              return _rKind.exec( _toString.call(val) )[1];
+          }
+      }
+      var kindOf_1 = kindOf;
+
+  /**
+       * Check if value is from a specific "kind".
+       */
+      function isKind(val, kind){
+          return kindOf_1(val) === kind;
+      }
+      var isKind_1 = isKind;
+
+  /**
+       */
+      var isArray$2 = Array.isArray || function (val) {
+          return isKind_1(val, 'Array');
+      };
+      var isArray_1 = isArray$2;
+
+  function containsMatch(array, pattern) {
+          var i = -1, length = array.length;
+          while (++i < length) {
+              if (deepMatches(array[i], pattern)) {
+                  return true;
+              }
+          }
+
+          return false;
+      }
+
+      function matchArray(target, pattern) {
+          var i = -1, patternLength = pattern.length;
+          while (++i < patternLength) {
+              if (!containsMatch(target, pattern[i])) {
+                  return false;
+              }
+          }
+
+          return true;
+      }
+
+      function matchObject(target, pattern) {
+          var result = true;
+          forOwn_1(pattern, function(val, key) {
+              if (!deepMatches(target[key], val)) {
+                  // Return false to break out of forOwn early
+                  return (result = false);
+              }
+          });
+
+          return result;
+      }
+
+      /**
+       * Recursively check if the objects match.
+       */
+      function deepMatches(target, pattern){
+          if (target && typeof target === 'object') {
+              if (isArray_1(target) && isArray_1(pattern)) {
+                  return matchArray(target, pattern);
+              } else {
+                  return matchObject(target, pattern);
+              }
+          } else {
+              return target === pattern;
+          }
+      }
+
+      var deepMatches_1 = deepMatches;
+
+  /**
+       * Converts argument into a valid iterator.
+       * Used internally on most array/object/collection methods that receives a
+       * callback/iterator providing a shortcut syntax.
+       */
+      function makeIterator(src, thisObj){
+          if (src == null) {
+              return identity_1;
+          }
+          switch(typeof src) {
+              case 'function':
+                  // function is the first to improve perf (most common case)
+                  // also avoid using `Function#call` if not needed, which boosts
+                  // perf a lot in some cases
+                  return (typeof thisObj !== 'undefined')? function(val, i, arr){
+                      return src.call(thisObj, val, i, arr);
+                  } : src;
+              case 'object':
+                  return function(val){
+                      return deepMatches_1(val, src);
+                  };
+              case 'string':
+              case 'number':
+                  return prop_1(src);
+          }
+      }
+
+      var makeIterator_ = makeIterator;
+
+  /**
+       * Object some
+       */
+      function some$1(obj, callback, thisObj) {
+          callback = makeIterator_(callback, thisObj);
+          var result = false;
+          forOwn_1(obj, function(val, key) {
+              if (callback(val, key, obj)) {
+                  result = true;
+                  return false; // break
+              }
+          });
+          return result;
+      }
+
+      var some_1 = some$1;
+
+  /**
+       * Check if object contains value
+       */
+      function contains$3(obj, needle) {
+          return some_1(obj, function(val) {
+              return (val === needle);
+          });
+      }
+      var contains_1 = contains$3;
+
+  /**
+       * Checks if the value is created by the `Object` constructor.
+       */
+      function isPlainObject(value) {
+          return (!!value && typeof value === 'object' &&
+              value.constructor === Object);
+      }
+
+      var isPlainObject_1 = isPlainObject;
+
+  /**
+       * Deeply copy missing properties in the target from the defaults.
+       */
+      function deepFillIn(target, defaults){
+          var i = 0,
+              n = arguments.length,
+              obj;
+
+          while(++i < n) {
+              obj = arguments[i];
+              if (obj) {
+                  // jshint loopfunc: true
+                  forOwn_1(obj, function(newValue, key) {
+                      var curValue = target[key];
+                      if (curValue == null) {
+                          target[key] = newValue;
+                      } else if (isPlainObject_1(curValue) &&
+                                 isPlainObject_1(newValue)) {
+                          deepFillIn(curValue, newValue);
+                      }
+                  });
+              }
+          }
+
+          return target;
+      }
+
+      var deepFillIn_1 = deepFillIn;
+
+  /**
+       * Mixes objects into the target object, recursively mixing existing child
+       * objects.
+       */
+      function deepMixIn(target, objects) {
+          var i = 0,
+              n = arguments.length,
+              obj;
+
+          while(++i < n){
+              obj = arguments[i];
+              if (obj) {
+                  forOwn_1(obj, copyProp, target);
+              }
+          }
+
+          return target;
+      }
+
+      function copyProp(val, key) {
+          var existing = this[key];
+          if (isPlainObject_1(val) && isPlainObject_1(existing)) {
+              deepMixIn(existing, val);
+          } else {
+              this[key] = val;
+          }
+      }
+
+      var deepMixIn_1 = deepMixIn;
+
+  /**
+       * Object every
+       */
+      function every(obj, callback, thisObj) {
+          callback = makeIterator_(callback, thisObj);
+          var result = true;
+          forOwn_1(obj, function(val, key) {
+              // we consider any falsy values as "false" on purpose so shorthand
+              // syntax can be used to check property existence
+              if (!callback(val, key, obj)) {
+                  result = false;
+                  return false; // break
+              }
+          });
+          return result;
+      }
+
+      var every_1 = every;
+
+  /**
+       */
+      function isObject$2(val) {
+          return isKind_1(val, 'Object');
+      }
+      var isObject_1 = isObject$2;
+
+  /**
+       * Check if both arguments are egal.
+       */
+      function is$1(x, y){
+          // implementation borrowed from harmony:egal spec
+          if (x === y) {
+            // 0 === -0, but they are not identical
+            return x !== 0 || 1 / x === 1 / y;
+          }
+
+          // NaN !== NaN, but they are identical.
+          // NaNs are the only non-reflexive value, i.e., if x !== x,
+          // then x is a NaN.
+          // isNaN is broken: it converts its argument to number, so
+          // isNaN("foo") => true
+          return x !== x && y !== y;
+      }
+
+      var is_1 = is$1;
+
+  // Makes a function to compare the object values from the specified compare
+      // operation callback.
+      function makeCompare(callback) {
+          return function(value, key) {
+              return hasOwn_1(this, key) && callback(value, this[key]);
+          };
+      }
+
+      function checkProperties(value, key) {
+          return hasOwn_1(this, key);
+      }
+
+      /**
+       * Checks if two objects have the same keys and values.
+       */
+      function equals$1(a, b, callback) {
+          callback = callback || is_1;
+
+          if (!isObject_1(a) || !isObject_1(b)) {
+              return callback(a, b);
+          }
+
+          return (every_1(a, makeCompare(callback), b) &&
+                  every_1(b, checkProperties, a));
+      }
+
+      var equals_1 = equals$1;
+
+  /**
+       * Copy missing properties in the obj from the defaults.
+       */
+      function fillIn(obj, var_defaults){
+          forEach_1(slice_1(arguments, 1), function(base){
+              forOwn_1(base, function(val, key){
+                  if (obj[key] == null) {
+                      obj[key] = val;
+                  }
+              });
+          });
+          return obj;
+      }
+
+      var fillIn_1 = fillIn;
+
+  /**
+       * Creates a new object with all the properties where the callback returns
+       * true.
+       */
+      function filterValues(obj, callback, thisObj) {
+          callback = makeIterator_(callback, thisObj);
+          var output = {};
+          forOwn_1(obj, function(value, key, obj) {
+              if (callback(value, key, obj)) {
+                  output[key] = value;
+              }
+          });
+
+          return output;
+      }
+      var filter$1 = filterValues;
+
+  /**
+       * Returns first item that matches criteria
+       */
+      function find$2(obj, callback, thisObj) {
+          callback = makeIterator_(callback, thisObj);
+          var result;
+          some_1(obj, function(value, key, obj) {
+              if (callback(value, key, obj)) {
+                  result = value;
+                  return true; //break
+              }
+          });
+          return result;
+      }
+
+      var find_1 = find$2;
+
+  /*
+       * Helper function to flatten to a destination object.
+       * Used to remove the need to create intermediate objects while flattening.
+       */
+      function flattenTo(obj, result, prefix, level) {
+          forOwn_1(obj, function (value, key) {
+              var nestedPrefix = prefix ? prefix + '.' + key : key;
+
+              if (level !== 0 && isPlainObject_1(value)) {
+                  flattenTo(value, result, nestedPrefix, level - 1);
+              } else {
+                  result[nestedPrefix] = value;
+              }
+          });
+
+          return result;
+      }
+
+      /**
+       * Recursively flattens an object.
+       * A new object containing all the elements is returned.
+       * If level is specified, it will only flatten up to that level.
+       */
+      function flatten$1(obj, level) {
+          if (obj == null) {
+              return {};
+          }
+
+          level = level == null ? -1 : level;
+          return flattenTo(obj, {}, '', level);
+      }
+
+      var flatten_1 = flatten$1;
+
+  /**
+       * Checks if the object is a primitive
+       */
+
+  /**
+       * get "nested" object property
+       */
+      function get$5(obj, prop){
+          var parts = prop.split('.'),
+              last = parts.pop();
+
+          while (prop = parts.shift()) {
+              obj = obj[prop];
+              if (obj == null) return;
+          }
+
+          return obj[last];
+      }
+
+      var get_1 = get$5;
+
+  var UNDEF$1;
+
+      /**
+       * Check if object has nested property.
+       */
+      function has(obj, prop){
+          return get_1(obj, prop) !== UNDEF$1;
+      }
+
+      var has_1 = has;
+
+  /**
+       * Get object keys
+       */
+       var keys$2 = Object.keys || function (obj) {
+              var keys = [];
+              forOwn_1(obj, function(val, key){
+                  keys.push(key);
+              });
+              return keys;
+          };
+
+      var keys_1 = keys$2;
+
+  /**
+       * Creates a new object where all the values are the result of calling
+       * `callback`.
+       */
+      function mapValues(obj, callback, thisObj) {
+          callback = makeIterator_(callback, thisObj);
+          var output = {};
+          forOwn_1(obj, function(val, key, obj) {
+              output[key] = callback(val, key, obj);
+          });
+
+          return output;
+      }
+      var map$5 = mapValues;
+
+  /**
+       * checks if a object contains all given properties/values
+       */
+      function matches(target, props){
+          // can't use "object/every" because of circular dependency
+          var result = true;
+          forOwn_1(props, function(val, key){
+              if (target[key] !== val) {
+                  // break loop at first difference
+                  return (result = false);
+              }
+          });
+          return result;
+      }
+
+      var matches_1 = matches;
+
+  /**
+       * Return maximum value inside array
+       */
+      function max$4(arr, iterator, thisObj){
+          if (arr == null || !arr.length) {
+              return Infinity;
+          } else if (arr.length && !iterator) {
+              return Math.max.apply(Math, arr);
+          } else {
+              iterator = makeIterator_(iterator, thisObj);
+              var result,
+                  compare = -Infinity,
+                  value,
+                  temp;
+
+              var i = -1, len = arr.length;
+              while (++i < len) {
+                  value = arr[i];
+                  temp = iterator(value, i, arr);
+                  if (temp > compare) {
+                      compare = temp;
+                      result = value;
+                  }
+              }
+
+              return result;
+          }
+      }
+
+      var max_1 = max$4;
+
+  /**
+       * Get object values
+       */
+      function values$2(obj) {
+          var vals = [];
+          forOwn_1(obj, function(val, key){
+              vals.push(val);
+          });
+          return vals;
+      }
+
+      var values_1 = values$2;
+
+  /**
+       * Returns maximum value inside object.
+       */
+      function max$5(obj, compareFn) {
+          return max_1(values_1(obj), compareFn);
+      }
+
+      var max_1$1 = max$5;
+
+  /**
+      * Combine properties from all the objects into first one.
+      * - This method affects target object in place, if you want to create a new Object pass an empty object as first param.
+      * @param {object} target    Target Object
+      * @param {...object} objects    Objects to be combined (0...n objects).
+      * @return {object} Target Object.
+      */
+      function mixIn(target, objects){
+          var i = 0,
+              n = arguments.length,
+              obj;
+          while(++i < n){
+              obj = arguments[i];
+              if (obj != null) {
+                  forOwn_1(obj, copyProp$1, target);
+              }
+          }
+          return target;
+      }
+
+      function copyProp$1(val, key){
+          this[key] = val;
+      }
+
+      var mixIn_1 = mixIn;
+
+  /**
+       * Clone native types.
+       */
+      function clone$2(val){
+          switch (kindOf_1(val)) {
+              case 'Object':
+                  return cloneObject(val);
+              case 'Array':
+                  return cloneArray(val);
+              case 'RegExp':
+                  return cloneRegExp(val);
+              case 'Date':
+                  return cloneDate(val);
+              default:
+                  return val;
+          }
+      }
+
+      function cloneObject(source) {
+          if (isPlainObject_1(source)) {
+              return mixIn_1({}, source);
+          } else {
+              return source;
+          }
+      }
+
+      function cloneRegExp(r) {
+          var flags = '';
+          flags += r.multiline ? 'm' : '';
+          flags += r.global ? 'g' : '';
+          flags += r.ignoreCase ? 'i' : '';
+          return new RegExp(r.source, flags);
+      }
+
+      function cloneDate(date) {
+          return new Date(+date);
+      }
+
+      function cloneArray(arr) {
+          return arr.slice();
+      }
+
+      var clone_1 = clone$2;
+
+  /**
+       * Recursively clone native types.
+       */
+      function deepClone(val, instanceClone) {
+          switch ( kindOf_1(val) ) {
+              case 'Object':
+                  return cloneObject$1(val, instanceClone);
+              case 'Array':
+                  return cloneArray$1(val, instanceClone);
+              default:
+                  return clone_1(val);
+          }
+      }
+
+      function cloneObject$1(source, instanceClone) {
+          if (isPlainObject_1(source)) {
+              var out = {};
+              forOwn_1(source, function(val, key) {
+                  this[key] = deepClone(val, instanceClone);
+              }, out);
+              return out;
+          } else if (instanceClone) {
+              return instanceClone(source);
+          } else {
+              return source;
+          }
+      }
+
+      function cloneArray$1(arr, instanceClone) {
+          var out = [],
+              i = -1,
+              n = arr.length;
+          while (++i < n) {
+              out[i] = deepClone(arr[i], instanceClone);
+          }
+          return out;
+      }
+
+      var deepClone_1 = deepClone;
+
+  /**
+       * Deep merge objects.
+       */
+      function merge$1() {
+          var i = 1,
+              key, val, obj, target;
+
+          // make sure we don't modify source element and it's properties
+          // objects are passed by reference
+          target = deepClone_1( arguments[0] );
+
+          while (obj = arguments[i++]) {
+              for (key in obj) {
+                  if ( ! hasOwn_1(obj, key) ) {
+                      continue;
+                  }
+
+                  val = obj[key];
+
+                  if ( isObject_1(val) && isObject_1(target[key]) ){
+                      // inception, deep merge objects
+                      target[key] = merge$1(target[key], val);
+                  } else {
+                      // make sure arrays, regexp, date, objects are cloned
+                      target[key] = deepClone_1(val);
+                  }
+
+              }
+          }
+
+          return target;
+      }
+
+      var merge_1 = merge$1;
+
+  /**
+       * Return minimum value inside array
+       */
+      function min$3(arr, iterator, thisObj){
+          if (arr == null || !arr.length) {
+              return -Infinity;
+          } else if (arr.length && !iterator) {
+              return Math.min.apply(Math, arr);
+          } else {
+              iterator = makeIterator_(iterator, thisObj);
+              var result,
+                  compare = Infinity,
+                  value,
+                  temp;
+
+              var i = -1, len = arr.length;
+              while (++i < len) {
+                  value = arr[i];
+                  temp = iterator(value, i, arr);
+                  if (temp < compare) {
+                      compare = temp;
+                      result = value;
+                  }
+              }
+
+              return result;
+          }
+      }
+
+      var min_1 = min$3;
+
+  /**
+       * Returns minimum value inside object.
+       */
+      function min$4(obj, iterator) {
+          return min_1(values_1(obj), iterator);
+      }
+
+      var min_1$1 = min$4;
+
+  /**
+       * Create nested object if non-existent
+       */
+      function namespace$1(obj, path){
+          if (!path) return obj;
+          forEach_1(path.split('.'), function(key){
+              if (!obj[key]) {
+                  obj[key] = {};
+              }
+              obj = obj[key];
+          });
+          return obj;
+      }
+
+      var namespace_1 = namespace$1;
+
+  /**
+       * Array.indexOf
+       */
+      function indexOf$1(arr, item, fromIndex) {
+          fromIndex = fromIndex || 0;
+          if (arr == null) {
+              return -1;
+          }
+
+          var len = arr.length,
+              i = fromIndex < 0 ? len + fromIndex : fromIndex;
+          while (i < len) {
+              // we iterate over sparse items since there is no way to make it
+              // work properly on IE 7-8. see #64
+              if (arr[i] === item) {
+                  return i;
+              }
+
+              i++;
+          }
+
+          return -1;
+      }
+
+      var indexOf_1 = indexOf$1;
+
+  /**
+       * If array contains values.
+       */
+      function contains$4(arr, val) {
+          return indexOf_1(arr, val) !== -1;
+      }
+      var contains_1$1 = contains$4;
+
+  /**
+       * Return a copy of the object, filtered to only contain properties except the blacklisted keys.
+       */
+      function omit$1(obj, var_keys){
+          var keys = typeof arguments[1] !== 'string'? arguments[1] : slice_1(arguments, 1),
+              out = {};
+
+          for (var property in obj) {
+              if (obj.hasOwnProperty(property) && !contains_1$1(keys, property)) {
+                  out[property] = obj[property];
+              }
+          }
+          return out;
+      }
+
+      var omit_1 = omit$1;
+
+  /**
+       * Return a copy of the object, filtered to only have values for the whitelisted keys.
+       */
+      function pick$1(obj, var_keys){
+          var keys = typeof arguments[1] !== 'string'? arguments[1] : slice_1(arguments, 1),
+              out = {},
+              i = 0, key;
+          while (key = keys[i++]) {
+              out[key] = obj[key];
+          }
+          return out;
+      }
+
+      var pick_1 = pick$1;
+
+  /**
+       * Extract a list of property values.
+       */
+      function pluck$1(obj, propName){
+          return map$5(obj, prop_1(propName));
+      }
+
+      var pluck_1 = pluck$1;
+
+  /**
+       * Get object size
+       */
+      function size(obj) {
+          var count = 0;
+          forOwn_1(obj, function(){
+              count++;
+          });
+          return count;
+      }
+
+      var size_1 = size;
+
+  /**
+       * Object reduce
+       */
+      function reduce(obj, callback, memo, thisObj) {
+          var initial = arguments.length > 2;
+
+          if (!size_1(obj) && !initial) {
+              throw new Error('reduce of empty object with no initial value');
+          }
+
+          forOwn_1(obj, function(value, key, list) {
+              if (!initial) {
+                  memo = value;
+                  initial = true;
+              }
+              else {
+                  memo = callback.call(thisObj, memo, value, key, list);
+              }
+          });
+
+          return memo;
+      }
+
+      var reduce_1 = reduce;
+
+  /**
+       * Object reject
+       */
+      function reject(obj, callback, thisObj) {
+          callback = makeIterator_(callback, thisObj);
+          return filter$1(obj, function(value, index, obj) {
+              return !callback(value, index, obj);
+          }, thisObj);
+      }
+
+      var reject_1 = reject;
+
+  /**
+       */
+      function isFunction$2(val) {
+          return isKind_1(val, 'Function');
+      }
+      var isFunction_1 = isFunction$2;
+
+  function result(obj, prop) {
+          var property = obj[prop];
+
+          if(property === undefined) {
+              return;
+          }
+
+          return isFunction_1(property) ? property.call(obj) : property;
+      }
+
+      var result_1 = result;
+
+  /**
+       * set "nested" object property
+       */
+      function set$5(obj, prop, val){
+          var parts = (/^(.+)\.(.+)$/).exec(prop);
+          if (parts){
+              namespace_1(obj, parts[1])[parts[2]] = val;
+          } else {
+              obj[prop] = val;
+          }
+      }
+
+      var set_1 = set$5;
+
+  /**
+       * Unset object property.
+       */
+      function unset(obj, prop){
+          if (has_1(obj, prop)) {
+              var parts = prop.split('.'),
+                  last = parts.pop();
+              while (prop = parts.shift()) {
+                  obj = obj[prop];
+              }
+              return (delete obj[last]);
+
+          } else {
+              // if property doesn't exist treat as deleted
+              return true;
+          }
+      }
+
+      var unset_1 = unset;
+
+  //automatically generated, do not edit!
+  //run `node build` instead
+  var object$2 = {
+      'bindAll' : bindAll_1,
+      'contains' : contains_1,
+      'deepFillIn' : deepFillIn_1,
+      'deepMatches' : deepMatches_1,
+      'deepMixIn' : deepMixIn_1,
+      'equals' : equals_1,
+      'every' : every_1,
+      'fillIn' : fillIn_1,
+      'filter' : filter$1,
+      'find' : find_1,
+      'flatten' : flatten_1,
+      'forIn' : forIn_1,
+      'forOwn' : forOwn_1,
+      'functions' : functions_1,
+      'get' : get_1,
+      'has' : has_1,
+      'hasOwn' : hasOwn_1,
+      'keys' : keys_1,
+      'map' : map$5,
+      'matches' : matches_1,
+      'max' : max_1$1,
+      'merge' : merge_1,
+      'min' : min_1$1,
+      'mixIn' : mixIn_1,
+      'namespace' : namespace_1,
+      'omit' : omit_1,
+      'pick' : pick_1,
+      'pluck' : pluck_1,
+      'reduce' : reduce_1,
+      'reject' : reject_1,
+      'result' : result_1,
+      'set' : set_1,
+      'size' : size_1,
+      'some' : some_1,
+      'unset' : unset_1,
+      'values' : values_1
+  };
+
+  var iso31661Alpha2 = createCommonjsModule(function (module) {
+  (function() {
+      var Iso31661a2, mout, singleton;
+
+      mout = object$2;
+
+      Iso31661a2 = (function() {
+          function Iso31661a2() {}
+
+          Iso31661a2.prototype.getCountry = function(code) {
+              return Iso31661a2.prototype.countries[code];
+          };
+
+          Iso31661a2.prototype.getCode = function(country) {
+              var idx, ret;
+              ret = null;
+              if (country != null) {
+                  idx = mout.values(Iso31661a2.prototype.countries).indexOf(country);
+                  if (idx !== -1) {
+                      ret = Object.keys(Iso31661a2.prototype.countries)[idx];
+                  }
+              }
+              return ret;
+          };
+
+          Iso31661a2.prototype.getCountries = function() {
+              return mout.values(Iso31661a2.prototype.countries);
+          };
+
+          Iso31661a2.prototype.getCodes = function() {
+              return Object.keys(Iso31661a2.prototype.countries);
+          };
+
+          Iso31661a2.prototype.getData = function() {
+              return Iso31661a2.prototype.countries;
+          };
+
+          Iso31661a2.prototype.countries = {
+              AF: "Afghanistan",
+              AX: "Åland Islands",
+              AL: "Albania",
+              DZ: "Algeria",
+              AS: "American Samoa",
+              AD: "Andorra",
+              AO: "Angola",
+              AI: "Anguilla",
+              AQ: "Antarctica",
+              AG: "Antigua and Barbuda",
+              AR: "Argentina",
+              AM: "Armenia",
+              AW: "Aruba",
+              AU: "Australia",
+              AT: "Austria",
+              AZ: "Azerbaijan",
+              BS: "Bahamas",
+              BH: "Bahrain",
+              BD: "Bangladesh",
+              BB: "Barbados",
+              BY: "Belarus",
+              BE: "Belgium",
+              BZ: "Belize",
+              BJ: "Benin",
+              BM: "Bermuda",
+              BT: "Bhutan",
+              BO: "Bolivia, Plurinational State of",
+              BQ: "Bonaire, Sint Eustatius and Saba",
+              BA: "Bosnia and Herzegovina",
+              BW: "Botswana",
+              BV: "Bouvet Island",
+              BR: "Brazil",
+              IO: "British Indian Ocean Territory",
+              BN: "Brunei Darussalam",
+              BG: "Bulgaria",
+              BF: "Burkina Faso",
+              BI: "Burundi",
+              KH: "Cambodia",
+              CM: "Cameroon",
+              CA: "Canada",
+              CV: "Cape Verde",
+              KY: "Cayman Islands",
+              CF: "Central African Republic",
+              TD: "Chad",
+              CL: "Chile",
+              CN: "China",
+              CX: "Christmas Island",
+              CC: "Cocos (Keeling) Islands",
+              CO: "Colombia",
+              KM: "Comoros",
+              CG: "Congo",
+              CD: "Congo, the Democratic Republic of the",
+              CK: "Cook Islands",
+              CR: "Costa Rica",
+              CI: "Côte d'Ivoire",
+              HR: "Croatia",
+              CU: "Cuba",
+              CW: "Curaçao",
+              CY: "Cyprus",
+              CZ: "Czech Republic",
+              DK: "Denmark",
+              DJ: "Djibouti",
+              DM: "Dominica",
+              DO: "Dominican Republic",
+              EC: "Ecuador",
+              EG: "Egypt",
+              SV: "El Salvador",
+              GQ: "Equatorial Guinea",
+              ER: "Eritrea",
+              EE: "Estonia",
+              ET: "Ethiopia",
+              FK: "Falkland Islands (Malvinas)",
+              FO: "Faroe Islands",
+              FJ: "Fiji",
+              FI: "Finland",
+              FR: "France",
+              GF: "French Guiana",
+              PF: "French Polynesia",
+              TF: "French Southern Territories",
+              GA: "Gabon",
+              GM: "Gambia",
+              GE: "Georgia",
+              DE: "Germany",
+              GH: "Ghana",
+              GI: "Gibraltar",
+              GR: "Greece",
+              GL: "Greenland",
+              GD: "Grenada",
+              GP: "Guadeloupe",
+              GU: "Guam",
+              GT: "Guatemala",
+              GG: "Guernsey",
+              GN: "Guinea",
+              GW: "Guinea-Bissau",
+              GY: "Guyana",
+              HT: "Haiti",
+              HM: "Heard Island and McDonald Mcdonald Islands",
+              VA: "Holy See (Vatican City State)",
+              HN: "Honduras",
+              HK: "Hong Kong",
+              HU: "Hungary",
+              IS: "Iceland",
+              IN: "India",
+              ID: "Indonesia",
+              IR: "Iran, Islamic Republic of",
+              IQ: "Iraq",
+              IE: "Ireland",
+              IM: "Isle of Man",
+              IL: "Israel",
+              IT: "Italy",
+              JM: "Jamaica",
+              JP: "Japan",
+              JE: "Jersey",
+              JO: "Jordan",
+              KZ: "Kazakhstan",
+              KE: "Kenya",
+              KI: "Kiribati",
+              KP: "Korea, Democratic People's Republic of",
+              KR: "Korea, Republic of",
+              KW: "Kuwait",
+              KG: "Kyrgyzstan",
+              LA: "Lao People's Democratic Republic",
+              LV: "Latvia",
+              LB: "Lebanon",
+              LS: "Lesotho",
+              LR: "Liberia",
+              LY: "Libya",
+              LI: "Liechtenstein",
+              LT: "Lithuania",
+              LU: "Luxembourg",
+              MO: "Macao",
+              MK: "Macedonia, the Former Yugoslav Republic of",
+              MG: "Madagascar",
+              MW: "Malawi",
+              MY: "Malaysia",
+              MV: "Maldives",
+              ML: "Mali",
+              MT: "Malta",
+              MH: "Marshall Islands",
+              MQ: "Martinique",
+              MR: "Mauritania",
+              MU: "Mauritius",
+              YT: "Mayotte",
+              MX: "Mexico",
+              FM: "Micronesia, Federated States of",
+              MD: "Moldova, Republic of",
+              MC: "Monaco",
+              MN: "Mongolia",
+              ME: "Montenegro",
+              MS: "Montserrat",
+              MA: "Morocco",
+              MZ: "Mozambique",
+              MM: "Myanmar",
+              NA: "Namibia",
+              NR: "Nauru",
+              NP: "Nepal",
+              NL: "Netherlands",
+              NC: "New Caledonia",
+              NZ: "New Zealand",
+              NI: "Nicaragua",
+              NE: "Niger",
+              NG: "Nigeria",
+              NU: "Niue",
+              NF: "Norfolk Island",
+              MP: "Northern Mariana Islands",
+              NO: "Norway",
+              OM: "Oman",
+              PK: "Pakistan",
+              PW: "Palau",
+              PS: "Palestine, State of",
+              PA: "Panama",
+              PG: "Papua New Guinea",
+              PY: "Paraguay",
+              PE: "Peru",
+              PH: "Philippines",
+              PN: "Pitcairn",
+              PL: "Poland",
+              PT: "Portugal",
+              PR: "Puerto Rico",
+              QA: "Qatar",
+              RE: "Réunion",
+              RO: "Romania",
+              RU: "Russian Federation",
+              RW: "Rwanda",
+              BL: "Saint Barthélemy",
+              SH: "Saint Helena, Ascension and Tristan da Cunha",
+              KN: "Saint Kitts and Nevis",
+              LC: "Saint Lucia",
+              MF: "Saint Martin (French part)",
+              PM: "Saint Pierre and Miquelon",
+              VC: "Saint Vincent and the Grenadines",
+              WS: "Samoa",
+              SM: "San Marino",
+              ST: "Sao Tome and Principe",
+              SA: "Saudi Arabia",
+              SN: "Senegal",
+              RS: "Serbia",
+              SC: "Seychelles",
+              SL: "Sierra Leone",
+              SG: "Singapore",
+              SX: "Sint Maarten (Dutch part)",
+              SK: "Slovakia",
+              SI: "Slovenia",
+              SB: "Solomon Islands",
+              SO: "Somalia",
+              ZA: "South Africa",
+              GS: "South Georgia and the South Sandwich Islands",
+              SS: "South Sudan",
+              ES: "Spain",
+              LK: "Sri Lanka",
+              SD: "Sudan",
+              SR: "Suriname",
+              SJ: "Svalbard and Jan Mayen",
+              SZ: "Swaziland",
+              SE: "Sweden",
+              CH: "Switzerland",
+              SY: "Syrian Arab Republic",
+              TW: "Taiwan, Province of China",
+              TJ: "Tajikistan",
+              TZ: "Tanzania, United Republic of",
+              TH: "Thailand",
+              TL: "Timor-Leste",
+              TG: "Togo",
+              TK: "Tokelau",
+              TO: "Tonga",
+              TT: "Trinidad and Tobago",
+              TN: "Tunisia",
+              TR: "Turkey",
+              TM: "Turkmenistan",
+              TC: "Turks and Caicos Islands",
+              TV: "Tuvalu",
+              UG: "Uganda",
+              UA: "Ukraine",
+              AE: "United Arab Emirates",
+              GB: "United Kingdom",
+              US: "United States",
+              UM: "United States Minor Outlying Islands",
+              UY: "Uruguay",
+              UZ: "Uzbekistan",
+              VU: "Vanuatu",
+              VE: "Venezuela, Bolivarian Republic of",
+              VN: "Viet Nam",
+              VG: "Virgin Islands, British",
+              VI: "Virgin Islands, U.S.",
+              WF: "Wallis and Futuna",
+              EH: "Western Sahara",
+              YE: "Yemen",
+              ZM: "Zambia",
+              ZW: "Zimbabwe"
+          };
+
+          return Iso31661a2;
+
+      })();
+
+      singleton = null;
+
+      module.exports = (function() {
+          return singleton != null ? singleton : singleton = new Iso31661a2();
+      })();
+
+  }).call(commonjsGlobal);
+  });
+
+  const countries = iso31661Alpha2.getData();
+
   const app = angular_1.module('app', ['ui.router']);
 
   app.config(function ($urlServiceProvider) {
@@ -55059,6 +56499,19 @@
   		project.months.forEach(m => m.month = hooks(m.month, 'YYYY-MM').format('MMM YYYY'));
   		project.subprojects = window.projects.filter(p => p.partOf === project.id);
   		project.partOf = window.projects.find(p => p.id === project.partOf);
+  		if (!project.countries || Object.keys(project.countries).length === 0) {
+  			delete project.countries;
+  		}
+  		if (project.countries) {
+  			project.countries = Object.entries(project.countries)
+  				.map(([code, count]) => ({ code, name: countries[code], count }))
+  				.sort((a, b) => b.count - a.count);
+  			project.months.forEach(m => {
+  				m.countries = Object.entries(m.countries)
+  					.map(([code, count]) => ({ code, name: countries[code], count }))
+  					.sort((a, b) => b.count - a.count);
+  			});
+  		}
   	});
   });
 
@@ -55153,13 +56606,61 @@
   	}
   });
 
+
+
+  app.component('histogram', {
+  	bindings: {
+  		data: '<'
+  	},
+  	controller: function ($element) {
+  		var svg$$1 = select($element[0]).append('svg').attr('width', 900).attr('height', 340),
+  		    margin = {top: 20, right: 20, bottom: 60, left: 70},
+  		    width = +svg$$1.attr("width") - margin.left - margin.right,
+  		    height = +svg$$1.attr("height") - margin.top - margin.bottom;
+
+  		var x = band().rangeRound([0, width]).padding(0.1),
+  		    y = linear$2().rangeRound([height, 0]);
+
+  		var g = svg$$1.append("g")
+  		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  		this.$onInit = () => {
+  			  x.domain(this.data.map(d => d.label));
+  			  y.domain([0, max(this.data, d => d.value)]);
+
+  			  g.append("g")
+  			      .attr("class", "axis x")
+  			      .attr("transform", "translate(0," + height + ")")
+  			      .call(axisBottom(x));
+
+  			  g.append("g")
+  			      .attr("class", "axis y")
+  			      .call(axisLeft(y))
+  			    .append("text")
+  			      .attr("transform", "rotate(-90)")
+  			      .attr("y", 6)
+  			      .attr("dy", "0.71em")
+  			      .attr("text-anchor", "end")
+  			      .text(this.leftLabel);
+
+  			  g.selectAll(".bar")
+  			    .data(this.data)
+  			    .enter().append("rect")
+  			      .attr("class", "bar")
+  			      .attr("x", d => x(d.label))
+  			      .attr("y", d => y(d.value))
+  			      .attr("width", x.bandwidth())
+  			      .attr("height", d => height - y(d.value));
+  		};
+  	}
+  });
+
   angular.module('app').run(['$templateCache', function ($templateCache) {
   $templateCache.put('/templates/about.html', '<h2>About</h2>\n\n<p></p>');
-  $templateCache.put('/templates/project.html', '<div class=\"breadcrumb\">\n	<a ui-sref=\"projects\">Projects</a> &gt;\n	<a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a>\n</div>\n<h2>Project: {{ project.name }}</h2>\n\n<a ng-href=\"project.url\">Website</a>\n\n<div ng-if=\"project.subprojects.length > 0\">\n	Child projects:\n	<ul>\n		<li ng-repeat=\"child in project.subprojects\">\n			<a ui-sref=\"project({ id: child.id })\">{{ child.name }}</a>\n		</li>\n	</ul>\n</div>\n\n<div ng-if=\"project.partOf\">\n	Part of <a ui-sref=\"project({ id: project.partOf.id })\">{{ project.partOf.name }}</a>\n</div>\n\n<div ng-if=\"project.tasks.complete\">\n	{{ project.tasks.complete | number }}\n	tasks out of\n	{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n	({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n</div>\n\n<div>\n	{{ project.months.length | number }}\n	months of data\n	({{ project.rows | number }} rows)\n</div>\n\n<div ng-if=\"project.contributions\">\n	{{ project.contributions | number }} contributions\n</div>\n\n<div ng-if=\"project.users\">\n	{{ project.users.ids + project.users.ips | number }}\n	Users\n</div>\n\n<h3>{{ month.month }}</h3>\n\n<div ng-if=\"project.users\">\n	{{ month.users.ids + month.users.ips | number }} users ({{ month.newUsers.ids + month.newUsers.ips | number }} of whom were new)\n</div>\n\n<div ng-if=\"month.contributions\">\n	{{ month.contributions | number }} contributions\n</div>\n\n<div ng-if=\"month.tasks\">\n	{{ month.tasks | number }} tasks\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>Tasks over time</h3>\n	<histogram left=\"tasksOverTime\" left-name=\"\'Tasks\'\"></histogram>\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>Users over time</h3>\n	<histogram left=\"usersOverTime\" left-name=\"\'Users\'\" right=\"rowsOverTime\" right-label=\"\'Contributions\'\"></histogram>\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>New users over time</h3>\n	<histogram left=\"newUsersOverTime\"></histogram>\n</div>\n\n<div ng-if=\"project.contributions\">\n	<h3>Contributions over time</h3>\n	<histogram left=\"contributionsOverTime\"></histogram>\n</div>\n\n<div>\n	<h3>Rows over time</h3>\n	<histogram left=\"rowsOverTime\"></histogram>\n</div>');
-  $templateCache.put('/templates/projects.html', '<h2>Projects</h2>\n\n<div ng-repeat=\"project in projects\">\n	<h3><a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a></h3>\n\n	<div ng-show=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div>\n\n	<div>\n		{{ project.months.length | number }}\n		months of data\n		({{ project.rows | number }} rows)\n	</div>\n\n	<div>\n		{{ project.users.ids + project.users.ips | number }}\n		Users\n	</div>\n\n	<a ui-sref=\"project({ id: project.id })\">See more...</a>\n</div>');
+  $templateCache.put('/templates/project.html', '<div class=\"breadcrumb\">\n	<a ui-sref=\"projects\">Projects</a> &gt;\n	<a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a>\n</div>\n<h2>Project: {{ project.name }}</h2>\n\n<a ng-href=\"project.url\">Website</a>\n\n<div ng-if=\"project.subprojects.length > 0\">\n	Child projects:\n	<ul>\n		<li ng-repeat=\"child in project.subprojects\">\n			<a ui-sref=\"project({ id: child.id })\">{{ child.name }}</a>\n		</li>\n	</ul>\n</div>\n\n<div ng-if=\"project.partOf\">\n	Part of <a ui-sref=\"project({ id: project.partOf.id })\">{{ project.partOf.name }}</a>\n</div>\n\n<div ng-if=\"project.tasks.complete\">\n	{{ project.tasks.complete | number }}\n	tasks out of\n	{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n	({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n</div>\n\n<div>\n	{{ project.months.length | number }}\n	months of data\n	({{ project.rows | number }} rows)\n</div>\n\n<div ng-if=\"project.contributions\">\n	{{ project.contributions | number }} contributions\n</div>\n\n<div ng-if=\"project.users\">\n	{{ project.users.ids + project.users.ips | number }}\n	Users\n</div>\n\n<div ng-if=\"project.countries\">\n	<ul>\n		<li ng-repeat=\"country in project.countries\">\n			<span ng-class=\"\'flag-icon flag-icon-\' + country.code.toLowerCase()\"></span>\n			{{ country.name || \'Unknown\' }}: {{ country.count }}\n		</li>\n	</ul>\n</div>\n\n<h3>{{ month.month }}</h3>\n\n<div ng-if=\"project.users\">\n	{{ month.users.ids + month.users.ips | number }} users ({{ month.newUsers.ids + month.newUsers.ips | number }} of whom were new)\n</div>\n\n<div ng-if=\"month.contributions\">\n	{{ month.contributions | number }} contributions\n</div>\n\n<div ng-if=\"month.tasks\">\n	{{ month.tasks | number }} tasks\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>Tasks over time</h3>\n	<histogram left=\"tasksOverTime\" left-name=\"\'Tasks\'\"></histogram>\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>Users over time</h3>\n	<histogram left=\"usersOverTime\" left-name=\"\'Users\'\" right=\"rowsOverTime\" right-label=\"\'Contributions\'\"></histogram>\n</div>\n\n<div ng-if=\"project.users\">\n	<h3>New users over time</h3>\n	<histogram left=\"newUsersOverTime\"></histogram>\n</div>\n\n<div ng-if=\"project.contributions\">\n	<h3>Contributions over time</h3>\n	<histogram left=\"contributionsOverTime\"></histogram>\n</div>\n\n<div>\n	<h3>Rows over time</h3>\n	<histogram left=\"rowsOverTime\"></histogram>\n</div>');
+  $templateCache.put('/templates/projects.html', '<h2>Projects</h2>\n\n<div ng-repeat=\"project in projects\">\n\n	<div class=\"name\">\n		{{ project.name }}\n	</div>\n\n	<div class=\"weekdays\">\n		<hist data=\"project.weekdays\"></hist>\n	</div>\n\n	<div class=\"alltime\">\n		<hist data=\"project.alltime\"></hist>\n	</div>\n\n</div>\n\n<div ng-repeat=\"project in projects\">\n	<h3><a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a></h3>\n\n	<div ng-show=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div>\n\n	<div>\n		{{ project.months.length | number }}\n		months of data\n		({{ project.rows | number }} rows)\n	</div>\n\n	<div>\n		{{ project.users.ids + project.users.ips | number }}\n		Users\n	</div>\n\n	<a ui-sref=\"project({ id: project.id })\">See more...</a>\n</div>');
   }]);
 
   window.projects = []; // set up global array for project data
 
 }());
-//# sourceMappingURL=bundle.js.map

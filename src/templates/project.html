@@ -41,6 +41,15 @@
 	Users
 </div>
 
+<div ng-if="project.countries">
+	<ul>
+		<li ng-repeat="country in project.countries">
+			<span ng-class="'flag-icon flag-icon-' + country.code.toLowerCase()"></span>
+			{{ country.name || 'Unknown' }}: {{ country.count }}
+		</li>
+	</ul>
+</div>
+
 <h3>{{ month.month }}</h3>
 
 <div ng-if="project.users">
