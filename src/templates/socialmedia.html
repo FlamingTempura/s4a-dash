@@ -1,0 +1,19 @@
+<h1>Stars4All on Social Media</h1>
+
+<p></p>
+
+<div class="pick">
+	<!-- <div class="bin">
+		<label ng-repeat="account in socialmedia">
+			<input type="checkbox">
+			M
+		</label>
+	</div> -->
+	<label ng-repeat="account in socialmedia">
+		<input type="checkbox" ng-model="account.selected">
+		{{ account.handle }}
+		({{ account.follows }} follows)
+	</label>
+</div>
+
+<tweetline data="data"></tweetline>

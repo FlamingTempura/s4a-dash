@@ -44,6 +44,7 @@ const generateJS = () => {
 const generateCSS = () => {
 	let filename = `${__dirname}/src/style.less`;
 	return fs.copy(`${__dirname}/node_modules/flag-icon-css/flags`, `${__dirname}/build/flags`, { overwrite: false })
+		.then(() => fs.copy(`${__dirname}/src/logo.png`, `${__dirname}/build/logo.png`, { overwrite: false }))
 		.then(() => fs.readFileAsync(filename, 'utf8'))
 		.then(style => less.render(style, { filename }))
 		.then(output => output.css);
@@ -53,10 +54,14 @@ const generateHTML = (js, css) => {
 	return Bluebird
 		.all([
 			fs.readFileAsync(`${__dirname}/src/index.html`, 'utf8'),
-			fs.readdirAsync(`${__dirname}/parsers`)
+			fs.readdirAsync(`${__dirname}/build/projects`),
+			fs.readdirAsync(`${__dirname}/build/socialmedia`)
 		])
-		.spread((html, projects) => {
-			let scripts = projects.map(p => `<script src="projects/${p}"></script>`);
+		.spread((html, projects, socialmedia) => {
+			let scripts = [
+				...projects.map(p => `<script src="projects/${p}"></script>`),
+				...socialmedia.map(p => `<script src="socialmedia/${p}"></script>`)
+			];
 			html = html
 				.replace('@DATA', scripts.join('\n'))
 				.replace('@CSS', css)

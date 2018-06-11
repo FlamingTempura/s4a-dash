@@ -1573,13 +1573,15 @@
 * {
   box-sizing: border-box;
 }
+[ng-cloak] {
+  display: none;
+}
 body {
   font-family: 'PT Sans', sans-serif;
   color: #222;
   line-height: 1.3em;
   margin: 0;
   border-top: 4px solid #1E8BC3;
-  border-bottom: 4px solid #1E8BC3;
 }
 a,
 a:visited {
@@ -1610,6 +1612,7 @@ ui-view {
   padding: 20px;
   width: 1000px;
   margin: 0 auto;
+  position: relative;
 }
 header {
   background: #1E8BC3;
@@ -1620,6 +1623,24 @@ header > * {
   vertical-align: middle;
   padding-right: 24px;
   color: white;
+}
+footer {
+  background: #eee;
+  border-top: 4px solid #1E8BC3;
+}
+footer p {
+  display: block;
+  padding: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 12px;
+  font-family: inherit;
+}
+footer img {
+  float: right;
+  width: 150px;
+  margin-top: -4px;
 }
 svg .bar,
 svg .area {
@@ -1635,6 +1656,9 @@ svg .axis .domain {
 svg .axis.rotate text {
   transform: rotateZ(90deg) translateX(6px) translateY(-13px);
   text-anchor: start;
+}
+.state-socialmedia svg .axis {
+  opacity: 1;
 }
 .projects {
   margin-top: 20px;
@@ -1742,11 +1766,73 @@ svg .axis.rotate text {
 .legend {
   margin-top: 44px;
 }
+nav {
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+  height: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+nav a {
+  display: inline-block;
+  padding: 1px 20px 4px;
+  border-radius: 0 0 3px 3px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 3px solid #000;
+  text-decoration: none !important;
+  transition: background 0.3s ease, border 0.3s ease;
+  background: #555 !important;
+  margin-right: 4px;
+}
+nav a.active {
+  background: #1E8BC3 !important;
+  border-top: 3px solid #1E8BC3;
+}
+.pick {
+  width: 200px;
+  border: 1px solid #eee;
+}
+.pick label {
+  display: block;
+}
+.statsbar {
+  position: absolute;
+  right: 0;
+  background: #eee;
+  padding: 16px;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+}
+.statsbar li {
+  list-style: none;
+  margin: 5px 0 18px 0;
+  padding: 0;
+}
+.statsbar strong {
+  font-size: 24px;
+  margin-right: 3px;
+}
 
 </style>
 </head>
-<body>
+<body ng-class="'state-' + currentState" ng-cloak>
+	<nav>
+		<a ui-sref="projects" class="sref-projects" ng-class="{ active: currentState === 'projects' }">Projects</a>
+		<a ui-sref="socialmedia" class="sref-socialmedia" ng-class="{ active: currentState === 'socialmedia' }">Social Media</a>
+	</nav>
 	<ui-view></ui-view>
+	<footer>
+		<p>
+			<img src="logo.png">
+			STARS4ALL is a project funded by the European Union H2020 Programme (688135). This is part of <a href="https://capssi.eu/">Digital Social innovation</a>.
+		</p>
+	</footer>
 	<script src="bundle.js"></script>
 	<script src="projects/cities-at-night.js"></script>
 <script src="projects/dark-skies-iss.js"></script>
@@ -1758,5 +1844,8 @@ svg .axis.rotate text {
 <script src="projects/my-sky-at-night.js"></script>
 <script src="projects/night-cities.js"></script>
 <script src="projects/sky-quality-meter.js"></script>
+<script src="socialmedia/Cities4tnight.js"></script>
+<script src="socialmedia/GLOBEatNight.js"></script>
+<script src="socialmedia/VerlustDerNacht.js"></script>
 </body>
 </html>

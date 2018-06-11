@@ -39,22 +39,34 @@ app.config(function ($urlServiceProvider) {
 	});
 });
 
+app.run($rootScope => {
+	$rootScope.yTitles = {
+		contributions: 'contributions',
+		users: 'contributers',
+		starters: 'new contributers'
+	};
+	$rootScope.y = 'contributions';
+});
+
 app.config($stateProvider => {
 	$stateProvider.state('projects', {
 		url: '/',
 		templateUrl: '/templates/projects.html',
-		controller: function ($scope) {
+		controller: function ($scope, $rootScope) {
 			$scope.projects = window.projects;
-			$scope.y = 'contributions';
+			$rootScope.currentState = 'projects';
 		}
 	});
 
 	$stateProvider.state('project', {
 		url: '/project/:id',
 		templateUrl: '/templates/project.html',
-		controller: function ($state, $scope) {
+		controller: function ($state, $scope, $rootScope) {
+
+			$rootScope.currentState = 'projects';
 			$scope.project = window.projects.find(p => p.id === $state.params.id);
-			console.log($scope.project);/*
+			/*
+
 
 			if ($scope.project.users) {
 				$scope.usersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.users.ids + m.users.ips }));
@@ -75,9 +87,49 @@ app.config($stateProvider => {
 		}
 	});
 
-	$stateProvider.state('about', {
-		url: '/about',
-		templateUrl: '/templates/about.html'
+	$stateProvider.state('socialmedia', {
+		url: '/socialmedia',
+		templateUrl: '/templates/socialmedia.html',
+		controller: function ($scope, $rootScope) {
+			$scope.socialmedia = window.socialmedia;
+			$rootScope.currentState = 'socialmedia';
+			$scope.socialmedia.forEach((s, i) => {
+				$scope.$watch(`socialmedia[${i}].selected`, () => {
+					refreshChart();
+				});
+			});
+			let refreshChart = () => {
+				let months = {},
+					allTags = {};
+				$scope.socialmedia.forEach(account => {
+					if (!account.selected) { return; }
+					account.months.forEach(bin => {
+						let month = months[bin.month];
+						if (!month) {
+							month = months[bin.month] = {
+								date: moment(bin.month, 'YYYY-MM').toDate(),
+								month: bin.month,
+								tags: {},
+								tweetsIn: 0,
+								tweetsOut: 0
+							};
+						}
+						Object.entries(bin.hashtags).forEach(([tag, count]) => {
+							if (!month.tags[tag]) { month.tags[tag] = 0; }
+							if (!allTags[tag]) { allTags[tag] = 0; }
+							month.tags[tag] += count;
+							allTags[tag] += count;
+						});
+						month.tweetsIn += bin.tweetsIn;
+						month.tweetsOut += bin.tweetsOut;
+					});
+				});
+				let ks = Object.keys(months).sort();
+				months = ks.map(k => months[k]);
+				console.log(months);
+				$scope.data = months;
+			};
+		}
 	});
 });
 
@@ -309,4 +361,65 @@ app.component('effortgraph', {
 			yaxis.call(d3.axisLeft(y));
 		};
 	}
+});
+
+
+app.component('tweetline', {
+	bindings: {
+		data: '<'
+	},
+	controller: function ($element) {
+		let svg = d3.select($element[0]).append('svg').attr('width', 530).attr('height', 400),
+			margin = {top: 0, right: 0, bottom: 30, left: 20 },
+			width = +svg.attr("width") - margin.left - margin.right,
+			height = +svg.attr("height") - margin.top - margin.bottom;
+
+		let g = svg.append("g")
+			.attr("transform", `translate(${margin.left},${margin.top})`);
+
+		let dateStart = new Date(2015, 1, 1);
+
+		let x = d3.scaleTime()
+			.domain([dateStart, dateEnd])
+			.rangeRound([0, width]);
+
+		let y = d3.scaleLinear()
+			.range([height, 0]);
+
+		let path = g.append("path")
+			.attr('class', 'area');
+
+		let area = d3.area()
+			.x(d => x(d.date));
+
+		let xaxis = g.append("g")
+			.attr('class', 'x axis')
+			.attr("transform", `translate(0,${height})`);
+
+		let yaxis = g.append("g")
+			.attr('class', 'y axis');
+		
+		this.$onChanges = () => {
+			let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
+
+			y.domain([1, d3.max(data, d => d.tweetsOut + 1)]);
+
+			area.y0(y(1))
+				.y1(d => y(d.tweetsOut + 1));
+
+			path.datum(data)
+				.transition()
+				.duration(500)
+				.attr("d", area);
+
+			xaxis.call(d3.axisBottom(x));
+			yaxis.call(d3.axisLeft(y));
+		};
+	}
+});
+
+app.filter('capitalize', function() {
+    return function(input) {
+      return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
+    }
 });

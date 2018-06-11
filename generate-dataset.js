@@ -1,6 +1,7 @@
 const Bluebird = require('bluebird');
 const csv = require('csv');
 const fs = require('fs-extra');
+const moment = require('moment');
 
 const id = process.argv.pop();
 
@@ -49,8 +50,24 @@ const generate = id => {
 				countries = {},
 				users = {};
 
+			rows = rows.sort((a, b) => a.date - b.date);
+
+			let dateStart = rows[0].date,
+				dateEnd = rows[rows.length - 1].date,
+				date = moment(dateStart).startOf('day').toDate();
+			while (date <= dateEnd) {
+				days[moment(date).format('YYYY-MM-DD')] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
+				date = moment(date).add(1, 'day');
+			}
+			while (date <= dateEnd) {
+				months[moment(date).format('YYYY-MM')] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
+				date = moment(date).add(1, 'month');
+			}
+			WEEKDAYS.forEach(weekday => {
+				weekdays[weekday] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
+			});
+
 			rows
-				.sort((a, b) => a.valueOf() - b.valueOf())
 				.forEach(row => {
 					let day = row.date.toISOString().slice(0, 10), // 2016-04-09
 						month = day.slice(0, 7), // 2016-04,
@@ -58,15 +75,6 @@ const generate = id => {
 						country = row.country,
 						user = row.user;
 
-					if (!days[day]) {
-						days[day] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
-					}
-					if (!months[month]) {
-						months[month] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
-					}
-					if (!weekdays[weekday]) {
-						weekdays[weekday] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
-					}
 					if (user && !users[user]) {
 						users[user] = { rows: 0, contributions: 0 };
 					}
@@ -116,7 +124,7 @@ const generate = id => {
 		.then(() => console.timeEnd(`Successfully parsed ${id}`));
 };
 
-fs.ensureDir(`${__dirname}/build/parsers`)
+fs.ensureDir(`${__dirname}/build/projects`)
 	.then(() => {
 		if (id && id.match(/^[A-Za-z0-9-]+$/)) {
 			generate(id);

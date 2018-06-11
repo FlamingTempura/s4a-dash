@@ -11,33 +11,59 @@
 
 <h1>{{ project.name }}</h1>
 
-<div class="name">
-	<div class="parent-icon" ng-class="project.parent.id" ng-show="project.parent" ng-attr-title="Part of the {{ project.parent.name }} project"></div>
-	<br>
-	{{ project.contributions | number }} contributions by {{ project.users.length | number }} contributors
-	<!-- <a ui-sref="project({ id: project.id })">See more...</a> -->
+<ul class="statsbar">
+
+	<li><strong>{{ project.months.length | number }}</strong>
+		months of data</li>
+
+	<li><strong>{{ project.rows | number }}</strong>
+		rows of data</li>
+
+	<li><strong>{{ project.contributions | number }}</strong>
+		contributions</li>
+
+	<li><strong>{{ project.users.length | number }}</strong>
+		users</li>
+
+	<li>Date range: {{ project.days[0].day }} - {{ project.days[project.days.length - 1].day }}. </li>
+
+	<li><a ng-href="project.url">Project website</a></li>
+
+	<div ng-if="project.countries">
+		<strong>Countries:</strong>
+		<ul>
+			<li ng-repeat="country in project.countries">
+				<span ng-class="'flag-icon flag-icon-' + country.code.toLowerCase()"></span>
+				{{ country.name || 'Unknown' }}: {{ country.count }}
+			</li>
+		</ul>
+	</div>
+</ul>
+
+<p ng-if="project.subprojects.length > 0">
+	This project encompases {{ project.subprojects.length }} projects: <a ng-repeat="child in project.subprojects" ui-sref="project({ id: child.id })">{{ child.name }}</a>.
+</p>
+
+<p ng-if="project.parent">
+	This project is part of the <a ui-sref="project({ id: project.parent.id })">{{ project.parent.name }}</a> project.
+</p>
+
+<div class="weekdaygraph">
+	<h3>{{ yTitles[y] | capitalize }} per weekday</h3>
+	<weekdaygraph data="project.weekdays" axis="i === projects.length - 1" y="y"></weekdaygraph>
 </div>
 
-<weekdaygraph data="project.weekdays" axis="i === projects.length - 1" y="y"></weekdaygraph>
-
-<daygraph data="project.days" axis="i === projects.length - 1" y="y"></daygraph>
-
-<effortgraph data="project.users" axis="i === projects.length - 1" y="y"></effortgraph>
-
-<a ng-href="project.url">Website</a>
-
-<div ng-if="project.subprojects.length > 0">
-	Child projects:
-	<ul>
-		<li ng-repeat="child in project.subprojects">
-			<a ui-sref="project({ id: child.id })">{{ child.name }}</a>
-		</li>
-	</ul>
+<div class="daygraph">
+	<h3>{{ yTitles[y] | capitalize }} per weekday</h3>
+	<daygraph data="project.days" axis="i === projects.length - 1" y="y"></daygraph>
 </div>
 
-<div ng-if="project.partOf">
-	Part of <a ui-sref="project({ id: project.partOf.id })">{{ project.partOf.name }}</a>
+<div class="effortgraph">
+	<h3>Distribution of effort</h3>
+	<effortgraph data="project.users" axis="i === projects.length - 1" y="y"></effortgraph>
 </div>
+
+
 
 <div ng-if="project.tasks.complete">
 	{{ project.tasks.complete | number }}
@@ -46,29 +72,6 @@
 	({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)
 </div>
 
-<div>
-	{{ project.months.length | number }}
-	months of data
-	({{ project.rows | number }} rows)
-</div>
-
-<div ng-if="project.contributions">
-	{{ project.contributions | number }} contributions
-</div>
-
-<div ng-if="project.users">
-	{{ project.users.ids + project.users.ips | number }}
-	Users
-</div>
-
-<div ng-if="project.countries">
-	<ul>
-		<li ng-repeat="country in project.countries">
-			<span ng-class="'flag-icon flag-icon-' + country.code.toLowerCase()"></span>
-			{{ country.name || 'Unknown' }}: {{ country.count }}
-		</li>
-	</ul>
-</div>
 
 <h3>{{ month.month }}</h3>
 
