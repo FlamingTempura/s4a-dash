@@ -2,6 +2,13 @@
 @flag-icon-css-path: 'flags';
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display');
 
+@blue: #3B6EB7;
+@navy: #013243;
+@orange: #E87E04;
+@darkgreen: #019875;
+@green: #2ECC71;
+@red: #D91E18;
+@pink: #F62459;
 * {
 	box-sizing: border-box;
 }
@@ -11,10 +18,10 @@ body {
 	color: #222;
 	line-height: 1.3em;
 	margin: 0;
-	border-top: 4px solid #1E8BC3;
+	border-top: 4px solid @blue;
 }
 a, a:visited {
-	color: #1E8BC3;
+	color: @blue;
 	text-decoration: underline;
 	cursor: pointer;
 	&:hover {
@@ -31,6 +38,37 @@ h1 {
 emph {
 	font-style: italic;
 }
+
+nav {
+	margin: 0 auto;
+	width: 1000px;
+	display: block;
+	height: 20px;
+	text-align: left;
+	padding: 0 20px;
+	position: relative;
+    z-index: 10;
+	a {
+		display: inline-block;
+		padding: 1px 20px 4px;
+		border-radius: 0 0 3px 3px;
+		color: white !important;
+		font-weight: bold;
+		font-size: 14px;
+		border-top: 3px solid #000;
+		text-decoration: none !important;
+		transition: background 0.3s ease, border 0.3s ease;
+		background: #555 !important;
+		margin-right: 4px;
+		&.active {
+			background: @blue !important;
+			border-top: 3px solid @blue;
+		}
+		&:not(.active):hover {
+			background: #666 !important;
+		}
+	}
+}
 ui-view {
 	display: block;
 	padding: 20px;
@@ -39,7 +77,7 @@ ui-view {
 	position: relative;
 }
 header {
-	background: #1E8BC3;
+	background: @blue;
 	padding: 20px 40px;
 	& > * {
 		display: inline-block;
@@ -51,7 +89,7 @@ header {
 
 footer {
 	background: #eee;
-	border-top: 4px solid #1E8BC3;
+	border-top: 4px solid @blue;
 	p {
 		display: block;
 		padding: 20px;
@@ -69,7 +107,7 @@ footer {
 }
 svg {
 	.bar, .area {
-		fill: #F62459;
+		fill: @pink;
 		stroke: none;
 	}
 	.axis {
@@ -120,14 +158,14 @@ svg {
 	}
 }
 
-weeklydaygraph {
-	.bar, .area { fill: #013243; }
+weekdaygraph {
+	.bar, .area { fill: @navy; }
 }
 daygraph {
-	.bar, .area { fill: #E87E04; }
+	.bar, .area { fill: @orange; }
 }
 effortgraph {
-	.bar, .area { fill: #019875; }
+	.bar, .area { fill: @darkgreen; }
 }
 
 .project {
@@ -174,24 +212,6 @@ effortgraph {
 	}
 }
 
-/*
-.options {
-	a {
-		padding: 4px 10px;
-		background: #eee;
-		border: 1px solid #ddd;
-		border-radius: 2px;
-		color: inherit;
-		text-decoration: none;
-		&.active {
-			background: #ddd;
-			//border-color: transparent;
-		}
-	}
-}
-*/
-
-
 .options {
 	margin-top: 20px;
 	a {
@@ -200,40 +220,14 @@ effortgraph {
 		text-decoration: none;
 		border-bottom: 3px solid #ddd;
 		&.active {
-			border-bottom-color: #E87E04;
-			color: #E87E04;
+			border-bottom-color: @blue;
+			color: @blue;
 		}
 	}
 }
 
 .legend {
 	margin-top: 44px;
-}
-
-nav {
-	margin: 0 auto;
-	width: 1000px;
-	display: block;
-	height: 20px;
-	text-align: left;
-	padding-left: 20px;
-	a {
-		display: inline-block;
-		padding: 1px 20px 4px;
-		border-radius: 0 0 3px 3px;
-		color: white !important;
-		font-weight: bold;
-		font-size: 14px;
-		border-top: 3px solid #000;
-		text-decoration: none !important;
-		transition: background 0.3s ease, border 0.3s ease;
-		background: #555 !important;
-		margin-right: 4px;
-		&.active {
-			background: #1E8BC3 !important;
-			border-top: 3px solid #1E8BC3;
-		}
-	}
 }
 
 .pick {
@@ -299,12 +293,13 @@ a.active {
 	}
 }
 
+
 .ticker {
 	&.up {
-		color: #2ECC71;
+		color: @green;
 	}
 	&.down {
-		color: #D91E18;
+		color: @red;
 	}
 }
 

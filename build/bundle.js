@@ -57120,9 +57120,10 @@
   			project.countries.forEach(d => d.name = countries[d.country]);
   		}
   	});
+
   });
 
-  app.run($rootScope => {
+  app.run(($rootScope, $transitions) => {
   	$rootScope.yTitles = {
   		contributions: 'contributions',
   		users: 'contributers',
@@ -57130,6 +57131,9 @@
   	};
   	$rootScope.y = 'contributions';
   	$rootScope.countryContributors = false;
+  	$transitions.onSuccess({}, function () { 
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+  });
   });
 
   app.config($stateProvider => {

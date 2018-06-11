@@ -1581,11 +1581,11 @@ body {
   color: #222;
   line-height: 1.3em;
   margin: 0;
-  border-top: 4px solid #1E8BC3;
+  border-top: 4px solid #3B6EB7;
 }
 a,
 a:visited {
-  color: #1E8BC3;
+  color: #3B6EB7;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -1607,6 +1607,36 @@ h1 {
 emph {
   font-style: italic;
 }
+nav {
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+  height: 20px;
+  text-align: left;
+  padding: 0 20px;
+  position: relative;
+  z-index: 10;
+}
+nav a {
+  display: inline-block;
+  padding: 1px 20px 4px;
+  border-radius: 0 0 3px 3px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 3px solid #000;
+  text-decoration: none !important;
+  transition: background 0.3s ease, border 0.3s ease;
+  background: #555 !important;
+  margin-right: 4px;
+}
+nav a.active {
+  background: #3B6EB7 !important;
+  border-top: 3px solid #3B6EB7;
+}
+nav a:not(.active):hover {
+  background: #666 !important;
+}
 ui-view {
   display: block;
   padding: 20px;
@@ -1615,7 +1645,7 @@ ui-view {
   position: relative;
 }
 header {
-  background: #1E8BC3;
+  background: #3B6EB7;
   padding: 20px 40px;
 }
 header > * {
@@ -1626,7 +1656,7 @@ header > * {
 }
 footer {
   background: #eee;
-  border-top: 4px solid #1E8BC3;
+  border-top: 4px solid #3B6EB7;
 }
 footer p {
   display: block;
@@ -1677,8 +1707,8 @@ svg .axis .label {
 .parent-icon.my-sky-at-night {
   background: #2ECC71;
 }
-weeklydaygraph .bar,
-weeklydaygraph .area {
+weekdaygraph .bar,
+weekdaygraph .area {
   fill: #013243;
 }
 daygraph .bar,
@@ -1735,22 +1765,6 @@ effortgraph .area {
 .project:last-child .x.axis {
   opacity: 1 !important;
 }
-/*
-.options {
-	a {
-		padding: 4px 10px;
-		background: #eee;
-		border: 1px solid #ddd;
-		border-radius: 2px;
-		color: inherit;
-		text-decoration: none;
-		&.active {
-			background: #ddd;
-			//border-color: transparent;
-		}
-	}
-}
-*/
 .options {
   margin-top: 20px;
 }
@@ -1761,36 +1775,11 @@ effortgraph .area {
   border-bottom: 3px solid #ddd;
 }
 .options a.active {
-  border-bottom-color: #E87E04;
-  color: #E87E04;
+  border-bottom-color: #3B6EB7;
+  color: #3B6EB7;
 }
 .legend {
   margin-top: 44px;
-}
-nav {
-  margin: 0 auto;
-  width: 1000px;
-  display: block;
-  height: 20px;
-  text-align: left;
-  padding-left: 20px;
-}
-nav a {
-  display: inline-block;
-  padding: 1px 20px 4px;
-  border-radius: 0 0 3px 3px;
-  color: white !important;
-  font-weight: bold;
-  font-size: 14px;
-  border-top: 3px solid #000;
-  text-decoration: none !important;
-  transition: background 0.3s ease, border 0.3s ease;
-  background: #555 !important;
-  margin-right: 4px;
-}
-nav a.active {
-  background: #1E8BC3 !important;
-  border-top: 3px solid #1E8BC3;
 }
 .pick {
   width: 200px;
