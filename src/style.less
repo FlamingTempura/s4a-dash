@@ -1,4 +1,5 @@
 @import (less) '../node_modules/flag-icon-css/less/flag-icon.less';
+@flag-icon-css-path: 'flags';
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display');
 
 * {
@@ -72,7 +73,6 @@ svg {
 		stroke: none;
 	}
 	.axis {
-		opacity: 0;
 		.domain {
 			stroke: none;
 		}
@@ -86,6 +86,9 @@ svg {
 				transform: rotateZ(90deg) translateX(6px) translateY(-13px);
 				text-anchor: start;
 			}
+		}
+		.label {
+			fill: #000;
 		}
 	}
 }
@@ -117,6 +120,16 @@ svg {
 	}
 }
 
+weeklydaygraph {
+	.bar, .area { fill: #013243; }
+}
+daygraph {
+	.bar, .area { fill: #E87E04; }
+}
+effortgraph {
+	.bar, .area { fill: #019875; }
+}
+
 .project {
 	height: 80px;
 	position: relative;
@@ -133,30 +146,27 @@ svg {
 	}
 	weekdaygraph {
 		position: absolute;
-		left: 165px;
-		top: 20px;
-		.bar, .area { fill: #013243; }
+		left: 125px;
+		top: 0px;		
 	}
 	daygraph {
 		position: absolute;
-		left: 285px;
-		top: 20px;
-		.bar, .area { fill: #E87E04; }
+		left: 255px;
+		top: 0px;
 	}
 	effortgraph {
 		position: absolute;
-		left: 815px;
-		top: 20px;
-		.bar, .area { fill: #019875; }
+		left: 785px;
+		top: 0px;
 	}
 	&:hover {
 		opacity: 1 !important;
-		.axis { opacity: 1; }
+		.x.axis { opacity: 1 !important; }
 	}
 	.projects:hover & {
 		opacity: 0.4;
 	}
-	.y.axis {
+	.axis, .label {
 		opacity: 0 !important;
 	}
 	&:last-child {
@@ -237,20 +247,70 @@ nav {
 .statsbar {
 	position: absolute;
 	right: 0;
-	background: #eee;
-	padding: 16px;
-	border-radius: 3px;
 	font-size: 14px;
 	line-height: 20px;
-	list-style: none;
-	margin: 0;
-	li {
+	width: 260px;
+	h3 {
+		margin-top: 7px;
+	}
+	& > * {
+		background: #eee;
+		padding: 16px !important;
+		border-radius: 3px;
+		margin: 0 0 12px 0 !important;
+	}
+	ul {
 		list-style: none;
-		margin: 5px 0 18px 0;
+		margin: 0;
 		padding: 0;
+		li {
+			list-style: none;
+			margin: 18px 0 11px 0;
+			padding: 0;
+		}
+		strong {
+			font-size: 24px;
+			margin-right: 3px;
+		}
 	}
-	strong {
-		font-size: 24px;
-		margin-right: 3px;
+}
+
+a.active {
+	color: inherit;
+	text-decoration: none;
+}
+
+.project-view {
+	width: 700px;
+	h1 {
+		margin-top: 40px;
 	}
+	.options {
+		margin: 0;
+	}
+	svg {
+		//margin-left: -50px;
+	}
+	.daygraph {
+		margin-top: 40px;
+		a {
+			font-size: 12px;
+		}
+	}
+}
+
+.ticker {
+	&.up {
+		color: #2ECC71;
+	}
+	&.down {
+		color: #D91E18;
+	}
+}
+
+.breadcrumb {
+	margin-top: 16px;
+	font-size: 15px;
+	margin-bottom: -23px;
+	margin-left: 2px;
 }

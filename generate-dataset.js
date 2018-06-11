@@ -59,6 +59,7 @@ const generate = id => {
 				days[moment(date).format('YYYY-MM-DD')] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
 				date = moment(date).add(1, 'day');
 			}
+			date = moment(dateStart).startOf('day').toDate();
 			while (date <= dateEnd) {
 				months[moment(date).format('YYYY-MM')] = { rows: 0, contributions: 0, users: new Set(), starters: new Set() };
 				date = moment(date).add(1, 'month');

@@ -14,258 +14,4920 @@ window.projects.push({
 			"rows": 87,
 			"contributions": 51,
 			"users": 87,
-			"starters": 5
+			"starters": 87
 		},
 		{
 			"day": "2006-03-23",
 			"rows": 281,
 			"contributions": 205,
 			"users": 281,
-			"starters": 6
+			"starters": 281
 		},
 		{
 			"day": "2006-03-24",
 			"rows": 229,
 			"contributions": 171,
 			"users": 229,
-			"starters": 6
+			"starters": 229
 		},
 		{
 			"day": "2006-03-25",
 			"rows": 190,
 			"contributions": 134,
 			"users": 190,
-			"starters": 5
+			"starters": 190
 		},
 		{
 			"day": "2006-03-26",
 			"rows": 193,
 			"contributions": 145,
 			"users": 193,
-			"starters": 4
+			"starters": 193
 		},
 		{
 			"day": "2006-03-27",
 			"rows": 316,
 			"contributions": 213,
 			"users": 316,
-			"starters": 4
+			"starters": 316
 		},
 		{
 			"day": "2006-03-28",
 			"rows": 311,
 			"contributions": 237,
 			"users": 311,
-			"starters": 6
+			"starters": 311
 		},
 		{
 			"day": "2006-03-29",
 			"rows": 279,
 			"contributions": 218,
 			"users": 279,
-			"starters": 10
+			"starters": 279
 		},
 		{
 			"day": "2006-03-30",
 			"rows": 243,
 			"contributions": 186,
 			"users": 243,
-			"starters": 5
+			"starters": 243
 		},
 		{
 			"day": "2006-03-31",
 			"rows": 113,
 			"contributions": 82,
 			"users": 113,
-			"starters": 1
+			"starters": 113
 		},
 		{
 			"day": "2006-04-01",
 			"rows": 47,
 			"contributions": 36,
 			"users": 47,
-			"starters": 1
+			"starters": 47
+		},
+		{
+			"day": "2006-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2006-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-02-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-03-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-03-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-03-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-03-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-03-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-03-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2007-03-07",
 			"rows": 19,
 			"contributions": 10,
 			"users": 19,
-			"starters": 5
+			"starters": 8
 		},
 		{
 			"day": "2007-03-08",
 			"rows": 53,
 			"contributions": 40,
 			"users": 53,
-			"starters": 7
+			"starters": 29
 		},
 		{
 			"day": "2007-03-09",
 			"rows": 312,
 			"contributions": 244,
 			"users": 312,
-			"starters": 13
+			"starters": 143
 		},
 		{
 			"day": "2007-03-10",
 			"rows": 218,
 			"contributions": 178,
 			"users": 218,
-			"starters": 14
+			"starters": 121
 		},
 		{
 			"day": "2007-03-11",
 			"rows": 296,
 			"contributions": 238,
 			"users": 296,
-			"starters": 23
+			"starters": 174
 		},
 		{
 			"day": "2007-03-12",
 			"rows": 339,
 			"contributions": 249,
 			"users": 339,
-			"starters": 23
+			"starters": 206
 		},
 		{
 			"day": "2007-03-13",
 			"rows": 329,
 			"contributions": 235,
 			"users": 329,
-			"starters": 18
+			"starters": 178
 		},
 		{
 			"day": "2007-03-14",
 			"rows": 284,
 			"contributions": 219,
 			"users": 284,
-			"starters": 5
+			"starters": 148
 		},
 		{
 			"day": "2007-03-15",
 			"rows": 200,
 			"contributions": 136,
 			"users": 200,
-			"starters": 3
+			"starters": 124
 		},
 		{
 			"day": "2007-03-16",
 			"rows": 205,
 			"contributions": 150,
 			"users": 205,
-			"starters": 5
+			"starters": 128
 		},
 		{
 			"day": "2007-03-17",
 			"rows": 171,
 			"contributions": 122,
 			"users": 171,
-			"starters": 4
+			"starters": 119
 		},
 		{
 			"day": "2007-03-18",
 			"rows": 193,
 			"contributions": 137,
 			"users": 193,
-			"starters": 2
+			"starters": 139
 		},
 		{
 			"day": "2007-03-19",
 			"rows": 265,
 			"contributions": 192,
 			"users": 265,
-			"starters": 10
+			"starters": 259
 		},
 		{
 			"day": "2007-03-20",
 			"rows": 285,
 			"contributions": 184,
 			"users": 285,
-			"starters": 2
+			"starters": 285
 		},
 		{
 			"day": "2007-03-21",
 			"rows": 453,
 			"contributions": 337,
 			"users": 453,
-			"starters": 32
+			"starters": 453
 		},
 		{
 			"day": "2007-03-22",
 			"rows": 247,
 			"contributions": 151,
 			"users": 247,
-			"starters": 13
+			"starters": 247
 		},
 		{
 			"day": "2007-03-23",
 			"rows": 111,
 			"contributions": 85,
 			"users": 111,
-			"starters": 8
+			"starters": 111
 		},
 		{
 			"day": "2007-03-24",
 			"rows": 55,
 			"contributions": 34,
 			"users": 55,
-			"starters": 1
+			"starters": 55
 		},
 		{
 			"day": "2007-03-25",
 			"rows": 28,
 			"contributions": 19,
 			"users": 28,
-			"starters": 2
+			"starters": 28
 		},
 		{
 			"day": "2007-03-26",
 			"rows": 193,
 			"contributions": 75,
 			"users": 193,
-			"starters": 17
+			"starters": 193
 		},
 		{
 			"day": "2007-03-27",
 			"rows": 166,
 			"contributions": 49,
 			"users": 166,
-			"starters": 20
+			"starters": 166
 		},
 		{
 			"day": "2007-03-28",
 			"rows": 88,
 			"contributions": 72,
 			"users": 88,
-			"starters": 7
+			"starters": 88
 		},
 		{
 			"day": "2007-03-29",
 			"rows": 77,
 			"contributions": 37,
 			"users": 77,
-			"starters": 6
+			"starters": 77
 		},
 		{
 			"day": "2007-03-30",
 			"rows": 46,
 			"contributions": 29,
 			"users": 46,
-			"starters": 3
+			"starters": 46
 		},
 		{
 			"day": "2007-03-31",
 			"rows": 49,
 			"contributions": 25,
 			"users": 49,
-			"starters": 3
+			"starters": 49
 		},
 		{
 			"day": "2007-04-01",
 			"rows": 11,
 			"contributions": 7,
 			"users": 11,
+			"starters": 11
+		},
+		{
+			"day": "2007-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2007-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-02-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -273,7 +4935,7 @@ window.projects.push({
 			"rows": 6,
 			"contributions": 6,
 			"users": 6,
-			"starters": 1
+			"starters": 2
 		},
 		{
 			"day": "2008-02-24",
@@ -287,98 +4949,98 @@ window.projects.push({
 			"rows": 102,
 			"contributions": 72,
 			"users": 102,
-			"starters": 9
+			"starters": 13
 		},
 		{
 			"day": "2008-02-26",
 			"rows": 222,
 			"contributions": 152,
 			"users": 222,
-			"starters": 15
+			"starters": 50
 		},
 		{
 			"day": "2008-02-27",
 			"rows": 190,
 			"contributions": 123,
 			"users": 190,
-			"starters": 21
+			"starters": 50
 		},
 		{
 			"day": "2008-02-28",
 			"rows": 260,
 			"contributions": 151,
 			"users": 260,
-			"starters": 18
+			"starters": 71
 		},
 		{
 			"day": "2008-02-29",
 			"rows": 256,
 			"contributions": 159,
 			"users": 256,
-			"starters": 26
+			"starters": 84
 		},
 		{
 			"day": "2008-03-01",
 			"rows": 219,
 			"contributions": 137,
 			"users": 219,
-			"starters": 9
+			"starters": 58
 		},
 		{
 			"day": "2008-03-02",
 			"rows": 286,
 			"contributions": 155,
 			"users": 286,
-			"starters": 8
+			"starters": 100
 		},
 		{
 			"day": "2008-03-03",
 			"rows": 236,
 			"contributions": 131,
 			"users": 236,
-			"starters": 11
+			"starters": 100
 		},
 		{
 			"day": "2008-03-04",
 			"rows": 310,
 			"contributions": 174,
 			"users": 310,
-			"starters": 7
+			"starters": 114
 		},
 		{
 			"day": "2008-03-05",
 			"rows": 316,
 			"contributions": 181,
 			"users": 316,
-			"starters": 10
+			"starters": 193
 		},
 		{
 			"day": "2008-03-06",
 			"rows": 380,
 			"contributions": 205,
 			"users": 380,
-			"starters": 10
+			"starters": 241
 		},
 		{
 			"day": "2008-03-07",
 			"rows": 419,
 			"contributions": 252,
 			"users": 419,
-			"starters": 38
+			"starters": 260
 		},
 		{
 			"day": "2008-03-08",
 			"rows": 181,
 			"contributions": 107,
 			"users": 181,
-			"starters": 13
+			"starters": 124
 		},
 		{
 			"day": "2008-03-09",
 			"rows": 225,
 			"contributions": 128,
 			"users": 225,
-			"starters": 23
+			"starters": 151
 		},
 		{
 			"day": "2008-03-10",
@@ -388,10 +5050,66 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2008-03-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2008-03-12",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -409,18 +5127,2531 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2008-03-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-03-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2008-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-02-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-03-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2009-03-16",
 			"rows": 15,
 			"contributions": 7,
 			"users": 15,
-			"starters": 5
+			"starters": 3
 		},
 		{
 			"day": "2009-03-17",
 			"rows": 127,
 			"contributions": 86,
 			"users": 127,
-			"starters": 17
+			"starters": 16
 		},
 		{
 			"day": "2009-03-18",
@@ -434,196 +7665,2555 @@ window.projects.push({
 			"rows": 3557,
 			"contributions": 3290,
 			"users": 3557,
-			"starters": 716
+			"starters": 1065
 		},
 		{
 			"day": "2009-03-20",
 			"rows": 631,
 			"contributions": 377,
 			"users": 631,
-			"starters": 93
+			"starters": 335
 		},
 		{
 			"day": "2009-03-21",
 			"rows": 559,
 			"contributions": 333,
 			"users": 559,
-			"starters": 75
+			"starters": 387
 		},
 		{
 			"day": "2009-03-22",
 			"rows": 561,
 			"contributions": 316,
 			"users": 561,
-			"starters": 113
+			"starters": 439
 		},
 		{
 			"day": "2009-03-23",
 			"rows": 316,
 			"contributions": 177,
 			"users": 316,
-			"starters": 57
+			"starters": 304
 		},
 		{
 			"day": "2009-03-24",
 			"rows": 414,
 			"contributions": 260,
 			"users": 414,
-			"starters": 65
+			"starters": 414
 		},
 		{
 			"day": "2009-03-25",
 			"rows": 515,
 			"contributions": 339,
 			"users": 515,
-			"starters": 83
+			"starters": 515
 		},
 		{
 			"day": "2009-03-26",
 			"rows": 506,
 			"contributions": 300,
 			"users": 506,
-			"starters": 119
+			"starters": 506
 		},
 		{
 			"day": "2009-03-27",
 			"rows": 384,
 			"contributions": 218,
 			"users": 384,
-			"starters": 71
+			"starters": 384
 		},
 		{
 			"day": "2009-03-28",
 			"rows": 325,
 			"contributions": 195,
 			"users": 325,
-			"starters": 65
+			"starters": 325
 		},
 		{
 			"day": "2009-03-29",
 			"rows": 320,
 			"contributions": 189,
 			"users": 320,
-			"starters": 70
+			"starters": 320
 		},
 		{
 			"day": "2009-03-30",
 			"rows": 349,
 			"contributions": 205,
 			"users": 349,
-			"starters": 94
+			"starters": 349
+		},
+		{
+			"day": "2009-03-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2009-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-02-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2010-03-03",
 			"rows": 141,
 			"contributions": 71,
 			"users": 141,
-			"starters": 32
+			"starters": 22
 		},
 		{
 			"day": "2010-03-04",
 			"rows": 582,
 			"contributions": 329,
 			"users": 582,
-			"starters": 139
+			"starters": 64
 		},
 		{
 			"day": "2010-03-05",
 			"rows": 684,
 			"contributions": 370,
 			"users": 684,
-			"starters": 196
+			"starters": 54
 		},
 		{
 			"day": "2010-03-06",
 			"rows": 685,
 			"contributions": 350,
 			"users": 685,
-			"starters": 194
+			"starters": 30
 		},
 		{
 			"day": "2010-03-07",
 			"rows": 713,
 			"contributions": 376,
 			"users": 713,
-			"starters": 202
+			"starters": 53
 		},
 		{
 			"day": "2010-03-08",
 			"rows": 567,
 			"contributions": 284,
 			"users": 567,
-			"starters": 127
+			"starters": 129
 		},
 		{
 			"day": "2010-03-09",
 			"rows": 639,
 			"contributions": 340,
 			"users": 639,
-			"starters": 145
+			"starters": 232
 		},
 		{
 			"day": "2010-03-10",
 			"rows": 514,
 			"contributions": 295,
 			"users": 514,
-			"starters": 128
+			"starters": 310
 		},
 		{
 			"day": "2010-03-11",
 			"rows": 494,
 			"contributions": 316,
 			"users": 494,
-			"starters": 132
+			"starters": 306
 		},
 		{
 			"day": "2010-03-12",
 			"rows": 472,
 			"contributions": 252,
 			"users": 472,
-			"starters": 134
+			"starters": 322
 		},
 		{
 			"day": "2010-03-13",
 			"rows": 417,
 			"contributions": 240,
 			"users": 417,
-			"starters": 112
+			"starters": 298
 		},
 		{
 			"day": "2010-03-14",
 			"rows": 502,
 			"contributions": 314,
 			"users": 502,
-			"starters": 144
+			"starters": 361
 		},
 		{
 			"day": "2010-03-15",
 			"rows": 586,
 			"contributions": 328,
 			"users": 586,
-			"starters": 207
+			"starters": 461
 		},
 		{
 			"day": "2010-03-16",
 			"rows": 673,
 			"contributions": 373,
 			"users": 673,
-			"starters": 273
+			"starters": 650
 		},
 		{
 			"day": "2010-03-17",
 			"rows": 608,
 			"contributions": 336,
 			"users": 608,
-			"starters": 300
+			"starters": 608
 		},
 		{
 			"day": "2010-03-18",
 			"rows": 134,
 			"contributions": 79,
 			"users": 134,
-			"starters": 100
+			"starters": 134
 		},
 		{
 			"day": "2010-03-19",
@@ -637,7 +10227,7 @@ window.projects.push({
 			"rows": 132,
 			"contributions": 59,
 			"users": 132,
-			"starters": 126
+			"starters": 132
 		},
 		{
 			"day": "2010-03-21",
@@ -647,11 +10237,2195 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2010-03-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2010-03-25",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
 			"starters": 1
+		},
+		{
+			"day": "2010-03-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-03-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2010-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2011-01-29",
@@ -661,122 +12435,353 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2011-01-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-02-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2011-02-20",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2011-02-21",
 			"rows": 71,
 			"contributions": 48,
 			"users": 71,
-			"starters": 30
+			"starters": 10
 		},
 		{
 			"day": "2011-02-22",
 			"rows": 223,
 			"contributions": 172,
 			"users": 223,
-			"starters": 73
+			"starters": 49
 		},
 		{
 			"day": "2011-02-23",
 			"rows": 221,
 			"contributions": 163,
 			"users": 221,
-			"starters": 49
+			"starters": 30
 		},
 		{
 			"day": "2011-02-24",
 			"rows": 257,
 			"contributions": 197,
 			"users": 256,
-			"starters": 83
+			"starters": 27
 		},
 		{
 			"day": "2011-02-25",
 			"rows": 190,
 			"contributions": 137,
 			"users": 190,
-			"starters": 72
+			"starters": 39
 		},
 		{
 			"day": "2011-02-26",
 			"rows": 228,
 			"contributions": 181,
 			"users": 228,
-			"starters": 90
+			"starters": 40
 		},
 		{
 			"day": "2011-02-27",
 			"rows": 178,
 			"contributions": 136,
 			"users": 178,
-			"starters": 77
+			"starters": 36
 		},
 		{
 			"day": "2011-02-28",
 			"rows": 257,
 			"contributions": 183,
 			"users": 256,
-			"starters": 129
+			"starters": 50
 		},
 		{
 			"day": "2011-03-01",
 			"rows": 459,
 			"contributions": 321,
 			"users": 459,
-			"starters": 241
+			"starters": 56
 		},
 		{
 			"day": "2011-03-02",
 			"rows": 680,
 			"contributions": 492,
 			"users": 680,
-			"starters": 381
+			"starters": 89
 		},
 		{
 			"day": "2011-03-03",
 			"rows": 749,
 			"contributions": 566,
 			"users": 749,
-			"starters": 334
+			"starters": 137
 		},
 		{
 			"day": "2011-03-04",
 			"rows": 564,
 			"contributions": 413,
 			"users": 564,
-			"starters": 232
+			"starters": 97
 		},
 		{
 			"day": "2011-03-05",
 			"rows": 345,
 			"contributions": 248,
 			"users": 344,
-			"starters": 141
+			"starters": 110
 		},
 		{
 			"day": "2011-03-06",
 			"rows": 424,
 			"contributions": 318,
 			"users": 424,
-			"starters": 148
+			"starters": 150
 		},
 		{
 			"day": "2011-03-07",
 			"rows": 306,
 			"contributions": 208,
 			"users": 306,
-			"starters": 113
+			"starters": 100
 		},
 		{
 			"day": "2011-03-08",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-03-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -791,21 +12796,21 @@ window.projects.push({
 			"rows": 110,
 			"contributions": 61,
 			"users": 110,
-			"starters": 50
+			"starters": 56
 		},
 		{
 			"day": "2011-03-23",
 			"rows": 215,
 			"contributions": 161,
 			"users": 215,
-			"starters": 63
+			"starters": 95
 		},
 		{
 			"day": "2011-03-24",
 			"rows": 180,
 			"contributions": 141,
 			"users": 180,
-			"starters": 58
+			"starters": 68
 		},
 		{
 			"day": "2011-03-25",
@@ -819,97 +12824,146 @@ window.projects.push({
 			"rows": 169,
 			"contributions": 137,
 			"users": 169,
-			"starters": 67
+			"starters": 98
 		},
 		{
 			"day": "2011-03-27",
 			"rows": 149,
 			"contributions": 111,
 			"users": 149,
-			"starters": 78
+			"starters": 66
 		},
 		{
 			"day": "2011-03-28",
 			"rows": 134,
 			"contributions": 106,
 			"users": 134,
-			"starters": 64
+			"starters": 58
 		},
 		{
 			"day": "2011-03-29",
 			"rows": 179,
 			"contributions": 137,
 			"users": 179,
-			"starters": 72
+			"starters": 108
 		},
 		{
 			"day": "2011-03-30",
 			"rows": 168,
 			"contributions": 122,
 			"users": 168,
-			"starters": 72
+			"starters": 107
 		},
 		{
 			"day": "2011-03-31",
 			"rows": 113,
 			"contributions": 83,
 			"users": 113,
-			"starters": 32
+			"starters": 62
 		},
 		{
 			"day": "2011-04-01",
 			"rows": 137,
 			"contributions": 100,
 			"users": 137,
-			"starters": 53
+			"starters": 69
 		},
 		{
 			"day": "2011-04-02",
 			"rows": 149,
 			"contributions": 126,
 			"users": 149,
-			"starters": 60
+			"starters": 77
 		},
 		{
 			"day": "2011-04-03",
 			"rows": 151,
 			"contributions": 110,
 			"users": 151,
-			"starters": 60
+			"starters": 79
 		},
 		{
 			"day": "2011-04-04",
 			"rows": 138,
 			"contributions": 97,
 			"users": 138,
-			"starters": 75
+			"starters": 65
 		},
 		{
 			"day": "2011-04-05",
 			"rows": 115,
 			"contributions": 85,
 			"users": 115,
-			"starters": 51
+			"starters": 66
 		},
 		{
 			"day": "2011-04-06",
 			"rows": 52,
 			"contributions": 39,
 			"users": 52,
-			"starters": 27
+			"starters": 29
 		},
 		{
 			"day": "2011-04-07",
 			"rows": 28,
 			"contributions": 23,
 			"users": 28,
-			"starters": 11
+			"starters": 18
+		},
+		{
+			"day": "2011-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2011-04-10",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -920,25 +12974,1817 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2011-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2011-10-21",
 			"rows": 3,
 			"contributions": 0,
 			"users": 3,
-			"starters": 1
+			"starters": 3
 		},
 		{
 			"day": "2011-10-22",
 			"rows": 124,
 			"contributions": 0,
 			"users": 124,
-			"starters": 76
+			"starters": 86
 		},
 		{
 			"day": "2011-10-23",
 			"rows": 10,
 			"contributions": 0,
 			"users": 10,
-			"starters": 7
+			"starters": 9
+		},
+		{
+			"day": "2011-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2011-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-01-01",
@@ -952,7 +14798,14 @@ window.projects.push({
 			"rows": 3,
 			"contributions": 0,
 			"users": 3,
-			"starters": 2
+			"starters": 1
+		},
+		{
+			"day": "2012-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-01-04",
@@ -960,6 +14813,20 @@ window.projects.push({
 			"contributions": 0,
 			"users": 1,
 			"starters": 1
+		},
+		{
+			"day": "2012-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-01-07",
@@ -976,172 +14843,193 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2012-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2012-01-12",
 			"rows": 6,
 			"contributions": 0,
 			"users": 6,
-			"starters": 3
+			"starters": 2
 		},
 		{
 			"day": "2012-01-13",
 			"rows": 34,
 			"contributions": 2,
 			"users": 34,
-			"starters": 31
+			"starters": 28
 		},
 		{
 			"day": "2012-01-14",
 			"rows": 120,
 			"contributions": 65,
 			"users": 120,
-			"starters": 81
+			"starters": 30
 		},
 		{
 			"day": "2012-01-15",
 			"rows": 225,
 			"contributions": 128,
 			"users": 225,
-			"starters": 134
+			"starters": 33
 		},
 		{
 			"day": "2012-01-16",
 			"rows": 195,
 			"contributions": 111,
 			"users": 195,
-			"starters": 101
+			"starters": 31
 		},
 		{
 			"day": "2012-01-17",
 			"rows": 138,
 			"contributions": 72,
 			"users": 138,
-			"starters": 74
+			"starters": 32
 		},
 		{
 			"day": "2012-01-18",
 			"rows": 137,
 			"contributions": 59,
 			"users": 137,
-			"starters": 78
+			"starters": 41
 		},
 		{
 			"day": "2012-01-19",
 			"rows": 162,
 			"contributions": 80,
 			"users": 162,
-			"starters": 102
+			"starters": 40
 		},
 		{
 			"day": "2012-01-20",
 			"rows": 214,
 			"contributions": 117,
 			"users": 214,
-			"starters": 120
+			"starters": 37
 		},
 		{
 			"day": "2012-01-21",
 			"rows": 135,
 			"contributions": 59,
 			"users": 135,
-			"starters": 89
+			"starters": 42
 		},
 		{
 			"day": "2012-01-22",
 			"rows": 124,
 			"contributions": 53,
 			"users": 124,
-			"starters": 81
+			"starters": 30
 		},
 		{
 			"day": "2012-01-23",
 			"rows": 184,
 			"contributions": 93,
 			"users": 184,
-			"starters": 144
+			"starters": 36
 		},
 		{
 			"day": "2012-01-24",
 			"rows": 103,
 			"contributions": 52,
 			"users": 103,
-			"starters": 73
+			"starters": 12
 		},
 		{
 			"day": "2012-01-25",
 			"rows": 32,
 			"contributions": 1,
 			"users": 32,
-			"starters": 11
+			"starters": 16
 		},
 		{
 			"day": "2012-01-26",
 			"rows": 15,
 			"contributions": 0,
 			"users": 15,
-			"starters": 10
+			"starters": 6
 		},
 		{
 			"day": "2012-01-27",
 			"rows": 14,
 			"contributions": 0,
 			"users": 14,
-			"starters": 6
+			"starters": 3
 		},
 		{
 			"day": "2012-01-28",
 			"rows": 12,
 			"contributions": 0,
 			"users": 12,
-			"starters": 5
+			"starters": 8
 		},
 		{
 			"day": "2012-01-29",
 			"rows": 20,
 			"contributions": 0,
 			"users": 20,
-			"starters": 12
+			"starters": 6
 		},
 		{
 			"day": "2012-01-30",
 			"rows": 10,
 			"contributions": 0,
 			"users": 10,
-			"starters": 5
+			"starters": 3
 		},
 		{
 			"day": "2012-01-31",
 			"rows": 16,
 			"contributions": 0,
 			"users": 16,
-			"starters": 7
+			"starters": 6
 		},
 		{
 			"day": "2012-02-01",
 			"rows": 25,
 			"contributions": 0,
 			"users": 25,
-			"starters": 16
+			"starters": 12
 		},
 		{
 			"day": "2012-02-02",
 			"rows": 22,
 			"contributions": 1,
 			"users": 22,
-			"starters": 16
+			"starters": 9
 		},
 		{
 			"day": "2012-02-03",
 			"rows": 24,
 			"contributions": 0,
 			"users": 24,
-			"starters": 16
+			"starters": 9
 		},
 		{
 			"day": "2012-02-04",
 			"rows": 11,
 			"contributions": 0,
 			"users": 11,
-			"starters": 9
+			"starters": 7
 		},
 		{
 			"day": "2012-02-05",
@@ -1155,28 +15043,28 @@ window.projects.push({
 			"rows": 29,
 			"contributions": 0,
 			"users": 29,
-			"starters": 11
+			"starters": 14
 		},
 		{
 			"day": "2012-02-07",
 			"rows": 29,
 			"contributions": 0,
 			"users": 29,
-			"starters": 16
+			"starters": 15
 		},
 		{
 			"day": "2012-02-08",
 			"rows": 35,
 			"contributions": 0,
 			"users": 35,
-			"starters": 23
+			"starters": 15
 		},
 		{
 			"day": "2012-02-09",
 			"rows": 19,
 			"contributions": 0,
 			"users": 19,
-			"starters": 6
+			"starters": 10
 		},
 		{
 			"day": "2012-02-10",
@@ -1190,91 +15078,91 @@ window.projects.push({
 			"rows": 51,
 			"contributions": 1,
 			"users": 51,
-			"starters": 43
+			"starters": 33
 		},
 		{
 			"day": "2012-02-12",
 			"rows": 93,
 			"contributions": 30,
 			"users": 93,
-			"starters": 76
+			"starters": 32
 		},
 		{
 			"day": "2012-02-13",
 			"rows": 115,
 			"contributions": 58,
 			"users": 115,
-			"starters": 94
+			"starters": 31
 		},
 		{
 			"day": "2012-02-14",
 			"rows": 135,
 			"contributions": 55,
 			"users": 135,
-			"starters": 105
+			"starters": 33
 		},
 		{
 			"day": "2012-02-15",
 			"rows": 103,
 			"contributions": 29,
 			"users": 102,
-			"starters": 70
+			"starters": 39
 		},
 		{
 			"day": "2012-02-16",
 			"rows": 167,
 			"contributions": 75,
 			"users": 167,
-			"starters": 127
+			"starters": 47
 		},
 		{
 			"day": "2012-02-17",
 			"rows": 122,
 			"contributions": 46,
 			"users": 122,
-			"starters": 79
+			"starters": 40
 		},
 		{
 			"day": "2012-02-18",
 			"rows": 133,
 			"contributions": 59,
 			"users": 133,
-			"starters": 101
+			"starters": 33
 		},
 		{
 			"day": "2012-02-19",
 			"rows": 174,
 			"contributions": 93,
 			"users": 174,
-			"starters": 122
+			"starters": 41
 		},
 		{
 			"day": "2012-02-20",
 			"rows": 256,
 			"contributions": 149,
 			"users": 256,
-			"starters": 183
+			"starters": 42
 		},
 		{
 			"day": "2012-02-21",
 			"rows": 255,
 			"contributions": 146,
 			"users": 254,
-			"starters": 175
+			"starters": 53
 		},
 		{
 			"day": "2012-02-22",
 			"rows": 143,
 			"contributions": 111,
 			"users": 143,
-			"starters": 93
+			"starters": 8
 		},
 		{
 			"day": "2012-02-23",
 			"rows": 2,
 			"contributions": 0,
 			"users": 2,
-			"starters": 2
+			"starters": 1
 		},
 		{
 			"day": "2012-02-24",
@@ -1288,133 +15176,280 @@ window.projects.push({
 			"rows": 2,
 			"contributions": 0,
 			"users": 2,
-			"starters": 1
+			"starters": 2
+		},
+		{
+			"day": "2012-02-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-02-27",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2012-02-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-02-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-03-02",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2012-03-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-03-11",
 			"rows": 6,
 			"contributions": 4,
 			"users": 6,
-			"starters": 2
+			"starters": 0
 		},
 		{
 			"day": "2012-03-12",
 			"rows": 24,
 			"contributions": 14,
 			"users": 24,
-			"starters": 6
+			"starters": 8
 		},
 		{
 			"day": "2012-03-13",
 			"rows": 178,
 			"contributions": 107,
 			"users": 178,
-			"starters": 99
+			"starters": 84
 		},
 		{
 			"day": "2012-03-14",
 			"rows": 254,
 			"contributions": 153,
 			"users": 254,
-			"starters": 147
+			"starters": 85
 		},
 		{
 			"day": "2012-03-15",
 			"rows": 242,
 			"contributions": 110,
 			"users": 242,
-			"starters": 154
+			"starters": 96
 		},
 		{
 			"day": "2012-03-16",
 			"rows": 262,
 			"contributions": 121,
 			"users": 262,
-			"starters": 139
+			"starters": 112
 		},
 		{
 			"day": "2012-03-17",
 			"rows": 248,
 			"contributions": 97,
 			"users": 248,
-			"starters": 146
+			"starters": 124
 		},
 		{
 			"day": "2012-03-18",
 			"rows": 186,
 			"contributions": 79,
 			"users": 186,
-			"starters": 90
+			"starters": 88
 		},
 		{
 			"day": "2012-03-19",
 			"rows": 307,
 			"contributions": 137,
 			"users": 307,
-			"starters": 164
+			"starters": 129
 		},
 		{
 			"day": "2012-03-20",
 			"rows": 256,
 			"contributions": 142,
 			"users": 256,
-			"starters": 134
+			"starters": 123
 		},
 		{
 			"day": "2012-03-21",
 			"rows": 350,
 			"contributions": 214,
 			"users": 350,
-			"starters": 181
+			"starters": 170
 		},
 		{
 			"day": "2012-03-22",
 			"rows": 377,
 			"contributions": 244,
 			"users": 377,
-			"starters": 200
+			"starters": 183
 		},
 		{
 			"day": "2012-03-23",
 			"rows": 139,
 			"contributions": 76,
 			"users": 139,
-			"starters": 82
+			"starters": 73
 		},
 		{
 			"day": "2012-03-24",
 			"rows": 4,
 			"contributions": 0,
 			"users": 4,
-			"starters": 2
+			"starters": 1
+		},
+		{
+			"day": "2012-03-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-03-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-03-31",
 			"rows": 105,
 			"contributions": 0,
 			"users": 105,
-			"starters": 89
+			"starters": 76
 		},
 		{
 			"day": "2012-04-01",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2012-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2012-04-05",
@@ -1435,7 +15470,7 @@ window.projects.push({
 			"rows": 2,
 			"contributions": 0,
 			"users": 2,
-			"starters": 2
+			"starters": 1
 		},
 		{
 			"day": "2012-04-08",
@@ -1456,105 +15491,1869 @@ window.projects.push({
 			"rows": 40,
 			"contributions": 0,
 			"users": 40,
-			"starters": 32
+			"starters": 39
 		},
 		{
 			"day": "2012-04-11",
 			"rows": 85,
 			"contributions": 19,
 			"users": 85,
-			"starters": 62
+			"starters": 57
 		},
 		{
 			"day": "2012-04-12",
 			"rows": 179,
 			"contributions": 101,
 			"users": 179,
-			"starters": 103
+			"starters": 66
 		},
 		{
 			"day": "2012-04-13",
 			"rows": 140,
 			"contributions": 53,
 			"users": 140,
-			"starters": 93
+			"starters": 67
 		},
 		{
 			"day": "2012-04-14",
 			"rows": 140,
 			"contributions": 41,
 			"users": 140,
-			"starters": 94
+			"starters": 95
 		},
 		{
 			"day": "2012-04-15",
 			"rows": 161,
 			"contributions": 41,
 			"users": 161,
-			"starters": 102
+			"starters": 113
 		},
 		{
 			"day": "2012-04-16",
 			"rows": 194,
 			"contributions": 58,
 			"users": 194,
-			"starters": 117
+			"starters": 138
 		},
 		{
 			"day": "2012-04-17",
 			"rows": 284,
 			"contributions": 106,
 			"users": 284,
-			"starters": 169
+			"starters": 153
 		},
 		{
 			"day": "2012-04-18",
 			"rows": 250,
 			"contributions": 83,
 			"users": 250,
-			"starters": 140
+			"starters": 147
 		},
 		{
 			"day": "2012-04-19",
 			"rows": 251,
 			"contributions": 87,
 			"users": 251,
-			"starters": 150
+			"starters": 135
 		},
 		{
 			"day": "2012-04-20",
 			"rows": 297,
 			"contributions": 123,
 			"users": 297,
-			"starters": 161
+			"starters": 146
 		},
 		{
 			"day": "2012-04-21",
 			"rows": 173,
 			"contributions": 106,
 			"users": 173,
-			"starters": 106
+			"starters": 68
 		},
 		{
 			"day": "2012-04-22",
 			"rows": 43,
 			"contributions": 0,
 			"users": 43,
-			"starters": 37
+			"starters": 42
 		},
 		{
 			"day": "2012-04-23",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2012-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2012-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-01-01",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2013-01-02",
@@ -1568,77 +17367,91 @@ window.projects.push({
 			"rows": 57,
 			"contributions": 48,
 			"users": 57,
-			"starters": 47
+			"starters": 8
 		},
 		{
 			"day": "2013-01-04",
 			"rows": 89,
 			"contributions": 58,
 			"users": 89,
-			"starters": 71
+			"starters": 5
 		},
 		{
 			"day": "2013-01-05",
 			"rows": 95,
 			"contributions": 68,
 			"users": 95,
-			"starters": 75
+			"starters": 9
 		},
 		{
 			"day": "2013-01-06",
 			"rows": 74,
 			"contributions": 51,
 			"users": 74,
-			"starters": 64
+			"starters": 5
 		},
 		{
 			"day": "2013-01-07",
 			"rows": 146,
 			"contributions": 69,
 			"users": 146,
-			"starters": 117
+			"starters": 6
 		},
 		{
 			"day": "2013-01-08",
 			"rows": 99,
 			"contributions": 71,
 			"users": 99,
-			"starters": 66
+			"starters": 13
 		},
 		{
 			"day": "2013-01-09",
 			"rows": 60,
 			"contributions": 39,
 			"users": 60,
-			"starters": 41
+			"starters": 4
 		},
 		{
 			"day": "2013-01-10",
 			"rows": 106,
 			"contributions": 62,
 			"users": 106,
-			"starters": 69
+			"starters": 4
 		},
 		{
 			"day": "2013-01-11",
 			"rows": 103,
 			"contributions": 57,
 			"users": 103,
-			"starters": 45
+			"starters": 6
 		},
 		{
 			"day": "2013-01-12",
 			"rows": 120,
 			"contributions": 67,
 			"users": 120,
-			"starters": 83
+			"starters": 3
 		},
 		{
 			"day": "2013-01-13",
 			"rows": 97,
 			"contributions": 22,
 			"users": 97,
-			"starters": 93
+			"starters": 71
+		},
+		{
+			"day": "2013-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-01-16",
@@ -1655,11 +17468,46 @@ window.projects.push({
 			"starters": 2
 		},
 		{
+			"day": "2013-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2013-01-19",
 			"rows": 3,
 			"contributions": 0,
 			"users": 3,
 			"starters": 3
+		},
+		{
+			"day": "2013-01-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-01-24",
@@ -1669,95 +17517,249 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2013-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2013-01-30",
 			"rows": 4,
 			"contributions": 1,
 			"users": 4,
-			"starters": 4
+			"starters": 2
 		},
 		{
 			"day": "2013-01-31",
 			"rows": 77,
 			"contributions": 40,
 			"users": 77,
-			"starters": 74
+			"starters": 13
 		},
 		{
 			"day": "2013-02-01",
 			"rows": 158,
 			"contributions": 101,
 			"users": 158,
-			"starters": 146
+			"starters": 12
 		},
 		{
 			"day": "2013-02-02",
 			"rows": 166,
 			"contributions": 85,
 			"users": 166,
-			"starters": 145
+			"starters": 30
 		},
 		{
 			"day": "2013-02-03",
 			"rows": 75,
 			"contributions": 47,
 			"users": 75,
-			"starters": 72
+			"starters": 7
 		},
 		{
 			"day": "2013-02-04",
 			"rows": 90,
 			"contributions": 60,
 			"users": 90,
-			"starters": 89
+			"starters": 8
 		},
 		{
 			"day": "2013-02-05",
 			"rows": 116,
 			"contributions": 80,
 			"users": 116,
-			"starters": 113
+			"starters": 8
 		},
 		{
 			"day": "2013-02-06",
 			"rows": 192,
 			"contributions": 124,
 			"users": 192,
-			"starters": 183
+			"starters": 40
 		},
 		{
 			"day": "2013-02-07",
 			"rows": 136,
 			"contributions": 92,
 			"users": 136,
-			"starters": 124
+			"starters": 35
 		},
 		{
 			"day": "2013-02-08",
 			"rows": 180,
 			"contributions": 116,
 			"users": 180,
-			"starters": 137
+			"starters": 38
 		},
 		{
 			"day": "2013-02-09",
 			"rows": 121,
 			"contributions": 77,
 			"users": 121,
-			"starters": 90
+			"starters": 26
 		},
 		{
 			"day": "2013-02-10",
 			"rows": 87,
 			"contributions": 74,
 			"users": 87,
-			"starters": 61
+			"starters": 8
+		},
+		{
+			"day": "2013-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-02-13",
 			"rows": 55,
 			"contributions": 0,
 			"users": 55,
-			"starters": 46
+			"starters": 55
+		},
+		{
+			"day": "2013-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-02-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-03-01",
@@ -1771,84 +17773,84 @@ window.projects.push({
 			"rows": 5,
 			"contributions": 2,
 			"users": 5,
-			"starters": 3
+			"starters": 2
 		},
 		{
 			"day": "2013-03-03",
 			"rows": 197,
 			"contributions": 112,
 			"users": 197,
-			"starters": 151
+			"starters": 90
 		},
 		{
 			"day": "2013-03-04",
 			"rows": 402,
 			"contributions": 235,
 			"users": 402,
-			"starters": 269
+			"starters": 137
 		},
 		{
 			"day": "2013-03-05",
 			"rows": 297,
 			"contributions": 174,
 			"users": 297,
-			"starters": 242
+			"starters": 105
 		},
 		{
 			"day": "2013-03-06",
 			"rows": 204,
 			"contributions": 113,
 			"users": 204,
-			"starters": 144
+			"starters": 87
 		},
 		{
 			"day": "2013-03-07",
 			"rows": 246,
 			"contributions": 111,
 			"users": 246,
-			"starters": 183
+			"starters": 117
 		},
 		{
 			"day": "2013-03-08",
 			"rows": 245,
 			"contributions": 76,
 			"users": 245,
-			"starters": 180
+			"starters": 157
 		},
 		{
 			"day": "2013-03-09",
 			"rows": 224,
 			"contributions": 99,
 			"users": 224,
-			"starters": 167
+			"starters": 117
 		},
 		{
 			"day": "2013-03-10",
 			"rows": 323,
 			"contributions": 207,
 			"users": 323,
-			"starters": 241
+			"starters": 131
 		},
 		{
 			"day": "2013-03-11",
 			"rows": 189,
 			"contributions": 128,
 			"users": 189,
-			"starters": 124
+			"starters": 58
 		},
 		{
 			"day": "2013-03-12",
 			"rows": 167,
 			"contributions": 95,
 			"users": 167,
-			"starters": 115
+			"starters": 53
 		},
 		{
 			"day": "2013-03-13",
 			"rows": 137,
 			"contributions": 104,
 			"users": 137,
-			"starters": 82
+			"starters": 22
 		},
 		{
 			"day": "2013-03-14",
@@ -1858,11 +17860,46 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2013-03-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2013-03-18",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
 			"starters": 1
+		},
+		{
+			"day": "2013-03-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-03-21",
@@ -1872,6 +17909,27 @@ window.projects.push({
 			"starters": 2
 		},
 		{
+			"day": "2013-03-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2013-03-25",
 			"rows": 2,
 			"contributions": 0,
@@ -1879,11 +17937,39 @@ window.projects.push({
 			"starters": 2
 		},
 		{
+			"day": "2013-03-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-03-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2013-03-30",
 			"rows": 3,
 			"contributions": 3,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2013-03-31",
@@ -1897,147 +17983,420 @@ window.projects.push({
 			"rows": 61,
 			"contributions": 26,
 			"users": 61,
-			"starters": 57
+			"starters": 35
 		},
 		{
 			"day": "2013-04-02",
 			"rows": 168,
 			"contributions": 84,
 			"users": 168,
-			"starters": 163
+			"starters": 102
 		},
 		{
 			"day": "2013-04-03",
 			"rows": 163,
 			"contributions": 51,
 			"users": 163,
-			"starters": 161
+			"starters": 113
 		},
 		{
 			"day": "2013-04-04",
 			"rows": 140,
 			"contributions": 54,
 			"users": 140,
-			"starters": 139
+			"starters": 88
 		},
 		{
 			"day": "2013-04-05",
 			"rows": 167,
 			"contributions": 75,
 			"users": 167,
-			"starters": 165
+			"starters": 107
 		},
 		{
 			"day": "2013-04-06",
 			"rows": 241,
 			"contributions": 112,
 			"users": 241,
-			"starters": 230
+			"starters": 93
 		},
 		{
 			"day": "2013-04-07",
 			"rows": 176,
 			"contributions": 78,
 			"users": 176,
-			"starters": 149
+			"starters": 100
 		},
 		{
 			"day": "2013-04-08",
 			"rows": 165,
 			"contributions": 84,
 			"users": 165,
-			"starters": 134
+			"starters": 84
 		},
 		{
 			"day": "2013-04-09",
 			"rows": 138,
 			"contributions": 74,
 			"users": 138,
-			"starters": 112
+			"starters": 75
 		},
 		{
 			"day": "2013-04-10",
 			"rows": 31,
 			"contributions": 23,
 			"users": 31,
-			"starters": 24
+			"starters": 7
+		},
+		{
+			"day": "2013-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-04-29",
 			"rows": 15,
 			"contributions": 11,
 			"users": 15,
-			"starters": 13
+			"starters": 10
 		},
 		{
 			"day": "2013-04-30",
 			"rows": 96,
 			"contributions": 59,
 			"users": 96,
-			"starters": 88
+			"starters": 38
 		},
 		{
 			"day": "2013-05-01",
 			"rows": 68,
 			"contributions": 51,
 			"users": 68,
-			"starters": 58
+			"starters": 27
 		},
 		{
 			"day": "2013-05-02",
 			"rows": 95,
 			"contributions": 73,
 			"users": 95,
-			"starters": 82
+			"starters": 25
 		},
 		{
 			"day": "2013-05-03",
 			"rows": 121,
 			"contributions": 77,
 			"users": 121,
-			"starters": 106
+			"starters": 59
 		},
 		{
 			"day": "2013-05-04",
 			"rows": 162,
 			"contributions": 125,
 			"users": 162,
-			"starters": 134
+			"starters": 54
 		},
 		{
 			"day": "2013-05-05",
 			"rows": 197,
 			"contributions": 175,
 			"users": 197,
-			"starters": 135
+			"starters": 72
 		},
 		{
 			"day": "2013-05-06",
 			"rows": 189,
 			"contributions": 162,
 			"users": 189,
-			"starters": 172
+			"starters": 94
 		},
 		{
 			"day": "2013-05-07",
 			"rows": 186,
 			"contributions": 158,
 			"users": 186,
-			"starters": 147
+			"starters": 91
 		},
 		{
 			"day": "2013-05-08",
 			"rows": 239,
 			"contributions": 160,
 			"users": 239,
-			"starters": 212
+			"starters": 145
 		},
 		{
 			"day": "2013-05-09",
 			"rows": 104,
 			"contributions": 81,
 			"users": 104,
-			"starters": 88
+			"starters": 42
+		},
+		{
+			"day": "2013-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-05-31",
@@ -2045,6 +18404,13 @@ window.projects.push({
 			"contributions": 0,
 			"users": 3,
 			"starters": 3
+		},
+		{
+			"day": "2013-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-06-02",
@@ -2061,11 +18427,1397 @@ window.projects.push({
 			"starters": 38
 		},
 		{
+			"day": "2013-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2013-06-08",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
 			"starters": 1
+		},
+		{
+			"day": "2013-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2013-12-20",
@@ -2075,515 +19827,1460 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2013-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2013-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2014-01-02",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2014-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-01-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-01-19",
 			"rows": 4,
 			"contributions": 0,
 			"users": 4,
-			"starters": 4
+			"starters": 2
 		},
 		{
 			"day": "2014-01-20",
 			"rows": 51,
 			"contributions": 19,
 			"users": 51,
-			"starters": 51
+			"starters": 1
 		},
 		{
 			"day": "2014-01-21",
 			"rows": 106,
 			"contributions": 63,
 			"users": 106,
-			"starters": 105
+			"starters": 0
 		},
 		{
 			"day": "2014-01-22",
 			"rows": 77,
 			"contributions": 34,
 			"users": 77,
-			"starters": 77
+			"starters": 1
 		},
 		{
 			"day": "2014-01-23",
 			"rows": 99,
 			"contributions": 65,
 			"users": 99,
-			"starters": 99
+			"starters": 1
 		},
 		{
 			"day": "2014-01-24",
 			"rows": 80,
 			"contributions": 53,
 			"users": 80,
-			"starters": 79
+			"starters": 2
 		},
 		{
 			"day": "2014-01-25",
 			"rows": 53,
 			"contributions": 44,
 			"users": 53,
-			"starters": 53
+			"starters": 0
 		},
 		{
 			"day": "2014-01-26",
 			"rows": 43,
 			"contributions": 22,
 			"users": 43,
-			"starters": 43
+			"starters": 1
 		},
 		{
 			"day": "2014-01-27",
 			"rows": 53,
 			"contributions": 31,
 			"users": 53,
-			"starters": 53
+			"starters": 0
 		},
 		{
 			"day": "2014-01-28",
 			"rows": 42,
 			"contributions": 25,
 			"users": 42,
-			"starters": 42
+			"starters": 3
 		},
 		{
 			"day": "2014-01-29",
 			"rows": 73,
 			"contributions": 42,
 			"users": 73,
-			"starters": 73
+			"starters": 0
 		},
 		{
 			"day": "2014-01-30",
 			"rows": 74,
 			"contributions": 41,
 			"users": 74,
-			"starters": 74
+			"starters": 4
+		},
+		{
+			"day": "2014-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-02-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-02-17",
 			"rows": 2,
 			"contributions": 1,
 			"users": 2,
-			"starters": 2
+			"starters": 0
+		},
+		{
+			"day": "2014-02-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-02-19",
 			"rows": 13,
 			"contributions": 12,
 			"users": 13,
-			"starters": 13
+			"starters": 1
 		},
 		{
 			"day": "2014-02-20",
 			"rows": 101,
 			"contributions": 59,
 			"users": 101,
-			"starters": 101
+			"starters": 4
 		},
 		{
 			"day": "2014-02-21",
 			"rows": 58,
 			"contributions": 25,
 			"users": 58,
-			"starters": 58
+			"starters": 1
 		},
 		{
 			"day": "2014-02-22",
 			"rows": 94,
 			"contributions": 59,
 			"users": 94,
-			"starters": 94
+			"starters": 8
 		},
 		{
 			"day": "2014-02-23",
 			"rows": 104,
 			"contributions": 71,
 			"users": 104,
-			"starters": 104
+			"starters": 4
 		},
 		{
 			"day": "2014-02-24",
 			"rows": 106,
 			"contributions": 68,
 			"users": 106,
-			"starters": 106
+			"starters": 4
 		},
 		{
 			"day": "2014-02-25",
 			"rows": 170,
 			"contributions": 95,
 			"users": 170,
-			"starters": 170
+			"starters": 4
 		},
 		{
 			"day": "2014-02-26",
 			"rows": 121,
 			"contributions": 75,
 			"users": 121,
-			"starters": 121
+			"starters": 7
 		},
 		{
 			"day": "2014-02-27",
 			"rows": 73,
 			"contributions": 41,
 			"users": 73,
-			"starters": 73
+			"starters": 4
 		},
 		{
 			"day": "2014-02-28",
 			"rows": 104,
 			"contributions": 69,
 			"users": 104,
-			"starters": 104
+			"starters": 14
 		},
 		{
 			"day": "2014-03-01",
 			"rows": 41,
 			"contributions": 25,
 			"users": 41,
-			"starters": 41
+			"starters": 2
+		},
+		{
+			"day": "2014-03-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-03-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-03-20",
 			"rows": 2,
 			"contributions": 1,
 			"users": 2,
-			"starters": 2
+			"starters": 0
 		},
 		{
 			"day": "2014-03-21",
 			"rows": 73,
 			"contributions": 50,
 			"users": 73,
-			"starters": 73
+			"starters": 6
 		},
 		{
 			"day": "2014-03-22",
 			"rows": 197,
 			"contributions": 156,
 			"users": 197,
-			"starters": 197
+			"starters": 34
 		},
 		{
 			"day": "2014-03-23",
 			"rows": 201,
 			"contributions": 165,
 			"users": 201,
-			"starters": 201
+			"starters": 22
 		},
 		{
 			"day": "2014-03-24",
 			"rows": 161,
 			"contributions": 133,
 			"users": 161,
-			"starters": 161
+			"starters": 24
 		},
 		{
 			"day": "2014-03-25",
 			"rows": 230,
 			"contributions": 188,
 			"users": 230,
-			"starters": 229
+			"starters": 32
 		},
 		{
 			"day": "2014-03-26",
 			"rows": 185,
 			"contributions": 153,
 			"users": 185,
-			"starters": 185
+			"starters": 37
 		},
 		{
 			"day": "2014-03-27",
 			"rows": 163,
 			"contributions": 133,
 			"users": 163,
-			"starters": 163
+			"starters": 21
 		},
 		{
 			"day": "2014-03-28",
 			"rows": 204,
 			"contributions": 164,
 			"users": 204,
-			"starters": 204
+			"starters": 42
 		},
 		{
 			"day": "2014-03-29",
 			"rows": 169,
 			"contributions": 131,
 			"users": 169,
-			"starters": 169
+			"starters": 34
 		},
 		{
 			"day": "2014-03-30",
 			"rows": 169,
 			"contributions": 123,
 			"users": 169,
-			"starters": 169
+			"starters": 31
 		},
 		{
 			"day": "2014-03-31",
 			"rows": 141,
 			"contributions": 112,
 			"users": 141,
-			"starters": 141
+			"starters": 10
+		},
+		{
+			"day": "2014-04-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-04-03",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2014-04-04",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2014-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-04-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-04-20",
 			"rows": 24,
 			"contributions": 21,
 			"users": 24,
-			"starters": 24
+			"starters": 5
 		},
 		{
 			"day": "2014-04-21",
 			"rows": 27,
 			"contributions": 20,
 			"users": 27,
-			"starters": 27
+			"starters": 6
 		},
 		{
 			"day": "2014-04-22",
 			"rows": 29,
 			"contributions": 16,
 			"users": 29,
-			"starters": 29
+			"starters": 9
 		},
 		{
 			"day": "2014-04-23",
 			"rows": 33,
 			"contributions": 22,
 			"users": 33,
-			"starters": 33
+			"starters": 3
 		},
 		{
 			"day": "2014-04-24",
 			"rows": 62,
 			"contributions": 47,
 			"users": 62,
-			"starters": 62
+			"starters": 12
 		},
 		{
 			"day": "2014-04-25",
 			"rows": 60,
 			"contributions": 48,
 			"users": 60,
-			"starters": 60
+			"starters": 15
 		},
 		{
 			"day": "2014-04-26",
 			"rows": 46,
 			"contributions": 36,
 			"users": 46,
-			"starters": 46
+			"starters": 7
 		},
 		{
 			"day": "2014-04-27",
 			"rows": 37,
 			"contributions": 29,
 			"users": 37,
-			"starters": 37
+			"starters": 9
 		},
 		{
 			"day": "2014-04-28",
 			"rows": 48,
 			"contributions": 37,
 			"users": 48,
-			"starters": 48
+			"starters": 6
 		},
 		{
 			"day": "2014-04-29",
 			"rows": 78,
 			"contributions": 58,
 			"users": 78,
-			"starters": 78
+			"starters": 11
 		},
 		{
 			"day": "2014-04-30",
 			"rows": 60,
 			"contributions": 48,
 			"users": 60,
-			"starters": 60
+			"starters": 9
+		},
+		{
+			"day": "2014-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-05-19",
 			"rows": 13,
 			"contributions": 11,
 			"users": 13,
-			"starters": 13
+			"starters": 1
 		},
 		{
 			"day": "2014-05-20",
 			"rows": 21,
 			"contributions": 20,
 			"users": 21,
-			"starters": 21
+			"starters": 3
 		},
 		{
 			"day": "2014-05-21",
 			"rows": 29,
 			"contributions": 25,
 			"users": 29,
-			"starters": 29
+			"starters": 10
 		},
 		{
 			"day": "2014-05-22",
 			"rows": 33,
 			"contributions": 29,
 			"users": 33,
-			"starters": 33
+			"starters": 7
 		},
 		{
 			"day": "2014-05-23",
 			"rows": 26,
 			"contributions": 21,
 			"users": 26,
-			"starters": 26
+			"starters": 6
 		},
 		{
 			"day": "2014-05-24",
 			"rows": 37,
 			"contributions": 23,
 			"users": 37,
-			"starters": 37
+			"starters": 5
 		},
 		{
 			"day": "2014-05-25",
 			"rows": 31,
 			"contributions": 21,
 			"users": 31,
-			"starters": 31
+			"starters": 1
 		},
 		{
 			"day": "2014-05-26",
 			"rows": 40,
 			"contributions": 34,
 			"users": 40,
-			"starters": 40
+			"starters": 16
 		},
 		{
 			"day": "2014-05-27",
 			"rows": 32,
 			"contributions": 24,
 			"users": 32,
-			"starters": 32
+			"starters": 5
 		},
 		{
 			"day": "2014-05-28",
 			"rows": 37,
 			"contributions": 21,
 			"users": 37,
-			"starters": 37
+			"starters": 7
 		},
 		{
 			"day": "2014-05-29",
 			"rows": 48,
 			"contributions": 35,
 			"users": 48,
-			"starters": 48
+			"starters": 10
+		},
+		{
+			"day": "2014-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-06-17",
 			"rows": 3,
 			"contributions": 1,
 			"users": 3,
-			"starters": 3
+			"starters": 1
 		},
 		{
 			"day": "2014-06-18",
 			"rows": 12,
 			"contributions": 7,
 			"users": 12,
-			"starters": 12
+			"starters": 3
 		},
 		{
 			"day": "2014-06-19",
 			"rows": 7,
 			"contributions": 6,
 			"users": 7,
-			"starters": 7
+			"starters": 3
 		},
 		{
 			"day": "2014-06-20",
 			"rows": 8,
 			"contributions": 6,
 			"users": 8,
-			"starters": 8
+			"starters": 4
 		},
 		{
 			"day": "2014-06-21",
 			"rows": 4,
 			"contributions": 2,
 			"users": 4,
-			"starters": 4
+			"starters": 3
 		},
 		{
 			"day": "2014-06-22",
 			"rows": 11,
 			"contributions": 8,
 			"users": 11,
-			"starters": 11
+			"starters": 5
 		},
 		{
 			"day": "2014-06-23",
 			"rows": 11,
 			"contributions": 9,
 			"users": 11,
-			"starters": 11
+			"starters": 5
 		},
 		{
 			"day": "2014-06-24",
 			"rows": 15,
 			"contributions": 13,
 			"users": 15,
-			"starters": 15
+			"starters": 10
 		},
 		{
 			"day": "2014-06-25",
 			"rows": 13,
 			"contributions": 4,
 			"users": 13,
-			"starters": 13
+			"starters": 6
 		},
 		{
 			"day": "2014-06-26",
 			"rows": 8,
 			"contributions": 4,
 			"users": 8,
-			"starters": 8
+			"starters": 4
 		},
 		{
 			"day": "2014-06-27",
 			"rows": 2,
 			"contributions": 1,
 			"users": 2,
-			"starters": 2
+			"starters": 1
+		},
+		{
+			"day": "2014-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-07-16",
 			"rows": 2,
 			"contributions": 2,
 			"users": 2,
-			"starters": 2
+			"starters": 0
 		},
 		{
 			"day": "2014-07-17",
@@ -2597,140 +21294,315 @@ window.projects.push({
 			"rows": 3,
 			"contributions": 3,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2014-07-19",
 			"rows": 3,
 			"contributions": 3,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2014-07-20",
 			"rows": 3,
 			"contributions": 3,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2014-07-21",
 			"rows": 3,
 			"contributions": 3,
 			"users": 3,
-			"starters": 3
+			"starters": 2
 		},
 		{
 			"day": "2014-07-22",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2014-07-23",
 			"rows": 4,
 			"contributions": 3,
 			"users": 4,
-			"starters": 4
+			"starters": 3
 		},
 		{
 			"day": "2014-07-24",
 			"rows": 4,
 			"contributions": 3,
 			"users": 4,
-			"starters": 4
+			"starters": 2
 		},
 		{
 			"day": "2014-07-25",
 			"rows": 9,
 			"contributions": 5,
 			"users": 9,
-			"starters": 9
+			"starters": 2
 		},
 		{
 			"day": "2014-07-26",
 			"rows": 3,
 			"contributions": 2,
 			"users": 3,
-			"starters": 3
+			"starters": 0
+		},
+		{
+			"day": "2014-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-08-15",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2014-08-16",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2014-08-17",
 			"rows": 3,
 			"contributions": 2,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2014-08-18",
 			"rows": 2,
 			"contributions": 1,
 			"users": 2,
-			"starters": 2
+			"starters": 0
 		},
 		{
 			"day": "2014-08-19",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		},
 		{
 			"day": "2014-08-20",
 			"rows": 4,
 			"contributions": 4,
 			"users": 4,
-			"starters": 4
+			"starters": 1
 		},
 		{
 			"day": "2014-08-21",
 			"rows": 4,
 			"contributions": 3,
 			"users": 4,
-			"starters": 4
+			"starters": 0
 		},
 		{
 			"day": "2014-08-22",
 			"rows": 3,
 			"contributions": 2,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2014-08-23",
 			"rows": 5,
 			"contributions": 5,
 			"users": 5,
-			"starters": 5
+			"starters": 0
 		},
 		{
 			"day": "2014-08-24",
 			"rows": 3,
 			"contributions": 2,
 			"users": 3,
-			"starters": 3
+			"starters": 0
 		},
 		{
 			"day": "2014-08-25",
 			"rows": 4,
 			"contributions": 4,
 			"users": 4,
-			"starters": 4
+			"starters": 0
+		},
+		{
+			"day": "2014-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-09-01",
@@ -2740,6 +21612,76 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2014-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2014-09-12",
 			"rows": 1,
 			"contributions": 1,
@@ -2747,102 +21689,242 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2014-09-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2014-09-15",
 			"rows": 22,
 			"contributions": 7,
 			"users": 22,
-			"starters": 22
+			"starters": 14
 		},
 		{
 			"day": "2014-09-16",
 			"rows": 39,
 			"contributions": 26,
 			"users": 39,
-			"starters": 39
+			"starters": 27
 		},
 		{
 			"day": "2014-09-17",
 			"rows": 39,
 			"contributions": 24,
 			"users": 39,
-			"starters": 39
+			"starters": 25
 		},
 		{
 			"day": "2014-09-18",
 			"rows": 47,
 			"contributions": 25,
 			"users": 47,
-			"starters": 47
+			"starters": 31
 		},
 		{
 			"day": "2014-09-19",
 			"rows": 51,
 			"contributions": 22,
 			"users": 51,
-			"starters": 51
+			"starters": 34
 		},
 		{
 			"day": "2014-09-20",
 			"rows": 41,
 			"contributions": 22,
 			"users": 41,
-			"starters": 41
+			"starters": 31
 		},
 		{
 			"day": "2014-09-21",
 			"rows": 18,
 			"contributions": 9,
 			"users": 18,
-			"starters": 18
+			"starters": 15
 		},
 		{
 			"day": "2014-09-22",
 			"rows": 27,
 			"contributions": 18,
 			"users": 27,
-			"starters": 27
+			"starters": 13
 		},
 		{
 			"day": "2014-09-23",
 			"rows": 41,
 			"contributions": 19,
 			"users": 41,
-			"starters": 41
+			"starters": 29
 		},
 		{
 			"day": "2014-09-24",
 			"rows": 49,
 			"contributions": 23,
 			"users": 49,
-			"starters": 49
+			"starters": 32
 		},
 		{
 			"day": "2014-09-25",
 			"rows": 57,
 			"contributions": 52,
 			"users": 57,
-			"starters": 57
+			"starters": 36
+		},
+		{
+			"day": "2014-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-10-14",
 			"rows": 13,
 			"contributions": 2,
 			"users": 13,
-			"starters": 13
+			"starters": 11
 		},
 		{
 			"day": "2014-10-15",
 			"rows": 13,
 			"contributions": 7,
 			"users": 13,
-			"starters": 13
+			"starters": 12
 		},
 		{
 			"day": "2014-10-16",
 			"rows": 12,
 			"contributions": 5,
 			"users": 12,
-			"starters": 12
+			"starters": 11
 		},
 		{
 			"day": "2014-10-17",
@@ -2856,35 +21938,35 @@ window.projects.push({
 			"rows": 42,
 			"contributions": 9,
 			"users": 42,
-			"starters": 42
+			"starters": 41
 		},
 		{
 			"day": "2014-10-19",
 			"rows": 59,
 			"contributions": 31,
 			"users": 59,
-			"starters": 59
+			"starters": 58
 		},
 		{
 			"day": "2014-10-20",
 			"rows": 20,
 			"contributions": 5,
 			"users": 20,
-			"starters": 20
+			"starters": 19
 		},
 		{
 			"day": "2014-10-21",
 			"rows": 21,
 			"contributions": 17,
 			"users": 21,
-			"starters": 21
+			"starters": 19
 		},
 		{
 			"day": "2014-10-22",
 			"rows": 7,
 			"contributions": 1,
 			"users": 7,
-			"starters": 7
+			"starters": 6
 		},
 		{
 			"day": "2014-10-23",
@@ -2899,6 +21981,132 @@ window.projects.push({
 			"contributions": 10,
 			"users": 10,
 			"starters": 10
+		},
+		{
+			"day": "2014-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2014-11-12",
@@ -2978,6 +22186,132 @@ window.projects.push({
 			"starters": 33
 		},
 		{
+			"day": "2014-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2014-12-11",
 			"rows": 4,
 			"contributions": 4,
@@ -3017,7 +22351,7 @@ window.projects.push({
 			"rows": 4,
 			"contributions": 4,
 			"users": 4,
-			"starters": 4
+			"starters": 3
 		},
 		{
 			"day": "2014-12-17",
@@ -3055,88 +22389,347 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2014-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2014-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-01-02",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
+		},
+		{
+			"day": "2015-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2015-01-11",
 			"rows": 42,
 			"contributions": 2,
 			"users": 31,
-			"starters": 19
+			"starters": 3
 		},
 		{
 			"day": "2015-01-12",
 			"rows": 62,
 			"contributions": 14,
 			"users": 61,
-			"starters": 34
+			"starters": 5
 		},
 		{
 			"day": "2015-01-13",
 			"rows": 56,
 			"contributions": 10,
 			"users": 56,
-			"starters": 27
+			"starters": 2
 		},
 		{
 			"day": "2015-01-14",
 			"rows": 69,
 			"contributions": 38,
 			"users": 69,
-			"starters": 45
+			"starters": 5
 		},
 		{
 			"day": "2015-01-15",
 			"rows": 35,
 			"contributions": 10,
 			"users": 35,
-			"starters": 16
+			"starters": 0
 		},
 		{
 			"day": "2015-01-16",
 			"rows": 47,
 			"contributions": 15,
 			"users": 47,
-			"starters": 19
+			"starters": 1
 		},
 		{
 			"day": "2015-01-17",
 			"rows": 53,
 			"contributions": 18,
 			"users": 53,
-			"starters": 32
+			"starters": 2
 		},
 		{
 			"day": "2015-01-18",
 			"rows": 43,
 			"contributions": 19,
 			"users": 43,
-			"starters": 24
+			"starters": 4
 		},
 		{
 			"day": "2015-01-19",
 			"rows": 57,
 			"contributions": 25,
 			"users": 57,
-			"starters": 35
+			"starters": 3
 		},
 		{
 			"day": "2015-01-20",
 			"rows": 72,
 			"contributions": 27,
 			"users": 71,
-			"starters": 43
+			"starters": 2
 		},
 		{
 			"day": "2015-01-21",
 			"rows": 95,
 			"contributions": 65,
 			"users": 95,
-			"starters": 76
+			"starters": 1
+		},
+		{
+			"day": "2015-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-01-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2015-02-09",
@@ -3214,6 +22807,132 @@ window.projects.push({
 			"contributions": 35,
 			"users": 47,
 			"starters": 2
+		},
+		{
+			"day": "2015-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-02-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2015-03-10",
@@ -3300,6 +23019,132 @@ window.projects.push({
 			"starters": 5
 		},
 		{
+			"day": "2015-03-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-03-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-04-09",
 			"rows": 34,
 			"contributions": 24,
@@ -3377,10 +23222,136 @@ window.projects.push({
 			"starters": 9
 		},
 		{
+			"day": "2015-04-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-04-27",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-04-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -3468,6 +23439,132 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2015-05-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-05-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-06-08",
 			"rows": 3,
 			"contributions": 2,
@@ -3545,6 +23642,132 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2015-06-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-06-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-07-07",
 			"rows": 4,
 			"contributions": 2,
@@ -3619,6 +23842,132 @@ window.projects.push({
 			"rows": 7,
 			"contributions": 7,
 			"users": 7,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -3699,6 +24048,132 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2015-08-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-08-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-09-03",
 			"rows": 2,
 			"contributions": 1,
@@ -3776,10 +24251,136 @@ window.projects.push({
 			"starters": 3
 		},
 		{
+			"day": "2015-09-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-09-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-09-30",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -3860,6 +24461,139 @@ window.projects.push({
 			"starters": 5
 		},
 		{
+			"day": "2015-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-11-02",
 			"rows": 19,
 			"contributions": 15,
@@ -3937,6 +24671,139 @@ window.projects.push({
 			"starters": 6
 		},
 		{
+			"day": "2015-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2015-12-02",
 			"rows": 8,
 			"contributions": 6,
@@ -4012,6 +24879,132 @@ window.projects.push({
 			"contributions": 6,
 			"users": 6,
 			"starters": 2
+		},
+		{
+			"day": "2015-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2015-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2015-12-31",
@@ -4168,6 +25161,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-01-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-01-23",
 			"rows": 1,
 			"contributions": 1,
@@ -4207,6 +25207,13 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -4361,6 +25368,13 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-02-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -4546,11 +25560,32 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-03-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-03-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-03-21",
 			"rows": 2,
 			"contributions": 1,
 			"users": 2,
 			"starters": 1
+		},
+		{
+			"day": "2016-03-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2016-03-23",
@@ -4564,6 +25599,13 @@ window.projects.push({
 			"rows": 3,
 			"contributions": 0,
 			"users": 3,
+			"starters": 0
+		},
+		{
+			"day": "2016-03-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -4896,6 +25938,41 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-05-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-05-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-05-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-05-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-05-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-05-17",
 			"rows": 2,
 			"contributions": 1,
@@ -4945,11 +26022,39 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2016-05-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-05-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-05-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-05-27",
 			"rows": 2,
 			"contributions": 0,
 			"users": 2,
 			"starters": 1
+		},
+		{
+			"day": "2016-05-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2016-05-29",
@@ -5036,6 +26141,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-06-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-06-11",
 			"rows": 1,
 			"contributions": 1,
@@ -5047,6 +26159,13 @@ window.projects.push({
 			"rows": 2,
 			"contributions": 2,
 			"users": 2,
+			"starters": 0
+		},
+		{
+			"day": "2016-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5064,6 +26183,27 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-06-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-06-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-06-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-06-19",
 			"rows": 2,
 			"contributions": 1,
@@ -5071,10 +26211,38 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-06-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-06-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-06-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-06-23",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-06-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5183,10 +26351,59 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-07-16",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5197,10 +26414,66 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2016-07-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-07-26",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-07-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5237,6 +26510,13 @@ window.projects.push({
 			"contributions": 6,
 			"users": 7,
 			"starters": 5
+		},
+		{
+			"day": "2016-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2016-08-03",
@@ -5285,6 +26565,13 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-08-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5348,6 +26635,13 @@ window.projects.push({
 			"rows": 2,
 			"contributions": 0,
 			"users": 2,
+			"starters": 0
+		},
+		{
+			"day": "2016-08-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5666,10 +26960,213 @@ window.projects.push({
 			"starters": 5
 		},
 		{
+			"day": "2016-10-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-10-12",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-10-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5680,10 +27177,38 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-11-06",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5694,6 +27219,300 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-11-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2016-12-23",
 			"rows": 1,
 			"contributions": 0,
@@ -5701,10 +27520,136 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2016-12-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2016-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-01-10",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-01-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -5848,10 +27793,24 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2017-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-02-02",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-02-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -6261,6 +28220,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-04-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-04-04",
 			"rows": 4,
 			"contributions": 3,
@@ -6275,10 +28241,24 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-04-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-04-07",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-04-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -6737,6 +28717,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-06-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-06-14",
 			"rows": 1,
 			"contributions": 0,
@@ -6842,6 +28829,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-06-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-06-30",
 			"rows": 1,
 			"contributions": 1,
@@ -6884,10 +28878,24 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-07-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-07-07",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-07-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -6896,6 +28904,20 @@ window.projects.push({
 			"contributions": 1,
 			"users": 1,
 			"starters": 1
+		},
+		{
+			"day": "2017-07-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-07-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2017-07-12",
@@ -6909,6 +28931,20 @@ window.projects.push({
 			"rows": 2,
 			"contributions": 0,
 			"users": 2,
+			"starters": 0
+		},
+		{
+			"day": "2017-07-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-07-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7003,6 +29039,27 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-07-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-07-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-07-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-08-01",
 			"rows": 2,
 			"contributions": 1,
@@ -7010,10 +29067,38 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-08-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-08-03",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-08-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-08-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-08-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7028,6 +29113,13 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-08-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7157,10 +29249,24 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-08-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-08-29",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-08-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7171,10 +29277,52 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-09-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-09-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-09-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-09-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-09-05",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-09-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-09-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7304,6 +29452,13 @@ window.projects.push({
 			"starters": 2
 		},
 		{
+			"day": "2017-09-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-09-27",
 			"rows": 2,
 			"contributions": 2,
@@ -7323,6 +29478,34 @@ window.projects.push({
 			"contributions": 3,
 			"users": 4,
 			"starters": 2
+		},
+		{
+			"day": "2017-09-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-10-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-10-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-10-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"day": "2017-10-04",
@@ -7500,6 +29683,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-10-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-10-30",
 			"rows": 2,
 			"contributions": 1,
@@ -7532,6 +29722,20 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7647,6 +29851,48 @@ window.projects.push({
 			"starters": 1
 		},
 		{
+			"day": "2017-11-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-23",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-11-28",
 			"rows": 2,
 			"contributions": 0,
@@ -7658,6 +29904,167 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-11-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-03",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-13",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-14",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-15",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-16",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-17",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-18",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-19",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-21",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-22",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7682,10 +30089,52 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2017-12-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2017-12-27",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-28",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2017-12-31",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2018-01-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7700,6 +30149,20 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2018-01-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2018-01-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -7864,6 +30327,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2018-01-29",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2018-01-30",
 			"rows": 2,
 			"contributions": 1,
@@ -7875,6 +30345,13 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2018-02-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -8004,6 +30481,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2018-02-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2018-02-21",
 			"rows": 2,
 			"contributions": 2,
@@ -8025,10 +30509,31 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2018-02-24",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2018-02-25",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2018-02-26",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2018-02-27",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -8043,6 +30548,13 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2018-03-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -8064,6 +30576,20 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 0,
 			"users": 1,
+			"starters": 0
+		},
+		{
+			"day": "2018-03-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"day": "2018-03-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -8193,6 +30719,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2018-03-26",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2018-03-27",
 			"rows": 4,
 			"contributions": 0,
@@ -8211,6 +30744,13 @@ window.projects.push({
 			"rows": 4,
 			"contributions": 1,
 			"users": 4,
+			"starters": 0
+		},
+		{
+			"day": "2018-03-30",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -8564,6 +31104,13 @@ window.projects.push({
 			"starters": 0
 		},
 		{
+			"day": "2018-05-20",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
 			"day": "2018-05-21",
 			"rows": 1,
 			"contributions": 1,
@@ -8603,7 +31150,7 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 1,
 			"users": 1,
-			"starters": 1
+			"starters": 0
 		}
 	],
 	"months": [
@@ -8612,27 +31159,160 @@ window.projects.push({
 			"rows": 2242,
 			"contributions": 1642,
 			"users": 2242,
-			"starters": 52
+			"starters": 2242
 		},
 		{
 			"month": "2006-04",
 			"rows": 47,
 			"contributions": 36,
 			"users": 47,
-			"starters": 1
+			"starters": 47
+		},
+		{
+			"month": "2006-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2006-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2007-03",
 			"rows": 4682,
 			"contributions": 3247,
 			"users": 4682,
-			"starters": 246
+			"starters": 3574
 		},
 		{
 			"month": "2007-04",
 			"rows": 11,
 			"contributions": 7,
 			"users": 11,
+			"starters": 11
+		},
+		{
+			"month": "2007-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2007-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
 			"starters": 0
 		},
 		{
@@ -8640,28 +31320,245 @@ window.projects.push({
 			"rows": 1066,
 			"contributions": 682,
 			"users": 1066,
-			"starters": 99
+			"starters": 279
 		},
 		{
 			"month": "2008-03",
 			"rows": 2578,
 			"contributions": 1476,
 			"users": 2578,
-			"starters": 130
+			"starters": 1342
+		},
+		{
+			"month": "2008-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2008-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2009-03",
 			"rows": 9135,
 			"contributions": 6649,
 			"users": 9135,
-			"starters": 1718
+			"starters": 5437
+		},
+		{
+			"month": "2009-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2009-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-01",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-02",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2010-03",
 			"rows": 8674,
 			"contributions": 4791,
 			"users": 8674,
-			"starters": 2822
+			"starters": 4297
+		},
+		{
+			"month": "2010-04",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2010-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2011-01",
@@ -8675,91 +31572,196 @@ window.projects.push({
 			"rows": 1626,
 			"contributions": 1218,
 			"users": 1624,
-			"starters": 604
+			"starters": 281
 		},
 		{
 			"month": "2011-03",
 			"rows": 5078,
 			"contributions": 3730,
 			"users": 5077,
-			"starters": 2205
+			"starters": 1516
 		},
 		{
 			"month": "2011-04",
 			"rows": 772,
 			"contributions": 582,
 			"users": 772,
-			"starters": 338
+			"starters": 404
+		},
+		{
+			"month": "2011-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2011-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2011-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2011-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2011-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2011-10",
 			"rows": 137,
 			"contributions": 0,
 			"users": 137,
-			"starters": 84
+			"starters": 98
+		},
+		{
+			"month": "2011-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2011-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2012-01",
 			"rows": 1903,
 			"contributions": 892,
 			"users": 1903,
-			"starters": 1172
+			"starters": 446
 		},
 		{
 			"month": "2012-02",
 			"rows": 2001,
 			"contributions": 853,
 			"users": 1999,
-			"starters": 1416
+			"starters": 557
 		},
 		{
 			"month": "2012-03",
 			"rows": 2939,
 			"contributions": 1498,
 			"users": 2939,
-			"starters": 1636
+			"starters": 1352
 		},
 		{
 			"month": "2012-04",
 			"rows": 2247,
 			"contributions": 818,
 			"users": 2247,
-			"starters": 1375
+			"starters": 1272
+		},
+		{
+			"month": "2012-05",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-06",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2012-12",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2013-01",
 			"rows": 1141,
 			"contributions": 655,
 			"users": 1141,
-			"starters": 861
+			"starters": 160
 		},
 		{
 			"month": "2013-02",
 			"rows": 1376,
 			"contributions": 856,
 			"users": 1376,
-			"starters": 1206
+			"starters": 267
 		},
 		{
 			"month": "2013-03",
 			"rows": 2707,
 			"contributions": 1468,
 			"users": 2707,
-			"starters": 1960
+			"starters": 1132
 		},
 		{
 			"month": "2013-04",
 			"rows": 1561,
 			"contributions": 731,
 			"users": 1561,
-			"starters": 1435
+			"starters": 852
 		},
 		{
 			"month": "2013-05",
 			"rows": 1364,
 			"contributions": 1062,
 			"users": 1364,
-			"starters": 1137
+			"starters": 612
 		},
 		{
 			"month": "2013-06",
@@ -8767,6 +31769,41 @@ window.projects.push({
 			"contributions": 0,
 			"users": 40,
 			"starters": 40
+		},
+		{
+			"month": "2013-07",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2013-08",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2013-09",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2013-10",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
+		},
+		{
+			"month": "2013-11",
+			"rows": 0,
+			"contributions": 0,
+			"users": 0,
+			"starters": 0
 		},
 		{
 			"month": "2013-12",
@@ -8780,70 +31817,70 @@ window.projects.push({
 			"rows": 756,
 			"contributions": 440,
 			"users": 756,
-			"starters": 754
+			"starters": 15
 		},
 		{
 			"month": "2014-02",
 			"rows": 946,
 			"contributions": 575,
 			"users": 946,
-			"starters": 946
+			"starters": 51
 		},
 		{
 			"month": "2014-03",
 			"rows": 1936,
 			"contributions": 1534,
 			"users": 1936,
-			"starters": 1935
+			"starters": 295
 		},
 		{
 			"month": "2014-04",
 			"rows": 506,
 			"contributions": 384,
 			"users": 506,
-			"starters": 506
+			"starters": 92
 		},
 		{
 			"month": "2014-05",
 			"rows": 347,
 			"contributions": 264,
 			"users": 347,
-			"starters": 347
+			"starters": 71
 		},
 		{
 			"month": "2014-06",
 			"rows": 94,
 			"contributions": 61,
 			"users": 94,
-			"starters": 94
+			"starters": 45
 		},
 		{
 			"month": "2014-07",
 			"rows": 36,
 			"contributions": 28,
 			"users": 36,
-			"starters": 36
+			"starters": 10
 		},
 		{
 			"month": "2014-08",
 			"rows": 31,
 			"contributions": 24,
 			"users": 31,
-			"starters": 31
+			"starters": 1
 		},
 		{
 			"month": "2014-09",
 			"rows": 433,
 			"contributions": 248,
 			"users": 433,
-			"starters": 433
+			"starters": 289
 		},
 		{
 			"month": "2014-10",
 			"rows": 247,
 			"contributions": 112,
 			"users": 247,
-			"starters": 247
+			"starters": 237
 		},
 		{
 			"month": "2014-11",
@@ -8857,14 +31894,14 @@ window.projects.push({
 			"rows": 49,
 			"contributions": 32,
 			"users": 49,
-			"starters": 49
+			"starters": 48
 		},
 		{
 			"month": "2015-01",
 			"rows": 632,
 			"contributions": 244,
 			"users": 619,
-			"starters": 371
+			"starters": 28
 		},
 		{
 			"month": "2015-02",
@@ -9144,7 +32181,7 @@ window.projects.push({
 			"rows": 188,
 			"contributions": 136,
 			"users": 188,
-			"starters": 1
+			"starters": 0
 		}
 	],
 	"weekdays": [
@@ -9153,195 +32190,57 @@ window.projects.push({
 			"rows": 9140,
 			"contributions": 5593,
 			"users": 7522,
-			"starters": 3444
+			"starters": 3406
 		},
 		{
 			"weekday": "mon",
 			"rows": 9488,
 			"contributions": 5751,
 			"users": 7587,
-			"starters": 3614
+			"starters": 3617
 		},
 		{
 			"weekday": "tue",
 			"rows": 10076,
 			"contributions": 6163,
 			"users": 8103,
-			"starters": 3882
+			"starters": 3917
 		},
 		{
 			"weekday": "wed",
 			"rows": 10904,
 			"contributions": 6929,
 			"users": 8575,
-			"starters": 3936
+			"starters": 4389
 		},
 		{
 			"weekday": "thu",
 			"rows": 14040,
 			"contributions": 9952,
 			"users": 9713,
-			"starters": 4248
+			"starters": 4656
 		},
 		{
 			"weekday": "fri",
 			"rows": 10163,
 			"contributions": 6148,
 			"users": 7797,
-			"starters": 3467
+			"starters": 3625
 		},
 		{
 			"weekday": "sat",
 			"rows": 9131,
 			"contributions": 5366,
 			"users": 7360,
-			"starters": 3525
+			"starters": 3385
 		}
 	],
 	"countries": [
-		{
-			"country": "CL",
-			"rows": 2891,
-			"contributions": 2351,
-			"users": 2691
-		},
-		{
-			"country": "US",
-			"rows": 35388,
-			"contributions": 24523,
-			"users": 14544
-		},
-		{
-			"country": "ES",
-			"rows": 1773,
-			"contributions": 1004,
-			"users": 1692
-		},
-		{
-			"country": "CA",
-			"rows": 1869,
-			"contributions": 1626,
-			"users": 1765
-		},
-		{
-			"country": "MX",
-			"rows": 322,
-			"contributions": 261,
-			"users": 321
-		},
-		{
-			"country": "AR",
-			"rows": 1330,
-			"contributions": 513,
-			"users": 1304
-		},
-		{
-			"country": "HU",
-			"rows": 977,
-			"contributions": 576,
-			"users": 945
-		},
-		{
-			"country": "PL",
-			"rows": 4746,
-			"contributions": 3266,
-			"users": 4203
-		},
 		{
 			"country": "FI",
 			"rows": 358,
 			"contributions": 235,
 			"users": 355
-		},
-		{
-			"country": "RO",
-			"rows": 638,
-			"contributions": 481,
-			"users": 628
-		},
-		{
-			"country": "UY",
-			"rows": 1345,
-			"contributions": 874,
-			"users": 1309
-		},
-		{
-			"country": "IN",
-			"rows": 4857,
-			"contributions": 676,
-			"users": 4843
-		},
-		{
-			"country": "EE",
-			"rows": 65,
-			"contributions": 48,
-			"users": 65
-		},
-		{
-			"country": "CZ",
-			"rows": 867,
-			"contributions": 391,
-			"users": 847
-		},
-		{
-			"country": "DE",
-			"rows": 970,
-			"contributions": 590,
-			"users": 935
-		},
-		{
-			"country": "JP",
-			"rows": 1578,
-			"contributions": 235,
-			"users": 1421
-		},
-		{
-			"country": "GR",
-			"rows": 183,
-			"contributions": 115,
-			"users": 182
-		},
-		{
-			"country": "BR",
-			"rows": 304,
-			"contributions": 215,
-			"users": 301
-		},
-		{
-			"country": "PR",
-			"rows": 592,
-			"contributions": 428,
-			"users": 586
-		},
-		{
-			"country": "SI",
-			"rows": 53,
-			"contributions": 28,
-			"users": 52
-		},
-		{
-			"country": "SK",
-			"rows": 192,
-			"contributions": 102,
-			"users": 191
-		},
-		{
-			"country": "PF",
-			"rows": 1,
-			"contributions": 0,
-			"users": 1
-		},
-		{
-			"country": "UA",
-			"rows": 54,
-			"contributions": 12,
-			"users": 53
-		},
-		{
-			"country": "BG",
-			"rows": 230,
-			"contributions": 141,
-			"users": 230
 		},
 		{
 			"country": "AU",
@@ -9350,112 +32249,34 @@ window.projects.push({
 			"users": 555
 		},
 		{
-			"country": "FR",
-			"rows": 561,
-			"contributions": 413,
-			"users": 558
+			"country": "SG",
+			"rows": 6,
+			"contributions": 5,
+			"users": 6
 		},
 		{
-			"country": "HR",
-			"rows": 2007,
-			"contributions": 908,
-			"users": 1944
+			"country": "DE",
+			"rows": 970,
+			"contributions": 590,
+			"users": 935
 		},
 		{
-			"country": "NO",
-			"rows": 54,
-			"contributions": 10,
-			"users": 54
+			"country": "PL",
+			"rows": 4746,
+			"contributions": 3266,
+			"users": 4203
 		},
 		{
-			"country": "MY",
-			"rows": 9,
-			"contributions": 6,
-			"users": 9
+			"country": "SA",
+			"rows": 60,
+			"contributions": 44,
+			"users": 60
 		},
 		{
-			"country": "GB",
-			"rows": 585,
-			"contributions": 470,
-			"users": 575
-		},
-		{
-			"country": "IT",
-			"rows": 333,
-			"contributions": 231,
-			"users": 330
-		},
-		{
-			"country": "NZ",
-			"rows": 140,
-			"contributions": 128,
-			"users": 140
-		},
-		{
-			"country": "PT",
-			"rows": 147,
-			"contributions": 71,
-			"users": 147
-		},
-		{
-			"country": "TR",
-			"rows": 124,
-			"contributions": 63,
-			"users": 123
-		},
-		{
-			"country": "CH",
-			"rows": 253,
-			"contributions": 156,
-			"users": 250
-		},
-		{
-			"country": "ZA",
-			"rows": 299,
-			"contributions": 253,
-			"users": 296
-		},
-		{
-			"country": "CN",
-			"rows": 744,
-			"contributions": 69,
-			"users": 743
-		},
-		{
-			"country": "MA",
-			"rows": 454,
-			"contributions": 316,
-			"users": 452
-		},
-		{
-			"country": "PA",
-			"rows": 39,
-			"contributions": 29,
-			"users": 39
-		},
-		{
-			"country": "AT",
-			"rows": 42,
-			"contributions": 30,
-			"users": 42
-		},
-		{
-			"country": "IE",
-			"rows": 71,
-			"contributions": 64,
-			"users": 71
-		},
-		{
-			"country": "TH",
-			"rows": 225,
-			"contributions": 49,
-			"users": 223
-		},
-		{
-			"country": "SD",
-			"rows": 10,
-			"contributions": 7,
-			"users": 10
+			"country": "US",
+			"rows": 35388,
+			"contributions": 24523,
+			"users": 14544
 		},
 		{
 			"country": "SE",
@@ -9464,22 +32285,280 @@ window.projects.push({
 			"users": 72
 		},
 		{
+			"country": "AR",
+			"rows": 1330,
+			"contributions": 513,
+			"users": 1304
+		},
+		{
+			"country": "TD",
+			"rows": 16,
+			"contributions": 1,
+			"users": 16
+		},
+		{
+			"country": "UY",
+			"rows": 1345,
+			"contributions": 874,
+			"users": 1309
+		},
+		{
+			"country": "KZ",
+			"rows": 14,
+			"contributions": 9,
+			"users": 14
+		},
+		{
+			"country": "IN",
+			"rows": 4857,
+			"contributions": 676,
+			"users": 4843
+		},
+		{
+			"country": "LY",
+			"rows": 3,
+			"contributions": 1,
+			"users": 3
+		},
+		{
+			"country": "FR",
+			"rows": 561,
+			"contributions": 413,
+			"users": 558
+		},
+		{
+			"country": "KH",
+			"rows": 2,
+			"contributions": 2,
+			"users": 2
+		},
+		{
+			"country": "AT",
+			"rows": 42,
+			"contributions": 30,
+			"users": 42
+		},
+		{
+			"country": "ES",
+			"rows": 1773,
+			"contributions": 1004,
+			"users": 1692
+		},
+		{
+			"country": "HU",
+			"rows": 977,
+			"contributions": 576,
+			"users": 945
+		},
+		{
+			"country": "HR",
+			"rows": 2007,
+			"contributions": 908,
+			"users": 1944
+		},
+		{
+			"country": "PR",
+			"rows": 592,
+			"contributions": 428,
+			"users": 586
+		},
+		{
+			"country": "LV",
+			"rows": 43,
+			"contributions": 8,
+			"users": 43
+		},
+		{
+			"country": "TH",
+			"rows": 225,
+			"contributions": 49,
+			"users": 223
+		},
+		{
+			"country": "CN",
+			"rows": 744,
+			"contributions": 69,
+			"users": 743
+		},
+		{
+			"country": "HT",
+			"rows": 1,
+			"contributions": 1,
+			"users": 1
+		},
+		{
+			"country": "CA",
+			"rows": 1869,
+			"contributions": 1626,
+			"users": 1765
+		},
+		{
+			"country": "GB",
+			"rows": 585,
+			"contributions": 470,
+			"users": 575
+		},
+		{
+			"country": "DZ",
+			"rows": 45,
+			"contributions": 25,
+			"users": 44
+		},
+		{
+			"country": "CH",
+			"rows": 253,
+			"contributions": 156,
+			"users": 250
+		},
+		{
+			"country": "SK",
+			"rows": 192,
+			"contributions": 102,
+			"users": 191
+		},
+		{
+			"country": "MX",
+			"rows": 322,
+			"contributions": 261,
+			"users": 321
+		},
+		{
+			"country": "CL",
+			"rows": 2891,
+			"contributions": 2351,
+			"users": 2691
+		},
+		{
+			"country": "AF",
+			"rows": 9,
+			"contributions": 8,
+			"users": 9
+		},
+		{
+			"country": "CZ",
+			"rows": 867,
+			"contributions": 391,
+			"users": 847
+		},
+		{
+			"country": "NZ",
+			"rows": 140,
+			"contributions": 128,
+			"users": 140
+		},
+		{
+			"country": "BR",
+			"rows": 304,
+			"contributions": 215,
+			"users": 301
+		},
+		{
+			"country": "SD",
+			"rows": 10,
+			"contributions": 7,
+			"users": 10
+		},
+		{
+			"country": "CM",
+			"rows": 9,
+			"contributions": 8,
+			"users": 9
+		},
+		{
+			"country": "RO",
+			"rows": 638,
+			"contributions": 481,
+			"users": 628
+		},
+		{
+			"country": "GR",
+			"rows": 183,
+			"contributions": 115,
+			"users": 182
+		},
+		{
+			"country": "BJ",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
+		},
+		{
+			"country": "TT",
+			"rows": 36,
+			"contributions": 7,
+			"users": 36
+		},
+		{
+			"country": "JP",
+			"rows": 1578,
+			"contributions": 235,
+			"users": 1421
+		},
+		{
+			"country": "BG",
+			"rows": 230,
+			"contributions": 141,
+			"users": 230
+		},
+		{
 			"country": "SV",
 			"rows": 5,
 			"contributions": 4,
 			"users": 5
 		},
 		{
-			"country": "AQ",
+			"country": "CU",
+			"rows": 7,
+			"contributions": 7,
+			"users": 7
+		},
+		{
+			"country": "SI",
+			"rows": 53,
+			"contributions": 28,
+			"users": 52
+		},
+		{
+			"country": "TR",
+			"rows": 124,
+			"contributions": 63,
+			"users": 123
+		},
+		{
+			"country": "BT",
+			"rows": 1,
+			"contributions": 0,
+			"users": 1
+		},
+		{
+			"country": "BA",
 			"rows": 2,
-			"contributions": 2,
+			"contributions": 0,
 			"users": 2
 		},
 		{
-			"country": "NL",
-			"rows": 6,
-			"contributions": 2,
-			"users": 5
+			"country": "NE",
+			"rows": 3,
+			"contributions": 3,
+			"users": 3
+		},
+		{
+			"country": "HK",
+			"rows": 17,
+			"contributions": 10,
+			"users": 17
+		},
+		{
+			"country": "ML",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
+		},
+		{
+			"country": "SS",
+			"rows": 1,
+			"contributions": 1,
+			"users": 1
 		},
 		{
 			"country": "ID",
@@ -9488,28 +32567,40 @@ window.projects.push({
 			"users": 13
 		},
 		{
+			"country": "ZA",
+			"rows": 299,
+			"contributions": 253,
+			"users": 296
+		},
+		{
+			"country": "NP",
+			"rows": 4,
+			"contributions": 3,
+			"users": 4
+		},
+		{
+			"country": "HN",
+			"rows": 10,
+			"contributions": 6,
+			"users": 10
+		},
+		{
 			"country": "CO",
 			"rows": 132,
 			"contributions": 104,
 			"users": 132
 		},
 		{
-			"country": "EC",
-			"rows": 9,
-			"contributions": 7,
-			"users": 9
+			"country": "IT",
+			"rows": 333,
+			"contributions": 231,
+			"users": 330
 		},
 		{
-			"country": "JM",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
-		},
-		{
-			"country": "GL",
-			"rows": 4,
-			"contributions": 2,
-			"users": 4
+			"country": "PK",
+			"rows": 14,
+			"contributions": 10,
+			"users": 14
 		},
 		{
 			"country": "RS",
@@ -9518,10 +32609,154 @@ window.projects.push({
 			"users": 37
 		},
 		{
+			"country": "FJ",
+			"rows": 1,
+			"contributions": 1,
+			"users": 1
+		},
+		{
+			"country": "GL",
+			"rows": 4,
+			"contributions": 2,
+			"users": 4
+		},
+		{
+			"country": "NI",
+			"rows": 7,
+			"contributions": 7,
+			"users": 7
+		},
+		{
+			"country": "MN",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
+		},
+		{
+			"country": "BE",
+			"rows": 137,
+			"contributions": 85,
+			"users": 134
+		},
+		{
+			"country": "DK",
+			"rows": 28,
+			"contributions": 17,
+			"users": 28
+		},
+		{
+			"country": "KG",
+			"rows": 12,
+			"contributions": 6,
+			"users": 12
+		},
+		{
+			"country": "GT",
+			"rows": 49,
+			"contributions": 28,
+			"users": 49
+		},
+		{
+			"country": "CR",
+			"rows": 329,
+			"contributions": 135,
+			"users": 323
+		},
+		{
+			"country": "PT",
+			"rows": 147,
+			"contributions": 71,
+			"users": 147
+		},
+		{
+			"country": "PA",
+			"rows": 39,
+			"contributions": 29,
+			"users": 39
+		},
+		{
+			"country": "EE",
+			"rows": 65,
+			"contributions": 48,
+			"users": 65
+		},
+		{
+			"country": "PH",
+			"rows": 28,
+			"contributions": 22,
+			"users": 27
+		},
+		{
+			"country": "BY",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
+		},
+		{
+			"country": "IE",
+			"rows": 71,
+			"contributions": 64,
+			"users": 71
+		},
+		{
+			"country": "EG",
+			"rows": 13,
+			"contributions": 8,
+			"users": 13
+		},
+		{
+			"country": "GN",
+			"rows": 1,
+			"contributions": 1,
+			"users": 1
+		},
+		{
+			"country": "BW",
+			"rows": 2,
+			"contributions": 2,
+			"users": 2
+		},
+		{
+			"country": "EC",
+			"rows": 9,
+			"contributions": 7,
+			"users": 9
+		},
+		{
+			"country": "UA",
+			"rows": 54,
+			"contributions": 12,
+			"users": 53
+		},
+		{
+			"country": "LT",
+			"rows": 18,
+			"contributions": 10,
+			"users": 18
+		},
+		{
+			"country": "GH",
+			"rows": 8,
+			"contributions": 6,
+			"users": 8
+		},
+		{
 			"country": "PE",
 			"rows": 30,
 			"contributions": 15,
 			"users": 30
+		},
+		{
+			"country": "QA",
+			"rows": 9,
+			"contributions": 1,
+			"users": 9
+		},
+		{
+			"country": "DM",
+			"rows": 4,
+			"contributions": 2,
+			"users": 4
 		},
 		{
 			"country": "IL",
@@ -9530,7 +32765,85 @@ window.projects.push({
 			"users": 26
 		},
 		{
-			"country": "KH",
+			"country": "MV",
+			"rows": 3,
+			"contributions": 0,
+			"users": 3
+		},
+		{
+			"country": "PY",
+			"rows": 8,
+			"contributions": 4,
+			"users": 8
+		},
+		{
+			"country": "LU",
+			"rows": 1,
+			"contributions": 1,
+			"users": 1
+		},
+		{
+			"country": "IM",
+			"rows": 24,
+			"contributions": 20,
+			"users": 24
+		},
+		{
+			"country": "MA",
+			"rows": 454,
+			"contributions": 316,
+			"users": 452
+		},
+		{
+			"country": "NO",
+			"rows": 54,
+			"contributions": 10,
+			"users": 54
+		},
+		{
+			"country": "AO",
+			"rows": 1,
+			"contributions": 0,
+			"users": 1
+		},
+		{
+			"country": "LB",
+			"rows": 3,
+			"contributions": 1,
+			"users": 3
+		},
+		{
+			"country": "AL",
+			"rows": 4,
+			"contributions": 4,
+			"users": 4
+		},
+		{
+			"country": "KW",
+			"rows": 4,
+			"contributions": 2,
+			"users": 4
+		},
+		{
+			"country": "BZ",
+			"rows": 1,
+			"contributions": 1,
+			"users": 1
+		},
+		{
+			"country": "CY",
+			"rows": 7,
+			"contributions": 0,
+			"users": 7
+		},
+		{
+			"country": "MT",
+			"rows": 5,
+			"contributions": 4,
+			"users": 5
+		},
+		{
+			"country": "UZ",
 			"rows": 2,
 			"contributions": 2,
 			"users": 2
@@ -9542,46 +32855,28 @@ window.projects.push({
 			"users": 19
 		},
 		{
-			"country": "PK",
-			"rows": 14,
-			"contributions": 10,
-			"users": 14
-		},
-		{
-			"country": "SA",
-			"rows": 60,
-			"contributions": 44,
-			"users": 60
-		},
-		{
-			"country": "MT",
-			"rows": 5,
-			"contributions": 4,
-			"users": 5
-		},
-		{
-			"country": "CR",
-			"rows": 329,
-			"contributions": 135,
-			"users": 323
-		},
-		{
-			"country": "AE",
-			"rows": 5,
-			"contributions": 4,
-			"users": 5
-		},
-		{
-			"country": "TN",
-			"rows": 3,
+			"country": "GU",
+			"rows": 1,
 			"contributions": 0,
-			"users": 3
+			"users": 1
 		},
 		{
-			"country": "DZ",
-			"rows": 45,
-			"contributions": 25,
-			"users": 44
+			"country": "BM",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
+		},
+		{
+			"country": "LC",
+			"rows": 2,
+			"contributions": 2,
+			"users": 2
+		},
+		{
+			"country": "MY",
+			"rows": 9,
+			"contributions": 6,
+			"users": 9
 		},
 		{
 			"country": "OM",
@@ -9590,142 +32885,10 @@ window.projects.push({
 			"users": 8
 		},
 		{
-			"country": "GT",
-			"rows": 49,
-			"contributions": 28,
-			"users": 49
-		},
-		{
-			"country": "BE",
-			"rows": 137,
-			"contributions": 85,
-			"users": 134
-		},
-		{
-			"country": "PY",
-			"rows": 8,
-			"contributions": 4,
-			"users": 8
-		},
-		{
-			"country": "LT",
-			"rows": 18,
-			"contributions": 10,
-			"users": 18
-		},
-		{
-			"country": "TT",
-			"rows": 36,
-			"contributions": 7,
-			"users": 36
-		},
-		{
-			"country": "DK",
-			"rows": 28,
-			"contributions": 17,
-			"users": 28
-		},
-		{
-			"country": "EG",
-			"rows": 13,
-			"contributions": 8,
-			"users": 13
-		},
-		{
-			"country": "MH",
-			"rows": 1,
-			"contributions": 1,
-			"users": 1
-		},
-		{
-			"country": "JO",
-			"rows": 2,
-			"contributions": 0,
-			"users": 2
-		},
-		{
-			"country": "PH",
-			"rows": 28,
-			"contributions": 22,
-			"users": 27
-		},
-		{
-			"country": "ML",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
-		},
-		{
-			"country": "MG",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
-		},
-		{
-			"country": "LV",
-			"rows": 43,
-			"contributions": 8,
-			"users": 43
-		},
-		{
-			"country": "BY",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
-		},
-		{
-			"country": "DM",
-			"rows": 4,
-			"contributions": 2,
-			"users": 4
-		},
-		{
-			"country": "AF",
-			"rows": 9,
-			"contributions": 8,
-			"users": 9
-		},
-		{
-			"country": "LK",
+			"country": "IS",
 			"rows": 2,
 			"contributions": 2,
 			"users": 2
-		},
-		{
-			"country": "KE",
-			"rows": 2,
-			"contributions": 0,
-			"users": 2
-		},
-		{
-			"country": "MR",
-			"rows": 1,
-			"contributions": 0,
-			"users": 1
-		},
-		{
-			"country": "GH",
-			"rows": 8,
-			"contributions": 6,
-			"users": 8
-		},
-		{
-			"country": "HK",
-			"rows": 17,
-			"contributions": 10,
-			"users": 17
-		},
-		{
-			"country": "AZ",
-			"rows": 1,
-			"contributions": 1,
-			"users": 1
-		},
-		{
-			"country": "LY",
-			"rows": 3,
-			"contributions": 1,
-			"users": 3
 		},
 		{
 			"country": "MU",
@@ -9734,76 +32897,16 @@ window.projects.push({
 			"users": 1
 		},
 		{
-			"country": "NE",
-			"rows": 3,
-			"contributions": 3,
-			"users": 3
-		},
-		{
 			"country": "ET",
 			"rows": 3,
 			"contributions": 3,
 			"users": 3
 		},
 		{
-			"country": "LB",
-			"rows": 3,
-			"contributions": 1,
-			"users": 3
-		},
-		{
-			"country": "KZ",
-			"rows": 14,
-			"contributions": 9,
-			"users": 14
-		},
-		{
-			"country": "CU",
-			"rows": 7,
-			"contributions": 7,
-			"users": 7
-		},
-		{
-			"country": "CY",
-			"rows": 7,
-			"contributions": 0,
-			"users": 7
-		},
-		{
-			"country": "IS",
+			"country": "KE",
 			"rows": 2,
-			"contributions": 2,
-			"users": 2
-		},
-		{
-			"country": "IM",
-			"rows": 24,
-			"contributions": 20,
-			"users": 24
-		},
-		{
-			"country": "KW",
-			"rows": 4,
-			"contributions": 2,
-			"users": 4
-		},
-		{
-			"country": "MV",
-			"rows": 3,
 			"contributions": 0,
-			"users": 3
-		},
-		{
-			"country": "UZ",
-			"rows": 2,
-			"contributions": 2,
 			"users": 2
-		},
-		{
-			"country": "NI",
-			"rows": 7,
-			"contributions": 7,
-			"users": 7
 		},
 		{
 			"country": "NC",
@@ -9812,16 +32915,22 @@ window.projects.push({
 			"users": 7
 		},
 		{
-			"country": "HN",
-			"rows": 10,
-			"contributions": 6,
-			"users": 10
+			"country": "AE",
+			"rows": 5,
+			"contributions": 4,
+			"users": 5
 		},
 		{
 			"country": "NA",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1
+		},
+		{
+			"country": "JO",
+			"rows": 2,
+			"contributions": 0,
+			"users": 2
 		},
 		{
 			"country": "MQ",
@@ -9834,18 +32943,6 @@ window.projects.push({
 			"rows": 1,
 			"contributions": 1,
 			"users": 1
-		},
-		{
-			"country": "SG",
-			"rows": 6,
-			"contributions": 5,
-			"users": 6
-		},
-		{
-			"country": "TD",
-			"rows": 16,
-			"contributions": 1,
-			"users": 16
 		},
 		{
 			"country": "ZM",
@@ -9866,16 +32963,16 @@ window.projects.push({
 			"users": 1
 		},
 		{
-			"country": "BW",
-			"rows": 2,
-			"contributions": 2,
-			"users": 2
-		},
-		{
 			"country": "ZW",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1
+		},
+		{
+			"country": "MG",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
 		},
 		{
 			"country": "IQ",
@@ -9884,118 +32981,58 @@ window.projects.push({
 			"users": 1
 		},
 		{
-			"country": "BM",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
-		},
-		{
-			"country": "GU",
-			"rows": 1,
-			"contributions": 0,
-			"users": 1
-		},
-		{
-			"country": "LC",
+			"country": "LK",
 			"rows": 2,
 			"contributions": 2,
 			"users": 2
 		},
 		{
-			"country": "QA",
-			"rows": 9,
-			"contributions": 1,
-			"users": 9
-		},
-		{
-			"country": "CM",
-			"rows": 9,
-			"contributions": 8,
-			"users": 9
-		},
-		{
-			"country": "LU",
-			"rows": 1,
-			"contributions": 1,
-			"users": 1
-		},
-		{
-			"country": "KG",
-			"rows": 12,
-			"contributions": 6,
-			"users": 12
-		},
-		{
-			"country": "BA",
-			"rows": 2,
-			"contributions": 0,
-			"users": 2
-		},
-		{
-			"country": "AO",
+			"country": "MR",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1
 		},
 		{
-			"country": "AL",
-			"rows": 4,
-			"contributions": 4,
-			"users": 4
-		},
-		{
-			"country": "BZ",
+			"country": "AZ",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1
 		},
 		{
-			"country": "BJ",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
+			"country": "TN",
+			"rows": 3,
+			"contributions": 0,
+			"users": 3
 		},
 		{
-			"country": "MN",
-			"rows": 2,
-			"contributions": 1,
-			"users": 2
-		},
-		{
-			"country": "SS",
+			"country": "MH",
 			"rows": 1,
 			"contributions": 1,
 			"users": 1
 		},
 		{
-			"country": "BT",
+			"country": "JM",
+			"rows": 2,
+			"contributions": 1,
+			"users": 2
+		},
+		{
+			"country": "PF",
 			"rows": 1,
 			"contributions": 0,
 			"users": 1
 		},
 		{
-			"country": "NP",
-			"rows": 4,
-			"contributions": 3,
-			"users": 4
+			"country": "NL",
+			"rows": 6,
+			"contributions": 2,
+			"users": 5
 		},
 		{
-			"country": "FJ",
-			"rows": 1,
-			"contributions": 1,
-			"users": 1
-		},
-		{
-			"country": "GN",
-			"rows": 1,
-			"contributions": 1,
-			"users": 1
-		},
-		{
-			"country": "HT",
-			"rows": 1,
-			"contributions": 1,
-			"users": 1
+			"country": "AQ",
+			"rows": 2,
+			"contributions": 2,
+			"users": 2
 		},
 		{
 			"country": "LR",

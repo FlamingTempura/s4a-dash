@@ -1,138 +1,143 @@
+<div class="statsbar">
+	<ul>
+		<li><strong>{{ project.months.length | number }}</strong>
+			months of data</li>
+
+		<li><strong>{{ project.rows | number }}</strong>
+			rows of data</li>
+
+		<li><strong>{{ project.contributions | number }}</strong>
+			contributions</li>
+
+		<li><strong>{{ project.users.length | number }}</strong>
+			users</li>
+
+		<li>Date range for data: {{ project.days[0].date | date:'dd MMM yyyy' }} to {{ project.days[project.days.length - 1].date | date:'dd MMM yyyy' }}. </li>
+
+		<li><a ng-href="project.url">Project website</a></li>
+	</ul>
+	<div>
+		<h3>Recent trends</h3>
+
+		<p>Over {{ month.date | date:'MMM yyyy' }} (compared with previous month):</p>
+
+		<ul>
+			<li ng-if="month.contributions">
+				<strong>{{ month.contributions | number }}</strong> contributions
+				<span ng-show="month.contributions > prevMonth.contributions">
+					<span class="ticker up">&#9650;</span>
+					+{{ month.contributions - prevMonth.contributions }}
+				</span>
+				<span ng-show="month.contributions < prevMonth.contributions">
+					<span class="ticker down">&#9660;</span>
+					{{ month.contributions - prevMonth.contributions }}
+				</span>
+			</li>
+
+			<li ng-if="month.users">
+				<strong>{{ month.users | number }}</strong> contributors
+				<span ng-show="month.users > prevMonth.users">
+					<span class="ticker up">&#9650;</span>
+					+{{ month.users - prevMonth.users }}
+				</span>
+				<span ng-show="month.users < prevMonth.users">
+					<span class="ticker down">&#9660;</span>
+					{{ month.users - prevMonth.users }}
+				</span>
+			</li>
+
+			<li ng-if="month.starters">
+				<strong>{{ month.starters | number }}</strong> new contributors
+				<span ng-show="month.starters > prevMonth.starters">
+					<span class="ticker up">&#9650;</span>
+					+{{ month.starters - prevMonth.starters }}
+				</span>
+				<span ng-show="month.starters < prevMonth.starters">
+					<span class="ticker down">&#9660;</span>
+					{{ month.starters - prevMonth.starters }}
+				</span>
+			</li>
+		</ul>
+
+		<!-- <div ng-if="month.tasks">
+			{{ month.tasks | number }} tasks
+		</div> -->
+	</div>
+	<div ng-if="project.countries">
+		<h3>Top Countries</h3>
+		<div>
+			<a ng-class="{ active: !countryContributors }" ng-click="countryContributors = false">Contributions</a>
+			<a ng-class="{ active: countryContributors }" ng-click="countryContributors = true">Contributors</a>
+		</div>
+		<ul>
+			<li ng-repeat="country in project.countries | orderBy:countryContributors ? '-users' : '-contributions' | limitTo:10">
+				<span ng-class="'flag-icon flag-icon-' + country.country.toLowerCase()"></span>
+				{{ country.name || 'Unknown' }}: {{ country[countryContributors ? 'users' : 'contributions'] }}
+			</li>
+		</ul>
+	</div>
+</div>
+
 <div class="breadcrumb">
 	<a ui-sref="projects">Projects</a> &gt;
 	<a ui-sref="project({ id: project.id })">{{ project.name }}</a>
 </div>
 
-<div class="options" style="float: right">
-	<a ng-click="y = 'contributions'" ng-class="{ active: y === 'contributions' }">Contributions</a>
-	<a ng-click="y = 'users'" ng-class="{ active: y === 'users' }">Contributors</a>
-	<a ng-click="y = 'starters'" ng-class="{ active: y === 'starters' }">New Contributors</a>
-</div>
+<div class="project-view">
 
-<h1>{{ project.name }}</h1>
-
-<ul class="statsbar">
-
-	<li><strong>{{ project.months.length | number }}</strong>
-		months of data</li>
-
-	<li><strong>{{ project.rows | number }}</strong>
-		rows of data</li>
-
-	<li><strong>{{ project.contributions | number }}</strong>
-		contributions</li>
-
-	<li><strong>{{ project.users.length | number }}</strong>
-		users</li>
-
-	<li>Date range: {{ project.days[0].day }} - {{ project.days[project.days.length - 1].day }}. </li>
-
-	<li><a ng-href="project.url">Project website</a></li>
-
-	<div ng-if="project.countries">
-		<strong>Countries:</strong>
-		<ul>
-			<li ng-repeat="country in project.countries">
-				<span ng-class="'flag-icon flag-icon-' + country.code.toLowerCase()"></span>
-				{{ country.name || 'Unknown' }}: {{ country.count }}
-			</li>
-		</ul>
+	<div class="options" style="float: right">
+		<a ng-click="y = 'contributions'" ng-class="{ active: y === 'contributions' }">Contributions</a>
+		<a ng-click="y = 'users'" ng-class="{ active: y === 'users' }">Contributors</a>
+		<a ng-click="y = 'starters'" ng-class="{ active: y === 'starters' }">New Contributors</a>
 	</div>
-</ul>
 
-<p ng-if="project.subprojects.length > 0">
-	This project encompases {{ project.subprojects.length }} projects: <a ng-repeat="child in project.subprojects" ui-sref="project({ id: child.id })">{{ child.name }}</a>.
-</p>
+	<h1>{{ project.name }}</h1>
 
-<p ng-if="project.parent">
-	This project is part of the <a ui-sref="project({ id: project.parent.id })">{{ project.parent.name }}</a> project.
-</p>
+	<p ng-if="project.subprojects.length > 0">
+		This project encompases {{ project.subprojects.length }} projects:
+		<span ng-repeat="(i, child) in project.subprojects">
+			<a ui-sref="project({ id: child.id })">{{ child.name }}</a>{{
+				i === project.subprojects.length - 2 ? ' and ' :
+				i === project.subprojects.length - 1 ? '.' : ',' }}
+		</span>
+	</p>
 
-<div class="weekdaygraph">
-	<h3>{{ yTitles[y] | capitalize }} per weekday</h3>
-	<weekdaygraph data="project.weekdays" axis="i === projects.length - 1" y="y"></weekdaygraph>
-</div>
+	<p ng-if="project.parent">
+		This project is part of the <a ui-sref="project({ id: project.parent.id })">{{ project.parent.name }}</a> project.
+	</p>
 
-<div class="daygraph">
-	<h3>{{ yTitles[y] | capitalize }} per weekday</h3>
-	<daygraph data="project.days" axis="i === projects.length - 1" y="y"></daygraph>
-</div>
+	<div class="daygraph">
+		<div style="float:right">
+			<a ng-class="{ active: !monthly }" ng-click="monthly = false">By day</a>
+			<a ng-class="{ active: monthly }" ng-click="monthly = true">By month</a>
+		</div>
+		<h3>{{ yTitles[y] | capitalize }} over time</h3>
+		<daygraph data="monthly ? project.months : project.days" axis="i === projects.length - 1" y="y" width="700" height="300" monthly="monthly"></daygraph>
+	</div>
 
-<div class="effortgraph">
-	<h3>Distribution of effort</h3>
-	<effortgraph data="project.users" axis="i === projects.length - 1" y="y"></effortgraph>
-</div>
-
-
-
-<div ng-if="project.tasks.complete">
-	{{ project.tasks.complete | number }}
-	tasks out of
-	{{ project.tasks.complete + project.tasks.incomplete | number }} completed
-	({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)
-</div>
+	<div class="weekdaygraph">
+		<h3>{{ yTitles[y] | capitalize }} per weekday</h3>
+		<weekdaygraph data="project.weekdays" axis="i === projects.length - 1" y="y" width="700" height="250"></weekdaygraph>
+	</div>
 
 
-<h3>{{ month.month }}</h3>
-
-<div ng-if="project.users">
-	{{ month.users.ids + month.users.ips | number }} users ({{ month.newUsers.ids + month.newUsers.ips | number }} of whom were new)
-</div>
-
-<div ng-if="month.contributions">
-	{{ month.contributions | number }} contributions
-</div>
-
-<div ng-if="month.tasks">
-	{{ month.tasks | number }} tasks
-</div>
-
-<div ng-if="project.users">
-	<h3>Tasks over time</h3>
-	<histogram left="tasksOverTime" left-name="'Tasks'"></histogram>
-</div>
-
-<div ng-if="project.users">
-	<h3>Users over time</h3>
-	<histogram left="usersOverTime" left-name="'Users'" right="rowsOverTime" right-label="'Contributions'"></histogram>
-</div>
-
-<div ng-if="project.users">
-	<h3>New users over time</h3>
-	<histogram left="newUsersOverTime"></histogram>
-</div>
-
-<div ng-if="project.contributions">
-	<h3>Contributions over time</h3>
-	<histogram left="contributionsOverTime"></histogram>
-</div>
-
-<div>
-	<h3>Rows over time</h3>
-	<histogram left="rowsOverTime"></histogram>
-</div>
+	<div class="effortgraph">
+		<h3>Distribution of effort</h3>
+		<effortgraph data="project.users" axis="i === projects.length - 1" y="y" width="700" height="300"></effortgraph>
+	</div>
 
 
-<!-- 
-<div ng-repeat="project in projects">
-	<h3><a >{{ project.name }}</a></h3>
 
-	<div ng-show="project.tasks.complete">
+	<!-- <div ng-if="project.tasks.complete">
 		{{ project.tasks.complete | number }}
 		tasks out of
 		{{ project.tasks.complete + project.tasks.incomplete | number }} completed
 		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)
-	</div>
+	</div> -->
 
-	<div>
-		{{ project.months.length | number }}
-		months of data
-		({{ project.rows | number }} rows)
+	<!-- <div ng-if="project.users">
+		<h3>Tasks over time</h3>
+		<histogram left="tasksOverTime" left-name="'Tasks'"></histogram>
 	</div>
-
-	<div>
-		{{ project.users.ids + project.users.ips | number }}
-		Users
-	</div>
-
-</div> -->
+	 -->
+</div>
