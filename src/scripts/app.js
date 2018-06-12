@@ -542,7 +542,7 @@ app.component('tweetline', {
 	controller: function ($element) {
 		this.$onChanges = () => {
 			let svg = d3.select($element[0]).append('svg').attr('width', 430).attr('height', 320),
-				margin = {top: 0, right: 0, bottom: 30, left: 20 },
+				margin = {top: 0, right: 0, bottom: 30, left: 50 },
 				width = +svg.attr("width") - margin.left - margin.right,
 				height = +svg.attr("height") - margin.top - margin.bottom;
 

@@ -58250,7 +58250,7 @@
   	controller: function ($element) {
   		this.$onChanges = () => {
   			let svg$$1 = select($element[0]).append('svg').attr('width', 430).attr('height', 320),
-  				margin = {top: 0, right: 0, bottom: 30, left: 20 },
+  				margin = {top: 0, right: 0, bottom: 30, left: 50 },
   				width = +svg$$1.attr("width") - margin.left - margin.right,
   				height = +svg$$1.attr("height") - margin.top - margin.bottom;
 
