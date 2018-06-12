@@ -57778,6 +57778,8 @@
   const WEEKDAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const chartHeight = 130;
 
+  let forceGraphUpdate;
+
   app.config(function ($urlServiceProvider) {
   	$urlServiceProvider.rules.otherwise({ state: 'projects' });
 
@@ -57925,11 +57927,17 @@
   			$scope.twitter = $scope.socialmedia.filter(d => d.type === 'twitter');
   			$scope.facebook = $scope.socialmedia.filter(d => d.type === 'facebook');
   			$scope.socialmedia.forEach((s, i) => {
-  				$scope.$watch(`socialmedia[${i}].selected`, () => {
+  				let prevVal;
+  				$scope.$watch(`socialmedia[${i}].selected`, val => {
+  					if (val === prevVal) { return; }
+  					prevVal = val;
   					//refreshChart();
   					//refreshHashtags();
   					console.log('recombine');
   					$scope.combined = combineData();
+  					if (forceGraphUpdate) {
+  						forceGraphUpdate();
+  					}
   				});
   			});
   		}
@@ -58300,7 +58308,7 @@
   	bindings: {
   		projects: '<'
   	},
-  	controller: function ($element) {
+  	controller: function ($element, $scope) {
   		this.$onChanges = () => {
   			let svg$$1 = select($element[0]).append('svg')
   					.attr('width', 660)
@@ -58308,41 +58316,43 @@
   				width = +svg$$1.attr("width"),
   				height = +svg$$1.attr("height");
 
-  			var color$$1 = ordinal(category10);
 
-  			let radius = linear$2()
-  				.range([2, 10])
-  				.domain([1, 50]);
-
-  			var simulation$$1 = simulation()
-  				.force("link", link().id(d => d.id))
-  				.force("charge", manyBody())
-  				.force("center", center$1(width / 2, height / 2));
-
-  			function dragstarted(d) {
-  				if (!event.active) { simulation$$1.alphaTarget(0.3).restart(); }
-  				d.fx = d.x;
-  				d.fy = d.y;
-  			}
-
-  			function dragged(d) {
-  				d.fx = event.x;
-  				d.fy = event.y;
-  			}
-
-  			function dragended(d) {
-  				if (!event.active) { simulation$$1.alphaTarget(0); }
-  				d.fx = null;
-  				d.fy = null;
-  			}
-
+  			let linkg, nodeg;
 
   			this.$onChanges = () => {
+  				var color$$1 = ordinal(category10);
+
+  				let radius = linear$2()
+  					.range([2, 10])
+  					.domain([1, 50]);
+
+  				var simulation$$1 = simulation()
+  					.force("link", link().id(d => d.id))
+  					.force("charge", manyBody())
+  					.force("center", center$1(width / 2, height / 2));
+  				function dragstarted(d) {
+  					if (!event.active) { simulation$$1.alphaTarget(0.3).restart(); }
+  					d.fx = d.x;
+  					d.fy = d.y;
+  				}
+
+  				function dragged(d) {
+  					d.fx = event.x;
+  					d.fy = event.y;
+  				}
+
+  				function dragended(d) {
+  					if (!event.active) { simulation$$1.alphaTarget(0); }
+  					d.fx = null;
+  					d.fy = null;
+  				}
+
 
   				let nodes = {},
   					links = {};
 
   				window.socialmedia.forEach(sm => { // combine the nodes and links of the selected projects
+  					if (!sm.selected) { return; }
   					(sm.nodes || []).forEach(node => {
   						if (!nodes[node.id]) { nodes[node.id] = { id: node.id, count: 0, group: 'user' }; }
   						if (node.group !== 'user') { nodes[node.id].group = node.group; }
@@ -58355,17 +58365,28 @@
   					});
   				});
 
-  				let graph = { nodes: Object.values(nodes), links: Object.values(links) };
+  				console.log(Object.values(nodes));
 
-  				var link$$1 = svg$$1.append("g")
-  					.attr("class", "links")
-  					.selectAll("line")
+  				let graph = {};
+  				graph.nodes = Object.values(nodes).map(n => Object.assign({}, n)); // d3 mutates objects :'(
+  				graph.links = Object.values(links).map(n => Object.assign({}, n));
+
+  				if (linkg) {
+  					linkg.remove(); // on redraw, just destroy everything and start again
+  					nodeg.remove();
+  				}
+
+  				linkg = svg$$1.append("g")
+  					.attr("class", "links");
+  				nodeg = svg$$1.append("g")
+  					.attr("class", "nodes");
+
+  				let link$$1 = linkg.selectAll("line")
   					.data(graph.links)
   					.enter().append("line")
   					.attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-  				var node = svg$$1.append("g")
-  					.attr("class", "nodes")
+  				let node = nodeg
   					.selectAll("circle")
   					.data(graph.nodes)
   					.enter().append("circle")
@@ -58399,6 +58420,7 @@
   				}
   			};
   			this.$onChanges();
+  			forceGraphUpdate = this.$onChanges; // terrible hack
   		};
   	}
   });
