@@ -1,313 +1,533 @@
 window.socialmedia.push({
 	"id": "stars4all Facebook",
-	"months": [
+	"type": "twitter",
+	"officialAccount": "1495106664146064_10208397328310459",
+	"months": [],
+	"totals": {
+		"engagers": 600,
+		"posts": 0,
+		"replies": 0,
+		"mentions": 0,
+		"favorites": 0,
+		"shares": 0,
+		"comments": 0,
+		"followers": null
+	},
+	"hashtagsOut": [
 		{
-			"month": "2018-06",
-			"tweets": 25,
-			"tweetsOut": 0,
-			"tweetsIn": 0,
-			"hashtags": {}
+			"tag": "",
+			"count": 1
 		}
 	],
-	"days": [
+	"hashtagsIn": [
 		{
-			"day": "2018-06-12",
-			"tweets": 25
+			"tag": "",
+			"count": 24
 		}
 	],
-	"follows": 0,
-	"links": [
-		{
-			"source": "1495106664146064_10208397328310459",
-			"target": "Stars4all",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1674539879536074",
-			"target": "Stars4all",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1675764476080281",
-			"target": "Stars4all",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1796310854025642",
-			"target": "WWF España",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1796310854025642",
-			"target": "Stars4all",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1841523296171064",
-			"target": "F E C Y T · Ciencia e Innovación ·",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1841523296171064",
-			"target": "Universidad Politécnica de Madrid (Oficial)",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1842050769451650",
-			"target": "Decide Madrid",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1936091770047549",
-			"target": "Alejandro Sanchez de Miguel",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1992656747724384",
-			"target": "eldiario.es",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_1993486657641393",
-			"target": "ITB Berlin",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025158537807538",
-			"target": "Stars4all",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025158537807538",
-			"target": "Oscar Corcho",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025158537807538",
-			"target": "Canal Sur Almería",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025158561140869",
-			"target": "Stars4all",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025158561140869",
-			"target": "Canal Sur Almería",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025158561140869",
-			"target": "Oscar Corcho",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2025293187794073",
-			"target": "Oscar Corcho",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2032400950416630",
-			"target": "Azuciencia",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2040294116293980",
-			"target": "Cities at Night",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2040388952951163",
-			"target": "Universidad Complutense de Madrid",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2041126939544031",
-			"target": "Cities at Night",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2041126939544031",
-			"target": "International Dark-Sky Association",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2045028889153836",
-			"target": "Cities AtNight",
-			"value": 1
-		},
-		{
-			"source": "1495106664146064_2045028889153836",
-			"target": "Emisora Escuela M21 Madrid",
-			"value": 1
-		}
-	],
+	"mostFavorited": [],
+	"mostShared": [],
+	"links": [],
 	"nodes": [
 		{
-			"id": "Stars4all",
+			"id": "1495106664146064_1609091369414259",
 			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "Oscar Corcho",
-			"group": "user",
-			"count": 3
-		},
-		{
-			"id": "1495106664146064_2025158537807538",
-			"group": "user",
-			"count": 3
-		},
-		{
-			"id": "1495106664146064_2025158561140869",
-			"group": "user",
-			"count": 3
-		},
-		{
-			"id": "1495106664146064_1841523296171064",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "1495106664146064_1796310854025642",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "Canal Sur Almería",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "1495106664146064_2045028889153836",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "Cities at Night",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "1495106664146064_2041126939544031",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ITB Berlin",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_1936091770047549",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "Alejandro Sanchez de Miguel",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_1992656747724384",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "eldiario.es",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_1993486657641393",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_1675764476080281",
-			"group": "user",
-			"count": 1
+			"count": 0
 		},
 		{
 			"id": "1495106664146064_10208397328310459",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "WWF España",
-			"group": "user",
-			"count": 1
+			"group": "1495106664146064_10208397328310459",
+			"count": 0
 		},
 		{
 			"id": "1495106664146064_1674539879536074",
 			"group": "user",
-			"count": 1
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1675764476080281",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1796310854025642",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "WWF España",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1841523296171064",
+			"group": "user",
+			"count": 0
 		},
 		{
 			"id": "F E C Y T · Ciencia e Innovación ·",
 			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_2025293187794073",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_2032400950416630",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "Azuciencia",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_2040294116293980",
-			"group": "user",
-			"count": 1
+			"count": 0
 		},
 		{
 			"id": "Universidad Politécnica de Madrid (Oficial)",
 			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "1495106664146064_2040388952951163",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "Universidad Complutense de Madrid",
-			"group": "user",
-			"count": 1
+			"count": 0
 		},
 		{
 			"id": "1495106664146064_1842050769451650",
 			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "International Dark-Sky Association",
-			"group": "user",
-			"count": 1
+			"count": 0
 		},
 		{
 			"id": "Decide Madrid",
 			"group": "user",
-			"count": 1
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1936091770047549",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "Alejandro Sanchez de Miguel",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1992656747724384",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "eldiario.es",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1993486657641393",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "ITB Berlin",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2025158537807538",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "Oscar Corcho",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "Canal Sur Almería",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2025158561140869",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2025293187794073",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2032400950416630",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "Azuciencia",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040294116293980",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "Cities at Night",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040388952951163",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "Universidad Complutense de Madrid",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2041126939544031",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "International Dark-Sky Association",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2045028889153836",
+			"group": "user",
+			"count": 0
 		},
 		{
 			"id": "Cities AtNight",
 			"group": "user",
-			"count": 1
+			"count": 0
 		},
 		{
 			"id": "Emisora Escuela M21 Madrid",
 			"group": "user",
-			"count": 1
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2044544962535562",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2044066735916718",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2041805262809532",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2041683576155034",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2041674319489293",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2041673892822669",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2041656949491030",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040512912938767",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040512816272110",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040414759615249",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040414456281946",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040400796283312",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040388819617843",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2040379159618809",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2031524880504237",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2030761050580620",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2029822744007784",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2027098387613553",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2025479821108743",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2025161961140529",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2023041431352582",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2021551941501531",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2021434034846655",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2014707565519302",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2011922455797813",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2007246266265432",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2003041466685912",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_2002640480059344",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1999065997083459",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1998458453810880",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1998457783810947",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1995501330773259",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1992781884378537",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1992090001114392",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1991096061213786",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1989919467998112",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1989880361335356",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1986419498348109",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1984066251916767",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1977585569231502",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1977568185899907",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1975135162809876",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1974166636240062",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1972228216433904",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1970368156619910",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1969179560072103",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1965215857135140",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1963795333943859",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1963506340639425",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1962092280780831",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1961076270882432",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1957281077928618",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1956159294707463",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1954205918236134",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1948078468848879",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1947848148871911",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1947848028871923",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1947803358876390",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1946096119047114",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1946096059047120",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1945458952444164",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1945019999154726",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1944835015839891",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1943552792634780",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1941642929492433",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1939186716404721",
+			"group": "user",
+			"count": 0
+		},
+		{
+			"id": "1495106664146064_1937867329869993",
+			"group": "user",
+			"count": 0
 		}
 	]
 });

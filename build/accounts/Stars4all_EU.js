@@ -1,5473 +1,946 @@
 window.socialmedia.push({
 	"id": "Stars4all_EU",
-	"handle": "stars4all_eu",
+	"type": "twitter",
+	"officialAccount": "stars4all_eu",
 	"months": [
 		{
 			"month": "2015-09",
-			"tweets": 81,
-			"tweetsOut": 81,
-			"tweetsIn": 0,
-			"hashtags": {
-				"alumbradopúblico": 1,
-				"españa": 1,
-				"universetoday": 1,
-				"projectoftheweek": 3,
-				"eclipse": 3,
-				"askthemoon": 3,
-				"supereclipse": 2,
-				"circadian": 1,
-				"lightpollution": 3,
-				"lighting": 1,
-				"lunareclipse": 8,
-				"iss": 5,
-				"miquelserra": 4,
-				"darkskies": 2,
-				"citscience": 3,
-				"citizenscience": 2
-			}
+			"engagers": 0,
+			"posts": 1,
+			"replies": 0,
+			"mentions": 80,
+			"favorites": 1,
+			"shares": 0,
+			"comments": 0
 		},
 		{
 			"month": "2015-10",
-			"tweets": 29,
-			"tweetsOut": 29,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lunareclipse": 4,
-				"citizenscience": 2,
-				"darkskies": 4,
-				"lightpollution": 3,
-				"led": 1,
-				"circadianrhythm": 1
-			}
+			"engagers": 0,
+			"posts": 1,
+			"replies": 0,
+			"mentions": 28,
+			"favorites": 0,
+			"shares": 5,
+			"comments": 0
 		},
 		{
 			"month": "2015-11",
-			"tweets": 12,
-			"tweetsOut": 12,
-			"tweetsIn": 0,
-			"hashtags": {
-				"newyork": 1,
-				"iss": 1,
-				"lightpollution": 1,
-				"environment": 1,
-				"health": 1,
-				"tatortgewässer": 1,
-				"leonids": 3,
-				"changeclimatechange": 1,
-				"cop21": 1
-			}
+			"engagers": 0,
+			"posts": 0,
+			"replies": 0,
+			"mentions": 12,
+			"favorites": 0,
+			"shares": 0,
+			"comments": 0
 		},
 		{
 			"month": "2015-12",
-			"tweets": 49,
-			"tweetsOut": 49,
-			"tweetsIn": 0,
-			"hashtags": {
-				"citizenscience": 1,
-				"geminidas": 3,
-				"unaestrellaundeseo": 7,
-				"darkskies": 1,
-				"geminidas15": 17,
-				"geminids": 1,
-				"tenerife": 1,
-				"lapalma": 1,
-				"gemínidas": 2,
-				"islascanarias": 2,
-				"estrellas": 2,
-				"lightpollution": 1,
-				"nightsky": 2,
-				"happynewyear": 1
-			}
+			"engagers": 0,
+			"posts": 3,
+			"replies": 0,
+			"mentions": 46,
+			"favorites": 0,
+			"shares": 82,
+			"comments": 0
 		},
 		{
 			"month": "2016-01",
-			"tweets": 64,
-			"tweetsOut": 60,
-			"tweetsIn": 1,
-			"hashtags": {
-				"principia": 1,
-				"mit": 1,
-				"incandescent": 1,
-				"reecl": 5,
-				"contaminacionluminica": 4,
-				"via": 2,
-				"lightpollution": 3,
-				"darkskies": 2,
-				"europe": 1,
-				"citizenscience": 2,
-				"iss": 2
-			}
+			"engagers": 0,
+			"posts": 0,
+			"replies": 3,
+			"mentions": 58,
+			"favorites": 0,
+			"shares": 0,
+			"comments": 1
 		},
 		{
 			"month": "2016-02",
-			"tweets": 77,
-			"tweetsOut": 76,
-			"tweetsIn": 1,
-			"hashtags": {
-				"lightpollution": 12,
-				"chicago": 2,
-				"astrofest": 1,
-				"astrofest2016": 1,
-				"denmark": 1,
-				"norway": 1,
-				"sweden": 1,
-				"aurora": 2,
-				"tokyo": 1,
-				"bigcities": 1,
-				"fridaynightlights": 1,
-				"northernlights": 1,
-				"akwx": 1,
-				"calgary": 2,
-				"opendata": 2,
-				"citizenscience": 4,
-				"openscience": 2,
-				"iss": 5,
-				"mondaymotivation": 1,
-				"lighting": 1,
-				"lightingconflict": 1,
-				"volvemosalaluna": 4,
-				"via": 2,
-				"alan2016": 2,
-				"crowdfunding": 1,
-				"newsletter": 1,
-				"contaminacioluminica": 4,
-				"opendataday": 2,
-				"caceres": 2
-			}
+			"engagers": 0,
+			"posts": 4,
+			"replies": 0,
+			"mentions": 72,
+			"favorites": 7,
+			"shares": 13,
+			"comments": 1
 		},
 		{
 			"month": "2016-03",
-			"tweets": 242,
-			"tweetsOut": 238,
-			"tweetsIn": 3,
-			"hashtags": {
-				"lapalma": 2,
-				"madrid": 4,
-				"darkskies": 2,
-				"starsforguidance": 1,
-				"lightpollution": 16,
-				"stars4all": 13,
-				"stargazing": 3,
-				"astrotourism": 3,
-				"astronomy": 3,
-				"totalsolareclipse": 27,
-				"indonesia": 12,
-				"opendataday": 8,
-				"broadcast": 1,
-				"totaleclipse": 1,
-				"opendata": 2,
-				"singapur": 1,
-				"eclipse2016": 6,
-				"yerkes": 2,
-				"seaturtle": 2,
-				"pollutionlumineuse": 1,
-				"oddmad16": 4,
-				"makassar": 2,
-				"celebes": 2,
-				"palu": 12,
-				"solareclipse": 4,
-				"kotapulu": 3,
-				"tadulako": 3,
-				"ecuador": 1,
-				"sulawesi": 1,
-				"eclipse": 8,
-				"eu": 2,
-				"retransmissió": 2,
-				"solar": 2,
-				"solartotaleclipse": 2,
-				"internationalwomensday": 2,
-				"citizenscience": 5,
-				"t573513": 1,
-				"t572843": 1,
-				"t572784": 1,
-				"powerofsleep": 2,
-				"colaboradoresdeltiempo": 16,
-				"eclipsesolar": 1,
-				"eclipsi": 2,
-				"sol": 2,
-				"ict": 1,
-				"avgeek": 3,
-				"borobudur": 5,
-				"romangordo": 12,
-				"earthhour": 2,
-				"барселона": 1,
-				"barcelona": 1,
-				"iss": 1,
-				"space": 1,
-				"natgeo": 1,
-				"natgeoesp": 1,
-				"ночныегорода": 1,
-				"космос": 2,
-				"espana": 1,
-				"мкс": 1,
-				"earthhour2016": 2,
-				"contaminaciónluminosa": 1,
-				"toledo": 8,
-				"iaus321": 8,
-				"planesaoscuras": 1,
-				"wwf": 1,
-				"horadelplaneta": 1,
-				"luna": 2,
-				"webscience": 3,
-				"beforesunrise": 1,
-				"crowdfunding": 1,
-				"renewable": 1,
-				"energies": 1
-			}
+			"engagers": 0,
+			"posts": 6,
+			"replies": 1,
+			"mentions": 234,
+			"favorites": 24,
+			"shares": 14,
+			"comments": 1
 		},
 		{
 			"month": "2016-04",
-			"tweets": 120,
-			"tweetsOut": 115,
-			"tweetsIn": 2,
-			"hashtags": {
-				"agrupacionio": 1,
-				"astronomia": 1,
-				"astrophoto2016": 1,
-				"lightpollution": 20,
-				"darkskies": 3,
-				"madrid": 1,
-				"iss": 1,
-				"crowdfunding": 4,
-				"renewable": 1,
-				"energies": 1,
-				"fail": 2,
-				"liub": 2,
-				"autism": 2,
-				"melatonin": 2,
-				"idsw2016": 4,
-				"birminghamal": 1,
-				"lightingdesign": 1,
-				"darkskyweek": 1,
-				"googlealerts": 1,
-				"citizenscience": 1,
-				"indonesia": 1,
-				"impact": 3,
-				"citsciday": 1,
-				"citscisym": 1,
-				"namibia": 3,
-				"diadelamadretierra": 3,
-				"motherearthday": 3,
-				"cienciaciudadana": 3,
-				"contaminación": 2,
-				"luminica": 2,
-				"luminic": 2,
-				"luminosa": 2,
-				"turtles": 1,
-				"billboards": 3,
-				"birds": 1,
-				"ecology": 1,
-				"savetheplanet": 1,
-				"lightsout": 1,
-				"contaminacionluminica": 2
-			}
+			"engagers": 0,
+			"posts": 0,
+			"replies": 1,
+			"mentions": 118,
+			"favorites": 0,
+			"shares": 0,
+			"comments": 1
 		},
 		{
 			"month": "2016-05",
-			"tweets": 254,
-			"tweetsOut": 252,
-			"tweetsIn": 1,
-			"hashtags": {
-				"led": 3,
-				"lightpollution": 24,
-				"capsberlin16": 1,
-				"ottenerife": 5,
-				"teide": 11,
-				"mercurytransit": 52,
-				"castelldemur": 4,
-				"theta360": 3,
-				"asknasa": 1,
-				"mercurio": 3,
-				"stars4all": 1,
-				"sonyalpha": 5,
-				"darkskies": 4,
-				"islandia": 2,
-				"transito": 2,
-				"meteorologia": 4,
-				"transitofmercury": 6,
-				"tránsitomercurio2016": 3,
-				"retransmissió": 1,
-				"sierradeguadarrama": 1,
-				"contaminaciónlumínica": 5,
-				"alan2016": 1,
-				"pnguadarrama": 1,
-				"contaminacionluminica": 1,
-				"ecsa2016": 27,
-				"citizenscience": 8,
-				"melatonin": 1,
-				"sleep": 1,
-				"astronomical": 4,
-				"esca2016": 4,
-				"fujitsuwt": 4,
-				"opendata": 2,
-				"diaw3c": 5,
-				"streetlighting": 2,
-				"wot": 2,
-				"lapalma": 4,
-				"astrophoto": 4
-			}
+			"engagers": 0,
+			"posts": 9,
+			"replies": 1,
+			"mentions": 243,
+			"favorites": 6,
+			"shares": 14,
+			"comments": 0
 		},
 		{
 			"month": "2016-06",
-			"tweets": 130,
-			"tweetsOut": 130,
-			"tweetsIn": 0,
-			"hashtags": {
-				"rutaestrellas": 1,
-				"extremadura": 4,
-				"routestars": 2,
-				"stars4all_eu": 2,
-				"cl_pnguadarrama": 1,
-				"mirafloresdelasierra": 1,
-				"cielonocturno": 1,
-				"contaminaciónlumínica": 6,
-				"pnguadarrama": 1,
-				"lightpollution": 15,
-				"astrophotography": 4,
-				"astrofotografie": 4,
-				"led": 2,
-				"milkyway": 2,
-				"darkskies": 1,
-				"nightblight": 3,
-				"teide": 2,
-				"solsticiodeverano": 3,
-				"h2020": 1,
-				"anoiteénecesaria": 3,
-				"namibia": 3,
-				"germany": 1
-			}
+			"engagers": 0,
+			"posts": 3,
+			"replies": 0,
+			"mentions": 127,
+			"favorites": 10,
+			"shares": 7,
+			"comments": 0
 		},
 		{
 			"month": "2016-07",
-			"tweets": 74,
-			"tweetsOut": 74,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lapalma": 4,
-				"alan2016": 2,
-				"toledo": 2,
-				"farolasporelmundo": 1,
-				"extremadura": 2,
-				"gabriel": 2,
-				"perseids16": 2,
-				"ifweworktogether": 1,
-				"seabilbao2016": 19,
-				"fullmoon": 2,
-				"stoplightpollution": 2,
-				"citizenscience": 2,
-				"lightpollution": 8,
-				"wtf": 1,
-				"observatorioucm": 3
-			}
+			"engagers": 0,
+			"posts": 3,
+			"replies": 0,
+			"mentions": 71,
+			"favorites": 70,
+			"shares": 75,
+			"comments": 0
 		},
 		{
 			"month": "2016-08",
-			"tweets": 198,
-			"tweetsOut": 198,
-			"tweetsIn": 0,
-			"hashtags": {
-				"perseidas2016": 14,
-				"canarias": 9,
-				"perseidas": 13,
-				"perseidas16": 46,
-				"contaminaciónlumínica": 5,
-				"lapalma": 3,
-				"lightpollution": 2,
-				"estrellas": 1,
-				"perseids": 8,
-				"namibia": 3,
-				"periscope": 4,
-				"stoplightpollution": 4,
-				"perseids16": 5,
-				"teide": 4,
-				"perseidsmeteorshower": 3,
-				"perseidmeteorshower": 6,
-				"theta360": 2,
-				"canaryislands": 2,
-				"madrid": 2,
-				"contaminacionlumínica": 1,
-				"a7s": 2,
-				"auroras16": 5,
-				"northernlights": 2,
-				"barcelona": 3,
-				"island": 2,
-				"islandia": 8,
-				"vangogh": 1,
-				"arles": 1,
-				"iceland": 2,
-				"aurora16": 10,
-				"aurorasboreales": 2,
-				"groenlandia": 9
-			}
+			"engagers": 0,
+			"posts": 13,
+			"replies": 0,
+			"mentions": 185,
+			"favorites": 109,
+			"shares": 71,
+			"comments": 0
 		},
 		{
 			"month": "2016-09",
-			"tweets": 193,
-			"tweetsOut": 157,
-			"tweetsIn": 11,
-			"hashtags": {
-				"groenlandia": 4,
-				"auroras16": 10,
-				"reikiavik": 3,
-				"aurora16": 8,
-				"astronomypictureoftheday": 2,
-				"contaminaciónlumínica": 2,
-				"hveragerði": 1,
-				"romania": 1,
-				"alan2016": 28,
-				"rumanía": 1,
-				"auroras": 2,
-				"granada": 2,
-				"star4all": 4,
-				"apod": 4,
-				"xxiicea": 2,
-				"sustainability": 2,
-				"science": 2,
-				"environment": 2,
-				"sllmclass": 1,
-				"hlf16": 1,
-				"lightpollution": 3,
-				"ecology": 1,
-				"equinox": 1,
-				"energyefficiency": 1,
-				"stoplighpollution": 1,
-				"envirotech": 1,
-				"lighting": 4,
-				"yes": 1,
-				"sts": 1,
-				"envhist": 4,
-				"histsci": 3,
-				"cubesat": 1,
-				"stars4all": 2,
-				"capssi": 2,
-				"67p": 1,
-				"cometlanding": 1
-			}
+			"engagers": 0,
+			"posts": 32,
+			"replies": 18,
+			"mentions": 120,
+			"favorites": 152,
+			"shares": 90,
+			"comments": 13
 		},
 		{
 			"month": "2016-10",
-			"tweets": 47,
-			"tweetsOut": 47,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 1,
-				"figueres": 1,
-				"reecl": 2,
-				"lapalma": 2,
-				"stoplightpollution": 1,
-				"exomars": 1,
-				"oeg": 1,
-				"iswc2016": 1,
-				"darkskies": 2,
-				"explorecanada": 3,
-				"astrophotography": 3,
-				"alberta": 3,
-				"led": 2,
-				"peacebridge": 2,
-				"euspacestrategy": 1,
-				"data": 1,
-				"upmdivulga": 5
-			}
+			"engagers": 0,
+			"posts": 8,
+			"replies": 0,
+			"mentions": 39,
+			"favorites": 16,
+			"shares": 16,
+			"comments": 0
 		},
 		{
 			"month": "2016-11",
-			"tweets": 28,
-			"tweetsOut": 28,
-			"tweetsIn": 0,
-			"hashtags": {
-				"tmt": 5,
-				"astronomicalobservatoriesofchina": 5,
-				"naoc": 5,
-				"streetlights": 1,
-				"stoplightpollution": 2,
-				"smartcities": 1,
-				"datacollection": 1,
-				"catalunya": 3,
-				"supermoon": 4,
-				"superluna": 3,
-				"teide": 1,
-				"lightpollution": 1,
-				"citizenscience": 4
-			}
+			"engagers": 0,
+			"posts": 6,
+			"replies": 0,
+			"mentions": 22,
+			"favorites": 17,
+			"shares": 15,
+			"comments": 0
 		},
 		{
 			"month": "2016-12",
-			"tweets": 77,
-			"tweetsOut": 76,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 4,
-				"phototaxis": 1,
-				"led": 3,
-				"streetlights": 3,
-				"geminid": 1,
-				"teide": 5,
-				"wifi": 1,
-				"geminidas": 6,
-				"gemínidas": 9,
-				"unaestrellaundeseo": 2,
-				"wishonastar": 3,
-				"periscope": 1,
-				"stoplightpollution": 2,
-				"geminids": 5,
-				"lighting": 2,
-				"assignmentexplorer": 1,
-				"geminidas2016": 1,
-				"exteriorlighting": 1,
-				"quadrantid": 2,
-				"iot": 1,
-				"smartcity": 1,
-				"opendata": 1
-			}
+			"engagers": 0,
+			"posts": 13,
+			"replies": 1,
+			"mentions": 62,
+			"favorites": 25,
+			"shares": 26,
+			"comments": 0
 		},
 		{
 			"month": "2017-01",
-			"tweets": 45,
-			"tweetsOut": 41,
-			"tweetsIn": 1,
-			"hashtags": {
-				"cuadrantidas": 1,
-				"aas229": 2,
-				"darkskies": 1,
-				"lightpollution": 5,
-				"citizenscience": 6,
-				"geminid": 6,
-				"dsifair2017": 10,
-				"rome": 6
-			}
+			"engagers": 0,
+			"posts": 4,
+			"replies": 2,
+			"mentions": 37,
+			"favorites": 48,
+			"shares": 19,
+			"comments": 1
 		},
 		{
 			"month": "2017-02",
-			"tweets": 18,
-			"tweetsOut": 18,
-			"tweetsIn": 0,
-			"hashtags": {
-				"dsifair2017": 2,
-				"dataforimpact": 3,
-				"darkskies": 1,
-				"openaccess": 1,
-				"openscience": 1,
-				"nasa": 1,
-				"lightpollution": 2
-			}
+			"engagers": 0,
+			"posts": 4,
+			"replies": 0,
+			"mentions": 14,
+			"favorites": 33,
+			"shares": 25,
+			"comments": 0
 		},
 		{
 			"month": "2017-03",
-			"tweets": 56,
-			"tweetsOut": 56,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 8,
-				"iss": 1,
-				"itbberlin": 3,
-				"tourism": 2,
-				"citiesatnight": 1,
-				"citizenscience": 1,
-				"itb": 1,
-				"darksky": 4,
-				"astrotourism": 1,
-				"sustainablelighting": 3,
-				"internacional": 2,
-				"turismo": 2,
-				"madrid": 1,
-				"france": 1,
-				"lighting": 1,
-				"lahoradelplaneta17": 2,
-				"lightpolution": 1,
-				"planethour": 2,
-				"stoplightpollution": 5,
-				"vialactea": 1,
-				"lahoradelplaneta": 4,
-				"earthhour": 1,
-				"islascanarias": 1,
-				"horadelplaneta": 4,
-				"presupuestosparticipativos": 3,
-				"cienciaciudadana": 1,
-				"aurora": 1,
-				"northernlights": 1,
-				"nikon": 1
-			}
+			"engagers": 0,
+			"posts": 5,
+			"replies": 0,
+			"mentions": 51,
+			"favorites": 45,
+			"shares": 44,
+			"comments": 0
 		},
 		{
 			"month": "2017-04",
-			"tweets": 37,
-			"tweetsOut": 36,
-			"tweetsIn": 0,
-			"hashtags": {
-				"earthour": 2,
-				"buiometria": 1,
-				"space": 2,
-				"nasa_app": 2,
-				"dataviz": 1,
-				"preservingskies": 13,
-				"earthday": 1,
-				"opendata": 1,
-				"openscience": 1,
-				"dsimanifesto": 1,
-				"dsi": 1
-			}
+			"engagers": 0,
+			"posts": 9,
+			"replies": 1,
+			"mentions": 26,
+			"favorites": 118,
+			"shares": 74,
+			"comments": 0
 		},
 		{
 			"month": "2017-05",
-			"tweets": 35,
-			"tweetsOut": 35,
-			"tweetsIn": 0,
-			"hashtags": {
-				"ottenerife": 2,
-				"dsimanifesto": 2,
-				"rimini": 2,
-				"contaminacionluminica": 1,
-				"findecientífico": 12,
-				"stoplightpollution": 2,
-				"lightpollution": 5,
-				"findecientifico": 5,
-				"euinmyregion": 4,
-				"researchimpacteu": 3,
-				"europeinmyregion": 3,
-				"stars4kids": 3,
-				"cienciaciudadana": 1,
-				"citizenscience": 2
-			}
+			"engagers": 0,
+			"posts": 1,
+			"replies": 0,
+			"mentions": 34,
+			"favorites": 4,
+			"shares": 3,
+			"comments": 0
 		},
 		{
 			"month": "2017-06",
-			"tweets": 48,
-			"tweetsOut": 48,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 3,
-				"madrid": 1,
-				"lyon": 1,
-				"france": 1,
-				"switzerland": 1,
-				"italy": 1,
-				"iss": 1,
-				"lonne": 2,
-				"lptmm2017": 11
-			}
+			"engagers": 0,
+			"posts": 3,
+			"replies": 0,
+			"mentions": 45,
+			"favorites": 21,
+			"shares": 31,
+			"comments": 0
 		},
 		{
 			"month": "2017-07",
-			"tweets": 51,
-			"tweetsOut": 51,
-			"tweetsIn": 0,
-			"hashtags": {
-				"citizenscience": 20,
-				"design": 8,
-				"engagement": 8,
-				"openscience": 4,
-				"ruta17usa": 2,
-				"ruta14usa": 1,
-				"lightpollution": 6,
-				"buiometriapartecipativa": 1,
-				"tuscany": 1,
-				"solareclipse": 1,
-				"eclipse2017": 1
-			}
+			"engagers": 0,
+			"posts": 4,
+			"replies": 0,
+			"mentions": 47,
+			"favorites": 5,
+			"shares": 2,
+			"comments": 0
 		},
 		{
 			"month": "2017-08",
-			"tweets": 73,
-			"tweetsOut": 72,
-			"tweetsIn": 1,
-			"hashtags": {
-				"solareclipse2017": 17,
-				"ottenerife": 2,
-				"lightpollution": 2,
-				"eclipse2017": 16,
-				"wx": 2,
-				"eclipseskylive": 5,
-				"eclipse": 4,
-				"espclipse2017": 1,
-				"totalsolareclipse2017": 4
-			}
+			"engagers": 0,
+			"posts": 16,
+			"replies": 1,
+			"mentions": 55,
+			"favorites": 82,
+			"shares": 29,
+			"comments": 1
 		},
 		{
 			"month": "2017-09",
-			"tweets": 12,
-			"tweetsOut": 12,
-			"tweetsIn": 0,
-			"hashtags": {
-				"eclipse2017": 3,
-				"solareclipse2017": 5
-			}
+			"engagers": 0,
+			"posts": 0,
+			"replies": 0,
+			"mentions": 12,
+			"favorites": 0,
+			"shares": 0,
+			"comments": 0
 		},
 		{
 			"month": "2017-10",
-			"tweets": 36,
-			"tweetsOut": 36,
-			"tweetsIn": 0,
-			"hashtags": {
-				"streetlight": 1,
-				"climathon": 13,
-				"opendata": 2,
-				"lightpollution": 12,
-				"astrogalicia": 2,
-				"madrid": 12,
-				"climaton": 1,
-				"mapa": 1,
-				"contaminacionluminica": 1,
-				"estrellas": 1,
-				"vialactea": 1
-			}
+			"engagers": 0,
+			"posts": 1,
+			"replies": 0,
+			"mentions": 35,
+			"favorites": 4,
+			"shares": 5,
+			"comments": 0
 		},
 		{
 			"month": "2017-11",
-			"tweets": 117,
-			"tweetsOut": 112,
-			"tweetsIn": 2,
-			"hashtags": {
-				"lightpollution": 51,
-				"placemakinglatinoamerica": 1,
-				"valpo2017": 1,
-				"coding": 2,
-				"light": 2,
-				"pollution": 2,
-				"myonesciencetweet": 1,
-				"darkskies": 2,
-				"farolapp": 2,
-				"endofyear": 1,
-				"urbanoctober": 1,
-				"alan2018": 1,
-				"teareteluce": 2,
-				"citizenscience": 6,
-				"lpigathering": 39,
-				"milano": 2,
-				"stoplightpollution": 1,
-				"opendata": 1,
-				"inquinamentoluminoso": 2,
-				"leds": 2,
-				"smartcities": 2,
-				"darksky": 1,
-				"astronomer": 1,
-				"contaminacionluminica": 8,
-				"led": 1,
-				"aaas": 1,
-				"crowdfunding": 1,
-				"stars4all": 1,
-				"cappsi": 1
-			}
+			"engagers": 0,
+			"posts": 8,
+			"replies": 4,
+			"mentions": 103,
+			"favorites": 73,
+			"shares": 61,
+			"comments": 0
 		},
 		{
 			"month": "2017-12",
-			"tweets": 80,
-			"tweetsOut": 70,
-			"tweetsIn": 5,
-			"hashtags": {
-				"starparks": 2,
-				"lightpollution": 15,
-				"darkskies": 3,
-				"isthisasign": 1,
-				"embarrassedtobeamericanrightnow": 1,
-				"supermoon": 3,
-				"writeahappystoryin4words": 1,
-				"and1emoji": 1,
-				"led": 2,
-				"pollutionlumineuse": 2,
-				"anpcen": 2,
-				"lc": 1,
-				"economicdevelopment": 1,
-				"spiders": 1,
-				"gemínidas": 1,
-				"red_spmn": 2,
-				"solstice2017": 1,
-				"saveenvironment": 2,
-				"stars": 1
-			}
+			"engagers": 0,
+			"posts": 5,
+			"replies": 2,
+			"mentions": 69,
+			"favorites": 22,
+			"shares": 14,
+			"comments": 4
 		},
 		{
 			"month": "2018-01",
-			"tweets": 27,
-			"tweetsOut": 27,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 9,
-				"snow": 1,
-				"naturpark": 2,
-				"nossentinerschwinzerheide": 2
-			}
+			"engagers": 0,
+			"posts": 0,
+			"replies": 0,
+			"mentions": 27,
+			"favorites": 0,
+			"shares": 0,
+			"comments": 0
 		},
 		{
 			"month": "2018-02",
-			"tweets": 35,
-			"tweetsOut": 29,
-			"tweetsIn": 1,
-			"hashtags": {
-				"artificiallightatnight": 1,
-				"lightpollution": 10,
-				"insects": 3,
-				"spiders": 3,
-				"lighting": 1,
-				"crowdfunding": 3,
-				"caps": 5,
-				"h2020": 4,
-				"tech4good": 3,
-				"dsi": 3,
-				"manzanareselreal": 1,
-				"opendata": 1,
-				"capssi": 1,
-				"hotelprincesasofia": 2,
-				"bcn": 2,
-				"agroecosystems": 1
-			}
+			"engagers": 0,
+			"posts": 7,
+			"replies": 1,
+			"mentions": 27,
+			"favorites": 27,
+			"shares": 34,
+			"comments": 0
 		},
 		{
 			"month": "2018-03",
-			"tweets": 96,
-			"tweetsOut": 96,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 9,
-				"spacejoke": 1,
-				"nightscapades": 1,
-				"alan": 1,
-				"artificiallight": 1,
-				"responsiblelighting": 1,
-				"darkskylighting": 1,
-				"light": 1,
-				"night": 1,
-				"astrotourism": 7,
-				"lighting": 1,
-				"stoplightpollution": 1,
-				"citizenscience": 2,
-				"ligthpollution": 2,
-				"earthhour2018": 1
-			}
+			"engagers": 0,
+			"posts": 1,
+			"replies": 1,
+			"mentions": 94,
+			"favorites": 11,
+			"shares": 5,
+			"comments": 0
 		},
 		{
 			"month": "2018-04",
-			"tweets": 74,
-			"tweetsOut": 73,
-			"tweetsIn": 0,
-			"hashtags": {
-				"lightpollution": 28,
-				"gemínidas2016": 2,
-				"streetlights": 1,
-				"security": 1,
-				"crime": 1,
-				"energywaste": 1,
-				"shoutyscicomm": 1,
-				"standup4yourbeliefs": 1,
-				"poluicaoluminosa": 2,
-				"led": 1,
-				"fenway": 1,
-				"citizenscience": 2,
-				"dsifair2018": 1,
-				"idsw2018": 1,
-				"lighting": 1,
-				"health": 1,
-				"biodiversity": 3,
-				"astronomy": 2,
-				"almería": 2,
-				"almeria": 1,
-				"opendata": 3
-			}
+			"engagers": 0,
+			"posts": 7,
+			"replies": 1,
+			"mentions": 65,
+			"favorites": 17,
+			"shares": 11,
+			"comments": 0
 		},
 		{
 			"month": "2018-05",
-			"tweets": 109,
-			"tweetsOut": 94,
-			"tweetsIn": 4,
-			"hashtags": {
-				"lightpollution": 24,
-				"alan2018": 3,
-				"darksky": 3,
-				"gemínidas2016": 2,
-				"alan": 4,
-				"westhavelland": 2,
-				"london": 3,
-				"urban": 3,
-				"barcelona": 1,
-				"eusea18": 1,
-				"density": 1,
-				"darkskies": 1,
-				"pollutionlumineuse": 1,
-				"crowdfunding": 13,
-				"health": 1,
-				"biodiversity": 1,
-				"ecolightsforseabirds": 2,
-				"citizenscience": 6,
-				"light": 1,
-				"insects": 1,
-				"night": 1,
-				"environment": 1,
-				"didyouknow": 2,
-				"spain": 2,
-				"crowfunding": 1
-			}
+			"engagers": 0,
+			"posts": 7,
+			"replies": 1,
+			"mentions": 96,
+			"favorites": 34,
+			"shares": 29,
+			"comments": 4
+		},
+		{
+			"month": "2018-06",
+			"engagers": 0,
+			"posts": 0,
+			"replies": 0,
+			"mentions": 0,
+			"favorites": 0,
+			"shares": 0,
+			"comments": 0
 		}
 	],
-	"days": [
+	"totals": {
+		"engagers": 1426,
+		"posts": 184,
+		"replies": 39,
+		"mentions": 2354,
+		"favorites": 981,
+		"shares": 814,
+		"comments": 27,
+		"followers": 870
+	},
+	"hashtagsOut": [
 		{
-			"day": "2015-09-18",
-			"tweets": 2
+			"tag": "lightpollution",
+			"count": 304
 		},
 		{
-			"day": "2015-09-19",
-			"tweets": 4
+			"tag": "citizenscience",
+			"count": 76
 		},
 		{
-			"day": "2015-09-20",
-			"tweets": 3
+			"tag": "mercurytransit",
+			"count": 52
 		},
 		{
-			"day": "2015-09-21",
-			"tweets": 0
+			"tag": "perseidas16",
+			"count": 46
 		},
 		{
-			"day": "2015-09-22",
-			"tweets": 3
+			"tag": "lpigathering",
+			"count": 38
 		},
 		{
-			"day": "2015-09-23",
-			"tweets": 2
+			"tag": "darkskies",
+			"count": 28
 		},
 		{
-			"day": "2015-09-24",
-			"tweets": 0
+			"tag": "ecsa2016",
+			"count": 27
 		},
 		{
-			"day": "2015-09-25",
-			"tweets": 7
+			"tag": "totalsolareclipse",
+			"count": 26
 		},
 		{
-			"day": "2015-09-26",
-			"tweets": 11
+			"tag": "alan2016",
+			"count": 26
 		},
 		{
-			"day": "2015-09-27",
-			"tweets": 33
+			"tag": "teide",
+			"count": 23
 		},
 		{
-			"day": "2015-09-28",
-			"tweets": 12
+			"tag": "solareclipse2017",
+			"count": 22
 		},
 		{
-			"day": "2015-09-29",
-			"tweets": 4
+			"tag": "madrid",
+			"count": 21
 		},
 		{
-			"day": "2015-09-30",
-			"tweets": 0
+			"tag": "eclipse2017",
+			"count": 20
 		},
 		{
-			"day": "2015-10-01",
-			"tweets": 4
+			"tag": "crowdfunding",
+			"count": 20
 		},
 		{
-			"day": "2015-10-02",
-			"tweets": 1
+			"tag": "stoplightpollution",
+			"count": 20
 		},
 		{
-			"day": "2015-10-03",
-			"tweets": 0
+			"tag": "seabilbao2016",
+			"count": 19
 		},
 		{
-			"day": "2015-10-04",
-			"tweets": 6
+			"tag": "contaminaciónlumínica",
+			"count": 18
 		},
 		{
-			"day": "2015-10-05",
-			"tweets": 3
+			"tag": "aurora16",
+			"count": 18
 		},
 		{
-			"day": "2015-10-06",
-			"tweets": 2
+			"tag": "iss",
+			"count": 17
 		},
 		{
-			"day": "2015-10-07",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-08",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-09",
-			"tweets": 1
-		},
-		{
-			"day": "2015-10-10",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-11",
-			"tweets": 2
-		},
-		{
-			"day": "2015-10-12",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-13",
-			"tweets": 1
-		},
-		{
-			"day": "2015-10-14",
-			"tweets": 3
-		},
-		{
-			"day": "2015-10-15",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-16",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-17",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-18",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-19",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-20",
-			"tweets": 2
-		},
-		{
-			"day": "2015-10-21",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-22",
-			"tweets": 1
-		},
-		{
-			"day": "2015-10-23",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-24",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-25",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-26",
-			"tweets": 2
-		},
-		{
-			"day": "2015-10-27",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-28",
-			"tweets": 1
-		},
-		{
-			"day": "2015-10-29",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-30",
-			"tweets": 0
-		},
-		{
-			"day": "2015-10-31",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-01",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-02",
-			"tweets": 3
-		},
-		{
-			"day": "2015-11-03",
-			"tweets": 1
-		},
-		{
-			"day": "2015-11-04",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-05",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-06",
-			"tweets": 2
-		},
-		{
-			"day": "2015-11-07",
-			"tweets": 1
-		},
-		{
-			"day": "2015-11-08",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-09",
-			"tweets": 1
-		},
-		{
-			"day": "2015-11-10",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-11",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-12",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-13",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-14",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-15",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-16",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-17",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-18",
-			"tweets": 3
-		},
-		{
-			"day": "2015-11-19",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-20",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-21",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-22",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-23",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-24",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-25",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-26",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-27",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-28",
-			"tweets": 1
-		},
-		{
-			"day": "2015-11-29",
-			"tweets": 0
-		},
-		{
-			"day": "2015-11-30",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-01",
-			"tweets": 1
-		},
-		{
-			"day": "2015-12-02",
-			"tweets": 1
-		},
-		{
-			"day": "2015-12-03",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-04",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-05",
-			"tweets": 3
-		},
-		{
-			"day": "2015-12-06",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-07",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-08",
-			"tweets": 2
-		},
-		{
-			"day": "2015-12-09",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-10",
-			"tweets": 7
-		},
-		{
-			"day": "2015-12-11",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-12",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-13",
-			"tweets": 6
-		},
-		{
-			"day": "2015-12-14",
-			"tweets": 3
-		},
-		{
-			"day": "2015-12-15",
-			"tweets": 2
-		},
-		{
-			"day": "2015-12-16",
-			"tweets": 2
-		},
-		{
-			"day": "2015-12-17",
-			"tweets": 3
-		},
-		{
-			"day": "2015-12-18",
-			"tweets": 3
-		},
-		{
-			"day": "2015-12-19",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-20",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-21",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-22",
-			"tweets": 5
-		},
-		{
-			"day": "2015-12-23",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-24",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-25",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-26",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-27",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-28",
-			"tweets": 6
-		},
-		{
-			"day": "2015-12-29",
-			"tweets": 3
-		},
-		{
-			"day": "2015-12-30",
-			"tweets": 0
-		},
-		{
-			"day": "2015-12-31",
-			"tweets": 2
-		},
-		{
-			"day": "2016-01-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-02",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-03",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-04",
-			"tweets": 4
-		},
-		{
-			"day": "2016-01-05",
-			"tweets": 2
-		},
-		{
-			"day": "2016-01-06",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-07",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-08",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-09",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-10",
-			"tweets": 1
-		},
-		{
-			"day": "2016-01-11",
-			"tweets": 1
-		},
-		{
-			"day": "2016-01-12",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-13",
-			"tweets": 2
-		},
-		{
-			"day": "2016-01-14",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-15",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-16",
-			"tweets": 1
-		},
-		{
-			"day": "2016-01-17",
-			"tweets": 7
-		},
-		{
-			"day": "2016-01-18",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-19",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-20",
-			"tweets": 1
-		},
-		{
-			"day": "2016-01-21",
-			"tweets": 2
-		},
-		{
-			"day": "2016-01-22",
-			"tweets": 1
-		},
-		{
-			"day": "2016-01-23",
-			"tweets": 3
-		},
-		{
-			"day": "2016-01-24",
-			"tweets": 13
-		},
-		{
-			"day": "2016-01-25",
-			"tweets": 4
-		},
-		{
-			"day": "2016-01-26",
-			"tweets": 5
-		},
-		{
-			"day": "2016-01-27",
-			"tweets": 2
-		},
-		{
-			"day": "2016-01-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-29",
-			"tweets": 0
-		},
-		{
-			"day": "2016-01-30",
-			"tweets": 13
-		},
-		{
-			"day": "2016-01-31",
-			"tweets": 2
-		},
-		{
-			"day": "2016-02-01",
-			"tweets": 1
-		},
-		{
-			"day": "2016-02-02",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-03",
-			"tweets": 2
-		},
-		{
-			"day": "2016-02-04",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-05",
-			"tweets": 2
-		},
-		{
-			"day": "2016-02-06",
-			"tweets": 5
-		},
-		{
-			"day": "2016-02-07",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-08",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-09",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-10",
-			"tweets": 1
-		},
-		{
-			"day": "2016-02-11",
-			"tweets": 3
-		},
-		{
-			"day": "2016-02-12",
-			"tweets": 2
-		},
-		{
-			"day": "2016-02-13",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-14",
-			"tweets": 8
-		},
-		{
-			"day": "2016-02-15",
-			"tweets": 1
-		},
-		{
-			"day": "2016-02-16",
-			"tweets": 3
-		},
-		{
-			"day": "2016-02-17",
-			"tweets": 1
-		},
-		{
-			"day": "2016-02-18",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-19",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-20",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-21",
-			"tweets": 4
-		},
-		{
-			"day": "2016-02-22",
-			"tweets": 6
-		},
-		{
-			"day": "2016-02-23",
-			"tweets": 0
-		},
-		{
-			"day": "2016-02-24",
-			"tweets": 2
-		},
-		{
-			"day": "2016-02-25",
-			"tweets": 3
-		},
-		{
-			"day": "2016-02-26",
-			"tweets": 11
-		},
-		{
-			"day": "2016-02-27",
-			"tweets": 1
-		},
-		{
-			"day": "2016-02-28",
-			"tweets": 8
-		},
-		{
-			"day": "2016-02-29",
-			"tweets": 13
-		},
-		{
-			"day": "2016-03-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-02",
-			"tweets": 23
-		},
-		{
-			"day": "2016-03-03",
-			"tweets": 17
-		},
-		{
-			"day": "2016-03-04",
-			"tweets": 18
-		},
-		{
-			"day": "2016-03-05",
-			"tweets": 28
-		},
-		{
-			"day": "2016-03-06",
-			"tweets": 7
-		},
-		{
-			"day": "2016-03-07",
-			"tweets": 19
-		},
-		{
-			"day": "2016-03-08",
-			"tweets": 34
-		},
-		{
-			"day": "2016-03-09",
-			"tweets": 36
-		},
-		{
-			"day": "2016-03-10",
-			"tweets": 6
-		},
-		{
-			"day": "2016-03-11",
-			"tweets": 9
-		},
-		{
-			"day": "2016-03-12",
-			"tweets": 1
-		},
-		{
-			"day": "2016-03-13",
-			"tweets": 2
-		},
-		{
-			"day": "2016-03-14",
-			"tweets": 1
-		},
-		{
-			"day": "2016-03-15",
-			"tweets": 8
-		},
-		{
-			"day": "2016-03-16",
-			"tweets": 10
-		},
-		{
-			"day": "2016-03-17",
-			"tweets": 1
-		},
-		{
-			"day": "2016-03-18",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-19",
-			"tweets": 1
-		},
-		{
-			"day": "2016-03-20",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-21",
-			"tweets": 2
-		},
-		{
-			"day": "2016-03-22",
-			"tweets": 3
-		},
-		{
-			"day": "2016-03-23",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-24",
-			"tweets": 5
-		},
-		{
-			"day": "2016-03-25",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-26",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-27",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-28",
-			"tweets": 1
-		},
-		{
-			"day": "2016-03-29",
-			"tweets": 10
-		},
-		{
-			"day": "2016-03-30",
-			"tweets": 0
-		},
-		{
-			"day": "2016-03-31",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-02",
-			"tweets": 32
-		},
-		{
-			"day": "2016-04-03",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-04",
-			"tweets": 9
-		},
-		{
-			"day": "2016-04-05",
-			"tweets": 3
-		},
-		{
-			"day": "2016-04-06",
-			"tweets": 2
-		},
-		{
-			"day": "2016-04-07",
-			"tweets": 4
-		},
-		{
-			"day": "2016-04-08",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-09",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-10",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-11",
-			"tweets": 1
-		},
-		{
-			"day": "2016-04-12",
-			"tweets": 5
-		},
-		{
-			"day": "2016-04-13",
-			"tweets": 4
-		},
-		{
-			"day": "2016-04-14",
-			"tweets": 5
-		},
-		{
-			"day": "2016-04-15",
-			"tweets": 2
-		},
-		{
-			"day": "2016-04-16",
-			"tweets": 1
-		},
-		{
-			"day": "2016-04-17",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-18",
-			"tweets": 1
-		},
-		{
-			"day": "2016-04-19",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-20",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-21",
-			"tweets": 2
-		},
-		{
-			"day": "2016-04-22",
-			"tweets": 12
-		},
-		{
-			"day": "2016-04-23",
-			"tweets": 0
-		},
-		{
-			"day": "2016-04-24",
-			"tweets": 1
-		},
-		{
-			"day": "2016-04-25",
-			"tweets": 7
-		},
-		{
-			"day": "2016-04-26",
-			"tweets": 2
-		},
-		{
-			"day": "2016-04-27",
-			"tweets": 1
-		},
-		{
-			"day": "2016-04-28",
-			"tweets": 2
-		},
-		{
-			"day": "2016-04-29",
-			"tweets": 13
-		},
-		{
-			"day": "2016-04-30",
-			"tweets": 11
-		},
-		{
-			"day": "2016-05-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-02",
-			"tweets": 6
-		},
-		{
-			"day": "2016-05-03",
-			"tweets": 6
-		},
-		{
-			"day": "2016-05-04",
-			"tweets": 5
-		},
-		{
-			"day": "2016-05-05",
-			"tweets": 13
-		},
-		{
-			"day": "2016-05-06",
-			"tweets": 34
-		},
-		{
-			"day": "2016-05-07",
-			"tweets": 5
-		},
-		{
-			"day": "2016-05-08",
-			"tweets": 29
-		},
-		{
-			"day": "2016-05-09",
-			"tweets": 50
-		},
-		{
-			"day": "2016-05-10",
-			"tweets": 3
-		},
-		{
-			"day": "2016-05-11",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-12",
-			"tweets": 5
-		},
-		{
-			"day": "2016-05-13",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-14",
-			"tweets": 4
-		},
-		{
-			"day": "2016-05-15",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-16",
-			"tweets": 1
-		},
-		{
-			"day": "2016-05-17",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-18",
-			"tweets": 14
-		},
-		{
-			"day": "2016-05-19",
-			"tweets": 7
-		},
-		{
-			"day": "2016-05-20",
-			"tweets": 29
-		},
-		{
-			"day": "2016-05-21",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-22",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-23",
-			"tweets": 5
-		},
-		{
-			"day": "2016-05-24",
-			"tweets": 2
-		},
-		{
-			"day": "2016-05-25",
-			"tweets": 2
-		},
-		{
-			"day": "2016-05-26",
-			"tweets": 21
-		},
-		{
-			"day": "2016-05-27",
-			"tweets": 1
-		},
-		{
-			"day": "2016-05-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-29",
-			"tweets": 0
-		},
-		{
-			"day": "2016-05-30",
-			"tweets": 1
-		},
-		{
-			"day": "2016-05-31",
-			"tweets": 11
-		},
-		{
-			"day": "2016-06-01",
-			"tweets": 12
-		},
-		{
-			"day": "2016-06-02",
-			"tweets": 0
-		},
-		{
-			"day": "2016-06-03",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-04",
-			"tweets": 4
-		},
-		{
-			"day": "2016-06-05",
-			"tweets": 16
-		},
-		{
-			"day": "2016-06-06",
-			"tweets": 6
-		},
-		{
-			"day": "2016-06-07",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-08",
-			"tweets": 2
-		},
-		{
-			"day": "2016-06-09",
-			"tweets": 1
-		},
-		{
-			"day": "2016-06-10",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-11",
-			"tweets": 4
-		},
-		{
-			"day": "2016-06-12",
-			"tweets": 4
-		},
-		{
-			"day": "2016-06-13",
-			"tweets": 2
-		},
-		{
-			"day": "2016-06-14",
-			"tweets": 0
-		},
-		{
-			"day": "2016-06-15",
-			"tweets": 1
-		},
-		{
-			"day": "2016-06-16",
-			"tweets": 4
-		},
-		{
-			"day": "2016-06-17",
-			"tweets": 2
-		},
-		{
-			"day": "2016-06-18",
-			"tweets": 21
-		},
-		{
-			"day": "2016-06-19",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-20",
-			"tweets": 4
-		},
-		{
-			"day": "2016-06-21",
-			"tweets": 8
-		},
-		{
-			"day": "2016-06-22",
-			"tweets": 2
-		},
-		{
-			"day": "2016-06-23",
-			"tweets": 8
-		},
-		{
-			"day": "2016-06-24",
-			"tweets": 0
-		},
-		{
-			"day": "2016-06-25",
-			"tweets": 5
-		},
-		{
-			"day": "2016-06-26",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-27",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-06-29",
-			"tweets": 3
-		},
-		{
-			"day": "2016-06-30",
-			"tweets": 3
-		},
-		{
-			"day": "2016-07-01",
-			"tweets": 4
-		},
-		{
-			"day": "2016-07-02",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-03",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-04",
-			"tweets": 6
-		},
-		{
-			"day": "2016-07-05",
-			"tweets": 2
-		},
-		{
-			"day": "2016-07-06",
-			"tweets": 6
-		},
-		{
-			"day": "2016-07-07",
-			"tweets": 1
-		},
-		{
-			"day": "2016-07-08",
-			"tweets": 1
-		},
-		{
-			"day": "2016-07-09",
-			"tweets": 2
-		},
-		{
-			"day": "2016-07-10",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-11",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-12",
-			"tweets": 4
-		},
-		{
-			"day": "2016-07-13",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-14",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-15",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-16",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-17",
-			"tweets": 4
-		},
-		{
-			"day": "2016-07-18",
-			"tweets": 17
-		},
-		{
-			"day": "2016-07-19",
-			"tweets": 1
-		},
-		{
-			"day": "2016-07-20",
-			"tweets": 4
-		},
-		{
-			"day": "2016-07-21",
-			"tweets": 3
-		},
-		{
-			"day": "2016-07-22",
-			"tweets": 2
-		},
-		{
-			"day": "2016-07-23",
-			"tweets": 2
-		},
-		{
-			"day": "2016-07-24",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-25",
-			"tweets": 0
-		},
-		{
-			"day": "2016-07-26",
-			"tweets": 2
-		},
-		{
-			"day": "2016-07-27",
-			"tweets": 7
-		},
-		{
-			"day": "2016-07-28",
-			"tweets": 1
-		},
-		{
-			"day": "2016-07-29",
-			"tweets": 1
-		},
-		{
-			"day": "2016-07-30",
-			"tweets": 3
-		},
-		{
-			"day": "2016-07-31",
-			"tweets": 1
-		},
-		{
-			"day": "2016-08-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-08-02",
-			"tweets": 1
-		},
-		{
-			"day": "2016-08-03",
-			"tweets": 7
-		},
-		{
-			"day": "2016-08-04",
-			"tweets": 1
-		},
-		{
-			"day": "2016-08-05",
-			"tweets": 9
-		},
-		{
-			"day": "2016-08-06",
-			"tweets": 5
-		},
-		{
-			"day": "2016-08-07",
-			"tweets": 4
-		},
-		{
-			"day": "2016-08-08",
-			"tweets": 0
-		},
-		{
-			"day": "2016-08-09",
-			"tweets": 5
-		},
-		{
-			"day": "2016-08-10",
-			"tweets": 4
-		},
-		{
-			"day": "2016-08-11",
-			"tweets": 28
-		},
-		{
-			"day": "2016-08-12",
-			"tweets": 38
-		},
-		{
-			"day": "2016-08-13",
-			"tweets": 5
-		},
-		{
-			"day": "2016-08-14",
-			"tweets": 9
-		},
-		{
-			"day": "2016-08-15",
-			"tweets": 4
-		},
-		{
-			"day": "2016-08-16",
-			"tweets": 1
-		},
-		{
-			"day": "2016-08-17",
-			"tweets": 0
-		},
-		{
-			"day": "2016-08-18",
-			"tweets": 1
-		},
-		{
-			"day": "2016-08-19",
-			"tweets": 6
-		},
-		{
-			"day": "2016-08-20",
-			"tweets": 0
-		},
-		{
-			"day": "2016-08-21",
-			"tweets": 0
-		},
-		{
-			"day": "2016-08-22",
-			"tweets": 5
-		},
-		{
-			"day": "2016-08-23",
-			"tweets": 12
-		},
-		{
-			"day": "2016-08-24",
-			"tweets": 10
-		},
-		{
-			"day": "2016-08-25",
-			"tweets": 7
-		},
-		{
-			"day": "2016-08-26",
-			"tweets": 6
-		},
-		{
-			"day": "2016-08-27",
-			"tweets": 6
-		},
-		{
-			"day": "2016-08-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-08-29",
-			"tweets": 8
-		},
-		{
-			"day": "2016-08-30",
-			"tweets": 6
-		},
-		{
-			"day": "2016-08-31",
-			"tweets": 10
-		},
-		{
-			"day": "2016-09-01",
-			"tweets": 7
-		},
-		{
-			"day": "2016-09-02",
-			"tweets": 13
-		},
-		{
-			"day": "2016-09-03",
-			"tweets": 7
-		},
-		{
-			"day": "2016-09-04",
-			"tweets": 13
-		},
-		{
-			"day": "2016-09-05",
-			"tweets": 5
-		},
-		{
-			"day": "2016-09-06",
-			"tweets": 1
-		},
-		{
-			"day": "2016-09-07",
-			"tweets": 1
-		},
-		{
-			"day": "2016-09-08",
-			"tweets": 4
-		},
-		{
-			"day": "2016-09-09",
-			"tweets": 3
-		},
-		{
-			"day": "2016-09-10",
-			"tweets": 6
-		},
-		{
-			"day": "2016-09-11",
-			"tweets": 1
-		},
-		{
-			"day": "2016-09-12",
-			"tweets": 31
-		},
-		{
-			"day": "2016-09-13",
-			"tweets": 1
-		},
-		{
-			"day": "2016-09-14",
-			"tweets": 0
-		},
-		{
-			"day": "2016-09-15",
-			"tweets": 2
-		},
-		{
-			"day": "2016-09-16",
-			"tweets": 2
-		},
-		{
-			"day": "2016-09-17",
-			"tweets": 0
-		},
-		{
-			"day": "2016-09-18",
-			"tweets": 0
-		},
-		{
-			"day": "2016-09-19",
-			"tweets": 5
-		},
-		{
-			"day": "2016-09-20",
-			"tweets": 0
-		},
-		{
-			"day": "2016-09-21",
-			"tweets": 3
-		},
-		{
-			"day": "2016-09-22",
-			"tweets": 2
-		},
-		{
-			"day": "2016-09-23",
-			"tweets": 1
-		},
-		{
-			"day": "2016-09-24",
-			"tweets": 0
-		},
-		{
-			"day": "2016-09-25",
-			"tweets": 0
-		},
-		{
-			"day": "2016-09-26",
-			"tweets": 56
-		},
-		{
-			"day": "2016-09-27",
-			"tweets": 21
-		},
-		{
-			"day": "2016-09-28",
-			"tweets": 3
-		},
-		{
-			"day": "2016-09-29",
-			"tweets": 2
-		},
-		{
-			"day": "2016-09-30",
-			"tweets": 3
-		},
-		{
-			"day": "2016-10-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-02",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-03",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-04",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-05",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-06",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-07",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-08",
-			"tweets": 1
-		},
-		{
-			"day": "2016-10-09",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-10",
-			"tweets": 1
-		},
-		{
-			"day": "2016-10-11",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-12",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-13",
-			"tweets": 1
-		},
-		{
-			"day": "2016-10-14",
-			"tweets": 7
-		},
-		{
-			"day": "2016-10-15",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-16",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-17",
-			"tweets": 1
-		},
-		{
-			"day": "2016-10-18",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-19",
-			"tweets": 3
-		},
-		{
-			"day": "2016-10-20",
-			"tweets": 3
-		},
-		{
-			"day": "2016-10-21",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-22",
-			"tweets": 2
-		},
-		{
-			"day": "2016-10-23",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-24",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-25",
-			"tweets": 1
-		},
-		{
-			"day": "2016-10-26",
-			"tweets": 14
-		},
-		{
-			"day": "2016-10-27",
-			"tweets": 13
-		},
-		{
-			"day": "2016-10-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-29",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-30",
-			"tweets": 0
-		},
-		{
-			"day": "2016-10-31",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-01",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-02",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-03",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-04",
-			"tweets": 5
-		},
-		{
-			"day": "2016-11-05",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-06",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-07",
-			"tweets": 2
-		},
-		{
-			"day": "2016-11-08",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-09",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-10",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-11",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-12",
-			"tweets": 2
-		},
-		{
-			"day": "2016-11-13",
-			"tweets": 2
-		},
-		{
-			"day": "2016-11-14",
-			"tweets": 1
-		},
-		{
-			"day": "2016-11-15",
-			"tweets": 4
-		},
-		{
-			"day": "2016-11-16",
-			"tweets": 1
-		},
-		{
-			"day": "2016-11-17",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-18",
-			"tweets": 1
-		},
-		{
-			"day": "2016-11-19",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-20",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-21",
-			"tweets": 3
-		},
-		{
-			"day": "2016-11-22",
-			"tweets": 5
-		},
-		{
-			"day": "2016-11-23",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-24",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-25",
-			"tweets": 2
-		},
-		{
-			"day": "2016-11-26",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-27",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-29",
-			"tweets": 0
-		},
-		{
-			"day": "2016-11-30",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-01",
-			"tweets": 6
-		},
-		{
-			"day": "2016-12-02",
-			"tweets": 1
-		},
-		{
-			"day": "2016-12-03",
-			"tweets": 1
-		},
-		{
-			"day": "2016-12-04",
-			"tweets": 2
-		},
-		{
-			"day": "2016-12-05",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-06",
-			"tweets": 1
-		},
-		{
-			"day": "2016-12-07",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-08",
-			"tweets": 1
-		},
-		{
-			"day": "2016-12-09",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-10",
-			"tweets": 2
-		},
-		{
-			"day": "2016-12-11",
-			"tweets": 3
-		},
-		{
-			"day": "2016-12-12",
-			"tweets": 6
-		},
-		{
-			"day": "2016-12-13",
-			"tweets": 10
-		},
-		{
-			"day": "2016-12-14",
-			"tweets": 18
-		},
-		{
-			"day": "2016-12-15",
-			"tweets": 1
-		},
-		{
-			"day": "2016-12-16",
-			"tweets": 3
-		},
-		{
-			"day": "2016-12-17",
-			"tweets": 3
-		},
-		{
-			"day": "2016-12-18",
-			"tweets": 4
-		},
-		{
-			"day": "2016-12-19",
-			"tweets": 4
-		},
-		{
-			"day": "2016-12-20",
-			"tweets": 2
-		},
-		{
-			"day": "2016-12-21",
-			"tweets": 3
-		},
-		{
-			"day": "2016-12-22",
-			"tweets": 1
-		},
-		{
-			"day": "2016-12-23",
-			"tweets": 2
-		},
-		{
-			"day": "2016-12-24",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-25",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-26",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-27",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-28",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-29",
-			"tweets": 0
-		},
-		{
-			"day": "2016-12-30",
-			"tweets": 3
-		},
-		{
-			"day": "2016-12-31",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-03",
-			"tweets": 2
-		},
-		{
-			"day": "2017-01-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-07",
-			"tweets": 2
-		},
-		{
-			"day": "2017-01-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-12",
-			"tweets": 6
-		},
-		{
-			"day": "2017-01-13",
-			"tweets": 10
-		},
-		{
-			"day": "2017-01-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-17",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-20",
-			"tweets": 4
-		},
-		{
-			"day": "2017-01-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-24",
-			"tweets": 6
-		},
-		{
-			"day": "2017-01-25",
-			"tweets": 8
-		},
-		{
-			"day": "2017-01-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-27",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-28",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-01-30",
-			"tweets": 2
-		},
-		{
-			"day": "2017-01-31",
-			"tweets": 5
-		},
-		{
-			"day": "2017-02-01",
-			"tweets": 6
-		},
-		{
-			"day": "2017-02-02",
-			"tweets": 1
-		},
-		{
-			"day": "2017-02-03",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-06",
-			"tweets": 3
-		},
-		{
-			"day": "2017-02-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-10",
-			"tweets": 1
-		},
-		{
-			"day": "2017-02-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-16",
-			"tweets": 4
-		},
-		{
-			"day": "2017-02-17",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-20",
-			"tweets": 1
-		},
-		{
-			"day": "2017-02-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-23",
-			"tweets": 1
-		},
-		{
-			"day": "2017-02-24",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-25",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-27",
-			"tweets": 0
-		},
-		{
-			"day": "2017-02-28",
-			"tweets": 1
-		},
-		{
-			"day": "2017-03-01",
-			"tweets": 3
-		},
-		{
-			"day": "2017-03-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-03",
-			"tweets": 7
-		},
-		{
-			"day": "2017-03-04",
-			"tweets": 2
-		},
-		{
-			"day": "2017-03-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-06",
-			"tweets": 1
-		},
-		{
-			"day": "2017-03-07",
-			"tweets": 3
-		},
-		{
-			"day": "2017-03-08",
-			"tweets": 10
-		},
-		{
-			"day": "2017-03-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-10",
-			"tweets": 5
-		},
-		{
-			"day": "2017-03-11",
-			"tweets": 3
-		},
-		{
-			"day": "2017-03-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-14",
-			"tweets": 2
-		},
-		{
-			"day": "2017-03-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-17",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-20",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-22",
-			"tweets": 1
-		},
-		{
-			"day": "2017-03-23",
-			"tweets": 1
-		},
-		{
-			"day": "2017-03-24",
-			"tweets": 1
-		},
-		{
-			"day": "2017-03-25",
-			"tweets": 15
-		},
-		{
-			"day": "2017-03-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-27",
-			"tweets": 1
-		},
-		{
-			"day": "2017-03-28",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-30",
-			"tweets": 0
-		},
-		{
-			"day": "2017-03-31",
-			"tweets": 1
-		},
-		{
-			"day": "2017-04-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-03",
-			"tweets": 3
-		},
-		{
-			"day": "2017-04-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-11",
-			"tweets": 1
-		},
-		{
-			"day": "2017-04-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-14",
-			"tweets": 4
-		},
-		{
-			"day": "2017-04-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-17",
-			"tweets": 1
-		},
-		{
-			"day": "2017-04-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-19",
-			"tweets": 13
-		},
-		{
-			"day": "2017-04-20",
-			"tweets": 2
-		},
-		{
-			"day": "2017-04-21",
-			"tweets": 3
-		},
-		{
-			"day": "2017-04-22",
-			"tweets": 3
-		},
-		{
-			"day": "2017-04-23",
-			"tweets": 4
-		},
-		{
-			"day": "2017-04-24",
-			"tweets": 1
-		},
-		{
-			"day": "2017-04-25",
-			"tweets": 1
-		},
-		{
-			"day": "2017-04-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-27",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-28",
-			"tweets": 0
-		},
-		{
-			"day": "2017-04-29",
-			"tweets": 1
-		},
-		{
-			"day": "2017-04-30",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-03",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-09",
-			"tweets": 4
-		},
-		{
-			"day": "2017-05-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-15",
-			"tweets": 1
-		},
-		{
-			"day": "2017-05-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-17",
-			"tweets": 2
-		},
-		{
-			"day": "2017-05-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-19",
-			"tweets": 1
-		},
-		{
-			"day": "2017-05-20",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-24",
-			"tweets": 6
-		},
-		{
-			"day": "2017-05-25",
-			"tweets": 6
-		},
-		{
-			"day": "2017-05-26",
-			"tweets": 4
-		},
-		{
-			"day": "2017-05-27",
-			"tweets": 8
-		},
-		{
-			"day": "2017-05-28",
-			"tweets": 1
-		},
-		{
-			"day": "2017-05-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-05-30",
-			"tweets": 2
-		},
-		{
-			"day": "2017-05-31",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-01",
-			"tweets": 1
-		},
-		{
-			"day": "2017-06-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-03",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-05",
-			"tweets": 5
-		},
-		{
-			"day": "2017-06-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-08",
-			"tweets": 5
-		},
-		{
-			"day": "2017-06-09",
-			"tweets": 1
-		},
-		{
-			"day": "2017-06-10",
-			"tweets": 1
-		},
-		{
-			"day": "2017-06-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-12",
-			"tweets": 1
-		},
-		{
-			"day": "2017-06-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-16",
-			"tweets": 3
-		},
-		{
-			"day": "2017-06-17",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-19",
-			"tweets": 9
-		},
-		{
-			"day": "2017-06-20",
-			"tweets": 2
-		},
-		{
-			"day": "2017-06-21",
-			"tweets": 1
-		},
-		{
-			"day": "2017-06-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-24",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-25",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-27",
-			"tweets": 0
-		},
-		{
-			"day": "2017-06-28",
-			"tweets": 9
-		},
-		{
-			"day": "2017-06-29",
-			"tweets": 3
-		},
-		{
-			"day": "2017-06-30",
-			"tweets": 7
-		},
-		{
-			"day": "2017-07-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-03",
-			"tweets": 9
-		},
-		{
-			"day": "2017-07-04",
-			"tweets": 11
-		},
-		{
-			"day": "2017-07-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-07",
-			"tweets": 4
-		},
-		{
-			"day": "2017-07-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-13",
-			"tweets": 1
-		},
-		{
-			"day": "2017-07-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-17",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-18",
-			"tweets": 3
-		},
-		{
-			"day": "2017-07-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-20",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-24",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-25",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-26",
-			"tweets": 8
-		},
-		{
-			"day": "2017-07-27",
-			"tweets": 4
-		},
-		{
-			"day": "2017-07-28",
-			"tweets": 1
-		},
-		{
-			"day": "2017-07-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-07-30",
-			"tweets": 9
-		},
-		{
-			"day": "2017-07-31",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-01",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-03",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-07",
-			"tweets": 9
-		},
-		{
-			"day": "2017-08-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-10",
-			"tweets": 2
-		},
-		{
-			"day": "2017-08-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-12",
-			"tweets": 2
-		},
-		{
-			"day": "2017-08-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-08-15",
-			"tweets": 3
-		},
-		{
-			"day": "2017-08-16",
-			"tweets": 3
-		},
-		{
-			"day": "2017-08-17",
-			"tweets": 6
-		},
-		{
-			"day": "2017-08-18",
-			"tweets": 6
-		},
-		{
-			"day": "2017-08-19",
-			"tweets": 6
-		},
-		{
-			"day": "2017-08-20",
-			"tweets": 2
-		},
-		{
-			"day": "2017-08-21",
-			"tweets": 14
-		},
-		{
-			"day": "2017-08-22",
-			"tweets": 4
-		},
-		{
-			"day": "2017-08-23",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-24",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-25",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-26",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-27",
-			"tweets": 5
-		},
-		{
-			"day": "2017-08-28",
-			"tweets": 3
-		},
-		{
-			"day": "2017-08-29",
-			"tweets": 2
-		},
-		{
-			"day": "2017-08-30",
-			"tweets": 1
-		},
-		{
-			"day": "2017-08-31",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-02",
-			"tweets": 2
-		},
-		{
-			"day": "2017-09-03",
-			"tweets": 2
-		},
-		{
-			"day": "2017-09-04",
-			"tweets": 2
-		},
-		{
-			"day": "2017-09-05",
-			"tweets": 5
-		},
-		{
-			"day": "2017-09-06",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-17",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-20",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-24",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-25",
-			"tweets": 1
-		},
-		{
-			"day": "2017-09-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-27",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-28",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-09-30",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-03",
-			"tweets": 5
-		},
-		{
-			"day": "2017-10-04",
-			"tweets": 1
-		},
-		{
-			"day": "2017-10-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-06",
-			"tweets": 1
-		},
-		{
-			"day": "2017-10-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-11",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-13",
-			"tweets": 3
-		},
-		{
-			"day": "2017-10-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-16",
-			"tweets": 1
-		},
-		{
-			"day": "2017-10-17",
-			"tweets": 2
-		},
-		{
-			"day": "2017-10-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-20",
-			"tweets": 2
-		},
-		{
-			"day": "2017-10-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-22",
-			"tweets": 3
-		},
-		{
-			"day": "2017-10-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-24",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-25",
-			"tweets": 7
-		},
-		{
-			"day": "2017-10-26",
-			"tweets": 1
-		},
-		{
-			"day": "2017-10-27",
-			"tweets": 2
-		},
-		{
-			"day": "2017-10-28",
-			"tweets": 8
-		},
-		{
-			"day": "2017-10-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-30",
-			"tweets": 0
-		},
-		{
-			"day": "2017-10-31",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-01",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-02",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-03",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-04",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-05",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-06",
-			"tweets": 1
-		},
-		{
-			"day": "2017-11-07",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-08",
-			"tweets": 5
-		},
-		{
-			"day": "2017-11-09",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-10",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-11",
-			"tweets": 3
-		},
-		{
-			"day": "2017-11-12",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-13",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-14",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-16",
-			"tweets": 1
-		},
-		{
-			"day": "2017-11-17",
-			"tweets": 2
-		},
-		{
-			"day": "2017-11-18",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-19",
-			"tweets": 5
-		},
-		{
-			"day": "2017-11-20",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-21",
-			"tweets": 2
-		},
-		{
-			"day": "2017-11-22",
-			"tweets": 1
-		},
-		{
-			"day": "2017-11-23",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-24",
-			"tweets": 3
-		},
-		{
-			"day": "2017-11-25",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-26",
-			"tweets": 2
-		},
-		{
-			"day": "2017-11-27",
-			"tweets": 1
-		},
-		{
-			"day": "2017-11-28",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-11-30",
-			"tweets": 91
-		},
-		{
-			"day": "2017-12-01",
-			"tweets": 9
-		},
-		{
-			"day": "2017-12-02",
-			"tweets": 15
-		},
-		{
-			"day": "2017-12-03",
-			"tweets": 1
-		},
-		{
-			"day": "2017-12-04",
-			"tweets": 7
-		},
-		{
-			"day": "2017-12-05",
-			"tweets": 4
-		},
-		{
-			"day": "2017-12-06",
-			"tweets": 2
-		},
-		{
-			"day": "2017-12-07",
-			"tweets": 2
-		},
-		{
-			"day": "2017-12-08",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-09",
-			"tweets": 6
-		},
-		{
-			"day": "2017-12-10",
-			"tweets": 2
-		},
-		{
-			"day": "2017-12-11",
-			"tweets": 5
-		},
-		{
-			"day": "2017-12-12",
-			"tweets": 1
-		},
-		{
-			"day": "2017-12-13",
-			"tweets": 2
-		},
-		{
-			"day": "2017-12-14",
-			"tweets": 1
-		},
-		{
-			"day": "2017-12-15",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-16",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-17",
-			"tweets": 2
-		},
-		{
-			"day": "2017-12-18",
-			"tweets": 1
-		},
-		{
-			"day": "2017-12-19",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-20",
-			"tweets": 7
-		},
-		{
-			"day": "2017-12-21",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-22",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-23",
-			"tweets": 1
-		},
-		{
-			"day": "2017-12-24",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-25",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-26",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-27",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-28",
-			"tweets": 6
-		},
-		{
-			"day": "2017-12-29",
-			"tweets": 0
-		},
-		{
-			"day": "2017-12-30",
-			"tweets": 4
-		},
-		{
-			"day": "2017-12-31",
-			"tweets": 2
-		},
-		{
-			"day": "2018-01-01",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-02",
-			"tweets": 1
-		},
-		{
-			"day": "2018-01-03",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-04",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-05",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-06",
-			"tweets": 2
-		},
-		{
-			"day": "2018-01-07",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-08",
-			"tweets": 1
-		},
-		{
-			"day": "2018-01-09",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-10",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-11",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-12",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-13",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-14",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-15",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-16",
-			"tweets": 5
-		},
-		{
-			"day": "2018-01-17",
-			"tweets": 1
-		},
-		{
-			"day": "2018-01-18",
-			"tweets": 9
-		},
-		{
-			"day": "2018-01-19",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-20",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-21",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-22",
-			"tweets": 8
-		},
-		{
-			"day": "2018-01-23",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-24",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-25",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-26",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-27",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-28",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-29",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-30",
-			"tweets": 0
-		},
-		{
-			"day": "2018-01-31",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-01",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-02",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-03",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-04",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-05",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-06",
-			"tweets": 1
-		},
-		{
-			"day": "2018-02-07",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-08",
-			"tweets": 1
-		},
-		{
-			"day": "2018-02-09",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-10",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-11",
-			"tweets": 3
-		},
-		{
-			"day": "2018-02-12",
-			"tweets": 4
-		},
-		{
-			"day": "2018-02-13",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-14",
-			"tweets": 1
-		},
-		{
-			"day": "2018-02-15",
-			"tweets": 12
-		},
-		{
-			"day": "2018-02-16",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-17",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-18",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-19",
-			"tweets": 5
-		},
-		{
-			"day": "2018-02-20",
-			"tweets": 2
-		},
-		{
-			"day": "2018-02-21",
-			"tweets": 1
-		},
-		{
-			"day": "2018-02-22",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-23",
-			"tweets": 3
-		},
-		{
-			"day": "2018-02-24",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-25",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-26",
-			"tweets": 0
-		},
-		{
-			"day": "2018-02-27",
-			"tweets": 2
-		},
-		{
-			"day": "2018-02-28",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-01",
-			"tweets": 1
-		},
-		{
-			"day": "2018-03-02",
-			"tweets": 6
-		},
-		{
-			"day": "2018-03-03",
-			"tweets": 3
-		},
-		{
-			"day": "2018-03-04",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-05",
-			"tweets": 2
-		},
-		{
-			"day": "2018-03-06",
-			"tweets": 2
-		},
-		{
-			"day": "2018-03-07",
-			"tweets": 16
-		},
-		{
-			"day": "2018-03-08",
-			"tweets": 18
-		},
-		{
-			"day": "2018-03-09",
-			"tweets": 25
-		},
-		{
-			"day": "2018-03-10",
-			"tweets": 10
-		},
-		{
-			"day": "2018-03-11",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-12",
-			"tweets": 4
-		},
-		{
-			"day": "2018-03-13",
-			"tweets": 3
-		},
-		{
-			"day": "2018-03-14",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-15",
-			"tweets": 1
-		},
-		{
-			"day": "2018-03-16",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-17",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-18",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-19",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-20",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-21",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-22",
-			"tweets": 3
-		},
-		{
-			"day": "2018-03-23",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-24",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-25",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-26",
-			"tweets": 1
-		},
-		{
-			"day": "2018-03-27",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-28",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-29",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-30",
-			"tweets": 0
-		},
-		{
-			"day": "2018-03-31",
-			"tweets": 1
-		},
-		{
-			"day": "2018-04-01",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-02",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-03",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-04",
-			"tweets": 2
-		},
-		{
-			"day": "2018-04-05",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-06",
-			"tweets": 3
-		},
-		{
-			"day": "2018-04-07",
-			"tweets": 2
-		},
-		{
-			"day": "2018-04-08",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-09",
-			"tweets": 4
-		},
-		{
-			"day": "2018-04-10",
-			"tweets": 8
-		},
-		{
-			"day": "2018-04-11",
-			"tweets": 3
-		},
-		{
-			"day": "2018-04-12",
-			"tweets": 2
-		},
-		{
-			"day": "2018-04-13",
-			"tweets": 2
-		},
-		{
-			"day": "2018-04-14",
-			"tweets": 3
-		},
-		{
-			"day": "2018-04-15",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-16",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-17",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-18",
-			"tweets": 13
-		},
-		{
-			"day": "2018-04-19",
-			"tweets": 3
-		},
-		{
-			"day": "2018-04-20",
-			"tweets": 1
-		},
-		{
-			"day": "2018-04-21",
-			"tweets": 1
-		},
-		{
-			"day": "2018-04-22",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-23",
-			"tweets": 1
-		},
-		{
-			"day": "2018-04-24",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-25",
-			"tweets": 1
-		},
-		{
-			"day": "2018-04-26",
-			"tweets": 10
-		},
-		{
-			"day": "2018-04-27",
-			"tweets": 12
-		},
-		{
-			"day": "2018-04-28",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-29",
-			"tweets": 0
-		},
-		{
-			"day": "2018-04-30",
-			"tweets": 3
-		},
-		{
-			"day": "2018-05-01",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-02",
-			"tweets": 4
-		},
-		{
-			"day": "2018-05-03",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-04",
-			"tweets": 3
-		},
-		{
-			"day": "2018-05-05",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-06",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-07",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-08",
-			"tweets": 13
-		},
-		{
-			"day": "2018-05-09",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-10",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-11",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-12",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-13",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-14",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-15",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-16",
-			"tweets": 10
-		},
-		{
-			"day": "2018-05-17",
-			"tweets": 4
-		},
-		{
-			"day": "2018-05-18",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-19",
-			"tweets": 23
-		},
-		{
-			"day": "2018-05-20",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-21",
-			"tweets": 3
-		},
-		{
-			"day": "2018-05-22",
-			"tweets": 11
-		},
-		{
-			"day": "2018-05-23",
-			"tweets": 13
-		},
-		{
-			"day": "2018-05-24",
-			"tweets": 4
-		},
-		{
-			"day": "2018-05-25",
-			"tweets": 1
-		},
-		{
-			"day": "2018-05-26",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-27",
-			"tweets": 0
-		},
-		{
-			"day": "2018-05-28",
-			"tweets": 3
-		},
-		{
-			"day": "2018-05-29",
-			"tweets": 5
-		},
-		{
-			"day": "2018-05-30",
-			"tweets": 6
+			"tag": "contaminacionluminica",
+			"count": 17
 		}
 	],
-	"follows": 1091,
+	"hashtagsIn": [
+		{
+			"tag": "alan2016",
+			"count": 7
+		},
+		{
+			"tag": "envhist",
+			"count": 4
+		},
+		{
+			"tag": "lighting",
+			"count": 4
+		},
+		{
+			"tag": "crowdfunding",
+			"count": 3
+		},
+		{
+			"tag": "caps",
+			"count": 3
+		},
+		{
+			"tag": "h2020",
+			"count": 3
+		},
+		{
+			"tag": "tech4good",
+			"count": 3
+		},
+		{
+			"tag": "dsi",
+			"count": 3
+		},
+		{
+			"tag": "histsci",
+			"count": 3
+		},
+		{
+			"tag": "lightpollution",
+			"count": 2
+		},
+		{
+			"tag": "palu",
+			"count": 1
+		},
+		{
+			"tag": "indonesia",
+			"count": 1
+		},
+		{
+			"tag": "darkskies",
+			"count": 1
+		},
+		{
+			"tag": "space",
+			"count": 1
+		},
+		{
+			"tag": "nasa_app",
+			"count": 1
+		},
+		{
+			"tag": "wifi",
+			"count": 1
+		},
+		{
+			"tag": "granada",
+			"count": 1
+		},
+		{
+			"tag": "isthisasign",
+			"count": 1
+		},
+		{
+			"tag": "embarrassedtobeamericanrightnow",
+			"count": 1
+		},
+		{
+			"tag": "envirotech",
+			"count": 1
+		}
+	],
+	"mostFavorited": [
+		{
+			"content": "Which one do you prefer? #stoplightpollution https://t.co/esCHHsPde6",
+			"favorites": 40,
+			"shares": 39
+		},
+		{
+			"content": "Menos de 4 horas para mostraros en directo nuevas auroras espectaculares. Te esperamos en https://t.co/grOHPpiyxy https://t.co/1TWVj3pq6L",
+			"favorites": 38,
+			"shares": 13
+		},
+		{
+			"content": "¿Qué hacen una física, un informático y un teleco en Tenerife? #Perseidas Viernes 21:30 https://t.co/UpcG293tlH https://t.co/Azb1j7rtcl",
+			"favorites": 27,
+			"shares": 11
+		},
+		{
+			"content": "\"Protecting human health from blue light globally looks like protecting human health from tobacco 30 years ago\" Dr. Smith #PreservingSkies https://t.co/HfCggvlA2A",
+			"favorites": 27,
+			"shares": 24
+		},
+		{
+			"content": "Have you? #stoplightpollution https://t.co/YtlcJ8iwhM",
+			"favorites": 24,
+			"shares": 31
+		},
+		{
+			"content": "Buenas noches desde uno de los cielos más oscuros del mundo. #Groenlandia https://t.co/ZiCccV8tpT",
+			"favorites": 21,
+			"shares": 10
+		},
+		{
+			"content": "Light pollution on Madrid from Moncayo (215km). Please join our petition to ask the city council a study on artificial light at night. https://t.co/zacKjxASCc",
+			"favorites": 19,
+			"shares": 18
+		},
+		{
+			"content": "La epidemia de luces que está afectando tu salud (y la del planeta) #stoplightpollution https://t.co/LWKpdgreY1",
+			"favorites": 18,
+			"shares": 15
+		},
+		{
+			"content": "Dr. Sibylle Schroer explaining how artificial light at night affects all kinds of living beings. #PreservingSkies https://t.co/jkRfO5oypb",
+			"favorites": 18,
+			"shares": 8
+		},
+		{
+			"content": "We are on the cover of Astronomía magazine!!!! https://t.co/yIIMRQB2ir",
+			"favorites": 18,
+			"shares": 7
+		}
+	],
+	"mostShared": [
+		{
+			"content": "RT @starmilker: Brilliant - Geminid flashes below Sirius and Orion over Mount Balang in China. Credit: NASA/Alvin Wu © https://t.co/uzumE8m…",
+			"favorites": 0,
+			"shares": 41
+		},
+		{
+			"content": "RT @starmilker: Ascent of Angels - A meteor can be seen as the Milky Way towers above the 4,392m peak of Mount © Brad Goldpaint https://t.c…",
+			"favorites": 0,
+			"shares": 40
+		},
+		{
+			"content": "Which one do you prefer? #stoplightpollution https://t.co/esCHHsPde6",
+			"favorites": 40,
+			"shares": 39
+		},
+		{
+			"content": "Have you? #stoplightpollution https://t.co/YtlcJ8iwhM",
+			"favorites": 24,
+			"shares": 31
+		},
+		{
+			"content": "\"Protecting human health from blue light globally looks like protecting human health from tobacco 30 years ago\" Dr. Smith #PreservingSkies https://t.co/HfCggvlA2A",
+			"favorites": 27,
+			"shares": 24
+		},
+		{
+			"content": "Win a trip to the USA to see this summer total solar eclipse just playing from your phone!!!! https://t.co/obuoHUJNjC https://t.co/Pv5krsS2at",
+			"favorites": 8,
+			"shares": 18
+		},
+		{
+			"content": "Light pollution on Madrid from Moncayo (215km). Please join our petition to ask the city council a study on artificial light at night. https://t.co/zacKjxASCc",
+			"favorites": 19,
+			"shares": 18
+		},
+		{
+			"content": "Very interesting article measuring Light Pollution in the Mediterranean coastal waters by Xavier Ges et al. \r\nhttps://t.co/WX6QHJ4Msz https://t.co/Idm67PbVMy",
+			"favorites": 16,
+			"shares": 18
+		},
+		{
+			"content": "The European Gathering of Light Pollution Initiatives just started in Milano city. https://t.co/0E6TzADc3W https://t.co/4hlcqmiBZh",
+			"favorites": 18,
+			"shares": 17
+		},
+		{
+			"content": "#stoplightpollution\r\nHelp us to spread the message!\r\nhttps://t.co/J28pjLViBa https://t.co/6hrENHTYPw",
+			"favorites": 14,
+			"shares": 17
+		}
+	],
 	"links": [
 		{
-			"source": "stars4all_eu",
-			"target": "mobotixcanarias",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "joluherto",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "casado_starry",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "tiempo_mercedes",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "tiempobrasero",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "hartometienes",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "sergejzr",
-			"value": 9
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "gc_gciencia",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "marcospm",
-			"value": 6
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "theritz",
-			"value": 2
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "livestars4all",
-			"value": 11
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "juliovias",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "xamanmefredo",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "babaktafreshi",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "fundstarlight",
-			"value": 10
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "mluczak",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "elmundoes",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "el_pais",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "youtube",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "efeciencia",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "efefuturo",
-			"value": 12
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cielosboreales",
-			"value": 6
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "jmartinezmoran",
-			"value": 8
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "rtve",
-			"value": 8
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "rtveteleplaneta",
-			"value": 13
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "stormhour",
-			"value": 12
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "idafensp",
-			"value": 6
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "jamesdavidhale",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "i027614",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "esa",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "calgaryrasc",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "canarias_es",
-			"value": 27
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "aquilatierratve",
-			"value": 19
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "astro_timpeake",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "agomezroldan",
-			"value": 16
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "el_lobo_rayado",
-			"value": 10
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "stars4all",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "wwfespana",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "earthskyscience",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "eu_h2020",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "otri_upm",
-			"value": 9
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "muncyt",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "curtomil",
-			"value": 19
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "dagstuhl",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "sjribas",
-			"value": 20
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "rutaestrellas",
-			"value": 25
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "rguezalarcon",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "informaticaupm",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "oeg_upm",
-			"value": 21
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "costlonne",
-			"value": 14
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "pibinko",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "calidadedoceo",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "agrupacionio",
-			"value": 30
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cefriel",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "iricelino",
-			"value": 34
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "kimberlykowal",
-			"value": 2
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "sarabpritchard",
-			"value": 11
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "kudhmud",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "casadostarry1",
-			"value": 16
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "iac_astrofisica",
-			"value": 52
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "carlosceta22",
-			"value": 11
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cielobuio",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "globeatnight",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "smarturbanlight",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "dsi4eu",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "la_upm",
-			"value": 10
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "solis_syd",
-			"value": 4
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "itb_berlin",
-			"value": 11
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "eglezguardia",
-			"value": 18
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "magnargj",
-			"value": 6
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "romvaer",
-			"value": 6
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "madrid",
-			"value": 6
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "savingourstars",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "andhaenel",
-			"value": 17
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "stars4all_es",
-			"value": 35
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "johnbarentine",
-			"value": 53
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "shedka",
-			"value": 25
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "22ceta22",
-			"value": 8
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "planetariomad",
-			"value": 15
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "idadarksky",
-			"value": 45
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "andreasjechow",
-			"value": 16
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "alessandro_manf",
-			"value": 8
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "rasc_lpa",
-			"value": 28
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "sky_live_tv",
-			"value": 198
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "leibnizigb",
-			"value": 5
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "schroersibylle",
-			"value": 17
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "salvabara",
-			"value": 22
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "eurocrowd",
-			"value": 7
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "fisicas_ucm",
-			"value": 10
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "_astroalex",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cefalopodo",
-			"value": 129
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "capssieu",
-			"value": 21
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "skyglowberlin",
-			"value": 70
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "ocorcho",
-			"value": 58
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "josianemeier",
-			"value": 20
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "unicomplutense",
-			"value": 54
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "raulclima",
-			"value": 11
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "pmisson",
-			"value": 75
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cities4tnight",
-			"value": 65
-		},
-		{
-			"source": "ocorcho",
+			"source": "auguverse",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "ocorcho",
-			"target": "kimberlykowal",
+			"source": "stars4all_eu",
+			"target": "auguverse",
 			"value": 1
 		},
 		{
-			"source": "kimberlykowal",
-			"target": "ocorcho",
-			"value": 1
-		},
-		{
-			"source": "kimberlykowal",
+			"source": "calaraltoobs",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "i027614",
+			"source": "stars4all_eu",
+			"target": "calaraltoobs",
+			"value": 1
+		},
+		{
+			"source": "re_glo",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "i027614",
-			"target": "cefalopodo",
+			"source": "stars4all_eu",
+			"target": "re_glo",
 			"value": 1
 		},
 		{
-			"source": "i027614",
-			"target": "pmisson",
-			"value": 1
-		},
-		{
-			"source": "cielosboreales",
-			"target": "cefalopodo",
-			"value": 1
-		},
-		{
-			"source": "cielosboreales",
+			"source": "yeg_darksky",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "cefalopodo",
-			"target": "fisicas_ucm",
+			"source": "stars4all_eu",
+			"target": "yeg_darksky",
 			"value": 1
 		},
 		{
-			"source": "_astroalex",
-			"target": "fisicas_ucm",
-			"value": 1
-		},
-		{
-			"source": "cefalopodo",
-			"target": "_astroalex",
-			"value": 2
-		},
-		{
-			"source": "_astroalex",
-			"target": "unicomplutense",
-			"value": 2
-		},
-		{
-			"source": "_astroalex",
-			"target": "stars4all_eu",
-			"value": 2
-		},
-		{
-			"source": "_astroalex",
-			"target": "cefalopodo",
-			"value": 2
-		},
-		{
-			"source": "cielobuio",
+			"source": "cphd",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "cielobuio",
-			"target": "sarabpritchard",
+			"source": "stars4all_eu",
+			"target": "cphd",
 			"value": 1
 		},
 		{
-			"source": "andhaenel",
-			"target": "cielobuio",
-			"value": 1
-		},
-		{
-			"source": "andhaenel",
-			"target": "stars4all_eu",
-			"value": 2
-		},
-		{
-			"source": "andhaenel",
-			"target": "sarabpritchard",
-			"value": 1
-		},
-		{
-			"source": "dsi4eu",
-			"target": "eurocrowd",
-			"value": 1
-		},
-		{
-			"source": "dsi4eu",
-			"target": "capssieu",
-			"value": 1
-		},
-		{
-			"source": "dsi4eu",
+			"source": "astroamics",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "savingourstars",
-			"target": "agomezroldan",
+			"source": "stars4all_eu",
+			"target": "astroamics",
 			"value": 1
 		},
 		{
-			"source": "savingourstars",
+			"source": "saving_food",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "sky_live_tv",
+			"source": "stars4all_eu",
+			"target": "saving_food",
+			"value": 1
+		},
+		{
+			"source": "netcommonseu",
 			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "netcommonseu",
+			"value": 1
+		},
+		{
+			"source": "mazizoneeu",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "mazizoneeu",
+			"value": 1
+		},
+		{
+			"source": "mmoreno_cosmos",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "mmoreno_cosmos",
+			"value": 1
+		},
+		{
+			"source": "astronomiared",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "astronomiared",
+			"value": 1
+		},
+		{
+			"source": "darkskyaus",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "darkskyaus",
+			"value": 1
+		},
+		{
+			"source": "joanmariegalat",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "joanmariegalat",
+			"value": 1
+		},
+		{
+			"source": "anneaulsebrook",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "anneaulsebrook",
+			"value": 1
+		},
+		{
+			"source": "stephencheatley",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "stephencheatley",
+			"value": 1
+		},
+		{
+			"source": "dr_adele_powell",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "dr_adele_powell",
+			"value": 1
+		},
+		{
+			"source": "lightaware1",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "lightaware1",
+			"value": 1
+		},
+		{
+			"source": "idaphoenixarea",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "idaphoenixarea",
+			"value": 1
+		},
+		{
+			"source": "nightscenes",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "nightscenes",
+			"value": 1
+		},
+		{
+			"source": "nuitfrance",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "nuitfrance",
+			"value": 1
+		},
+		{
+			"source": "megara_project",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "megara_project",
+			"value": 1
+		},
+		{
+			"source": "worldspaceweek",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "worldspaceweek",
+			"value": 1
+		},
+		{
+			"source": "blueamanita",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "blueamanita",
+			"value": 1
+		},
+		{
+			"source": "astro_cantillo",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "astro_cantillo",
+			"value": 1
+		},
+		{
+			"source": "ascen_eng",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "ascen_eng",
+			"value": 1
+		},
+		{
+			"source": "carmenes_exopl",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "carmenes_exopl",
+			"value": 1
+		},
+		{
+			"source": "elsegundoluz",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "elsegundoluz",
+			"value": 1
+		},
+		{
+			"source": "roderickpeeble",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "roderickpeeble",
+			"value": 1
+		},
+		{
+			"source": "urbanlightlab",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "urbanlightlab",
+			"value": 1
+		},
+		{
+			"source": "crisscorone",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "crisscorone",
+			"value": 1
+		},
+		{
+			"source": "kerrydarksky",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "kerrydarksky",
+			"value": 1
+		},
+		{
+			"source": "manugargil",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "manugargil",
 			"value": 1
 		},
 		{
@@ -5476,103 +949,668 @@ window.socialmedia.push({
 			"value": 1
 		},
 		{
-			"source": "cefalopodo",
-			"target": "unicomplutense",
-			"value": 2
+			"source": "stars4all_eu",
+			"target": "joluherto",
+			"value": 1
 		},
 		{
-			"source": "theritz",
-			"target": "unicomplutense",
+			"source": "bu_qiong",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "bu_qiong",
+			"value": 1
+		},
+		{
+			"source": "oaputp",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "oaputp",
+			"value": 1
+		},
+		{
+			"source": "oficinaeuroucm",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "oficinaeuroucm",
+			"value": 1
+		},
+		{
+			"source": "sergejzr",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "sergejzr",
+			"value": 1
+		},
+		{
+			"source": "olivergajda",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "olivergajda",
+			"value": 1
+		},
+		{
+			"source": "livestars4all",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "livestars4all",
+			"value": 1
+		},
+		{
+			"source": "ipmenendez",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "ipmenendez",
+			"value": 1
+		},
+		{
+			"source": "cielosboreales",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "cielosboreales",
+			"value": 1
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "jmartinezmoran",
+			"value": 1
+		},
+		{
+			"source": "ramonlarramendi",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "ramonlarramendi",
+			"value": 1
+		},
+		{
+			"source": "preservesounds",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "preservesounds",
+			"value": 1
+		},
+		{
+			"source": "bestgalaxypics",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "bestgalaxypics",
+			"value": 1
+		},
+		{
+			"source": "agomezroldan",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "agomezroldan",
+			"value": 1
+		},
+		{
+			"source": "orison_eu",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "orison_eu",
+			"value": 1
+		},
+		{
+			"source": "el_lobo_rayado",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "el_lobo_rayado",
+			"value": 1
+		},
+		{
+			"source": "the_solarsystem",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "the_solarsystem",
+			"value": 1
+		},
+		{
+			"source": "chronobionews",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "chronobionews",
+			"value": 1
+		},
+		{
+			"source": "rlightorstarlt",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "rlightorstarlt",
+			"value": 1
+		},
+		{
+			"source": "esimperl",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "esimperl",
+			"value": 1
+		},
+		{
+			"source": "cpheth",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "cpheth",
+			"value": 1
+		},
+		{
+			"source": "remiboucher",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "remiboucher",
+			"value": 1
+		},
+		{
+			"source": "sjribas",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "sjribas",
+			"value": 1
+		},
+		{
+			"source": "peleonk",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "peleonk",
+			"value": 1
+		},
+		{
+			"source": "rutaestrellas",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "rutaestrellas",
+			"value": 1
+		},
+		{
+			"source": "rguezalarcon",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "rguezalarcon",
+			"value": 1
+		},
+		{
+			"source": "caronteastronom",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "caronteastronom",
+			"value": 1
+		},
+		{
+			"source": "crishernandezco",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "crishernandezco",
+			"value": 1
+		},
+		{
+			"source": "oeg_upm",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "oeg_upm",
+			"value": 1
+		},
+		{
+			"source": "cccrdg",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "cccrdg",
+			"value": 1
+		},
+		{
+			"source": "calidadedoceo",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "calidadedoceo",
+			"value": 1
+		},
+		{
+			"source": "agrupacionio",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "agrupacionio",
+			"value": 1
+		},
+		{
+			"source": "iricelino",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "iricelino",
+			"value": 1
+		},
+		{
+			"source": "sarabpritchard",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "sarabpritchard",
+			"value": 1
+		},
+		{
+			"source": "fpasseri92",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "fpasseri92",
+			"value": 1
+		},
+		{
+			"source": "ppesca63",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "ppesca63",
+			"value": 1
+		},
+		{
+			"source": "casadostarry1",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "casadostarry1",
+			"value": 1
+		},
+		{
+			"source": "iac_astrofisica",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "iac_astrofisica",
+			"value": 1
+		},
+		{
+			"source": "cielobuio",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "cielobuio",
+			"value": 1
+		},
+		{
+			"source": "dsi4eu",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "dsi4eu",
+			"value": 1
+		},
+		{
+			"source": "solis_syd",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "solis_syd",
+			"value": 1
+		},
+		{
+			"source": "eglezguardia",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "eglezguardia",
+			"value": 1
+		},
+		{
+			"source": "savingourstars",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "savingourstars",
+			"value": 1
+		},
+		{
+			"source": "andhaenel",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "andhaenel",
+			"value": 1
+		},
+		{
+			"source": "stars4all_es",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "stars4all_es",
+			"value": 1
+		},
+		{
+			"source": "johnbarentine",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "johnbarentine",
+			"value": 1
+		},
+		{
+			"source": "shedka",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "shedka",
+			"value": 1
+		},
+		{
+			"source": "22ceta22",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "22ceta22",
+			"value": 1
+		},
+		{
+			"source": "planetariomad",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "planetariomad",
+			"value": 1
+		},
+		{
+			"source": "idadarksky",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "idadarksky",
+			"value": 1
+		},
+		{
+			"source": "andreasjechow",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "andreasjechow",
+			"value": 1
+		},
+		{
+			"source": "alessandro_manf",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "alessandro_manf",
+			"value": 1
+		},
+		{
+			"source": "rasc_lpa",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "rasc_lpa",
+			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "sky_live_tv",
+			"value": 1
+		},
+		{
+			"source": "leibnizigb",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "leibnizigb",
+			"value": 1
+		},
+		{
+			"source": "luminicaambient",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "luminicaambient",
+			"value": 1
+		},
+		{
+			"source": "schroersibylle",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "schroersibylle",
+			"value": 1
+		},
+		{
+			"source": "salvabara",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "salvabara",
+			"value": 1
+		},
+		{
+			"source": "eurocrowd",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "eurocrowd",
 			"value": 1
 		},
 		{
 			"source": "cefalopodo",
 			"target": "stars4all_eu",
-			"value": 3
+			"value": 1
 		},
 		{
-			"source": "theritz",
+			"source": "stars4all_eu",
 			"target": "cefalopodo",
 			"value": 1
 		},
 		{
-			"source": "theritz",
-			"target": "pmisson",
-			"value": 1
-		},
-		{
-			"source": "theritz",
+			"source": "capssieu",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "jamesdavidhale",
-			"target": "cities4tnight",
+			"source": "stars4all_eu",
+			"target": "capssieu",
 			"value": 1
 		},
 		{
-			"source": "pmisson",
-			"target": "cities4tnight",
-			"value": 1
-		},
-		{
-			"source": "jamesdavidhale",
-			"target": "shedka",
-			"value": 1
-		},
-		{
-			"source": "pmisson",
-			"target": "shedka",
-			"value": 1
-		},
-		{
-			"source": "jamesdavidhale",
-			"target": "skyglowberlin",
-			"value": 1
-		},
-		{
-			"source": "pmisson",
-			"target": "skyglowberlin",
-			"value": 1
-		},
-		{
-			"source": "jamesdavidhale",
-			"target": "eglezguardia",
-			"value": 1
-		},
-		{
-			"source": "pmisson",
-			"target": "eglezguardia",
-			"value": 1
-		},
-		{
-			"source": "jamesdavidhale",
-			"target": "pmisson",
-			"value": 1
-		},
-		{
-			"source": "pmisson",
-			"target": "jamesdavidhale",
-			"value": 1
-		},
-		{
-			"source": "pmisson",
+			"source": "skyglowberlin",
 			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "skyglowberlin",
+			"value": 1
+		},
+		{
+			"source": "ocorcho",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "ocorcho",
 			"value": 1
 		},
 		{
 			"source": "josianemeier",
 			"target": "stars4all_eu",
-			"value": 6
+			"value": 1
 		},
 		{
-			"source": "sarabpritchard",
-			"target": "stars4all_eu",
-			"value": 4
-		},
-		{
-			"source": "sarabpritchard",
+			"source": "stars4all_eu",
 			"target": "josianemeier",
+			"value": 1
+		},
+		{
+			"source": "thomasraap",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "thomasraap",
+			"value": 1
+		},
+		{
+			"source": "unicomplutense",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "unicomplutense",
+			"value": 1
+		},
+		{
+			"source": "cities4tnight",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "cities4tnight",
 			"value": 1
 		}
 	],
@@ -5580,502 +1618,502 @@ window.socialmedia.push({
 		{
 			"id": "stars4all_eu",
 			"group": "stars4all_eu",
-			"count": 2377
+			"count": 1091
 		},
 		{
-			"id": "sky_live_tv",
+			"id": "chronobionews",
 			"group": "user",
-			"count": 200
+			"count": 2
 		},
 		{
-			"id": "cefalopodo",
+			"id": "auguverse",
 			"group": "user",
-			"count": 142
+			"count": 2
 		},
 		{
-			"id": "pmisson",
+			"id": "calaraltoobs",
 			"group": "user",
-			"count": 85
+			"count": 2
 		},
 		{
-			"id": "skyglowberlin",
+			"id": "re_glo",
 			"group": "user",
-			"count": 72
+			"count": 2
 		},
 		{
-			"id": "cities4tnight",
+			"id": "yeg_darksky",
 			"group": "user",
-			"count": 67
+			"count": 2
 		},
 		{
-			"id": "ocorcho",
+			"id": "cphd",
 			"group": "user",
-			"count": 61
+			"count": 2
 		},
 		{
-			"id": "unicomplutense",
+			"id": "astroamics",
 			"group": "user",
-			"count": 59
+			"count": 2
 		},
 		{
-			"id": "johnbarentine",
+			"id": "saving_food",
 			"group": "user",
-			"count": 53
+			"count": 2
 		},
 		{
-			"id": "iac_astrofisica",
+			"id": "netcommonseu",
 			"group": "user",
-			"count": 52
+			"count": 2
 		},
 		{
-			"id": "idadarksky",
+			"id": "mazizoneeu",
 			"group": "user",
-			"count": 45
+			"count": 2
 		},
 		{
-			"id": "stars4all_es",
+			"id": "mmoreno_cosmos",
 			"group": "user",
-			"count": 35
+			"count": 2
 		},
 		{
-			"id": "iricelino",
+			"id": "astronomiared",
 			"group": "user",
-			"count": 34
+			"count": 2
 		},
 		{
-			"id": "agrupacionio",
+			"id": "darkskyaus",
 			"group": "user",
-			"count": 30
+			"count": 2
 		},
 		{
-			"id": "rasc_lpa",
+			"id": "joanmariegalat",
 			"group": "user",
-			"count": 28
+			"count": 2
 		},
 		{
-			"id": "josianemeier",
+			"id": "anneaulsebrook",
 			"group": "user",
-			"count": 27
+			"count": 2
 		},
 		{
-			"id": "shedka",
+			"id": "stephencheatley",
 			"group": "user",
-			"count": 27
+			"count": 2
 		},
 		{
-			"id": "canarias_es",
+			"id": "dr_adele_powell",
 			"group": "user",
-			"count": 27
+			"count": 2
 		},
 		{
-			"id": "rutaestrellas",
+			"id": "lightaware1",
 			"group": "user",
-			"count": 25
+			"count": 2
 		},
 		{
-			"id": "andhaenel",
+			"id": "idaphoenixarea",
 			"group": "user",
-			"count": 22
+			"count": 2
 		},
 		{
-			"id": "capssieu",
+			"id": "nightscenes",
 			"group": "user",
-			"count": 22
+			"count": 2
 		},
 		{
-			"id": "salvabara",
+			"id": "nuitfrance",
 			"group": "user",
-			"count": 22
+			"count": 2
 		},
 		{
-			"id": "oeg_upm",
+			"id": "megara_project",
 			"group": "user",
-			"count": 21
+			"count": 2
 		},
 		{
-			"id": "sjribas",
+			"id": "worldspaceweek",
 			"group": "user",
-			"count": 20
+			"count": 2
 		},
 		{
-			"id": "eglezguardia",
+			"id": "blueamanita",
 			"group": "user",
-			"count": 20
+			"count": 2
 		},
 		{
-			"id": "aquilatierratve",
+			"id": "astro_cantillo",
 			"group": "user",
-			"count": 19
+			"count": 2
 		},
 		{
-			"id": "curtomil",
+			"id": "ascen_eng",
 			"group": "user",
-			"count": 19
+			"count": 2
 		},
 		{
-			"id": "sarabpritchard",
+			"id": "carmenes_exopl",
 			"group": "user",
-			"count": 18
+			"count": 2
 		},
 		{
-			"id": "schroersibylle",
+			"id": "elsegundoluz",
 			"group": "user",
-			"count": 17
+			"count": 2
 		},
 		{
-			"id": "agomezroldan",
+			"id": "roderickpeeble",
 			"group": "user",
-			"count": 17
+			"count": 2
 		},
 		{
-			"id": "andreasjechow",
+			"id": "urbanlightlab",
 			"group": "user",
-			"count": 16
+			"count": 2
 		},
 		{
-			"id": "casadostarry1",
+			"id": "crisscorone",
 			"group": "user",
-			"count": 16
+			"count": 2
 		},
 		{
-			"id": "planetariomad",
+			"id": "kerrydarksky",
 			"group": "user",
-			"count": 15
+			"count": 2
 		},
 		{
-			"id": "costlonne",
+			"id": "manugargil",
 			"group": "user",
-			"count": 14
-		},
-		{
-			"id": "rtveteleplaneta",
-			"group": "user",
-			"count": 13
-		},
-		{
-			"id": "stormhour",
-			"group": "user",
-			"count": 12
-		},
-		{
-			"id": "fisicas_ucm",
-			"group": "user",
-			"count": 12
-		},
-		{
-			"id": "efefuturo",
-			"group": "user",
-			"count": 12
-		},
-		{
-			"id": "raulclima",
-			"group": "user",
-			"count": 11
-		},
-		{
-			"id": "itb_berlin",
-			"group": "user",
-			"count": 11
-		},
-		{
-			"id": "carlosceta22",
-			"group": "user",
-			"count": 11
-		},
-		{
-			"id": "livestars4all",
-			"group": "user",
-			"count": 11
-		},
-		{
-			"id": "el_lobo_rayado",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "dsi4eu",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "cielobuio",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "fundstarlight",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "_astroalex",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "savingourstars",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "la_upm",
-			"group": "user",
-			"count": 10
-		},
-		{
-			"id": "otri_upm",
-			"group": "user",
-			"count": 9
-		},
-		{
-			"id": "sergejzr",
-			"group": "user",
-			"count": 9
-		},
-		{
-			"id": "jmartinezmoran",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "jamesdavidhale",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "rtve",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "alessandro_manf",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "eurocrowd",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "cielosboreales",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "22ceta22",
-			"group": "user",
-			"count": 8
-		},
-		{
-			"id": "wwfespana",
-			"group": "user",
-			"count": 7
-		},
-		{
-			"id": "rguezalarcon",
-			"group": "user",
-			"count": 7
-		},
-		{
-			"id": "efeciencia",
-			"group": "user",
-			"count": 7
-		},
-		{
-			"id": "cefriel",
-			"group": "user",
-			"count": 7
-		},
-		{
-			"id": "marcospm",
-			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "romvaer",
-			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "theritz",
-			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "magnargj",
-			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "idafensp",
-			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "madrid",
-			"group": "user",
-			"count": 6
-		},
-		{
-			"id": "earthskyscience",
-			"group": "user",
-			"count": 5
-		},
-		{
-			"id": "calgaryrasc",
-			"group": "user",
-			"count": 5
-		},
-		{
-			"id": "eu_h2020",
-			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
 			"id": "joluherto",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "pibinko",
+			"id": "bu_qiong",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "casado_starry",
+			"id": "oaputp",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "informaticaupm",
+			"id": "oficinaeuroucm",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "gc_gciencia",
+			"id": "sergejzr",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "hartometienes",
+			"id": "olivergajda",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "kimberlykowal",
+			"id": "livestars4all",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "globeatnight",
+			"id": "ipmenendez",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "juliovias",
+			"id": "cielosboreales",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "elmundoes",
+			"id": "jmartinezmoran",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "leibnizigb",
+			"id": "ramonlarramendi",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "stars4all",
+			"id": "preservesounds",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "el_pais",
+			"id": "bestgalaxypics",
 			"group": "user",
-			"count": 5
+			"count": 2
 		},
 		{
-			"id": "i027614",
+			"id": "agomezroldan",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "kudhmud",
+			"id": "orison_eu",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "tiempobrasero",
+			"id": "el_lobo_rayado",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "smarturbanlight",
+			"id": "the_solarsystem",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "xamanmefredo",
+			"id": "cities4tnight",
 			"group": "user",
-			"count": 4
+			"count": 2
+		},
+		{
+			"id": "rlightorstarlt",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "esimperl",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "cpheth",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "remiboucher",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "sjribas",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "peleonk",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "rutaestrellas",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "rguezalarcon",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "caronteastronom",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "crishernandezco",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "oeg_upm",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "cccrdg",
+			"group": "user",
+			"count": 2
 		},
 		{
 			"id": "calidadedoceo",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "babaktafreshi",
+			"id": "agrupacionio",
 			"group": "user",
-			"count": 4
+			"count": 2
+		},
+		{
+			"id": "iricelino",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "sarabpritchard",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "fpasseri92",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "ppesca63",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "casadostarry1",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "iac_astrofisica",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "cielobuio",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "dsi4eu",
+			"group": "user",
+			"count": 2
 		},
 		{
 			"id": "solis_syd",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "mluczak",
+			"id": "eglezguardia",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "tiempo_mercedes",
+			"id": "savingourstars",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "mobotixcanarias",
+			"id": "andhaenel",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "dagstuhl",
+			"id": "stars4all_es",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "youtube",
+			"id": "johnbarentine",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "muncyt",
+			"id": "shedka",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "esa",
+			"id": "22ceta22",
 			"group": "user",
-			"count": 4
+			"count": 2
 		},
 		{
-			"id": "astro_timpeake",
+			"id": "planetariomad",
 			"group": "user",
-			"count": 4
+			"count": 2
+		},
+		{
+			"id": "idadarksky",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "andreasjechow",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "alessandro_manf",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "rasc_lpa",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "sky_live_tv",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "leibnizigb",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "luminicaambient",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "schroersibylle",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "salvabara",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "eurocrowd",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "cefalopodo",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "capssieu",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "skyglowberlin",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "ocorcho",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "josianemeier",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "thomasraap",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "unicomplutense",
+			"group": "user",
+			"count": 2
 		}
 	]
 });

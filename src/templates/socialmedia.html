@@ -11,8 +11,11 @@
 	</div> -->
 	<label ng-repeat="account in socialmedia">
 		<input type="checkbox" ng-model="account.selected">
-		{{ account.handle }}
-		({{ account.follows }} follows)
+		{{ account.type | capitalize }}: {{ account.officialAccount }}
+		({{ account.id }})<br>
+		{{ account.totals.followers | number }} followers |
+		{{ account.totals.posts | number }} posts |
+		{{ account.totals.engagers | number }} engagers
 	</label>
 </div>
 
