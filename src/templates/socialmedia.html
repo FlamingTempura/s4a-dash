@@ -18,6 +18,15 @@
 
 <tweetline data="data"></tweetline>
 
+<div class="hashtags">
+	Top 50 hashtags:
+	<ul>
+		<li ng-repeat="hashtag in hashtags">
+			{{ hashtag.tag }}: {{ hashtag.count }}
+		</li>
+	</ul>
+</div>
+
 <dgraph></dgraph>
 
 <!--

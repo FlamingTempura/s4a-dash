@@ -40,7 +40,7 @@ const generate = id => {
 				}
 				date = date ? date.v : now;
 				hashtags = hashtags && hashtags.v.split(' ');
-				type = type.v === 'Follows' ? 'follow' : 'tweet';
+				type = type.v.includes('Follows') ? 'follow' : 'tweet';
 				let day = moment(date).startOf('day').format('YYYY-MM-DD'),
 					month = day.slice(0, 7);
 

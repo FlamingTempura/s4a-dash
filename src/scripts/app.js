@@ -103,6 +103,7 @@ app.config($stateProvider => {
 			$scope.socialmedia.forEach((s, i) => {
 				$scope.$watch(`socialmedia[${i}].selected`, () => {
 					refreshChart();
+					refreshHashtags();
 				});
 			});
 			let refreshChart = () => {
@@ -135,6 +136,23 @@ app.config($stateProvider => {
 				months = ks.map(k => months[k]);
 				console.log(months);
 				$scope.data = months;
+			};
+
+			let refreshHashtags = () => {
+				let hashtags = {};
+				$scope.socialmedia.forEach(account => {
+					if (!account.selected) { return; }
+					account.months.forEach(m => {
+						Object.entries(m.hashtags).forEach(([tag, count]) => {
+							if (!hashtags[tag]) { hashtags[tag] = 0; }
+							hashtags[tag] += count;
+						});
+					});
+				});
+				$scope.hashtags = Object.entries(hashtags)
+					.map(([tag, count]) => ({ tag, count }))
+					.sort((a, b) => b.count - a.count)
+					.slice(0, 50);
 			};
 		}
 	});
@@ -444,7 +462,7 @@ app.component('tweetline', {
 	},
 	controller: function ($element) {
 		this.$onChanges = () => {
-			let svg = d3.select($element[0]).append('svg').attr('width', 530).attr('height', 400),
+			let svg = d3.select($element[0]).append('svg').attr('width', 530).attr('height', 320),
 				margin = {top: 0, right: 0, bottom: 30, left: 20 },
 				width = +svg.attr("width") - margin.left - margin.right,
 				height = +svg.attr("height") - margin.top - margin.bottom;
@@ -452,7 +470,7 @@ app.component('tweetline', {
 			let g = svg.append("g")
 				.attr("transform", `translate(${margin.left},${margin.top})`);
 
-			let dateStart = new Date(2015, 1, 1);
+			let dateStart = new Date(2010, 1, 1);
 
 			let x = d3.scaleTime()
 				.domain([dateStart, dateEnd])
