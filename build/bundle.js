@@ -45777,6 +45777,8 @@
 
   var filterEvents = {};
 
+  var event = null;
+
   if (typeof document !== "undefined") {
     var element$1 = document.documentElement;
     if (!("onmouseenter" in element$1)) {
@@ -45796,9 +45798,12 @@
 
   function contextListener(listener, index, group) {
     return function(event1) {
+      var event0 = event; // Events can be reentrant (e.g., focus).
+      event = event1;
       try {
         listener.call(this, this.__data__, index, group);
       } finally {
+        event = event0;
       }
     };
   }
@@ -45865,6 +45870,17 @@
     if (capture == null) capture = false;
     for (i = 0; i < n; ++i) this.each(on(typenames[i], value, capture));
     return this;
+  }
+
+  function customEvent(event1, listener, that, args) {
+    var event0 = event;
+    event1.sourceEvent = event;
+    event = event1;
+    try {
+      return listener.apply(that, args);
+    } finally {
+      event = event0;
+    }
   }
 
   function dispatchEvent(node, type, params) {
@@ -45949,6 +45965,264 @@
     return typeof selector === "string"
         ? new Selection([[document.querySelector(selector)]], [document.documentElement])
         : new Selection([[selector]], root$1);
+  }
+
+  function sourceEvent() {
+    var current = event, source;
+    while (source = current.sourceEvent) current = source;
+    return current;
+  }
+
+  function point(node, event) {
+    var svg = node.ownerSVGElement || node;
+
+    if (svg.createSVGPoint) {
+      var point = svg.createSVGPoint();
+      point.x = event.clientX, point.y = event.clientY;
+      point = point.matrixTransform(node.getScreenCTM().inverse());
+      return [point.x, point.y];
+    }
+
+    var rect = node.getBoundingClientRect();
+    return [event.clientX - rect.left - node.clientLeft, event.clientY - rect.top - node.clientTop];
+  }
+
+  function mouse(node) {
+    var event = sourceEvent();
+    if (event.changedTouches) event = event.changedTouches[0];
+    return point(node, event);
+  }
+
+  function touch(node, touches, identifier) {
+    if (arguments.length < 3) identifier = touches, touches = sourceEvent().changedTouches;
+
+    for (var i = 0, n = touches ? touches.length : 0, touch; i < n; ++i) {
+      if ((touch = touches[i]).identifier === identifier) {
+        return point(node, touch);
+      }
+    }
+
+    return null;
+  }
+
+  function nopropagation() {
+    event.stopImmediatePropagation();
+  }
+
+  function noevent() {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+  }
+
+  function dragDisable(view) {
+    var root = view.document.documentElement,
+        selection$$1 = select(view).on("dragstart.drag", noevent, true);
+    if ("onselectstart" in root) {
+      selection$$1.on("selectstart.drag", noevent, true);
+    } else {
+      root.__noselect = root.style.MozUserSelect;
+      root.style.MozUserSelect = "none";
+    }
+  }
+
+  function yesdrag(view, noclick) {
+    var root = view.document.documentElement,
+        selection$$1 = select(view).on("dragstart.drag", null);
+    if (noclick) {
+      selection$$1.on("click.drag", noevent, true);
+      setTimeout(function() { selection$$1.on("click.drag", null); }, 0);
+    }
+    if ("onselectstart" in root) {
+      selection$$1.on("selectstart.drag", null);
+    } else {
+      root.style.MozUserSelect = root.__noselect;
+      delete root.__noselect;
+    }
+  }
+
+  function constant$2(x) {
+    return function() {
+      return x;
+    };
+  }
+
+  function DragEvent(target, type, subject, id, active, x, y, dx, dy, dispatch) {
+    this.target = target;
+    this.type = type;
+    this.subject = subject;
+    this.identifier = id;
+    this.active = active;
+    this.x = x;
+    this.y = y;
+    this.dx = dx;
+    this.dy = dy;
+    this._ = dispatch;
+  }
+
+  DragEvent.prototype.on = function() {
+    var value = this._.on.apply(this._, arguments);
+    return value === this._ ? this : value;
+  };
+
+  // Ignore right-click, since that should open the context menu.
+  function defaultFilter() {
+    return !event.button;
+  }
+
+  function defaultContainer() {
+    return this.parentNode;
+  }
+
+  function defaultSubject(d) {
+    return d == null ? {x: event.x, y: event.y} : d;
+  }
+
+  function defaultTouchable() {
+    return "ontouchstart" in this;
+  }
+
+  function drag() {
+    var filter = defaultFilter,
+        container = defaultContainer,
+        subject = defaultSubject,
+        touchable = defaultTouchable,
+        gestures = {},
+        listeners = dispatch("start", "drag", "end"),
+        active = 0,
+        mousedownx,
+        mousedowny,
+        mousemoving,
+        touchending,
+        clickDistance2 = 0;
+
+    function drag(selection$$1) {
+      selection$$1
+          .on("mousedown.drag", mousedowned)
+        .filter(touchable)
+          .on("touchstart.drag", touchstarted)
+          .on("touchmove.drag", touchmoved)
+          .on("touchend.drag touchcancel.drag", touchended)
+          .style("touch-action", "none")
+          .style("-webkit-tap-highlight-color", "rgba(0,0,0,0)");
+    }
+
+    function mousedowned() {
+      if (touchending || !filter.apply(this, arguments)) return;
+      var gesture = beforestart("mouse", container.apply(this, arguments), mouse, this, arguments);
+      if (!gesture) return;
+      select(event.view).on("mousemove.drag", mousemoved, true).on("mouseup.drag", mouseupped, true);
+      dragDisable(event.view);
+      nopropagation();
+      mousemoving = false;
+      mousedownx = event.clientX;
+      mousedowny = event.clientY;
+      gesture("start");
+    }
+
+    function mousemoved() {
+      noevent();
+      if (!mousemoving) {
+        var dx = event.clientX - mousedownx, dy = event.clientY - mousedowny;
+        mousemoving = dx * dx + dy * dy > clickDistance2;
+      }
+      gestures.mouse("drag");
+    }
+
+    function mouseupped() {
+      select(event.view).on("mousemove.drag mouseup.drag", null);
+      yesdrag(event.view, mousemoving);
+      noevent();
+      gestures.mouse("end");
+    }
+
+    function touchstarted() {
+      if (!filter.apply(this, arguments)) return;
+      var touches$$1 = event.changedTouches,
+          c = container.apply(this, arguments),
+          n = touches$$1.length, i, gesture;
+
+      for (i = 0; i < n; ++i) {
+        if (gesture = beforestart(touches$$1[i].identifier, c, touch, this, arguments)) {
+          nopropagation();
+          gesture("start");
+        }
+      }
+    }
+
+    function touchmoved() {
+      var touches$$1 = event.changedTouches,
+          n = touches$$1.length, i, gesture;
+
+      for (i = 0; i < n; ++i) {
+        if (gesture = gestures[touches$$1[i].identifier]) {
+          noevent();
+          gesture("drag");
+        }
+      }
+    }
+
+    function touchended() {
+      var touches$$1 = event.changedTouches,
+          n = touches$$1.length, i, gesture;
+
+      if (touchending) clearTimeout(touchending);
+      touchending = setTimeout(function() { touchending = null; }, 500); // Ghost clicks are delayed!
+      for (i = 0; i < n; ++i) {
+        if (gesture = gestures[touches$$1[i].identifier]) {
+          nopropagation();
+          gesture("end");
+        }
+      }
+    }
+
+    function beforestart(id, container, point$$1, that, args) {
+      var p = point$$1(container, id), s, dx, dy,
+          sublisteners = listeners.copy();
+
+      if (!customEvent(new DragEvent(drag, "beforestart", s, id, active, p[0], p[1], 0, 0, sublisteners), function() {
+        if ((event.subject = s = subject.apply(that, args)) == null) return false;
+        dx = s.x - p[0] || 0;
+        dy = s.y - p[1] || 0;
+        return true;
+      })) return;
+
+      return function gesture(type) {
+        var p0 = p, n;
+        switch (type) {
+          case "start": gestures[id] = gesture, n = active++; break;
+          case "end": delete gestures[id], --active; // nobreak
+          case "drag": p = point$$1(container, id), n = active; break;
+        }
+        customEvent(new DragEvent(drag, type, s, id, n, p[0] + dx, p[1] + dy, p[0] - p0[0], p[1] - p0[1], sublisteners), sublisteners.apply, sublisteners, [type, that, args]);
+      };
+    }
+
+    drag.filter = function(_) {
+      return arguments.length ? (filter = typeof _ === "function" ? _ : constant$2(!!_), drag) : filter;
+    };
+
+    drag.container = function(_) {
+      return arguments.length ? (container = typeof _ === "function" ? _ : constant$2(_), drag) : container;
+    };
+
+    drag.subject = function(_) {
+      return arguments.length ? (subject = typeof _ === "function" ? _ : constant$2(_), drag) : subject;
+    };
+
+    drag.touchable = function(_) {
+      return arguments.length ? (touchable = typeof _ === "function" ? _ : constant$2(!!_), drag) : touchable;
+    };
+
+    drag.on = function() {
+      var value = listeners.on.apply(listeners, arguments);
+      return value === listeners ? drag : value;
+    };
+
+    drag.clickDistance = function(_) {
+      return arguments.length ? (clickDistance2 = (_ = +_) * _, drag) : Math.sqrt(clickDistance2);
+    };
+
+    return drag;
   }
 
   function define(constructor, factory, prototype) {
@@ -48108,6 +48382,53 @@
 
   var tsv = dsv("\t");
 
+  function center$1(x, y) {
+    var nodes;
+
+    if (x == null) x = 0;
+    if (y == null) y = 0;
+
+    function force() {
+      var i,
+          n = nodes.length,
+          node,
+          sx = 0,
+          sy = 0;
+
+      for (i = 0; i < n; ++i) {
+        node = nodes[i], sx += node.x, sy += node.y;
+      }
+
+      for (sx = sx / n - x, sy = sy / n - y, i = 0; i < n; ++i) {
+        node = nodes[i], node.x -= sx, node.y -= sy;
+      }
+    }
+
+    force.initialize = function(_) {
+      nodes = _;
+    };
+
+    force.x = function(_) {
+      return arguments.length ? (x = +_, force) : x;
+    };
+
+    force.y = function(_) {
+      return arguments.length ? (y = +_, force) : y;
+    };
+
+    return force;
+  }
+
+  function constant$7(x) {
+    return function() {
+      return x;
+    };
+  }
+
+  function jiggle() {
+    return (Math.random() - 0.5) * 1e-6;
+  }
+
   function tree_add(d) {
     var x = +this._x.call(null, d),
         y = +this._y.call(null, d);
@@ -48531,7 +48852,368 @@
   treeProto.x = tree_x;
   treeProto.y = tree_y;
 
-  var initialAngle = Math.PI * (3 - Math.sqrt(5));
+  function index$1(d) {
+    return d.index;
+  }
+
+  function find$1(nodeById, nodeId) {
+    var node = nodeById.get(nodeId);
+    if (!node) throw new Error("missing: " + nodeId);
+    return node;
+  }
+
+  function link(links) {
+    var id = index$1,
+        strength = defaultStrength,
+        strengths,
+        distance = constant$7(30),
+        distances,
+        nodes,
+        count,
+        bias,
+        iterations = 1;
+
+    if (links == null) links = [];
+
+    function defaultStrength(link) {
+      return 1 / Math.min(count[link.source.index], count[link.target.index]);
+    }
+
+    function force(alpha) {
+      for (var k = 0, n = links.length; k < iterations; ++k) {
+        for (var i = 0, link, source, target, x, y, l, b; i < n; ++i) {
+          link = links[i], source = link.source, target = link.target;
+          x = target.x + target.vx - source.x - source.vx || jiggle();
+          y = target.y + target.vy - source.y - source.vy || jiggle();
+          l = Math.sqrt(x * x + y * y);
+          l = (l - distances[i]) / l * alpha * strengths[i];
+          x *= l, y *= l;
+          target.vx -= x * (b = bias[i]);
+          target.vy -= y * b;
+          source.vx += x * (b = 1 - b);
+          source.vy += y * b;
+        }
+      }
+    }
+
+    function initialize() {
+      if (!nodes) return;
+
+      var i,
+          n = nodes.length,
+          m = links.length,
+          nodeById = map$2(nodes, id),
+          link;
+
+      for (i = 0, count = new Array(n); i < m; ++i) {
+        link = links[i], link.index = i;
+        if (typeof link.source !== "object") link.source = find$1(nodeById, link.source);
+        if (typeof link.target !== "object") link.target = find$1(nodeById, link.target);
+        count[link.source.index] = (count[link.source.index] || 0) + 1;
+        count[link.target.index] = (count[link.target.index] || 0) + 1;
+      }
+
+      for (i = 0, bias = new Array(m); i < m; ++i) {
+        link = links[i], bias[i] = count[link.source.index] / (count[link.source.index] + count[link.target.index]);
+      }
+
+      strengths = new Array(m), initializeStrength();
+      distances = new Array(m), initializeDistance();
+    }
+
+    function initializeStrength() {
+      if (!nodes) return;
+
+      for (var i = 0, n = links.length; i < n; ++i) {
+        strengths[i] = +strength(links[i], i, links);
+      }
+    }
+
+    function initializeDistance() {
+      if (!nodes) return;
+
+      for (var i = 0, n = links.length; i < n; ++i) {
+        distances[i] = +distance(links[i], i, links);
+      }
+    }
+
+    force.initialize = function(_) {
+      nodes = _;
+      initialize();
+    };
+
+    force.links = function(_) {
+      return arguments.length ? (links = _, initialize(), force) : links;
+    };
+
+    force.id = function(_) {
+      return arguments.length ? (id = _, force) : id;
+    };
+
+    force.iterations = function(_) {
+      return arguments.length ? (iterations = +_, force) : iterations;
+    };
+
+    force.strength = function(_) {
+      return arguments.length ? (strength = typeof _ === "function" ? _ : constant$7(+_), initializeStrength(), force) : strength;
+    };
+
+    force.distance = function(_) {
+      return arguments.length ? (distance = typeof _ === "function" ? _ : constant$7(+_), initializeDistance(), force) : distance;
+    };
+
+    return force;
+  }
+
+  function x$1(d) {
+    return d.x;
+  }
+
+  function y$1(d) {
+    return d.y;
+  }
+
+  var initialRadius = 10,
+      initialAngle = Math.PI * (3 - Math.sqrt(5));
+
+  function simulation(nodes) {
+    var simulation,
+        alpha = 1,
+        alphaMin = 0.001,
+        alphaDecay = 1 - Math.pow(alphaMin, 1 / 300),
+        alphaTarget = 0,
+        velocityDecay = 0.6,
+        forces = map$2(),
+        stepper = timer(step),
+        event = dispatch("tick", "end");
+
+    if (nodes == null) nodes = [];
+
+    function step() {
+      tick();
+      event.call("tick", simulation);
+      if (alpha < alphaMin) {
+        stepper.stop();
+        event.call("end", simulation);
+      }
+    }
+
+    function tick() {
+      var i, n = nodes.length, node;
+
+      alpha += (alphaTarget - alpha) * alphaDecay;
+
+      forces.each(function(force) {
+        force(alpha);
+      });
+
+      for (i = 0; i < n; ++i) {
+        node = nodes[i];
+        if (node.fx == null) node.x += node.vx *= velocityDecay;
+        else node.x = node.fx, node.vx = 0;
+        if (node.fy == null) node.y += node.vy *= velocityDecay;
+        else node.y = node.fy, node.vy = 0;
+      }
+    }
+
+    function initializeNodes() {
+      for (var i = 0, n = nodes.length, node; i < n; ++i) {
+        node = nodes[i], node.index = i;
+        if (isNaN(node.x) || isNaN(node.y)) {
+          var radius = initialRadius * Math.sqrt(i), angle = i * initialAngle;
+          node.x = radius * Math.cos(angle);
+          node.y = radius * Math.sin(angle);
+        }
+        if (isNaN(node.vx) || isNaN(node.vy)) {
+          node.vx = node.vy = 0;
+        }
+      }
+    }
+
+    function initializeForce(force) {
+      if (force.initialize) force.initialize(nodes);
+      return force;
+    }
+
+    initializeNodes();
+
+    return simulation = {
+      tick: tick,
+
+      restart: function() {
+        return stepper.restart(step), simulation;
+      },
+
+      stop: function() {
+        return stepper.stop(), simulation;
+      },
+
+      nodes: function(_) {
+        return arguments.length ? (nodes = _, initializeNodes(), forces.each(initializeForce), simulation) : nodes;
+      },
+
+      alpha: function(_) {
+        return arguments.length ? (alpha = +_, simulation) : alpha;
+      },
+
+      alphaMin: function(_) {
+        return arguments.length ? (alphaMin = +_, simulation) : alphaMin;
+      },
+
+      alphaDecay: function(_) {
+        return arguments.length ? (alphaDecay = +_, simulation) : +alphaDecay;
+      },
+
+      alphaTarget: function(_) {
+        return arguments.length ? (alphaTarget = +_, simulation) : alphaTarget;
+      },
+
+      velocityDecay: function(_) {
+        return arguments.length ? (velocityDecay = 1 - _, simulation) : 1 - velocityDecay;
+      },
+
+      force: function(name, _) {
+        return arguments.length > 1 ? ((_ == null ? forces.remove(name) : forces.set(name, initializeForce(_))), simulation) : forces.get(name);
+      },
+
+      find: function(x, y, radius) {
+        var i = 0,
+            n = nodes.length,
+            dx,
+            dy,
+            d2,
+            node,
+            closest;
+
+        if (radius == null) radius = Infinity;
+        else radius *= radius;
+
+        for (i = 0; i < n; ++i) {
+          node = nodes[i];
+          dx = x - node.x;
+          dy = y - node.y;
+          d2 = dx * dx + dy * dy;
+          if (d2 < radius) closest = node, radius = d2;
+        }
+
+        return closest;
+      },
+
+      on: function(name, _) {
+        return arguments.length > 1 ? (event.on(name, _), simulation) : event.on(name);
+      }
+    };
+  }
+
+  function manyBody() {
+    var nodes,
+        node,
+        alpha,
+        strength = constant$7(-30),
+        strengths,
+        distanceMin2 = 1,
+        distanceMax2 = Infinity,
+        theta2 = 0.81;
+
+    function force(_) {
+      var i, n = nodes.length, tree = quadtree(nodes, x$1, y$1).visitAfter(accumulate);
+      for (alpha = _, i = 0; i < n; ++i) node = nodes[i], tree.visit(apply);
+    }
+
+    function initialize() {
+      if (!nodes) return;
+      var i, n = nodes.length, node;
+      strengths = new Array(n);
+      for (i = 0; i < n; ++i) node = nodes[i], strengths[node.index] = +strength(node, i, nodes);
+    }
+
+    function accumulate(quad) {
+      var strength = 0, q, c, weight = 0, x, y, i;
+
+      // For internal nodes, accumulate forces from child quadrants.
+      if (quad.length) {
+        for (x = y = i = 0; i < 4; ++i) {
+          if ((q = quad[i]) && (c = Math.abs(q.value))) {
+            strength += q.value, weight += c, x += c * q.x, y += c * q.y;
+          }
+        }
+        quad.x = x / weight;
+        quad.y = y / weight;
+      }
+
+      // For leaf nodes, accumulate forces from coincident quadrants.
+      else {
+        q = quad;
+        q.x = q.data.x;
+        q.y = q.data.y;
+        do strength += strengths[q.data.index];
+        while (q = q.next);
+      }
+
+      quad.value = strength;
+    }
+
+    function apply(quad, x1, _, x2) {
+      if (!quad.value) return true;
+
+      var x = quad.x - node.x,
+          y = quad.y - node.y,
+          w = x2 - x1,
+          l = x * x + y * y;
+
+      // Apply the Barnes-Hut approximation if possible.
+      // Limit forces for very close nodes; randomize direction if coincident.
+      if (w * w / theta2 < l) {
+        if (l < distanceMax2) {
+          if (x === 0) x = jiggle(), l += x * x;
+          if (y === 0) y = jiggle(), l += y * y;
+          if (l < distanceMin2) l = Math.sqrt(distanceMin2 * l);
+          node.vx += x * quad.value * alpha / l;
+          node.vy += y * quad.value * alpha / l;
+        }
+        return true;
+      }
+
+      // Otherwise, process points directly.
+      else if (quad.length || l >= distanceMax2) return;
+
+      // Limit forces for very close nodes; randomize direction if coincident.
+      if (quad.data !== node || quad.next) {
+        if (x === 0) x = jiggle(), l += x * x;
+        if (y === 0) y = jiggle(), l += y * y;
+        if (l < distanceMin2) l = Math.sqrt(distanceMin2 * l);
+      }
+
+      do if (quad.data !== node) {
+        w = strengths[quad.data.index] * alpha / l;
+        node.vx += x * w;
+        node.vy += y * w;
+      } while (quad = quad.next);
+    }
+
+    force.initialize = function(_) {
+      nodes = _;
+      initialize();
+    };
+
+    force.strength = function(_) {
+      return arguments.length ? (strength = typeof _ === "function" ? _ : constant$7(+_), initialize(), force) : strength;
+    };
+
+    force.distanceMin = function(_) {
+      return arguments.length ? (distanceMin2 = _ * _, force) : Math.sqrt(distanceMin2);
+    };
+
+    force.distanceMax = function(_) {
+      return arguments.length ? (distanceMax2 = _ * _, force) : Math.sqrt(distanceMax2);
+    };
+
+    force.theta = function(_) {
+      return arguments.length ? (theta2 = _ * _, force) : Math.sqrt(theta2);
+    };
+
+    return force;
+  }
 
   // Computes the decimal coefficient and exponent of the specified number x with
   // significant digits p, where x is positive and p is in [1, 21] or undefined.
@@ -50462,7 +51144,7 @@
     return colors;
   }
 
-  colors("1f77b4ff7f0e2ca02cd627289467bd8c564be377c27f7f7fbcbd2217becf");
+  var category10 = colors("1f77b4ff7f0e2ca02cd627289467bd8c564be377c27f7f7fbcbd2217becf");
 
   colors("7fc97fbeaed4fdc086ffff99386cb0f0027fbf5b17666666");
 
@@ -57579,10 +58261,117 @@
       return input => !!input ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
   });
 
+  app.component('dgraph', {
+  	bindings: {
+  		projects: '<'
+  	},
+  	controller: function ($element) {
+  		this.$onChanges = () => {
+  			let svg$$1 = select($element[0]).append('svg')
+  					.attr('width', 1100)
+  					.attr('height', 700),
+  				width = +svg$$1.attr("width"),
+  				height = +svg$$1.attr("height");
+
+  			var color$$1 = ordinal(category10);
+
+  			let radius = linear$2()
+  				.range([2, 10])
+  				.domain([1, 50]);
+
+  			var simulation$$1 = simulation()
+  				.force("link", link().id(d => d.id))
+  				.force("charge", manyBody())
+  				.force("center", center$1(width / 2, height / 2));
+
+  			function dragstarted(d) {
+  				if (!event.active) { simulation$$1.alphaTarget(0.3).restart(); }
+  				d.fx = d.x;
+  				d.fy = d.y;
+  			}
+
+  			function dragged(d) {
+  				d.fx = event.x;
+  				d.fy = event.y;
+  			}
+
+  			function dragended(d) {
+  				if (!event.active) { simulation$$1.alphaTarget(0); }
+  				d.fx = null;
+  				d.fy = null;
+  			}
+
+
+  			this.$onChanges = () => {
+
+  				let nodes = {},
+  					links = {};
+
+  				window.socialmedia.forEach(sm => { // combine the nodes and links of the selected projects
+  					sm.nodes.forEach(node => {
+  						if (!nodes[node.id]) { nodes[node.id] = { id: node.id, count: 0, group: 'user' }; }
+  						if (node.group !== 'user') { nodes[node.id].group = node.group; }
+  						nodes[node.id].count += node.count;
+  					});
+  					sm.links.forEach(link$$1 => {
+  						let id = `${link$$1.source}:${link$$1.target}`;
+  						if (!links[id]) { links[id] = { source: link$$1.source, target: link$$1.target, value: 0 }; }
+  						links[id].value += link$$1.value;
+  					});
+  				});
+
+  				let graph = { nodes: Object.values(nodes), links: Object.values(links) };
+
+  				var link$$1 = svg$$1.append("g")
+  					.attr("class", "links")
+  					.selectAll("line")
+  					.data(graph.links)
+  					.enter().append("line")
+  					.attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  				var node = svg$$1.append("g")
+  					.attr("class", "nodes")
+  					.selectAll("circle")
+  					.data(graph.nodes)
+  					.enter().append("circle")
+  					.attr("r", d => Math.min(radius(d.count), 16))
+  					.attr("fill", function(d) { return color$$1(d.group); })
+  					.call(drag()
+  						.on("start", dragstarted)
+  						.on("drag", dragged)
+  						.on("end", dragended));
+
+  				node.append("title")
+  					.text(function(d) { return d.id; });
+
+  				simulation$$1
+  					.nodes(graph.nodes)
+  					.on("tick", ticked);
+
+  				simulation$$1.force("link")
+  					.links(graph.links);
+
+  				function ticked() {
+  					link$$1
+  						.attr("x1", function(d) { return d.source.x; })
+  						.attr("y1", function(d) { return d.source.y; })
+  						.attr("x2", function(d) { return d.target.x; })
+  						.attr("y2", function(d) { return d.target.y; });
+
+  					node
+  						.attr("cx", function(d) { return d.x; })
+  						.attr("cy", function(d) { return d.y; });
+  				}
+  			};
+  			this.$onChanges();
+  		};
+  	}
+  });
+
   angular.module('app').run(['$templateCache', function ($templateCache) {
-  $templateCache.put('/templates/project.html', '<div class=\"statsbar\">\n	<ul>\n		<li><strong>{{ project.months.length | number }}</strong>\n			months of data</li>\n\n		<li><strong>{{ project.rows | number }}</strong>\n			rows of data</li>\n\n		<li><strong>{{ project.contributions | number }}</strong>\n			contributions</li>\n\n		<li><strong>{{ project.users.length | number }}</strong>\n			users</li>\n\n		<li>Date range for data: {{ project.days[0].date | date:\'dd MMM yyyy\' }} to {{ project.days[project.days.length - 1].date | date:\'dd MMM yyyy\' }}. </li>\n\n		<li><a ng-href=\"project.url\">Project website</a></li>\n	</ul>\n	<div>\n		<h3>Recent trends</h3>\n\n		<p>Over {{ month.date | date:\'MMM yyyy\' }} (compared with previous month):</p>\n\n		<ul>\n			<li ng-if=\"month.contributions\">\n				<strong>{{ month.contributions | number }}</strong> contributions\n				<span ng-show=\"month.contributions > prevMonth.contributions\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.contributions - prevMonth.contributions }}\n				</span>\n				<span ng-show=\"month.contributions < prevMonth.contributions\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.contributions - prevMonth.contributions }}\n				</span>\n			</li>\n\n			<li ng-if=\"month.users\">\n				<strong>{{ month.users | number }}</strong> contributors\n				<span ng-show=\"month.users > prevMonth.users\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.users - prevMonth.users }}\n				</span>\n				<span ng-show=\"month.users < prevMonth.users\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.users - prevMonth.users }}\n				</span>\n			</li>\n\n			<li ng-if=\"month.starters\">\n				<strong>{{ month.starters | number }}</strong> new contributors\n				<span ng-show=\"month.starters > prevMonth.starters\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.starters - prevMonth.starters }}\n				</span>\n				<span ng-show=\"month.starters < prevMonth.starters\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.starters - prevMonth.starters }}\n				</span>\n			</li>\n		</ul>\n\n		<!-- <div ng-if=\"month.tasks\">\n			{{ month.tasks | number }} tasks\n		</div> -->\n	</div>\n	<div ng-if=\"project.countries\">\n		<h3>Top Countries</h3>\n		<div>\n			<a ng-class=\"{ active: !countryContributors }\" ng-click=\"countryContributors = false\">Contributions</a>\n			<a ng-class=\"{ active: countryContributors }\" ng-click=\"countryContributors = true\">Contributors</a>\n		</div>\n		<ul>\n			<li ng-repeat=\"country in project.countries | orderBy:countryContributors ? \'-users\' : \'-contributions\' | limitTo:10\">\n				<span ng-class=\"\'flag-icon flag-icon-\' + country.country.toLowerCase()\"></span>\n				{{ country.name || \'Unknown\' }}: {{ country[countryContributors ? \'users\' : \'contributions\'] }}\n			</li>\n		</ul>\n	</div>\n</div>\n\n<div class=\"breadcrumb\">\n	<a ui-sref=\"projects\">Projects</a> &gt;\n	<a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a>\n</div>\n\n<div class=\"project-view\">\n\n	<div class=\"options\" style=\"float: right\">\n		<a ng-click=\"y = \'contributions\'\" ng-class=\"{ active: y === \'contributions\' }\">Contributions</a>\n		<a ng-click=\"y = \'users\'\" ng-class=\"{ active: y === \'users\' }\">Contributors</a>\n		<a ng-click=\"y = \'starters\'\" ng-class=\"{ active: y === \'starters\' }\">New Contributors</a>\n	</div>\n\n	<h1>{{ project.name }}</h1>\n\n	<p ng-if=\"project.subprojects.length > 0\">\n		This project encompases {{ project.subprojects.length }} projects:\n		<span ng-repeat=\"(i, child) in project.subprojects\">\n			<a ui-sref=\"project({ id: child.id })\">{{ child.name }}</a>{{\n				i === project.subprojects.length - 2 ? \' and \' :\n				i === project.subprojects.length - 1 ? \'.\' : \',\' }}\n		</span>\n	</p>\n\n	<p ng-if=\"project.parent\">\n		This project is part of the <a ui-sref=\"project({ id: project.parent.id })\">{{ project.parent.name }}</a> project.\n	</p>\n\n	<div class=\"daygraph\">\n		<div style=\"float:right\">\n			<a ng-class=\"{ active: !monthly }\" ng-click=\"monthly = false\">By day</a>\n			<a ng-class=\"{ active: monthly }\" ng-click=\"monthly = true\">By month</a>\n		</div>\n		<h3>{{ yTitles[y] | capitalize }} over time</h3>\n		<daygraph data=\"monthly ? project.months : project.days\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"300\" monthly=\"monthly\"></daygraph>\n	</div>\n\n	<div class=\"weekdaygraph\">\n		<h3>{{ yTitles[y] | capitalize }} per weekday</h3>\n		<weekdaygraph data=\"project.weekdays\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"250\"></weekdaygraph>\n	</div>\n\n\n	<div class=\"effortgraph\">\n		<h3>Distribution of effort</h3>\n		<effortgraph data=\"project.users\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"300\"></effortgraph>\n	</div>\n\n\n\n	<!-- <div ng-if=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div> -->\n\n	<!-- <div ng-if=\"project.users\">\n		<h3>Tasks over time</h3>\n		<histogram left=\"tasksOverTime\" left-name=\"\'Tasks\'\"></histogram>\n	</div>\n	 -->\n</div>');
+  $templateCache.put('/templates/project.html', '<div class=\"statsbar\">\n	<ul>\n		<li><strong>{{ project.rows | number }}</strong>\n			rows of data</li>\n\n		<li><strong>{{ project.contributions | number }}</strong>\n			contributions</li>\n\n		<li><strong>{{ project.users.length | number }}</strong>\n			users</li>\n\n		<li><strong>{{ project.months.length | number }}</strong>\n			months of data</li>\n\n		<li>Date range for data: {{ project.days[0].date | date:\'dd MMM yyyy\' }} to {{ project.days[project.days.length - 1].date | date:\'dd MMM yyyy\' }}. </li>\n\n		<li><a ng-href=\"project.url\">Project website</a></li>\n	</ul>\n	<div>\n		<h3>Recent trends</h3>\n\n		<p>Over {{ month.date | date:\'MMM yyyy\' }} (compared with previous month):</p>\n\n		<ul>\n			<li ng-if=\"month.contributions\">\n				<strong>{{ month.contributions | number }}</strong> contributions\n				<span ng-show=\"month.contributions > prevMonth.contributions\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.contributions - prevMonth.contributions }}\n				</span>\n				<span ng-show=\"month.contributions < prevMonth.contributions\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.contributions - prevMonth.contributions }}\n				</span>\n			</li>\n\n			<li ng-if=\"month.users\">\n				<strong>{{ month.users | number }}</strong> contributors\n				<span ng-show=\"month.users > prevMonth.users\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.users - prevMonth.users }}\n				</span>\n				<span ng-show=\"month.users < prevMonth.users\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.users - prevMonth.users }}\n				</span>\n			</li>\n\n			<li ng-if=\"month.starters\">\n				<strong>{{ month.starters | number }}</strong> new contributors\n				<span ng-show=\"month.starters > prevMonth.starters\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.starters - prevMonth.starters }}\n				</span>\n				<span ng-show=\"month.starters < prevMonth.starters\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.starters - prevMonth.starters }}\n				</span>\n			</li>\n		</ul>\n\n		<!-- <div ng-if=\"month.tasks\">\n			{{ month.tasks | number }} tasks\n		</div> -->\n	</div>\n	<div ng-if=\"project.countries\">\n		<h3>Top Countries</h3>\n		<div>\n			<a ng-class=\"{ active: !countryContributors }\" ng-click=\"countryContributors = false\">Contributions</a>\n			<a ng-class=\"{ active: countryContributors }\" ng-click=\"countryContributors = true\">Contributors</a>\n		</div>\n		<ul>\n			<li ng-repeat=\"country in project.countries | orderBy:countryContributors ? \'-users\' : \'-contributions\' | limitTo:10\">\n				<span ng-class=\"\'flag-icon flag-icon-\' + country.country.toLowerCase()\"></span>\n				{{ country.name || \'Unknown\' }}: {{ country[countryContributors ? \'users\' : \'contributions\'] }}\n			</li>\n		</ul>\n	</div>\n</div>\n\n<div class=\"breadcrumb\">\n	<a ui-sref=\"projects\">Projects</a> &gt;\n	<a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a>\n</div>\n\n<div class=\"project-view\">\n\n	<div class=\"options\" style=\"float: right\">\n		<a ng-click=\"y = \'contributions\'\" ng-class=\"{ active: y === \'contributions\' }\">Contributions</a>\n		<a ng-click=\"y = \'users\'\" ng-class=\"{ active: y === \'users\' }\">Contributors</a>\n		<a ng-click=\"y = \'starters\'\" ng-class=\"{ active: y === \'starters\' }\">New Contributors</a>\n	</div>\n\n	<h1>{{ project.name }}</h1>\n\n	<p ng-if=\"project.subprojects.length > 0\">\n		This project encompases {{ project.subprojects.length }} projects:\n		<span ng-repeat=\"(i, child) in project.subprojects\">\n			<a ui-sref=\"project({ id: child.id })\">{{ child.name }}</a>{{\n				i === project.subprojects.length - 2 ? \' and \' :\n				i === project.subprojects.length - 1 ? \'.\' : \',\' }}\n		</span>\n	</p>\n\n	<p ng-if=\"project.parent\">\n		This project is part of the <a ui-sref=\"project({ id: project.parent.id })\">{{ project.parent.name }}</a> project.\n	</p>\n\n	<div class=\"daygraph\">\n		<div style=\"float:right\">\n			<a ng-class=\"{ active: !monthly }\" ng-click=\"monthly = false\">By day</a>\n			<a ng-class=\"{ active: monthly }\" ng-click=\"monthly = true\">By month</a>\n		</div>\n		<h3>{{ yTitles[y] | capitalize }} over time</h3>\n		<daygraph data=\"monthly ? project.months : project.days\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"300\" monthly=\"monthly\"></daygraph>\n	</div>\n\n	<div class=\"weekdaygraph\">\n		<h3>{{ yTitles[y] | capitalize }} per weekday</h3>\n		<weekdaygraph data=\"project.weekdays\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"250\"></weekdaygraph>\n	</div>\n\n\n	<div class=\"effortgraph\">\n		<h3>Distribution of effort</h3>\n		<effortgraph data=\"project.users\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"300\"></effortgraph>\n	</div>\n\n\n\n	<!-- <div ng-if=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div> -->\n\n	<!-- <div ng-if=\"project.users\">\n		<h3>Tasks over time</h3>\n		<histogram left=\"tasksOverTime\" left-name=\"\'Tasks\'\"></histogram>\n	</div>\n	 -->\n</div>');
   $templateCache.put('/templates/projects.html', '<div class=\"options\" style=\"float: right\">\n	<a ng-click=\"y = \'contributions\'\" ng-class=\"{ active: y === \'contributions\' }\">Contributions</a>\n	<a ng-click=\"y = \'users\'\" ng-class=\"{ active: y === \'users\' }\">Contributors</a>\n	<a ng-click=\"y = \'starters\'\" ng-class=\"{ active: y === \'starters\' }\">New Contributors</a>\n</div>\n\n<h1>Stars4All Project {{ yTitles[y] | capitalize }}</h1>\n\n<p>This dashboard summarises the amount of contributions and contributors for each Stars4All project.</p>\n\n<p>Below, each project is listed with the number of contributions (a submission made by a user) and contributors (a user who has made a contribution). The charts display the number of {{ yTitles[y] }} per weekday (left), the number of {{ yTitles[y] }} over time (centre), and the amount of submissions each contributor has made. Click a project to view more details.</p>\n\n<div class=\"projects\">\n	<div ng-repeat=\"(i, project) in projects\" class=\"project\" ui-sref=\"project({ id: project.id })\">\n\n		<div class=\"name\">\n			<strong>{{ project.name }}</strong>\n			<div class=\"parent-icon\" ng-class=\"project.parent.id\" ng-show=\"project.parent\" ng-attr-title=\"Part of the {{ project.parent.name }} project\"></div>\n			<br>\n			{{ project.contributions | number }} contributions by {{ project.users.length | number }} contributors\n		</div>\n\n		<weekdaygraph data=\"project.weekdays\" y=\"y\"></weekdaygraph>\n\n		<daygraph data=\"project.days\" y=\"y\"></daygraph>\n\n		<effortgraph data=\"project.users\" y=\"y\"></effortgraph>\n\n	</div>\n</div>\n\n<p class=\"legend\">\n	<span class=\"parent-icon my-sky-at-night\"></span> = Part of the <emph>My Sky at Night</emph> project &nbsp;&nbsp;&nbsp;&nbsp;\n	<span class=\"parent-icon cities-at-night\"></span> = Part of the <emph>Cities at Night</emph> project\n</p>\n');
-  $templateCache.put('/templates/socialmedia.html', '<h1>Stars4All on Social Media</h1>\n\n<p></p>\n\n<div class=\"pick\">\n	<!-- <div class=\"bin\">\n		<label ng-repeat=\"account in socialmedia\">\n			<input type=\"checkbox\">\n			M\n		</label>\n	</div> -->\n	<label ng-repeat=\"account in socialmedia\">\n		<input type=\"checkbox\" ng-model=\"account.selected\">\n		{{ account.handle }}\n		({{ account.follows }} follows)\n	</label>\n</div>\n\n<tweetline data=\"data\"></tweetline>');
+  $templateCache.put('/templates/socialmedia.html', '<h1>Stars4All on Social Media</h1>\n\n<p></p>\n\n<div class=\"pick\">\n	<!-- <div class=\"bin\">\n		<label ng-repeat=\"account in socialmedia\">\n			<input type=\"checkbox\">\n			M\n		</label>\n	</div> -->\n	<label ng-repeat=\"account in socialmedia\">\n		<input type=\"checkbox\" ng-model=\"account.selected\">\n		{{ account.handle }}\n		({{ account.follows }} follows)\n	</label>\n</div>\n\n<tweetline data=\"data\"></tweetline>\n\n<dgraph></dgraph>\n\n<!--\n	Line chart\nTweets out over time\nTweets in over time \nReplies over time\n\n\nGraph\n\n\n-->');
   }]);
 
   window.projects = []; // set up global array for project data

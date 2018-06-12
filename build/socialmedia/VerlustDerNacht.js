@@ -1,5 +1,6 @@
 window.socialmedia.push({
 	"id": "VerlustDerNacht",
+	"handle": "verlustdernacht",
 	"months": [
 		{
 			"month": "2012-04",
@@ -3404,6 +3405,354 @@ window.socialmedia.push({
 			"tweets": 6
 		}
 	],
-	"handle": "verlustdernacht",
-	"follows": 250
+	"follows": 250,
+	"links": [
+		{
+			"source": "verlustdernacht",
+			"target": "addthis",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "arleneonenergy",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "famelab_germany",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "rasc_lpa",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "astro_andre",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "lightcollective",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "idaquebec",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "volkerwossal",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "incenvironment",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "profbriancox",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "cfds_uk",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "activeastro",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "welt",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "guardianeco",
+			"value": 4
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "janhattenbach",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "lightsonberlin",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "spiegel_english",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "dlf",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "guardianscience",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "jungewelt",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "costlonne",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "globeatnight",
+			"value": 5
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "lightlandscapes",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "zdfheute",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "idadarksky",
+			"value": 5
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "bad_kissingen",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "carolynwillitts",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "kluegstenacht",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "swr2wissen",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "faz_wissen",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "pmisson",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "skyglowberlin",
+			"value": 11
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "verlustdernacht",
+			"value": 1
+		},
+		{
+			"source": "carolynwillitts",
+			"target": "lightlandscapes",
+			"value": 1
+		},
+		{
+			"source": "carolynwillitts",
+			"target": "talklandscape",
+			"value": 1
+		}
+	],
+	"nodes": [
+		{
+			"id": "verlustdernacht",
+			"group": "verlustdernacht",
+			"count": 58
+		},
+		{
+			"id": "skyglowberlin",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "globeatnight",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "idadarksky",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "guardianeco",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "carolynwillitts",
+			"group": "user",
+			"count": 3
+		},
+		{
+			"id": "costlonne",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "astro_andre",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "faz_wissen",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "pmisson",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "lightlandscapes",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "cfds_uk",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "activeastro",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "welt",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "arleneonenergy",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "janhattenbach",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "lightsonberlin",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "addthis",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "dlf",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "guardianscience",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "jungewelt",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "famelab_germany",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "rasc_lpa",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "talklandscape",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "zdfheute",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "lightcollective",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "bad_kissingen",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "idaquebec",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "kluegstenacht",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "swr2wissen",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "volkerwossal",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "incenvironment",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "profbriancox",
+			"group": "user",
+			"count": 1
+		},
+		{
+			"id": "spiegel_english",
+			"group": "user",
+			"count": 1
+		}
+	]
 });

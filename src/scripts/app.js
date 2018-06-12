@@ -498,3 +498,110 @@ app.component('tweetline', {
 app.filter('capitalize', () => {
     return input => !!input ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
 });
+
+app.component('dgraph', {
+	bindings: {
+		projects: '<'
+	},
+	controller: function ($element) {
+		this.$onChanges = () => {
+			let svg = d3.select($element[0]).append('svg')
+					.attr('width', 1100)
+					.attr('height', 700),
+				width = +svg.attr("width"),
+				height = +svg.attr("height");
+
+			var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+			let radius = d3.scaleLinear()
+				.range([2, 10])
+				.domain([1, 50]);
+
+			var simulation = d3.forceSimulation()
+				.force("link", d3.forceLink().id(d => d.id))
+				.force("charge", d3.forceManyBody())
+				.force("center", d3.forceCenter(width / 2, height / 2));
+
+			function dragstarted(d) {
+				if (!d3.event.active) { simulation.alphaTarget(0.3).restart(); }
+				d.fx = d.x;
+				d.fy = d.y;
+			}
+
+			function dragged(d) {
+				d.fx = d3.event.x;
+				d.fy = d3.event.y;
+			}
+
+			function dragended(d) {
+				if (!d3.event.active) { simulation.alphaTarget(0); }
+				d.fx = null;
+				d.fy = null;
+			}
+
+
+			this.$onChanges = () => {
+
+				let nodes = {},
+					links = {};
+
+				window.socialmedia.forEach(sm => { // combine the nodes and links of the selected projects
+					sm.nodes.forEach(node => {
+						if (!nodes[node.id]) { nodes[node.id] = { id: node.id, count: 0, group: 'user' }; }
+						if (node.group !== 'user') { nodes[node.id].group = node.group; }
+						nodes[node.id].count += node.count;
+					});
+					sm.links.forEach(link => {
+						let id = `${link.source}:${link.target}`;
+						if (!links[id]) { links[id] = { source: link.source, target: link.target, value: 0 }; }
+						links[id].value += link.value;
+					});
+				});
+
+				let graph = { nodes: Object.values(nodes), links: Object.values(links) };
+
+				var link = svg.append("g")
+					.attr("class", "links")
+					.selectAll("line")
+					.data(graph.links)
+					.enter().append("line")
+					.attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+				var node = svg.append("g")
+					.attr("class", "nodes")
+					.selectAll("circle")
+					.data(graph.nodes)
+					.enter().append("circle")
+					.attr("r", d => Math.min(radius(d.count), 16))
+					.attr("fill", function(d) { return color(d.group); })
+					.call(d3.drag()
+						.on("start", dragstarted)
+						.on("drag", dragged)
+						.on("end", dragended));
+
+				node.append("title")
+					.text(function(d) { return d.id; });
+
+				simulation
+					.nodes(graph.nodes)
+					.on("tick", ticked);
+
+				simulation.force("link")
+					.links(graph.links);
+
+				function ticked() {
+					link
+						.attr("x1", function(d) { return d.source.x; })
+						.attr("y1", function(d) { return d.source.y; })
+						.attr("x2", function(d) { return d.target.x; })
+						.attr("y2", function(d) { return d.target.y; });
+
+					node
+						.attr("cx", function(d) { return d.x; })
+						.attr("cy", function(d) { return d.y; });
+				}
+			};
+			this.$onChanges();
+		};
+	}
+});

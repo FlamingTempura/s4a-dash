@@ -1,8 +1,5 @@
 <div class="statsbar">
 	<ul>
-		<li><strong>{{ project.months.length | number }}</strong>
-			months of data</li>
-
 		<li><strong>{{ project.rows | number }}</strong>
 			rows of data</li>
 
@@ -11,6 +8,9 @@
 
 		<li><strong>{{ project.users.length | number }}</strong>
 			users</li>
+
+		<li><strong>{{ project.months.length | number }}</strong>
+			months of data</li>
 
 		<li>Date range for data: {{ project.days[0].date | date:'dd MMM yyyy' }} to {{ project.days[project.days.length - 1].date | date:'dd MMM yyyy' }}. </li>
 

@@ -5,6 +5,8 @@ const moment = require('moment');
 
 const id = process.argv.pop();
 
+const TWEET_NODE_LIMIT = 100;
+
 const generate = id => {
 	id = id.replace(/.xlsx$/, ''); // string extension
 	console.log(`Parsing ${id}...`);
@@ -16,7 +18,10 @@ const generate = id => {
 				rows = [],
 				i = 3,
 				follows = 0,
-				handle;
+				handle,
+				nodes = {},
+				links = {};
+
 			do {
 				let from = sheet[`A${i}`],
 					to = sheet[`B${i}`],
@@ -31,6 +36,7 @@ const generate = id => {
 				type = type.v === 'Follows' ? 'follow' : 'tweet';
 				let day = moment(date).startOf('day').format('YYYY-MM-DD'),
 					month = day.slice(0, 7);
+
 				
 				if (from === to) {
 					to = null;
@@ -40,6 +46,17 @@ const generate = id => {
 					follows++;
 				} else {
 					rows.push({ type, date, day, month, from, to, hashtags });
+					if (from && to) {
+						if (!nodes[from]) { nodes[from] = { id: from, group: 'user', count: 0 }; }
+						if (!nodes[to]) { nodes[to] = { id: to, group: 'user', count: 0 }; }
+						let link = links[`${from}:${to}`];
+						if (!link) {
+							link = links[`${from}:${to}`] = { source: from, target: to, value: 0 };
+						}
+						link.value++;
+						nodes[from].count++;
+						nodes[to].count++;
+					}
 				}
 				i++;
 			} while (true);
@@ -75,7 +92,24 @@ const generate = id => {
 				date = moment(date).add(1, 'month');
 			}
 
-			let project = { id, months, days, handle, follows };
+			nodes[handle].group = handle;
+			
+			let linkKeys = Object.keys(links);
+
+			nodes = Object.values(nodes)
+				.sort((a, b) => b.count - a.count);
+
+			nodes.slice(TWEET_NODE_LIMIT).forEach(node => {
+				let s1 = `${node.id}:`,
+					s2 = `:${node.id}`;
+				console.log(s1);
+				linkKeys.filter(k => k.startsWith(s1) || k.endsWith(s2))
+					.forEach(k => delete links[k]);
+			});
+			nodes = nodes.slice(0, TWEET_NODE_LIMIT);
+			links = Object.values(links);
+
+			let project = { id, handle, months, days, follows, links, nodes };
 
 			let js = `window.socialmedia.push(${JSON.stringify(project, null, '\t')});`;
 			//js = js.replace(/\[[^\[\]]*\]/g, match => match.replace(/\s+/g, ' ')); // remove excessive whitespce
