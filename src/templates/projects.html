@@ -20,11 +20,14 @@
 			{{ project.contributions | number }} contributions by {{ project.users.length | number }} contributors
 		</div>
 
-		<weekdaygraph data="project.weekdays" y="y"></weekdaygraph>
+		<weekdaygraph data="project.weekdays" y="y" q ng-show="y === 'contributions' || project.users"></weekdaygraph>
+		<span class="notavailable weekdaygraph" ng-if="y !== 'contributions' && !project.users">Data not available</span>
 
-		<daygraph data="project.days" y="y"></daygraph>
+		<daygraph data="project.days" y="y" ng-if="y === 'contributions' || project.users"></daygraph>
+		<span class="notavailable daygraph" ng-if="y !== 'contributions' && !project.users">Data not available</span>
 
 		<effortgraph data="project.users" y="y" ng-if="!project.hideDistributionOfEffort"></effortgraph>
+		<span class="notavailable effortgraph" ng-if="project.hideDistributionOfEffort">Data not available</span>
 
 	</div>
 </div>

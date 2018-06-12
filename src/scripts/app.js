@@ -22,7 +22,7 @@ app.config(function ($urlServiceProvider) {
 			project.days.forEach(d => delete d.users);
 			delete project.users;
 		}
-		if (project.id === 'european-photometer-network') {
+		if (project.id === 'european-photometer-network' || !project.users) {
 			project.hideDistributionOfEffort = true;
 		}
 		project.days.forEach((d, i) => {
