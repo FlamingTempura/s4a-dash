@@ -113,12 +113,12 @@ const generate = id => {
 
 			let js = `window.socialmedia.push(${JSON.stringify(project, null, '\t')});`;
 			//js = js.replace(/\[[^\[\]]*\]/g, match => match.replace(/\s+/g, ' ')); // remove excessive whitespce
-			return fs.writeFile(`${__dirname}/build/socialmedia/${id}.js`, js, 'utf8');
+			return fs.writeFile(`${__dirname}/build/accounts/${id}.js`, js, 'utf8');
 		})
 		.then(() => console.timeEnd(`Successfully parsed ${id}`));
 };
 
-fs.ensureDir(`${__dirname}/build/socialmedia`)
+fs.ensureDir(`${__dirname}/build/accounts`)
 	.then(() => {
 		if (id && id.match(/^[A-Za-z0-9-]+$/)) {
 			generate(id);

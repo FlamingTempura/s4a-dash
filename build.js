@@ -55,12 +55,12 @@ const generateHTML = (js, css) => {
 		.all([
 			fs.readFileAsync(`${__dirname}/src/index.html`, 'utf8'),
 			fs.readdirAsync(`${__dirname}/build/projects`),
-			fs.readdirAsync(`${__dirname}/build/socialmedia`)
+			fs.readdirAsync(`${__dirname}/build/accounts`)
 		])
 		.spread((html, projects, socialmedia) => {
 			let scripts = [
 				...projects.map(p => `<script src="projects/${p}"></script>`),
-				...socialmedia.map(p => `<script src="socialmedia/${p}"></script>`)
+				...socialmedia.map(p => `<script src="accounts/${p}"></script>`)
 			];
 			html = html
 				.replace('@DATA', scripts.join('\n'))
