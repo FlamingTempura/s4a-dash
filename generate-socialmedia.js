@@ -6,6 +6,7 @@ const moment = require('moment');
 const id = process.argv.pop();
 
 const TWEET_NODE_LIMIT = 100;
+const now = new Date();
 
 const generate = id => {
 	id = id.replace(/.xlsx$/, ''); // string extension
@@ -29,15 +30,20 @@ const generate = id => {
 					hashtags = sheet[`T${i}`],
 					type = sheet[`O${i}`];
 				if (!from) { break; }
-				from = from && from.v;
-				to = to && to.v;
-				date = date.v;
+				from = from.v;
+				to = to.v;
+				if (!date || !(date.v instanceof Date)) { date = sheet[`BC${i}`]; }
+				if (!date || !(date.v instanceof Date)) { date = sheet[`BN${i}`]; }
+				if (!date || !(date.v instanceof Date)) {
+					console.log('date not found', id);
+					date = { v: now };
+				}
+				date = date ? date.v : now;
 				hashtags = hashtags && hashtags.v.split(' ');
 				type = type.v === 'Follows' ? 'follow' : 'tweet';
 				let day = moment(date).startOf('day').format('YYYY-MM-DD'),
 					month = day.slice(0, 7);
 
-				
 				if (from === to) {
 					to = null;
 					handle = handle || from;
@@ -62,6 +68,7 @@ const generate = id => {
 			} while (true);
 
 			rows = rows.sort((a, b) => a.date - b.date);
+			if (rows.length === 0) { return; }
 
 			let dateStart = rows[0].date,
 				dateEnd = rows[rows.length - 1].date,
@@ -92,7 +99,9 @@ const generate = id => {
 				date = moment(date).add(1, 'month');
 			}
 
-			nodes[handle].group = handle;
+			if (handle) {
+				nodes[handle].group = handle;
+			}
 			
 			let linkKeys = Object.keys(links);
 
@@ -102,7 +111,6 @@ const generate = id => {
 			nodes.slice(TWEET_NODE_LIMIT).forEach(node => {
 				let s1 = `${node.id}:`,
 					s2 = `:${node.id}`;
-				console.log(s1);
 				linkKeys.filter(k => k.startsWith(s1) || k.endsWith(s2))
 					.forEach(k => delete links[k]);
 			});
@@ -115,7 +123,8 @@ const generate = id => {
 			//js = js.replace(/\[[^\[\]]*\]/g, match => match.replace(/\s+/g, ' ')); // remove excessive whitespce
 			return fs.writeFile(`${__dirname}/build/accounts/${id}.js`, js, 'utf8');
 		})
-		.then(() => console.timeEnd(`Successfully parsed ${id}`));
+		.then(() => console.timeEnd(`Successfully parsed ${id}`))
+		.catch(err => console.error(`[${id}] ERROR:`, err));
 };
 
 fs.ensureDir(`${__dirname}/build/accounts`)
@@ -124,6 +133,8 @@ fs.ensureDir(`${__dirname}/build/accounts`)
 			generate(id);
 		} else {
 			fs.readdir(`${__dirname}/data/socialmedia`)
-				.then(projects => Bluebird.map(projects, id => generate(id), { concurrency: 4 }));
+				.then(projects => {
+					return Bluebird.map(projects.filter(p => p.endsWith('.xlsx')), id => generate(id), { concurrency: 4 });
+				});
 		}
 	});

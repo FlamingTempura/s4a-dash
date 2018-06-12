@@ -506,7 +506,7 @@ app.component('dgraph', {
 	controller: function ($element) {
 		this.$onChanges = () => {
 			let svg = d3.select($element[0]).append('svg')
-					.attr('width', 1100)
+					.attr('width', 960)
 					.attr('height', 700),
 				width = +svg.attr("width"),
 				height = +svg.attr("height");

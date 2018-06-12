@@ -58268,7 +58268,7 @@
   	controller: function ($element) {
   		this.$onChanges = () => {
   			let svg$$1 = select($element[0]).append('svg')
-  					.attr('width', 1100)
+  					.attr('width', 960)
   					.attr('height', 700),
   				width = +svg$$1.attr("width"),
   				height = +svg$$1.attr("height");
