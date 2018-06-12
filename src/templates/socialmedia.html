@@ -14,7 +14,7 @@
 	<label ng-repeat="account in twitter">
 		<input type="checkbox" ng-model="account.selected">
 		<div class="description">
-			<div class="title">{{ account.id }}</div>
+			<div class="title">{{ accountTitles[account.id] }}</div>
 			<!-- <div class="id">{{ account.officialAccount }}</div> -->
 			<div class="stats">
 				<strong>{{ account.totals.followers | number }}</strong> followers
@@ -28,7 +28,7 @@
 	<label ng-repeat="account in facebook">
 		<input type="checkbox" ng-model="account.selected">
 		<div class="description">
-			<div class="title">{{ account.id }}</div>
+			<div class="title">{{ accountTitles[account.id] }}</div>
 			<!-- <div class="id">{{ account.officialAccount }}</div> -->
 			<div class="stats">
 				<strong>{{ account.totals.followers | number }}</strong> followers
@@ -74,7 +74,7 @@
 		</ul>
 	</div>
 
-	<h2>User graph</h2>
+	<h2>User graph (Twitter only)</h2>
 
 	<p>This shows how different twitter accounts have interacted. The size of the nodes indicates the amount they have interacted with project social media accounts. Mouse over nodes to see the twitter handle.
 

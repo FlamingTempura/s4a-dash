@@ -62,8 +62,22 @@ app.run(($rootScope, $transitions) => {
 	$rootScope.y = 'contributions';
 	$rootScope.countryContributors = false;
 	$transitions.onSuccess({}, function () { 
-    document.body.scrollTop = document.documentElement.scrollTop = 0
-});
+	    document.body.scrollTop = document.documentElement.scrollTop = 0
+	});
+	$rootScope.accountTitles = {
+		'Cities4tnight': 'Cities At Night',
+		'GLOBEatNight': 'Globe At Night',
+		'Stars4all_EU': 'Stars4All (EU)',
+		'Stars4all_es': 'Stars4All (ES)',
+		'VerlustDerNacht': 'Verlust Der Nacht',
+		'sky_live_tv': 'Sky Live.TV',
+		'stars4all Facebook': 'Stars4All Facebook',
+		'Armleuchter': 'Armleuchter',
+		'CitiesAtNightISS FB': 'Cities At Night',
+		'GlobeatNight FB Full': 'Globe At Night',
+		'LossOfTheNightFB': 'Loss of the Night',
+		'Sky Live TV FB Full': 'Sky Live.TV'
+	}
 });
 
 app.config($stateProvider => {
