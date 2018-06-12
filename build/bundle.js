@@ -57793,14 +57793,12 @@
   		project.days.forEach((d, i) => {
   			let m = hooks(d.day, 'YYYY-MM-DD');
   			d.date = m.toDate();
-  			//d.day = m.format('DD MMM YYYY');
   			if (i === 0 && d.date < dateStart || !dateStart) { dateStart = d.date; }
   			if (i === project.days.length - 1 && d.date > dateEnd || !dateEnd) { dateEnd = d.date; }
   		});
   		project.months.forEach(d => {
   			let m = hooks(d.month, 'YYYY-MM');
   			d.date = m.toDate();
-  			//d.month = m.format('MMM YYYY');
   		});
   		project.subprojects = window.projects.filter(p => p.parent && (p.parent.id || p.parent) === project.id);
   		project.parent = window.projects.find(p => p.id === project.parent);
@@ -57810,7 +57808,12 @@
   			project.countries.forEach(d => d.name = countries[d.country]);
   		}
   	});
-
+  	window.socialmedia.forEach(account => {
+  		account.months.forEach(d => {
+  			let m = hooks(d.month, 'YYYY-MM');
+  			d.date = m.toDate();
+  		});
+  	});
   });
 
   app.run(($rootScope, $transitions) => {
@@ -57867,63 +57870,68 @@
   		}
   	});
 
+
+  	let combineData = () => {
+  		let combined = {
+  			totals: {},
+  			months: []
+  		};
+  		window.socialmedia.forEach(account => {
+  			if (!account.selected) { return; }
+  			Object.entries(account.totals).forEach(([k, v]) => {
+  				if (!combined.totals[k]) { combined.totals[k] = 0; }
+  				combined.totals[k] += v;
+  			});
+  			account.months.forEach(month$$1 => {
+  				let existing = combined.months.find(d => d.month === month$$1.month);
+  				if (!existing) {
+  					existing = { month: month$$1.month, date: month$$1.date };
+  					combined.months.push(existing);
+  				}
+  				Object.keys(account.totals).forEach(k => {
+  					if (!existing[k]) { existing[k] = 0; }
+  					existing[k] += month$$1[k];
+  				});
+  			});
+  			account.months = account.months.sort((a, b) => a.date - b.date);
+  			['hashtagsOut', 'hashtagsIn'].forEach(k => {
+  				if (!combined[k]) { combined[k] = []; }
+  				if (account[k]) {
+  					account[k].forEach(({ tag, count }) => {
+  						let existing = combined[k].find(d => d.tag === tag);
+  						if (!existing) {
+  							combined[k].push({ tag, count });
+  						} else {
+  							existing.count += count;
+  						}
+  					});
+  				}
+  				combined[k] = combined[k].sort((a, b) => b.count - a.count).slice(0, 20);
+  			});
+  		});
+  		console.log('combined', combined);
+  		return combined;
+  	};
+
   	$stateProvider.state('socialmedia', {
   		url: '/socialmedia',
   		templateUrl: '/templates/socialmedia.html',
   		controller: function ($scope, $rootScope) {
   			$scope.socialmedia = window.socialmedia;
+  			$scope.socialmedia[1].selected = true;
   			$rootScope.currentState = 'socialmedia';
+  			$scope.y = 'posts';
+  			$scope.hashtagsIn = false;
+  			$scope.twitter = $scope.socialmedia.filter(d => d.type === 'twitter');
+  			$scope.facebook = $scope.socialmedia.filter(d => d.type === 'facebook');
   			$scope.socialmedia.forEach((s, i) => {
   				$scope.$watch(`socialmedia[${i}].selected`, () => {
-  					refreshChart();
-  					refreshHashtags();
+  					//refreshChart();
+  					//refreshHashtags();
+  					console.log('recombine');
+  					$scope.combined = combineData();
   				});
   			});
-  			let refreshChart = () => {
-  				let months$$1 = {};
-  				$scope.socialmedia.forEach(account => {
-  					if (!account.selected) { return; }
-  					account.months.forEach(bin => {
-  						let month$$1 = months$$1[bin.month];
-  						if (!month$$1) {
-  							month$$1 = months$$1[bin.month] = {
-  								date: hooks(bin.month, 'YYYY-MM').toDate(),
-  								month: bin.month,
-  								tags: {},
-  								tweetsIn: 0,
-  								tweetsOut: 0
-  							};
-  						}
-  						Object.entries(bin.hashtags).forEach(([tag, count]) => {
-  							if (!month$$1.tags[tag]) { month$$1.tags[tag] = 0; }
-  							month$$1.tags[tag] += count;
-  						});
-  						month$$1.tweetsIn += bin.tweetsIn;
-  						month$$1.tweetsOut += bin.tweetsOut;
-  					});
-  				});
-  				let ks = Object.keys(months$$1).sort();
-  				months$$1 = ks.map(k => months$$1[k]);
-  				console.log(months$$1);
-  				$scope.data = months$$1;
-  			};
-
-  			let refreshHashtags = () => {
-  				let hashtags = {};
-  				$scope.socialmedia.forEach(account => {
-  					if (!account.selected) { return; }
-  					account.months.forEach(m => {
-  						Object.entries(m.hashtags).forEach(([tag, count]) => {
-  							if (!hashtags[tag]) { hashtags[tag] = 0; }
-  							hashtags[tag] += count;
-  						});
-  					});
-  				});
-  				$scope.hashtags = Object.entries(hashtags)
-  					.map(([tag, count]) => ({ tag, count }))
-  					.sort((a, b) => b.count - a.count)
-  					.slice(0, 50);
-  			};
   		}
   	});
   });
@@ -58228,11 +58236,12 @@
 
   app.component('tweetline', {
   	bindings: {
-  		data: '<'
+  		data: '<',
+  		y: '<'
   	},
   	controller: function ($element) {
   		this.$onChanges = () => {
-  			let svg$$1 = select($element[0]).append('svg').attr('width', 530).attr('height', 320),
+  			let svg$$1 = select($element[0]).append('svg').attr('width', 430).attr('height', 320),
   				margin = {top: 0, right: 0, bottom: 30, left: 20 },
   				width = +svg$$1.attr("width") - margin.left - margin.right,
   				height = +svg$$1.attr("height") - margin.top - margin.bottom;
@@ -58263,12 +58272,12 @@
   				.attr('class', 'y axis');
   			
   			this.$onChanges = () => {
-  				let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
+  				let data = (this.data || []).filter(d => d.date > dateStart && d.date < dateEnd);
 
-  				y.domain([1, max(data, d => d.tweetsOut + 1)]);
+  				y.domain([0, max(data, d => d[this.y])]);
 
-  				area.y0(y(1))
-  					.y1(d => y(d.tweetsOut + 1));
+  				area.y0(y(0))
+  					.y1(d => y(d[this.y]));
 
   				path$$1.datum(data)
   					.transition()
@@ -58294,7 +58303,7 @@
   	controller: function ($element) {
   		this.$onChanges = () => {
   			let svg$$1 = select($element[0]).append('svg')
-  					.attr('width', 960)
+  					.attr('width', 660)
   					.attr('height', 700),
   				width = +svg$$1.attr("width"),
   				height = +svg$$1.attr("height");
@@ -58334,12 +58343,12 @@
   					links = {};
 
   				window.socialmedia.forEach(sm => { // combine the nodes and links of the selected projects
-  					sm.nodes.forEach(node => {
+  					(sm.nodes || []).forEach(node => {
   						if (!nodes[node.id]) { nodes[node.id] = { id: node.id, count: 0, group: 'user' }; }
   						if (node.group !== 'user') { nodes[node.id].group = node.group; }
   						nodes[node.id].count += node.count;
   					});
-  					sm.links.forEach(link$$1 => {
+  					(sm.links || []).forEach(link$$1 => {
   						let id = `${link$$1.source}:${link$$1.target}`;
   						if (!links[id]) { links[id] = { source: link$$1.source, target: link$$1.target, value: 0 }; }
   						links[id].value += link$$1.value;
@@ -58397,7 +58406,7 @@
   angular.module('app').run(['$templateCache', function ($templateCache) {
   $templateCache.put('/templates/project.html', '<div class=\"statsbar\">\n	<ul>\n		<li><strong>{{ project.rows | number }}</strong>\n			rows of data</li>\n\n		<li><strong>{{ project.contributions | number }}</strong>\n			contributions</li>\n\n		<li ng-if=\"project.users\"><strong>{{ project.users.length | number }}</strong>\n			users</li>\n\n		<li><strong>{{ project.months.length | number }}</strong>\n			months of data</li>\n\n		<li>Date range for data: {{ project.days[0].date | date:\'dd MMM yyyy\' }} to {{ project.days[project.days.length - 1].date | date:\'dd MMM yyyy\' }}. </li>\n\n		<li><a ng-href=\"project.url\">LPI website</a></li>\n	</ul>\n	<div>\n		<h3>Recent trends</h3>\n\n		<p>Over {{ month.date | date:\'MMM yyyy\' }} (compared with previous month):</p>\n\n		<ul>\n			<li ng-if=\"month.contributions\">\n				<strong>{{ month.contributions | number }}</strong> contributions\n				<span ng-show=\"month.contributions > prevMonth.contributions\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.contributions - prevMonth.contributions }}\n				</span>\n				<span ng-show=\"month.contributions < prevMonth.contributions\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.contributions - prevMonth.contributions }}\n				</span>\n			</li>\n\n			<li ng-if=\"month.users\">\n				<strong>{{ month.users | number }}</strong> contributors\n				<span ng-show=\"month.users > prevMonth.users\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.users - prevMonth.users }}\n				</span>\n				<span ng-show=\"month.users < prevMonth.users\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.users - prevMonth.users }}\n				</span>\n			</li>\n\n			<li ng-if=\"month.starters\">\n				<strong>{{ month.starters | number }}</strong> new contributors\n				<span ng-show=\"month.starters > prevMonth.starters\">\n					<span class=\"ticker up\">&#9650;</span>\n					+{{ month.starters - prevMonth.starters }}\n				</span>\n				<span ng-show=\"month.starters < prevMonth.starters\">\n					<span class=\"ticker down\">&#9660;</span>\n					{{ month.starters - prevMonth.starters }}\n				</span>\n			</li>\n		</ul>\n\n		<!-- <div ng-if=\"month.tasks\">\n			{{ month.tasks | number }} tasks\n		</div> -->\n	</div>\n	<div ng-if=\"project.countries\">\n		<h3>Top Countries</h3>\n		<div ng-if=\"project.users\">\n			<a ng-class=\"{ active: !countryContributors }\" ng-click=\"countryContributors = false\">Contributions</a>\n			<a ng-class=\"{ active: countryContributors }\" ng-click=\"countryContributors = true\">Contributors</a>\n		</div>\n		<ul>\n			<li ng-repeat=\"country in project.countries | orderBy:countryContributors ? \'-users\' : \'-contributions\' | limitTo:10\">\n				<span ng-class=\"\'flag-icon flag-icon-\' + country.country.toLowerCase()\"></span>\n				{{ country.name || \'Unknown\' }}: {{ country[countryContributors ? \'users\' : \'contributions\'] }}\n			</li>\n		</ul>\n	</div>\n</div>\n\n<div class=\"breadcrumb\">\n	<a ui-sref=\"projects\">Light Pollution Indicators</a> &gt;\n	<a ui-sref=\"project({ id: project.id })\">{{ project.name }}</a>\n</div>\n\n<div class=\"project-view\">\n\n	<div class=\"options\" style=\"float: right\" ng-if=\"project.users\">\n		<a ng-click=\"y = \'contributions\'\" ng-class=\"{ active: y === \'contributions\' }\">Contributions</a>\n		<a ng-click=\"y = \'users\'\" ng-class=\"{ active: y === \'users\' }\">Contributors</a>\n		<a ng-click=\"y = \'starters\'\" ng-class=\"{ active: y === \'starters\' }\">New Contributors</a>\n	</div>\n\n	<h1>{{ project.name }}</h1>\n\n	<p ng-if=\"project.subprojects.length > 0\">\n		This project encompases {{ project.subprojects.length }} projects:\n		<span ng-repeat=\"(i, child) in project.subprojects\">\n			<a ui-sref=\"project({ id: child.id })\">{{ child.name }}</a>{{\n				i === project.subprojects.length - 2 ? \' and \' :\n				i === project.subprojects.length - 1 ? \'.\' : \',\' }}\n		</span>\n	</p>\n\n	<p ng-if=\"project.parent\">\n		This project is part of the <a ui-sref=\"project({ id: project.parent.id })\">{{ project.parent.name }}</a> project.\n	</p>\n\n	<div class=\"daygraph\">\n		<div style=\"float:right\">\n			<a ng-class=\"{ active: !monthly }\" ng-click=\"monthly = false\">By day</a>\n			<a ng-class=\"{ active: monthly }\" ng-click=\"monthly = true\">By month</a>\n		</div>\n		<h3>{{ yTitles[y] | capitalize }} over time</h3>\n		<daygraph data=\"monthly ? project.months : project.days\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"300\" monthly=\"monthly\"></daygraph>\n	</div>\n\n	<div class=\"weekdaygraph\">\n		<h3>{{ yTitles[y] | capitalize }} per weekday</h3>\n		<weekdaygraph data=\"project.weekdays\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"250\"></weekdaygraph>\n	</div>\n\n	<div class=\"effortgraph\" ng-if=\"project.users && !project.hideDistributionOfEffort\">\n		<h3>Distribution of effort</h3>\n		<effortgraph data=\"project.users\" axis=\"i === projects.length - 1\" y=\"y\" width=\"700\" height=\"300\"></effortgraph>\n	</div>\n\n\n\n	<!-- <div ng-if=\"project.tasks.complete\">\n		{{ project.tasks.complete | number }}\n		tasks out of\n		{{ project.tasks.complete + project.tasks.incomplete | number }} completed\n		({{ project.tasks.complete / (project.tasks.complete + project.tasks.incomplete) * 100 | number : 2 }}%)\n	</div> -->\n\n	<!-- <div ng-if=\"project.users\">\n		<h3>Tasks over time</h3>\n		<histogram left=\"tasksOverTime\" left-name=\"\'Tasks\'\"></histogram>\n	</div>\n	 -->\n</div>');
   $templateCache.put('/templates/projects.html', '<div class=\"options\" style=\"float: right\">\n	<a ng-click=\"y = \'contributions\'\" ng-class=\"{ active: y === \'contributions\' }\">Contributions</a>\n	<a ng-click=\"y = \'users\'\" ng-class=\"{ active: y === \'users\' }\">Contributors</a>\n	<a ng-click=\"y = \'starters\'\" ng-class=\"{ active: y === \'starters\' }\">New Contributors</a>\n</div>\n\n<h1>Stars4All Community Health Monitor</h1>\n\n<p>This dashboard summarises the amount of community health for each Stars4All LPI.</p>\n\n<p>Below, each LPI is listed with the number of contributions (a submission made by a user) and contributors (a user who has made a contribution). The charts display the number of {{ yTitles[y] }} per weekday (left), the number of {{ yTitles[y] }} over time (centre), and the amount of submissions each contributor has made. Click a LPI to view more details.</p>\n\n<div class=\"projects\">\n	<div ng-repeat=\"(i, project) in projects\" class=\"project\" ui-sref=\"project({ id: project.id })\">\n\n		<div class=\"name\">\n			<strong>{{ project.name }}</strong>\n			<div class=\"parent-icon\" ng-class=\"project.parent.id\" ng-show=\"project.parent\" ng-attr-title=\"Part of the {{ project.parent.name }} project\"></div>\n			<br>\n			{{ project.contributions | number }} contributions by {{ project.users.length | number }} contributors\n		</div>\n\n		<weekdaygraph data=\"project.weekdays\" y=\"y\" q ng-show=\"y === \'contributions\' || project.users\"></weekdaygraph>\n		<span class=\"notavailable weekdaygraph\" ng-if=\"y !== \'contributions\' && !project.users\">Data not available</span>\n\n		<daygraph data=\"project.days\" y=\"y\" ng-if=\"y === \'contributions\' || project.users\"></daygraph>\n		<span class=\"notavailable daygraph\" ng-if=\"y !== \'contributions\' && !project.users\">Data not available</span>\n\n		<effortgraph data=\"project.users\" y=\"y\" ng-if=\"!project.hideDistributionOfEffort\"></effortgraph>\n		<span class=\"notavailable effortgraph\" ng-if=\"project.hideDistributionOfEffort\">Data not available</span>\n\n	</div>\n</div>\n\n<p class=\"legend\">\n	<span class=\"parent-icon my-sky-at-night\"></span> = Part of the <emph>My Sky at Night</emph> project &nbsp;&nbsp;&nbsp;&nbsp;\n	<span class=\"parent-icon cities-at-night\"></span> = Part of the <emph>Cities at Night</emph> project\n</p>\n');
-  $templateCache.put('/templates/socialmedia.html', '<h1>Stars4All on Social Media</h1>\n\n<p></p>\n\n<div class=\"pick\">\n	<!-- <div class=\"bin\">\n		<label ng-repeat=\"account in socialmedia\">\n			<input type=\"checkbox\">\n			M\n		</label>\n	</div> -->\n	<label ng-repeat=\"account in socialmedia\">\n		<input type=\"checkbox\" ng-model=\"account.selected\">\n		{{ account.type | capitalize }}: {{ account.officialAccount }}\n		({{ account.id }})<br>\n		{{ account.totals.followers | number }} followers |\n		{{ account.totals.posts | number }} posts |\n		{{ account.totals.engagers | number }} engagers\n	</label>\n</div>\n\n<tweetline data=\"data\"></tweetline>\n\n<div class=\"hashtags\">\n	Top 50 hashtags:\n	<ul>\n		<li ng-repeat=\"hashtag in hashtags\">\n			{{ hashtag.tag }}: {{ hashtag.count }}\n		</li>\n	</ul>\n</div>\n\n<dgraph></dgraph>\n\n<!--\n	Line chart\nTweets out over time\nTweets in over time \nReplies over time\n\n\nGraph\n\n\n-->');
+  $templateCache.put('/templates/socialmedia.html', '<h1>Stars4All on Social Media</h1>\n\n<p></p>\n\n<div class=\"pick\">\n	<!-- <div class=\"bin\">\n		<label ng-repeat=\"account in socialmedia\">\n			<input type=\"checkbox\">\n			M\n		</label>\n	</div> -->\n	<p>Enable social media accounts to add them to the data view</p>\n	<h3>Twitter</h3>\n	<label ng-repeat=\"account in twitter\">\n		<input type=\"checkbox\" ng-model=\"account.selected\">\n		<div class=\"description\">\n			<div class=\"title\">{{ account.id }}</div>\n			<!-- <div class=\"id\">{{ account.officialAccount }}</div> -->\n			<div class=\"stats\">\n				<strong>{{ account.totals.followers | number }}</strong> followers\n				<strong>{{ account.totals.posts | number }}</strong> posts\n				<strong>{{ account.totals.engagers | number }}</strong> engagers\n			</div>\n		</div>\n	</label>\n\n	<h3>Facebook</h3>\n	<label ng-repeat=\"account in facebook\">\n		<input type=\"checkbox\" ng-model=\"account.selected\">\n		<div class=\"description\">\n			<div class=\"title\">{{ account.id }}</div>\n			<!-- <div class=\"id\">{{ account.officialAccount }}</div> -->\n			<div class=\"stats\">\n				<strong>{{ account.totals.followers | number }}</strong> followers\n				<strong>{{ account.totals.posts | number }}</strong> posts\n				<strong>{{ account.totals.engagers | number }}</strong> engagers\n			</div>\n		</div>\n	</label>\n</div>\n\n<div class=\"view\">\n	<h2>{{ y | capitalize }} over time</h2>\n	\n	<p>Total {{y}}: {{ combined.totals[y] | number }}\n		<span ng-if=\"y !== \'posts\'\">(Avg. {{ combined.totals[y]/combined.totals.posts | number : 2}} per post)</span>\n		</p>\n\n	<div class=\"y-options\">\n		<a ng-click=\"y = \'posts\'\" ng-class=\"{ active: y === \'posts\' }\">Posts</a>\n		<a ng-click=\"y = \'engagers\'\" ng-class=\"{ active: y === \'engagers\' }\">Engagers</a>\n		<a ng-click=\"y = \'comments\'\" ng-class=\"{ active: y === \'comments\' }\">Comments</a>\n		<a ng-click=\"y = \'replies\'\" ng-class=\"{ active: y === \'replies\' }\">Replies</a>\n		<a ng-click=\"y = \'favorites\'\" ng-class=\"{ active: y === \'favorites\' }\">Favorites</a>\n		<a ng-click=\"y = \'mentions\'\" ng-class=\"{ active: y === \'mentions\' }\">Mentions</a>\n		<a ng-click=\"y = \'shares\'\" ng-class=\"{ active: y === \'shares\' }\">Shares</a>\n	</div>\n\n	<tweetline data=\"combined.months\" y=\"y\"></tweetline>\n\n	<div class=\"hashtags\">\n		<h2>Top hashtags</h2>\n		Used by <a ng-click=\"hashtagsIn = false\" ng-class=\"{ active: !hashtagsIn }\">account</a>\n		<a ng-click=\"hashtagsIn = true\" ng-class=\"{ active: hashtagsIn }\">others</a>\n		<ul ng-show=\"hashtagsIn\">\n			<li ng-repeat=\"hashtag in combined.hashtagsIn\">\n				{{ hashtag.tag }}: {{ hashtag.count }}\n			</li>\n		</ul>\n		<ul ng-show=\"!hashtagsIn\">\n			<li ng-repeat=\"hashtag in combined.hashtagsOut\">\n				{{ hashtag.tag }}: {{ hashtag.count }}\n			</li>\n		</ul>\n	</div>\n\n	<h2>User graph</h2>\n\n	<p>This shows how different twitter accounts have interacted. The size of the nodes indicates the amount they have interacted with project social media accounts. Mouse over nodes to see the twitter handle.\n\n	<dgraph></dgraph>\n</div>\n\n<!--\n	Line chart\nTweets out over time\nTweets in over time \nReplies over time\n\n\nGraph\n\n\n-->');
   }]);
 
   window.projects = []; // set up global array for project data

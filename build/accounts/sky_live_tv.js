@@ -844,6 +844,126 @@ window.socialmedia.push({
 		{
 			"tag": "preguntalealaluna",
 			"count": 22
+		},
+		{
+			"tag": "islandia",
+			"count": 22
+		},
+		{
+			"tag": "superluna",
+			"count": 22
+		},
+		{
+			"tag": "equinoccio",
+			"count": 21
+		},
+		{
+			"tag": "indonesia",
+			"count": 20
+		},
+		{
+			"tag": "cuadrantidas",
+			"count": 20
+		},
+		{
+			"tag": "catalina",
+			"count": 19
+		},
+		{
+			"tag": "perseidas",
+			"count": 19
+		},
+		{
+			"tag": "auroras16",
+			"count": 18
+		},
+		{
+			"tag": "tmt",
+			"count": 17
+		},
+		{
+			"tag": "iceland",
+			"count": 17
+		},
+		{
+			"tag": "lunareclipse",
+			"count": 17
+		},
+		{
+			"tag": "greenland",
+			"count": 16
+		},
+		{
+			"tag": "finlandia",
+			"count": 16
+		},
+		{
+			"tag": "eclipseskylivetv",
+			"count": 16
+		},
+		{
+			"tag": "astrophotography",
+			"count": 15
+		},
+		{
+			"tag": "gemínidas",
+			"count": 15
+		},
+		{
+			"tag": "auroraborealis",
+			"count": 14
+		},
+		{
+			"tag": "extremadura",
+			"count": 14
+		},
+		{
+			"tag": "solareclipse",
+			"count": 14
+		},
+		{
+			"tag": "palu",
+			"count": 14
+		},
+		{
+			"tag": "eclipsesolar",
+			"count": 14
+		},
+		{
+			"tag": "eclipse2015",
+			"count": 14
+		},
+		{
+			"tag": "perseidasskylive",
+			"count": 13
+		},
+		{
+			"tag": "girona",
+			"count": 13
+		},
+		{
+			"tag": "2015tb145",
+			"count": 13
+		},
+		{
+			"tag": "shelios2015",
+			"count": 12
+		},
+		{
+			"tag": "perseids16",
+			"count": 12
+		},
+		{
+			"tag": "volvemosalaluna",
+			"count": 12
+		},
+		{
+			"tag": "auroras",
+			"count": 12
+		},
+		{
+			"tag": "quadrantids",
+			"count": 12
 		}
 	],
 	"hashtagsIn": [
@@ -925,6 +1045,38 @@ window.socialmedia.push({
 		},
 		{
 			"tag": "windowsxp",
+			"count": 1
+		},
+		{
+			"tag": "astronomía",
+			"count": 1
+		},
+		{
+			"tag": "riveravenezuelaep",
+			"count": 1
+		},
+		{
+			"tag": "eclipseskylivetv",
+			"count": 1
+		},
+		{
+			"tag": "aurorasboreales2015",
+			"count": 1
+		},
+		{
+			"tag": "meteoros",
+			"count": 1
+		},
+		{
+			"tag": "expedicioncorreos",
+			"count": 1
+		},
+		{
+			"tag": "geminidas15",
+			"count": 1
+		},
+		{
+			"tag": "pregúntalealaluna",
 			"count": 1
 		}
 	],
@@ -1034,394 +1186,9 @@ window.socialmedia.push({
 	],
 	"links": [
 		{
-			"source": "lacazadora",
+			"source": "lullafanson",
 			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "culofino91",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "nebulosaaparte",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "daniel_gemmerli",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "vandyckaldo",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "osexxxo",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "lauraromeo6",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "giloyagil",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "serplo9",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "jhonattanlozano",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "monica_nve",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "javierarmentia",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "beatka108",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "carojardon",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "pgonibe",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "diandrapolo",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "1asiulkaaa",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "mariahe76786140",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "fdelsaz",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "nestorelvis",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sonypiva",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "jesseard",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "joasie27",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "rosatzimba",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "ohussipa",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "wk432",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "espaigalileu",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "espaigalileu",
-			"value": 1
-		},
-		{
-			"source": "hestahof",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "hestahof",
-			"value": 1
-		},
-		{
-			"source": "spacetoday1",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "spacetoday1",
-			"value": 1
-		},
-		{
-			"source": "snapyourworld",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "snapyourworld",
-			"value": 1
-		},
-		{
-			"source": "salvabara",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "salvabara",
-			"value": 1
-		},
-		{
-			"source": "astrodaimiel",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "astrodaimiel",
-			"value": 1
-		},
-		{
-			"source": "astrolapalma",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "astrolapalma",
-			"value": 1
-		},
-		{
-			"source": "agenciaiisi",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "agenciaiisi",
-			"value": 1
-		},
-		{
-			"source": "miremosalcielo",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "miremosalcielo",
-			"value": 1
-		},
-		{
-			"source": "systemdance",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "systemdance",
-			"value": 1
-		},
-		{
-			"source": "sobinayu",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "sobinayu",
-			"value": 1
-		},
-		{
-			"source": "ypramudya",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "ypramudya",
-			"value": 1
-		},
-		{
-			"source": "eloycam2012",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "eloycam2012",
-			"value": 1
-		},
-		{
-			"source": "rolscience",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "rolscience",
-			"value": 1
-		},
-		{
-			"source": "meteobetera",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "meteobetera",
-			"value": 1
-		},
-		{
-			"source": "antareslapalma",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "antareslapalma",
-			"value": 1
-		},
-		{
-			"source": "astronomiared",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "astronomiared",
-			"value": 1
-		},
-		{
-			"source": "janhattenbach",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "janhattenbach",
-			"value": 1
-		},
-		{
-			"source": "100tifikosfyq",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "100tifikosfyq",
-			"value": 1
-		},
-		{
-			"source": "agrupacionio",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "agrupacionio",
-			"value": 1
-		},
-		{
-			"source": "oscarastro",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "oscarastro",
-			"value": 1
-		},
-		{
-			"source": "astroprc",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "astroprc",
-			"value": 1
-		},
-		{
-			"source": "antmarcarr",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "antmarcarr",
-			"value": 1
-		},
-		{
-			"source": "sergireboredo",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "sergireboredo",
-			"value": 1
-		},
-		{
-			"source": "55enrique",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "55enrique",
-			"value": 1
-		},
-		{
-			"source": "gerperazzo",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "gerperazzo",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "astrolass",
@@ -1431,27 +1198,17 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "astrolass",
-			"value": 1
-		},
-		{
-			"source": "astronomia_mag",
-			"target": "sky_live_tv",
-			"value": 1
+			"value": 5
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "astronomia_mag",
-			"value": 1
-		},
-		{
-			"source": "jgcasta",
-			"target": "sky_live_tv",
-			"value": 1
+			"target": "gloria",
+			"value": 7
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "jgcasta",
-			"value": 1
+			"target": "pacosanm",
+			"value": 4
 		},
 		{
 			"source": "cristobethencou",
@@ -1461,16 +1218,26 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "cristobethencou",
-			"value": 1
+			"value": 5
 		},
 		{
 			"source": "moonselene",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "sky_live_tv",
 			"target": "moonselene",
+			"value": 3
+		},
+		{
+			"source": "lauragmgb",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "lauragmgb",
 			"value": 1
 		},
 		{
@@ -1481,17 +1248,22 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "ivazd",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "carmelohp",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "sky_live_tv",
 			"target": "carmelohp",
-			"value": 1
+			"value": 6
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "torrentzine",
+			"value": 2
 		},
 		{
 			"source": "vizcainimatilde",
@@ -1501,7 +1273,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "vizcainimatilde",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "reloadfast",
@@ -1511,7 +1283,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "reloadfast",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "gloriaproject",
@@ -1521,7 +1293,17 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "gloriaproject",
-			"value": 1
+			"value": 62
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "lab_rtvees",
+			"value": 53
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "asteroidwatch",
+			"value": 5
 		},
 		{
 			"source": "aescayo",
@@ -1531,17 +1313,52 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "aescayo",
-			"value": 1
+			"value": 3
 		},
 		{
-			"source": "meteotenerife",
+			"source": "miguelelgodo",
 			"target": "sky_live_tv",
 			"value": 1
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "meteotenerife",
-			"value": 1
+			"target": "miguelelgodo",
+			"value": 3
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "sky",
+			"value": 5
+		},
+		{
+			"source": "leoastronomada",
+			"target": "sky_live_tv",
+			"value": 4
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "leoastronomada",
+			"value": 8
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "cablapalma",
+			"value": 8
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "iac",
+			"value": 11
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "viajestuareg",
+			"value": 6
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "esa_es",
+			"value": 4
 		},
 		{
 			"source": "rico50fede",
@@ -1551,7 +1368,17 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "rico50fede",
-			"value": 1
+			"value": 9
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "fjcasademont",
+			"value": 8
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "efeverde",
+			"value": 6
 		},
 		{
 			"source": "ipmenendez",
@@ -1561,17 +1388,12 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "ipmenendez",
-			"value": 1
-		},
-		{
-			"source": "el_lobo_rayado",
-			"target": "sky_live_tv",
-			"value": 1
+			"value": 7
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "el_lobo_rayado",
-			"value": 1
+			"target": "spacedotcom",
+			"value": 4
 		},
 		{
 			"source": "dhojados",
@@ -1581,7 +1403,57 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "dhojados",
+			"value": 4
+		},
+		{
+			"source": "maite_lao",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "maite_lao",
 			"value": 1
+		},
+		{
+			"source": "dianabg1",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "dianabg1",
+			"value": 1
+		},
+		{
+			"source": "cbvazquez74",
+			"target": "sky_live_tv",
+			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "cbvazquez74",
+			"value": 3
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "efetv",
+			"value": 4
+		},
+		{
+			"source": "vivolaura",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "vivolaura",
+			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "casado_starry",
+			"value": 48
 		},
 		{
 			"source": "ramonlarramendi",
@@ -1591,7 +1463,22 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "ramonlarramendi",
+			"value": 6
+		},
+		{
+			"source": "selohu",
+			"target": "sky_live_tv",
 			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "selohu",
+			"value": 3
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "aurora_alerts",
+			"value": 10
 		},
 		{
 			"source": "eglezguardia",
@@ -1601,7 +1488,32 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "eglezguardia",
+			"value": 5
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "philae2014",
+			"value": 4
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "thephotohour",
+			"value": 7
+		},
+		{
+			"source": "viatgestuareg",
+			"target": "sky_live_tv",
 			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "viatgestuareg",
+			"value": 5
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "esa_rosetta",
+			"value": 10
 		},
 		{
 			"source": "astronomiaftv",
@@ -1611,7 +1523,12 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "astronomiaftv",
-			"value": 1
+			"value": 3
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "esa",
+			"value": 14
 		},
 		{
 			"source": "efefuturo",
@@ -1621,17 +1538,37 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "efefuturo",
-			"value": 1
+			"value": 31
 		},
 		{
-			"source": "agomezroldan",
+			"source": "sky_live_tv",
+			"target": "minorplanetctr",
+			"value": 5
+		},
+		{
+			"source": "astro_turismo",
 			"target": "sky_live_tv",
 			"value": 1
 		},
 		{
 			"source": "sky_live_tv",
+			"target": "astro_turismo",
+			"value": 8
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "tv3cat",
+			"value": 5
+		},
+		{
+			"source": "agomezroldan",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
 			"target": "agomezroldan",
-			"value": 1
+			"value": 15
 		},
 		{
 			"source": "rtveteleplaneta",
@@ -1641,7 +1578,12 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "rtveteleplaneta",
-			"value": 1
+			"value": 54
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "efenoticias",
+			"value": 6
 		},
 		{
 			"source": "shedka",
@@ -1651,7 +1593,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "shedka",
-			"value": 1
+			"value": 9
 		},
 		{
 			"source": "marpinchar",
@@ -1661,17 +1603,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "marpinchar",
-			"value": 1
-		},
-		{
-			"source": "pmisson",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "pmisson",
-			"value": 1
+			"value": 7
 		},
 		{
 			"source": "avcanoficial",
@@ -1681,27 +1613,87 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "avcanoficial",
-			"value": 1
+			"value": 6
 		},
 		{
-			"source": "ctorrresg",
+			"source": "sky_live_tv",
+			"target": "cacostacl",
+			"value": 2
+		},
+		{
+			"source": "volcanoteide",
 			"target": "sky_live_tv",
 			"value": 1
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "ctorrresg",
-			"value": 1
+			"target": "volcanoteide",
+			"value": 9
+		},
+		{
+			"source": "loqueveotfe",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "loqueveotfe",
+			"value": 3
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "pnteide",
+			"value": 9
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "mobotixcanarias",
+			"value": 17
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "rtve",
+			"value": 33
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "aemet_esp",
+			"value": 5
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "earthskyscience",
+			"value": 14
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "gtctelescope",
+			"value": 5
 		},
 		{
 			"source": "aquilatierratve",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "sky_live_tv",
 			"target": "aquilatierratve",
+			"value": 72
+		},
+		{
+			"source": "am_israel",
+			"target": "sky_live_tv",
 			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "am_israel",
+			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "youtube",
+			"value": 37
 		},
 		{
 			"source": "stormhour",
@@ -1711,17 +1703,22 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "stormhour",
-			"value": 1
-		},
-		{
-			"source": "el_tiempohoy",
-			"target": "sky_live_tv",
-			"value": 1
+			"value": 75
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "el_tiempohoy",
-			"value": 1
+			"target": "spaceweather",
+			"value": 20
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "nasa",
+			"value": 11
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "apod",
+			"value": 12
 		},
 		{
 			"source": "rguezalarcon",
@@ -1731,7 +1728,12 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "rguezalarcon",
-			"value": 1
+			"value": 12
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "franeriel",
+			"value": 3
 		},
 		{
 			"source": "dmax_es",
@@ -1741,7 +1743,42 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "dmax_es",
+			"value": 3
+		},
+		{
+			"source": "planetariomed",
+			"target": "sky_live_tv",
 			"value": 1
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "planetariomed",
+			"value": 1
+		},
+		{
+			"source": "asstecbetera",
+			"target": "sky_live_tv",
+			"value": 5
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "asstecbetera",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "parcastronomic",
+			"value": 5
+		},
+		{
+			"source": "humitsec",
+			"target": "sky_live_tv",
+			"value": 4
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "humitsec",
+			"value": 3
 		},
 		{
 			"source": "elsegundoluz",
@@ -1751,17 +1788,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "elsegundoluz",
-			"value": 1
-		},
-		{
-			"source": "controlbyte",
-			"target": "sky_live_tv",
-			"value": 1
-		},
-		{
-			"source": "sky_live_tv",
-			"target": "controlbyte",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "cefalopodo",
@@ -1771,7 +1798,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "cefalopodo",
-			"value": 1
+			"value": 8
 		},
 		{
 			"source": "rutaestrellas",
@@ -1781,7 +1808,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "rutaestrellas",
-			"value": 1
+			"value": 35
 		},
 		{
 			"source": "planetariomad",
@@ -1791,17 +1818,52 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "planetariomad",
-			"value": 1
+			"value": 7
 		},
 		{
-			"source": "ssolariac",
+			"source": "sky_live_tv",
+			"target": "jacobpetrus_tve",
+			"value": 7
+		},
+		{
+			"source": "unicomplutense",
 			"target": "sky_live_tv",
 			"value": 1
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "ssolariac",
-			"value": 1
+			"target": "unicomplutense",
+			"value": 8
+		},
+		{
+			"source": "cielosboreales",
+			"target": "sky_live_tv",
+			"value": 2
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "cielosboreales",
+			"value": 5
+		},
+		{
+			"source": "jhoynerscs",
+			"target": "sky_live_tv",
+			"value": 4
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "jhoynerscs",
+			"value": 5
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "lusupertramp",
+			"value": 10
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "aemet_izana",
+			"value": 7
 		},
 		{
 			"source": "cazasteroides",
@@ -1811,27 +1873,42 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "cazasteroides",
-			"value": 1
+			"value": 12
 		},
 		{
-			"source": "csuc_info",
+			"source": "wonderfulgalaxy",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "csuc_info",
-			"value": 1
+			"target": "wonderfulgalaxy",
+			"value": 2
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "sky_live_tv",
+			"value": 3
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "luisdiaztweet",
+			"value": 4
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "aemet_canarias",
+			"value": 10
 		},
 		{
 			"source": "canarias_es",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "sky_live_tv",
 			"target": "canarias_es",
-			"value": 1
+			"value": 203
 		},
 		{
 			"source": "casadostarry1",
@@ -1841,17 +1918,12 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "casadostarry1",
-			"value": 1
-		},
-		{
-			"source": "pepechambo",
-			"target": "sky_live_tv",
-			"value": 1
+			"value": 81
 		},
 		{
 			"source": "sky_live_tv",
-			"target": "pepechambo",
-			"value": 1
+			"target": "efeciencia",
+			"value": 21
 		},
 		{
 			"source": "stars4all_eu",
@@ -1861,17 +1933,17 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 208
 		},
 		{
 			"source": "iac_astrofisica",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "sky_live_tv",
 			"target": "iac_astrofisica",
-			"value": 1
+			"value": 288
 		},
 		{
 			"source": "cities4tnight",
@@ -1881,7 +1953,7 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 6
 		},
 		{
 			"source": "stars4all_es",
@@ -1891,6 +1963,296 @@ window.socialmedia.push({
 		{
 			"source": "sky_live_tv",
 			"target": "stars4all_es",
+			"value": 43
+		},
+		{
+			"source": "sky_live_tv",
+			"target": "sky_live_tv",
+			"value": 671
+		},
+		{
+			"source": "maite_lao",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "ivazd",
+			"target": "ivazd",
+			"value": 1
+		},
+		{
+			"source": "vivolaura",
+			"target": "aurora_alerts",
+			"value": 1
+		},
+		{
+			"source": "astro_turismo",
+			"target": "astro_turismo",
+			"value": 1
+		},
+		{
+			"source": "am_israel",
+			"target": "am_israel",
+			"value": 1
+		},
+		{
+			"source": "astrolass",
+			"target": "astrolass",
+			"value": 1
+		},
+		{
+			"source": "jacobpetrus_tve",
+			"target": "aemet_canarias",
+			"value": 1
+		},
+		{
+			"source": "jacobpetrus_tve",
+			"target": "planetariomad",
+			"value": 1
+		},
+		{
+			"source": "jacobpetrus_tve",
+			"target": "iac_astrofisica",
+			"value": 1
+		},
+		{
+			"source": "jacobpetrus_tve",
+			"target": "sky_live_tv",
+			"value": 1
+		},
+		{
+			"source": "moonselene",
+			"target": "jacobpetrus_tve",
+			"value": 1
+		},
+		{
+			"source": "moonselene",
+			"target": "iac_astrofisica",
+			"value": 1
+		},
+		{
+			"source": "moonselene",
+			"target": "canarias_es",
+			"value": 1
+		},
+		{
+			"source": "moonselene",
+			"target": "aquilatierratve",
+			"value": 1
+		},
+		{
+			"source": "franeriel",
+			"target": "sky_live_tv",
+			"value": 3
+		},
+		{
+			"source": "franeriel",
+			"target": "stars4all_eu",
+			"value": 3
+		},
+		{
+			"source": "franeriel",
+			"target": "iac_astrofisica",
+			"value": 3
+		},
+		{
+			"source": "lusupertramp",
+			"target": "sky_live_tv",
+			"value": 4
+		},
+		{
+			"source": "lusupertramp",
+			"target": "jhoynerscs",
+			"value": 1
+		},
+		{
+			"source": "jhoynerscs",
+			"target": "lusupertramp",
+			"value": 3
+		},
+		{
+			"source": "casadostarry1",
+			"target": "fjcasademont",
+			"value": 1
+		},
+		{
+			"source": "dianabg1",
+			"target": "rtve",
+			"value": 1
+		},
+		{
+			"source": "dianabg1",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "aescayo",
+			"target": "aescayo",
+			"value": 1
+		},
+		{
+			"source": "lauragmgb",
+			"target": "iac_astrofisica",
+			"value": 1
+		},
+		{
+			"source": "lauragmgb",
+			"target": "canarias_es",
+			"value": 1
+		},
+		{
+			"source": "wonderfulgalaxy",
+			"target": "wonderfulgalaxy",
+			"value": 1
+		},
+		{
+			"source": "eglezguardia",
+			"target": "eglezguardia",
+			"value": 1
+		},
+		{
+			"source": "carmelohp",
+			"target": "aquilatierratve",
+			"value": 1
+		},
+		{
+			"source": "carmelohp",
+			"target": "casado_starry",
+			"value": 1
+		},
+		{
+			"source": "carmelohp",
+			"target": "lab_rtvees",
+			"value": 1
+		},
+		{
+			"source": "carmelohp",
+			"target": "iac_astrofisica",
+			"value": 1
+		},
+		{
+			"source": "carmelohp",
+			"target": "canarias_es",
+			"value": 1
+		},
+		{
+			"source": "reloadfast",
+			"target": "reloadfast",
+			"value": 1
+		},
+		{
+			"source": "leoastronomada",
+			"target": "youtube",
+			"value": 2
+		},
+		{
+			"source": "leoastronomada",
+			"target": "cielosboreales",
+			"value": 2
+		},
+		{
+			"source": "cielosboreales",
+			"target": "leoastronomada",
+			"value": 3
+		},
+		{
+			"source": "cacostacl",
+			"target": "sky_live_tv",
+			"value": 3
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "planetariomad",
+			"value": 1
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "stars4all_es",
+			"value": 1
+		},
+		{
+			"source": "dmax_es",
+			"target": "dmax_es",
+			"value": 1
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "dmax_es",
+			"value": 1
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "iac_astrofisica",
+			"value": 1
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "luisdiaztweet",
+			"target": "casadostarry1",
+			"value": 1
+		},
+		{
+			"source": "vizcainimatilde",
+			"target": "vizcainimatilde",
+			"value": 1
+		},
+		{
+			"source": "miguelelgodo",
+			"target": "miguelelgodo",
+			"value": 2
+		},
+		{
+			"source": "torrentzine",
+			"target": "canarias_es",
+			"value": 1
+		},
+		{
+			"source": "torrentzine",
+			"target": "sky_live_tv",
+			"value": 1
+		},
+		{
+			"source": "asstecbetera",
+			"target": "casadostarry1",
+			"value": 1
+		},
+		{
+			"source": "asstecbetera",
+			"target": "planetariomed",
+			"value": 3
+		},
+		{
+			"source": "iac_astrofisica",
+			"target": "stars4all_eu",
+			"value": 2
+		},
+		{
+			"source": "asstecbetera",
+			"target": "iac_astrofisica",
+			"value": 3
+		},
+		{
+			"source": "asstecbetera",
+			"target": "stars4all_eu",
+			"value": 4
+		},
+		{
+			"source": "asstecbetera",
+			"target": "elsegundoluz",
+			"value": 3
+		},
+		{
+			"source": "loqueveotfe",
+			"target": "aemet_izana",
+			"value": 1
+		},
+		{
+			"source": "loqueveotfe",
+			"target": "volcanoteide",
 			"value": 1
 		}
 	],
@@ -1898,502 +2260,502 @@ window.socialmedia.push({
 		{
 			"id": "sky_live_tv",
 			"group": "sky_live_tv",
-			"count": 4474
-		},
-		{
-			"id": "csuc_info",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "espaigalileu",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "hestahof",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "spacetoday1",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "snapyourworld",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "salvabara",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astrodaimiel",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astrolapalma",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "agenciaiisi",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "miremosalcielo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "systemdance",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sobinayu",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ypramudya",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "eloycam2012",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rolscience",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "meteobetera",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "antareslapalma",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astronomiared",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "janhattenbach",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "100tifikosfyq",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "agrupacionio",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "oscarastro",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astroprc",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "antmarcarr",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sergireboredo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "55enrique",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "gerperazzo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "stars4all_es",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cities4tnight",
-			"group": "user",
-			"count": 2
+			"count": 8024
 		},
 		{
 			"id": "iac_astrofisica",
 			"group": "user",
-			"count": 2
+			"count": 305
 		},
 		{
 			"id": "stars4all_eu",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astrolass",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astronomia_mag",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "pepechambo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "casadostarry1",
-			"group": "user",
-			"count": 2
+			"count": 222
 		},
 		{
 			"id": "canarias_es",
 			"group": "user",
-			"count": 2
+			"count": 209
 		},
 		{
-			"id": "meteotenerife",
+			"id": "casadostarry1",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cazasteroides",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ssolariac",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "jgcasta",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "planetariomad",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rutaestrellas",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cefalopodo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "controlbyte",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "elsegundoluz",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cristobethencou",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "moonselene",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ivazd",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "carmelohp",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "vizcainimatilde",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "reloadfast",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "dmax_es",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "gloriaproject",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rguezalarcon",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "el_tiempohoy",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "stormhour",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "aescayo",
-			"group": "user",
-			"count": 2
+			"count": 86
 		},
 		{
 			"id": "aquilatierratve",
 			"group": "user",
-			"count": 2
+			"count": 77
 		},
 		{
-			"id": "ctorrresg",
+			"id": "stormhour",
 			"group": "user",
-			"count": 2
+			"count": 76
 		},
 		{
-			"id": "avcanoficial",
+			"id": "gloriaproject",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "pmisson",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "marpinchar",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "shedka",
-			"group": "user",
-			"count": 2
+			"count": 63
 		},
 		{
 			"id": "rtveteleplaneta",
 			"group": "user",
-			"count": 2
+			"count": 55
 		},
 		{
-			"id": "agomezroldan",
+			"id": "lab_rtvees",
 			"group": "user",
-			"count": 2
+			"count": 54
+		},
+		{
+			"id": "casado_starry",
+			"group": "user",
+			"count": 49
+		},
+		{
+			"id": "asstecbetera",
+			"group": "user",
+			"count": 48
+		},
+		{
+			"id": "stars4all_es",
+			"group": "user",
+			"count": 45
+		},
+		{
+			"id": "youtube",
+			"group": "user",
+			"count": 40
+		},
+		{
+			"id": "rutaestrellas",
+			"group": "user",
+			"count": 36
+		},
+		{
+			"id": "rtve",
+			"group": "user",
+			"count": 34
 		},
 		{
 			"id": "efefuturo",
 			"group": "user",
-			"count": 2
+			"count": 32
 		},
 		{
-			"id": "astronomiaftv",
+			"id": "efeciencia",
 			"group": "user",
-			"count": 2
+			"count": 21
 		},
 		{
-			"id": "eglezguardia",
+			"id": "spaceweather",
 			"group": "user",
-			"count": 2
+			"count": 20
 		},
 		{
-			"id": "ramonlarramendi",
+			"id": "leoastronomada",
 			"group": "user",
-			"count": 2
+			"count": 19
 		},
 		{
-			"id": "dhojados",
+			"id": "agomezroldan",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "el_lobo_rayado",
+			"id": "lusupertramp",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "ipmenendez",
+			"id": "mobotixcanarias",
 			"group": "user",
-			"count": 2
+			"count": 17
+		},
+		{
+			"id": "carmelohp",
+			"group": "user",
+			"count": 15
+		},
+		{
+			"id": "earthskyscience",
+			"group": "user",
+			"count": 14
+		},
+		{
+			"id": "esa",
+			"group": "user",
+			"count": 14
+		},
+		{
+			"id": "rguezalarcon",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "luisdiaztweet",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "cazasteroides",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "jhoynerscs",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "franeriel",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "jacobpetrus_tve",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "apod",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "cielosboreales",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "volcanoteide",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "nasa",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "aurora_alerts",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "aemet_canarias",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "iac",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "astro_turismo",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "shedka",
+			"group": "user",
+			"count": 11
 		},
 		{
 			"id": "rico50fede",
 			"group": "user",
-			"count": 2
+			"count": 10
 		},
 		{
-			"id": "wk432",
+			"id": "esa_rosetta",
 			"group": "user",
-			"count": 1
+			"count": 10
 		},
 		{
-			"id": "lacazadora",
+			"id": "planetariomad",
 			"group": "user",
-			"count": 1
+			"count": 10
 		},
 		{
-			"id": "culofino91",
+			"id": "unicomplutense",
 			"group": "user",
-			"count": 1
+			"count": 9
 		},
 		{
-			"id": "nebulosaaparte",
+			"id": "cefalopodo",
 			"group": "user",
-			"count": 1
+			"count": 9
 		},
 		{
-			"id": "daniel_gemmerli",
+			"id": "fjcasademont",
 			"group": "user",
-			"count": 1
+			"count": 9
 		},
 		{
-			"id": "vandyckaldo",
+			"id": "pnteide",
 			"group": "user",
-			"count": 1
+			"count": 9
 		},
 		{
-			"id": "osexxxo",
+			"id": "moonselene",
 			"group": "user",
-			"count": 1
+			"count": 9
 		},
 		{
-			"id": "lauraromeo6",
+			"id": "miguelelgodo",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "giloyagil",
+			"id": "eglezguardia",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "serplo9",
+			"id": "marpinchar",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "jhonattanlozano",
+			"id": "cablapalma",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "monica_nve",
+			"id": "aemet_izana",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "javierarmentia",
+			"id": "elsegundoluz",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "beatka108",
+			"id": "ipmenendez",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "carojardon",
+			"id": "astrolass",
 			"group": "user",
-			"count": 1
+			"count": 8
 		},
 		{
-			"id": "pgonibe",
+			"id": "ivazd",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "diandrapolo",
+			"id": "ramonlarramendi",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "1asiulkaaa",
+			"id": "thephotohour",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "mariahe76786140",
+			"id": "avcanoficial",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "fdelsaz",
+			"id": "loqueveotfe",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "nestorelvis",
+			"id": "gloria",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "sonypiva",
+			"id": "cities4tnight",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "jesseard",
+			"id": "dmax_es",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "joasie27",
+			"id": "humitsec",
 			"group": "user",
-			"count": 1
+			"count": 7
 		},
 		{
-			"id": "rosatzimba",
+			"id": "viajestuareg",
 			"group": "user",
-			"count": 1
+			"count": 6
 		},
 		{
-			"id": "ohussipa",
+			"id": "cristobethencou",
 			"group": "user",
-			"count": 1
+			"count": 6
+		},
+		{
+			"id": "efenoticias",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "efeverde",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "wonderfulgalaxy",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "viatgestuareg",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "reloadfast",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "aescayo",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "gtctelescope",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "asteroidwatch",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "parcastronomic",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "sky",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "planetariomed",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "aemet_esp",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "cacostacl",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "tv3cat",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "minorplanetctr",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "lauragmgb",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "dianabg1",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "dhojados",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "vizcainimatilde",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "am_israel",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "lullafanson",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "esa_es",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "torrentzine",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "spacedotcom",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "maite_lao",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "cbvazquez74",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "efetv",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "vivolaura",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "selohu",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "philae2014",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "astronomiaftv",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "pacosanm",
+			"group": "user",
+			"count": 4
 		}
 	]
 });

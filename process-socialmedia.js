@@ -99,7 +99,7 @@ const processTwitter = id => {
 				hashtagsIn = {};
 			edges.forEach(edge => {
 				let month = moment(edge.date).format('YYYY-MM');
-				if (edge.relationship === 'Follows' && edge.vertex1 && edge.vertex2) {
+				if (edge.vertex1 && edge.vertex2) {
 					let link = links[`${edge.vertex1}:${edge.vertex2}`];
 					if (!link) {
 						link = links[`${edge.vertex1}:${edge.vertex2}`] = { source: edge.vertex1, target: edge.vertex2, value: 0 };
@@ -156,12 +156,12 @@ const processTwitter = id => {
 			hashtagsIn = Object.entries(hashtagsIn)
 				.map(([tag, count]) => ({ tag, count }))
 				.sort((a, b) => b.count - a.count)
-				.slice(0, 20);
+				.slice(0, 50);
 
 			hashtagsOut = Object.entries(hashtagsOut)
 				.map(([tag, count]) => ({ tag, count }))
 				.sort((a, b) => b.count - a.count)
-				.slice(0, 20);
+				.slice(0, 50);
 
 			let project = { id, type: 'twitter', officialAccount, months, totals,
 				hashtagsOut, hashtagsIn, mostFavorited, mostShared, links, nodes };

@@ -844,6 +844,126 @@ window.socialmedia.push({
 		{
 			"tag": "nightpod",
 			"count": 1
+		},
+		{
+			"tag": "madrid",
+			"count": 1
+		},
+		{
+			"tag": "london",
+			"count": 1
+		},
+		{
+			"tag": "paris",
+			"count": 1
+		},
+		{
+			"tag": "guardian",
+			"count": 1
+		},
+		{
+			"tag": "time",
+			"count": 1
+		},
+		{
+			"tag": "bild",
+			"count": 1
+		},
+		{
+			"tag": "chronobiology",
+			"count": 1
+		},
+		{
+			"tag": "chronocity",
+			"count": 1
+		},
+		{
+			"tag": "space",
+			"count": 1
+		},
+		{
+			"tag": "job",
+			"count": 1
+		},
+		{
+			"tag": "spiegel",
+			"count": 1
+		},
+		{
+			"tag": "lichtplanung",
+			"count": 1
+		},
+		{
+			"tag": "architekten",
+			"count": 1
+		},
+		{
+			"tag": "aurora",
+			"count": 1
+		},
+		{
+			"tag": "ecological",
+			"count": 1
+		},
+		{
+			"tag": "india",
+			"count": 1
+		},
+		{
+			"tag": "nytimes",
+			"count": 1
+		},
+		{
+			"tag": "poster",
+			"count": 1
+		},
+		{
+			"tag": "exhibition",
+			"count": 1
+		},
+		{
+			"tag": "saveenergy",
+			"count": 1
+		},
+		{
+			"tag": "conference",
+			"count": 1
+		},
+		{
+			"tag": "brini",
+			"count": 1
+		},
+		{
+			"tag": "health",
+			"count": 1
+		},
+		{
+			"tag": "verlustdernacht",
+			"count": 1
+		},
+		{
+			"tag": "lndw",
+			"count": 1
+		},
+		{
+			"tag": "scienceslam",
+			"count": 1
+		},
+		{
+			"tag": "sleep",
+			"count": 1
+		},
+		{
+			"tag": "alan13",
+			"count": 1
+		},
+		{
+			"tag": "biodiversity",
+			"count": 1
+		},
+		{
+			"tag": "tropic",
+			"count": 1
 		}
 	],
 	"hashtagsIn": [],
@@ -952,66 +1072,6 @@ window.socialmedia.push({
 		}
 	],
 	"links": [
-		{
-			"source": "astrozwerge",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "palomarskies",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "sternwarte_ac",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "elmarveenendaal",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "idatokyo",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "spaceemma",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "glynnelectric",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "coconutberg",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "cameranashraf",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "darkskymeter",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "iwemedia",
-			"target": "verlustdernacht",
-			"value": 1
-		},
-		{
-			"source": "taniadominici",
-			"target": "verlustdernacht",
-			"value": 1
-		},
 		{
 			"source": "vincent_lcy",
 			"target": "verlustdernacht",
@@ -1483,6 +1543,26 @@ window.socialmedia.push({
 			"value": 1
 		},
 		{
+			"source": "verlustdernacht",
+			"target": "famelab_germany",
+			"value": 2
+		},
+		{
+			"source": "rasc_lpa",
+			"target": "verlustdernacht",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "rasc_lpa",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "astro_andre",
+			"value": 3
+		},
+		{
 			"source": "cfds_uk",
 			"target": "verlustdernacht",
 			"value": 1
@@ -1490,6 +1570,41 @@ window.socialmedia.push({
 		{
 			"source": "verlustdernacht",
 			"target": "cfds_uk",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "guardianeco",
+			"value": 5
+		},
+		{
+			"source": "janhattenbach",
+			"target": "verlustdernacht",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "janhattenbach",
+			"value": 1
+		},
+		{
+			"source": "costlonne",
+			"target": "verlustdernacht",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "costlonne",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "globeatnight",
+			"value": 6
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "lightlandscapes",
 			"value": 1
 		},
 		{
@@ -1500,7 +1615,37 @@ window.socialmedia.push({
 		{
 			"source": "verlustdernacht",
 			"target": "idadarksky",
+			"value": 6
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "bad_kissingen",
+			"value": 2
+		},
+		{
+			"source": "carolynwillitts",
+			"target": "verlustdernacht",
 			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "carolynwillitts",
+			"value": 1
+		},
+		{
+			"source": "kluegstenacht",
+			"target": "verlustdernacht",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "kluegstenacht",
+			"value": 1
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "faz_wissen",
+			"value": 2
 		},
 		{
 			"source": "pmisson",
@@ -1510,16 +1655,31 @@ window.socialmedia.push({
 		{
 			"source": "verlustdernacht",
 			"target": "pmisson",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "skyglowberlin",
 			"target": "verlustdernacht",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "verlustdernacht",
 			"target": "skyglowberlin",
+			"value": 12
+		},
+		{
+			"source": "verlustdernacht",
+			"target": "verlustdernacht",
+			"value": 67
+		},
+		{
+			"source": "carolynwillitts",
+			"target": "lightlandscapes",
+			"value": 1
+		},
+		{
+			"source": "guardianeco",
+			"target": "guardianeco",
 			"value": 1
 		}
 	],
@@ -1527,10 +1687,75 @@ window.socialmedia.push({
 		{
 			"id": "verlustdernacht",
 			"group": "verlustdernacht",
-			"count": 250
+			"count": 442
 		},
 		{
-			"id": "antorot",
+			"id": "skyglowberlin",
+			"group": "user",
+			"count": 14
+		},
+		{
+			"id": "guardianeco",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "idadarksky",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "globeatnight",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "carolynwillitts",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "pmisson",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "astro_andre",
+			"group": "user",
+			"count": 3
+		},
+		{
+			"id": "cfds_uk",
+			"group": "user",
+			"count": 3
+		},
+		{
+			"id": "costlonne",
+			"group": "user",
+			"count": 3
+		},
+		{
+			"id": "polcouncil",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "couchfm",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "mitforschen",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "famelab_germany",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "rasc_lpa",
 			"group": "user",
 			"count": 2
 		},
@@ -1550,6 +1775,11 @@ window.socialmedia.push({
 			"count": 2
 		},
 		{
+			"id": "janhattenbach",
+			"group": "user",
+			"count": 2
+		},
+		{
 			"id": "reinboth",
 			"group": "user",
 			"count": 2
@@ -1560,12 +1790,32 @@ window.socialmedia.push({
 			"count": 2
 		},
 		{
+			"id": "lightlandscapes",
+			"group": "user",
+			"count": 2
+		},
+		{
 			"id": "irserkner",
 			"group": "user",
 			"count": 2
 		},
 		{
-			"id": "cfds_uk",
+			"id": "bad_kissingen",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "antorot",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "kluegstenacht",
+			"group": "user",
+			"count": 2
+		},
+		{
+			"id": "faz_wissen",
 			"group": "user",
 			"count": 2
 		},
@@ -1575,97 +1825,7 @@ window.socialmedia.push({
 			"count": 2
 		},
 		{
-			"id": "polcouncil",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "couchfm",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "mitforschen",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "skyglowberlin",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "pmisson",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "idadarksky",
-			"group": "user",
-			"count": 2
-		},
-		{
 			"id": "skateonfreebird",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "astrozwerge",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "palomarskies",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "sternwarte_ac",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "elmarveenendaal",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "idatokyo",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "spaceemma",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "glynnelectric",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "coconutberg",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "cameranashraf",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "darkskymeter",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "iwemedia",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "taniadominici",
 			"group": "user",
 			"count": 1
 		},

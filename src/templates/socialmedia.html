@@ -9,28 +9,77 @@
 			M
 		</label>
 	</div> -->
-	<label ng-repeat="account in socialmedia">
+	<p>Enable social media accounts to add them to the data view</p>
+	<h3>Twitter</h3>
+	<label ng-repeat="account in twitter">
 		<input type="checkbox" ng-model="account.selected">
-		{{ account.type | capitalize }}: {{ account.officialAccount }}
-		({{ account.id }})<br>
-		{{ account.totals.followers | number }} followers |
-		{{ account.totals.posts | number }} posts |
-		{{ account.totals.engagers | number }} engagers
+		<div class="description">
+			<div class="title">{{ account.id }}</div>
+			<!-- <div class="id">{{ account.officialAccount }}</div> -->
+			<div class="stats">
+				<strong>{{ account.totals.followers | number }}</strong> followers
+				<strong>{{ account.totals.posts | number }}</strong> posts
+				<strong>{{ account.totals.engagers | number }}</strong> engagers
+			</div>
+		</div>
+	</label>
+
+	<h3>Facebook</h3>
+	<label ng-repeat="account in facebook">
+		<input type="checkbox" ng-model="account.selected">
+		<div class="description">
+			<div class="title">{{ account.id }}</div>
+			<!-- <div class="id">{{ account.officialAccount }}</div> -->
+			<div class="stats">
+				<strong>{{ account.totals.followers | number }}</strong> followers
+				<strong>{{ account.totals.posts | number }}</strong> posts
+				<strong>{{ account.totals.engagers | number }}</strong> engagers
+			</div>
+		</div>
 	</label>
 </div>
 
-<tweetline data="data"></tweetline>
+<div class="view">
+	<h2>{{ y | capitalize }} over time</h2>
+	
+	<p>Total {{y}}: {{ combined.totals[y] | number }}
+		<span ng-if="y !== 'posts'">(Avg. {{ combined.totals[y]/combined.totals.posts | number : 2}} per post)</span>
+		</p>
 
-<div class="hashtags">
-	Top 50 hashtags:
-	<ul>
-		<li ng-repeat="hashtag in hashtags">
-			{{ hashtag.tag }}: {{ hashtag.count }}
-		</li>
-	</ul>
+	<div class="y-options">
+		<a ng-click="y = 'posts'" ng-class="{ active: y === 'posts' }">Posts</a>
+		<a ng-click="y = 'engagers'" ng-class="{ active: y === 'engagers' }">Engagers</a>
+		<a ng-click="y = 'comments'" ng-class="{ active: y === 'comments' }">Comments</a>
+		<a ng-click="y = 'replies'" ng-class="{ active: y === 'replies' }">Replies</a>
+		<a ng-click="y = 'favorites'" ng-class="{ active: y === 'favorites' }">Favorites</a>
+		<a ng-click="y = 'mentions'" ng-class="{ active: y === 'mentions' }">Mentions</a>
+		<a ng-click="y = 'shares'" ng-class="{ active: y === 'shares' }">Shares</a>
+	</div>
+
+	<tweetline data="combined.months" y="y"></tweetline>
+
+	<div class="hashtags">
+		<h2>Top hashtags</h2>
+		Used by <a ng-click="hashtagsIn = false" ng-class="{ active: !hashtagsIn }">account</a>
+		<a ng-click="hashtagsIn = true" ng-class="{ active: hashtagsIn }">others</a>
+		<ul ng-show="hashtagsIn">
+			<li ng-repeat="hashtag in combined.hashtagsIn">
+				{{ hashtag.tag }}: {{ hashtag.count }}
+			</li>
+		</ul>
+		<ul ng-show="!hashtagsIn">
+			<li ng-repeat="hashtag in combined.hashtagsOut">
+				{{ hashtag.tag }}: {{ hashtag.count }}
+			</li>
+		</ul>
+	</div>
+
+	<h2>User graph</h2>
+
+	<p>This shows how different twitter accounts have interacted. The size of the nodes indicates the amount they have interacted with project social media accounts. Mouse over nodes to see the twitter handle.
+
+	<dgraph></dgraph>
 </div>
-
-<dgraph></dgraph>
 
 <!--
 	Line chart

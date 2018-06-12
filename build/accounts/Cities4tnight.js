@@ -584,6 +584,126 @@ window.socialmedia.push({
 		{
 			"tag": "alan2015",
 			"count": 18
+		},
+		{
+			"tag": "contaminacionluminica",
+			"count": 18
+		},
+		{
+			"tag": "brazil",
+			"count": 18
+		},
+		{
+			"tag": "citscience",
+			"count": 18
+		},
+		{
+			"tag": "nasa",
+			"count": 17
+		},
+		{
+			"tag": "ff",
+			"count": 16
+		},
+		{
+			"tag": "exp40",
+			"count": 16
+		},
+		{
+			"tag": "night",
+			"count": 15
+		},
+		{
+			"tag": "projectoftheweek",
+			"count": 15
+		},
+		{
+			"tag": "bluedot",
+			"count": 13
+		},
+		{
+			"tag": "losangeles",
+			"count": 13
+		},
+		{
+			"tag": "crowd",
+			"count": 12
+		},
+		{
+			"tag": "germany",
+			"count": 12
+		},
+		{
+			"tag": "milkyway",
+			"count": 11
+		},
+		{
+			"tag": "contaminaciónlumínica",
+			"count": 11
+		},
+		{
+			"tag": "canarias",
+			"count": 11
+		},
+		{
+			"tag": "esa",
+			"count": 11
+		},
+		{
+			"tag": "crowdfunding",
+			"count": 11
+		},
+		{
+			"tag": "italia",
+			"count": 11
+		},
+		{
+			"tag": "lighting",
+			"count": 10
+		},
+		{
+			"tag": "georeferencing",
+			"count": 10
+		},
+		{
+			"tag": "darkskies",
+			"count": 10
+		},
+		{
+			"tag": "astrofest",
+			"count": 10
+		},
+		{
+			"tag": "goodmorning",
+			"count": 10
+		},
+		{
+			"tag": "eoscience20",
+			"count": 9
+		},
+		{
+			"tag": "bluemoon",
+			"count": 9
+		},
+		{
+			"tag": "astrobutch",
+			"count": 9
+		},
+		{
+			"tag": "ucm",
+			"count": 9
+		},
+		{
+			"tag": "capetown",
+			"count": 9
+		},
+		{
+			"tag": "observatorioucm",
+			"count": 9
+		},
+		{
+			"tag": "sciencexkickstarter",
+			"count": 9
 		}
 	],
 	"hashtagsIn": [
@@ -666,6 +786,126 @@ window.socialmedia.push({
 		{
 			"tag": "iau2015",
 			"count": 3
+		},
+		{
+			"tag": "ciencia",
+			"count": 3
+		},
+		{
+			"tag": "crowdfunding",
+			"count": 3
+		},
+		{
+			"tag": "exp40",
+			"count": 3
+		},
+		{
+			"tag": "citiesfromspace",
+			"count": 3
+		},
+		{
+			"tag": "india",
+			"count": 3
+		},
+		{
+			"tag": "germany",
+			"count": 3
+		},
+		{
+			"tag": "berlin",
+			"count": 3
+		},
+		{
+			"tag": "wisconsin",
+			"count": 3
+		},
+		{
+			"tag": "delhi",
+			"count": 3
+		},
+		{
+			"tag": "home",
+			"count": 3
+		},
+		{
+			"tag": "cairo",
+			"count": 3
+		},
+		{
+			"tag": "bluedot",
+			"count": 3
+		},
+		{
+			"tag": "tedxmadrid",
+			"count": 3
+		},
+		{
+			"tag": "divine",
+			"count": 3
+		},
+		{
+			"tag": "sky",
+			"count": 3
+		},
+		{
+			"tag": "streetlights",
+			"count": 3
+		},
+		{
+			"tag": "lavuelta",
+			"count": 2
+		},
+		{
+			"tag": "fred",
+			"count": 2
+		},
+		{
+			"tag": "oo",
+			"count": 2
+		},
+		{
+			"tag": "paris",
+			"count": 2
+		},
+		{
+			"tag": "earth",
+			"count": 2
+		},
+		{
+			"tag": "planaoscuras",
+			"count": 2
+		},
+		{
+			"tag": "goodnight",
+			"count": 2
+		},
+		{
+			"tag": "athens",
+			"count": 2
+		},
+		{
+			"tag": "greece",
+			"count": 2
+		},
+		{
+			"tag": "huaweip",
+			"count": 2
+		},
+		{
+			"tag": "unitedkingdom",
+			"count": 2
+		},
+		{
+			"tag": "ireland",
+			"count": 2
+		},
+		{
+			"tag": "cnr16",
+			"count": 2
+		},
+		{
+			"tag": "earthfromspace",
+			"count": 2
 		}
 	],
 	"mostFavorited": [
@@ -774,1496 +1014,2221 @@ window.socialmedia.push({
 	],
 	"links": [
 		{
-			"source": "cristian3c273",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "eliottcnn",
+			"value": 6
 		},
 		{
 			"source": "cities4tnight",
-			"target": "cristian3c273",
-			"value": 1
+			"target": "astro_clay",
+			"value": 5
 		},
 		{
-			"source": "juanjogom",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "lingenhoehl",
+			"value": 3
 		},
 		{
 			"source": "cities4tnight",
-			"target": "juanjogom",
-			"value": 1
+			"target": "nasa_johnson",
+			"value": 18
 		},
 		{
-			"source": "sondas",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "astro_reid",
+			"value": 35
 		},
 		{
 			"source": "cities4tnight",
-			"target": "sondas",
-			"value": 1
+			"target": "elakdawalla",
+			"value": 5
 		},
 		{
-			"source": "astroidea",
+			"source": "passoluce",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 10
 		},
 		{
 			"source": "cities4tnight",
-			"target": "astroidea",
-			"value": 1
+			"target": "passoluce",
+			"value": 21
 		},
 		{
-			"source": "astroinnova",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "medialabprado",
+			"value": 14
 		},
 		{
 			"source": "cities4tnight",
-			"target": "astroinnova",
-			"value": 1
+			"target": "astroterry",
+			"value": 22
 		},
 		{
-			"source": "astroyebes",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "helgavanleur",
+			"value": 4
 		},
 		{
 			"source": "cities4tnight",
-			"target": "astroyebes",
-			"value": 1
+			"target": "astrosamantha",
+			"value": 74
 		},
 		{
-			"source": "leoastronomada",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "darksapiens",
+			"value": 10
 		},
 		{
 			"source": "cities4tnight",
-			"target": "leoastronomada",
-			"value": 1
+			"target": "kickstarter",
+			"value": 36
+		},
+		{
+			"source": "cities4tnight",
+			"target": "stats_shg",
+			"value": 7
 		},
 		{
-			"source": "pdaedalus",
+			"source": "astrolapalma",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "pdaedalus",
-			"value": 1
+			"target": "astrolapalma",
+			"value": 10
 		},
 		{
-			"source": "ferortuno",
+			"source": "eodetective",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "ferortuno",
-			"value": 1
+			"target": "eodetective",
+			"value": 13
 		},
 		{
-			"source": "jj_scapes",
+			"source": "richardcabrejas",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "cities4tnight",
-			"target": "jj_scapes",
-			"value": 1
+			"target": "richardcabrejas",
+			"value": 8
 		},
 		{
-			"source": "anastronomia",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "nig65",
+			"value": 6
 		},
 		{
 			"source": "cities4tnight",
-			"target": "anastronomia",
-			"value": 1
+			"target": "teleyinex",
+			"value": 50
 		},
 		{
-			"source": "jorgeherber",
+			"source": "simoncnicholas1",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "jorgeherber",
-			"value": 1
+			"target": "simoncnicholas1",
+			"value": 4
 		},
 		{
-			"source": "lacolumnata",
+			"source": "marioexposure",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "lacolumnata",
-			"value": 1
+			"target": "marioexposure",
+			"value": 6
 		},
 		{
-			"source": "blancassw",
+			"source": "asuncionsj",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "blancassw",
-			"value": 1
+			"target": "asuncionsj",
+			"value": 10
 		},
 		{
-			"source": "ciencialia",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "hq_nutriword",
+			"value": 9
 		},
 		{
 			"source": "cities4tnight",
-			"target": "ciencialia",
-			"value": 1
+			"target": "mediamusea",
+			"value": 9
 		},
 		{
-			"source": "jastronomicas",
+			"source": "crowdcrafting",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "jastronomicas",
-			"value": 1
+			"target": "crowdcrafting",
+			"value": 108
 		},
 		{
-			"source": "aahuesca",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "greenpeaceindia",
+			"value": 15
 		},
 		{
 			"source": "cities4tnight",
-			"target": "aahuesca",
-			"value": 1
+			"target": "tamilflashnews",
+			"value": 15
 		},
 		{
-			"source": "palomarskies",
+			"source": "turkitm",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 7
 		},
 		{
 			"source": "cities4tnight",
-			"target": "palomarskies",
-			"value": 1
+			"target": "turkitm",
+			"value": 14
 		},
 		{
-			"source": "astroperseo",
+			"source": "jgcasta",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "astroperseo",
-			"value": 1
+			"target": "jgcasta",
+			"value": 78
 		},
 		{
-			"source": "dechiuri",
+			"source": "bynzelman",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "dechiuri",
-			"value": 1
+			"target": "bynzelman",
+			"value": 9
 		},
 		{
-			"source": "cesarelapia",
+			"source": "jamesdavidhale",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "cities4tnight",
-			"target": "cesarelapia",
-			"value": 1
+			"target": "jamesdavidhale",
+			"value": 13
 		},
 		{
-			"source": "vtranchese",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "fisicas_ucm",
+			"value": 14
 		},
 		{
 			"source": "cities4tnight",
-			"target": "vtranchese",
-			"value": 1
+			"target": "nacionrotonda",
+			"value": 12
 		},
 		{
-			"source": "archibaldvijesh",
+			"source": "olivia_dsouza",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "cities4tnight",
-			"target": "archibaldvijesh",
-			"value": 1
+			"target": "olivia_dsouza",
+			"value": 20
 		},
 		{
-			"source": "iberusbirding",
+			"source": "rainerkresken",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 8
 		},
 		{
 			"source": "cities4tnight",
-			"target": "iberusbirding",
-			"value": 1
+			"target": "rainerkresken",
+			"value": 6
 		},
 		{
-			"source": "xhaju",
+			"source": "esa_italia",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "xhaju",
-			"value": 1
+			"target": "esa_italia",
+			"value": 30
+		},
+		{
+			"source": "cities4tnight",
+			"target": "astro_pettit",
+			"value": 13
 		},
 		{
-			"source": "mmanzano",
+			"source": "eugeniafessia",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "mmanzano",
-			"value": 1
+			"target": "eugeniafessia",
+			"value": 117
+		},
+		{
+			"source": "cities4tnight",
+			"target": "rocketman528",
+			"value": 89
 		},
 		{
-			"source": "cosmocienciaes",
+			"source": "pc0101",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 31
 		},
 		{
 			"source": "cities4tnight",
-			"target": "cosmocienciaes",
-			"value": 1
+			"target": "pc0101",
+			"value": 283
+		},
+		{
+			"source": "cities4tnight",
+			"target": "luxemozione",
+			"value": 24
 		},
 		{
-			"source": "alpha_lyrae_uk",
+			"source": "remiboucher",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 6
 		},
 		{
 			"source": "cities4tnight",
-			"target": "alpha_lyrae_uk",
-			"value": 1
+			"target": "remiboucher",
+			"value": 22
 		},
 		{
-			"source": "cyberscicentre",
+			"source": "robcorradinild",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "cities4tnight",
-			"target": "cyberscicentre",
-			"value": 1
+			"target": "robcorradinild",
+			"value": 13
 		},
 		{
-			"source": "citscicentral",
+			"source": "pybossa",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "citscicentral",
-			"value": 1
+			"target": "pybossa",
+			"value": 18
 		},
 		{
-			"source": "citizencyberlab",
+			"source": "cities4tnight",
+			"target": "daveatcogs",
+			"value": 43
+		},
+		{
+			"source": "javierarmentia",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "cities4tnight",
-			"target": "citizencyberlab",
-			"value": 1
+			"target": "javierarmentia",
+			"value": 15
 		},
 		{
-			"source": "astroamics",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "divulgamadrid",
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "astroamics",
-			"value": 1
+			"target": "silviabroome",
+			"value": 2
 		},
 		{
-			"source": "gallery_astro",
-			"target": "cities4tnight",
-			"value": 1
+			"source": "cities4tnight",
+			"target": "algolpito",
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "gallery_astro",
-			"value": 1
+			"target": "cienciaxpueblo",
+			"value": 2
 		},
 		{
-			"source": "satproject",
+			"source": "elsegundoluz",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "satproject",
-			"value": 1
+			"target": "elsegundoluz",
+			"value": 9
+		},
+		{
+			"source": "cities4tnight",
+			"target": "stationcdrkelly",
+			"value": 62
+		},
+		{
+			"source": "cities4tnight",
+			"target": "astro_kimiya",
+			"value": 18
+		},
+		{
+			"source": "cities4tnight",
+			"target": "esa_es",
+			"value": 32
+		},
+		{
+			"source": "cities4tnight",
+			"target": "carlosceta22",
+			"value": 17
+		},
+		{
+			"source": "cities4tnight",
+			"target": "elbesoenlaluna",
+			"value": 10
+		},
+		{
+			"source": "cities4tnight",
+			"target": "alex_riveiro",
+			"value": 5
 		},
 		{
-			"source": "paco_catala",
+			"source": "cielosboreales",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "paco_catala",
-			"value": 1
+			"target": "cielosboreales",
+			"value": 12
 		},
 		{
-			"source": "space_explorers",
+			"source": "planetariomad",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "space_explorers",
-			"value": 1
+			"target": "planetariomad",
+			"value": 60
 		},
 		{
-			"source": "lanietankard",
+			"source": "kokehtz",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "lanietankard",
-			"value": 1
+			"target": "kokehtz",
+			"value": 9
 		},
 		{
-			"source": "aav_bae",
+			"source": "agomezroldan",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "aav_bae",
-			"value": 1
+			"target": "agomezroldan",
+			"value": 12
+		},
+		{
+			"source": "cities4tnight",
+			"target": "astro_timpeake",
+			"value": 23
 		},
 		{
-			"source": "astrosabadell",
+			"source": "esa",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "astrosabadell",
-			"value": 1
+			"target": "esa",
+			"value": 69
 		},
 		{
-			"source": "bouquina",
+			"source": "el_lobo_rayado",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "bouquina",
-			"value": 1
+			"target": "el_lobo_rayado",
+			"value": 25
 		},
 		{
-			"source": "iauastroedu",
+			"source": "johnbarentine",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "iauastroedu",
-			"value": 1
+			"target": "johnbarentine",
+			"value": 43
+		},
+		{
+			"source": "cities4tnight",
+			"target": "astro_paolo",
+			"value": 51
+		},
+		{
+			"source": "cities4tnight",
+			"target": "youtube",
+			"value": 19
+		},
+		{
+			"source": "cities4tnight",
+			"target": "microsiervos",
+			"value": 10
+		},
+		{
+			"source": "cities4tnight",
+			"target": "space_station",
+			"value": 82
+		},
+		{
+			"source": "cities4tnight",
+			"target": "sergeyiss",
+			"value": 25
 		},
 		{
-			"source": "paranosiss",
+			"source": "jmartinezmoran",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 9
 		},
 		{
 			"source": "cities4tnight",
-			"target": "paranosiss",
-			"value": 1
+			"target": "jmartinezmoran",
+			"value": 43
 		},
 		{
-			"source": "mar_tapia",
+			"source": "anpcen",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "mar_tapia",
-			"value": 1
+			"target": "anpcen",
+			"value": 16
 		},
 		{
-			"source": "univerdecu",
+			"source": "lhammerbeck",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "cities4tnight",
-			"target": "univerdecu",
-			"value": 1
+			"target": "lhammerbeck",
+			"value": 6
+		},
+		{
+			"source": "cities4tnight",
+			"target": "thom_astro",
+			"value": 72
 		},
 		{
-			"source": "innovaciudadana",
+			"source": "cielobuio",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "innovaciudadana",
-			"value": 1
+			"target": "cielobuio",
+			"value": 12
 		},
 		{
-			"source": "agnuca",
+			"source": "eglezguardia",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "agnuca",
-			"value": 1
+			"target": "eglezguardia",
+			"value": 7
 		},
 		{
-			"source": "starlightgredos",
+			"source": "andhaenel",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "starlightgredos",
-			"value": 1
+			"target": "andhaenel",
+			"value": 10
 		},
 		{
-			"source": "micronuria",
+			"source": "cities4tnight",
+			"target": "cosmos4u",
+			"value": 16
+		},
+		{
+			"source": "babaktafreshi",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "micronuria",
-			"value": 1
+			"target": "babaktafreshi",
+			"value": 28
 		},
 		{
-			"source": "spacehurricanes",
+			"source": "cities4tnight",
+			"target": "astro_tim",
+			"value": 48
+		},
+		{
+			"source": "idadarksky",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "spacehurricanes",
-			"value": 1
+			"target": "idadarksky",
+			"value": 71
 		},
 		{
-			"source": "crowdtassoc",
+			"source": "cities4tnight",
+			"target": "nasa",
+			"value": 40
+		},
+		{
+			"source": "cefalopodo",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "crowdtassoc",
-			"value": 1
+			"target": "cefalopodo",
+			"value": 171
 		},
 		{
-			"source": "cosmicconevent",
+			"source": "csa_asc",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "cosmicconevent",
-			"value": 1
+			"target": "csa_asc",
+			"value": 20
+		},
+		{
+			"source": "cities4tnight",
+			"target": "esaspaceflight",
+			"value": 8
 		},
 		{
-			"source": "maemmora",
+			"source": "rasc_lpa",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "cities4tnight",
-			"target": "maemmora",
-			"value": 1
+			"target": "rasc_lpa",
+			"value": 50
 		},
 		{
-			"source": "lovingastronomy",
+			"source": "skyglowberlin",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 14
 		},
 		{
 			"source": "cities4tnight",
-			"target": "lovingastronomy",
-			"value": 1
+			"target": "skyglowberlin",
+			"value": 259
+		},
+		{
+			"source": "cities4tnight",
+			"target": "astro_alex",
+			"value": 36
+		},
+		{
+			"source": "cities4tnight",
+			"target": "nasa_astronauts",
+			"value": 24
 		},
 		{
-			"source": "eo_open_science",
+			"source": "josianemeier",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 14
 		},
 		{
 			"source": "cities4tnight",
-			"target": "eo_open_science",
-			"value": 1
+			"target": "josianemeier",
+			"value": 51
 		},
 		{
-			"source": "darkwightskies",
+			"source": "stars4all_eu",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "darkwightskies",
-			"value": 1
+			"target": "stars4all_eu",
+			"value": 90
 		},
 		{
-			"source": "rdeviguri",
+			"source": "ocorcho",
 			"target": "cities4tnight",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "cities4tnight",
-			"target": "rdeviguri",
-			"value": 1
+			"target": "ocorcho",
+			"value": 11
 		},
 		{
-			"source": "fiatphysica",
+			"source": "sky_live_tv",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "fiatphysica",
-			"value": 1
+			"target": "sky_live_tv",
+			"value": 16
 		},
 		{
-			"source": "luciavmartin",
+			"source": "unicomplutense",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "luciavmartin",
-			"value": 1
+			"target": "unicomplutense",
+			"value": 34
 		},
 		{
-			"source": "omzamora",
+			"source": "scifabric",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "omzamora",
-			"value": 1
+			"target": "scifabric",
+			"value": 115
 		},
 		{
-			"source": "universolq",
+			"source": "shedka",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "universolq",
-			"value": 1
+			"target": "shedka",
+			"value": 34
 		},
 		{
-			"source": "beerdecoded",
+			"source": "janhattenbach",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "beerdecoded",
-			"value": 1
+			"target": "janhattenbach",
+			"value": 34
 		},
 		{
-			"source": "dasilvaarnaudmp",
+			"source": "pmisson",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "dasilvaarnaudmp",
-			"value": 1
+			"target": "pmisson",
+			"value": 184
 		},
 		{
-			"source": "aascv",
+			"source": "stars4all_es",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
 			"source": "cities4tnight",
-			"target": "aascv",
-			"value": 1
+			"target": "stars4all_es",
+			"value": 20
+		},
+		{
+			"source": "cities4tnight",
+			"target": "cities4tnight",
+			"value": 424
+		},
+		{
+			"source": "ocorcho",
+			"target": "stars4all_es",
+			"value": 2
+		},
+		{
+			"source": "ocorcho",
+			"target": "stars4all_eu",
+			"value": 2
+		},
+		{
+			"source": "lhammerbeck",
+			"target": "rasc_lpa",
+			"value": 2
 		},
 		{
-			"source": "antoinemopa",
+			"source": "lhammerbeck",
+			"target": "idadarksky",
+			"value": 2
+		},
+		{
+			"source": "esaspaceflight",
+			"target": "thom_astro",
+			"value": 2
+		},
+		{
+			"source": "esaspaceflight",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "antoinemopa",
+			"source": "robcorradinild",
+			"target": "nasa",
 			"value": 1
 		},
 		{
-			"source": "stezanos",
-			"target": "cities4tnight",
+			"source": "robcorradinild",
+			"target": "luxemozione",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "stezanos",
+			"source": "robcorradinild",
+			"target": "robcorradinild",
 			"value": 1
 		},
 		{
-			"source": "smastronomia",
-			"target": "cities4tnight",
+			"source": "astro_paolo",
+			"target": "astro_paolo",
+			"value": 2
+		},
+		{
+			"source": "astro_paolo",
+			"target": "astro_timpeake",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "smastronomia",
+			"source": "astro_paolo",
+			"target": "esa",
 			"value": 1
 		},
 		{
-			"source": "xxiicea",
-			"target": "cities4tnight",
+			"source": "eglezguardia",
+			"target": "pmisson",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "xxiicea",
+			"source": "eglezguardia",
+			"target": "cefalopodo",
 			"value": 1
 		},
 		{
-			"source": "ugecviewpoints",
-			"target": "cities4tnight",
+			"source": "divulgamadrid",
+			"target": "cienciaxpueblo",
+			"value": 2
+		},
+		{
+			"source": "silviabroome",
+			"target": "divulgamadrid",
+			"value": 4
+		},
+		{
+			"source": "algolpito",
+			"target": "divulgamadrid",
+			"value": 5
+		},
+		{
+			"source": "cienciaxpueblo",
+			"target": "divulgamadrid",
+			"value": 9
+		},
+		{
+			"source": "silviabroome",
+			"target": "cienciaxpueblo",
+			"value": 4
+		},
+		{
+			"source": "silviabroome",
+			"target": "algolpito",
+			"value": 2
+		},
+		{
+			"source": "algolpito",
+			"target": "silviabroome",
+			"value": 5
+		},
+		{
+			"source": "cienciaxpueblo",
+			"target": "silviabroome",
+			"value": 9
+		},
+		{
+			"source": "algolpito",
+			"target": "cienciaxpueblo",
+			"value": 5
+		},
+		{
+			"source": "cienciaxpueblo",
+			"target": "algolpito",
+			"value": 7
+		},
+		{
+			"source": "cienciaxpueblo",
+			"target": "cienciaxpueblo",
+			"value": 2
+		},
+		{
+			"source": "javierarmentia",
+			"target": "javierarmentia",
+			"value": 2
+		},
+		{
+			"source": "alex_riveiro",
+			"target": "elbesoenlaluna",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "ugecviewpoints",
+			"source": "agomezroldan",
+			"target": "elbesoenlaluna",
 			"value": 1
 		},
 		{
-			"source": "astronomiaon",
-			"target": "cities4tnight",
+			"source": "jmartinezmoran",
+			"target": "elbesoenlaluna",
+			"value": 3
+		},
+		{
+			"source": "alex_riveiro",
+			"target": "el_lobo_rayado",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "astronomiaon",
+			"source": "alex_riveiro",
+			"target": "agomezroldan",
 			"value": 1
 		},
 		{
-			"source": "pollutionend",
-			"target": "cities4tnight",
+			"source": "alex_riveiro",
+			"target": "cielosboreales",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "pollutionend",
+			"source": "alex_riveiro",
+			"target": "planetariomad",
 			"value": 1
 		},
 		{
-			"source": "julie_omonde",
-			"target": "cities4tnight",
+			"source": "alex_riveiro",
+			"target": "kokehtz",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "julie_omonde",
+			"source": "alex_riveiro",
+			"target": "jmartinezmoran",
 			"value": 1
 		},
 		{
-			"source": "andrewxhill",
-			"target": "cities4tnight",
+			"source": "agomezroldan",
+			"target": "alex_riveiro",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "andrewxhill",
+			"source": "jmartinezmoran",
+			"target": "alex_riveiro",
+			"value": 3
+		},
+		{
+			"source": "agomezroldan",
+			"target": "el_lobo_rayado",
 			"value": 1
 		},
 		{
-			"source": "aitorbultza",
-			"target": "cities4tnight",
+			"source": "agomezroldan",
+			"target": "cielosboreales",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "aitorbultza",
+			"source": "agomezroldan",
+			"target": "planetariomad",
 			"value": 1
 		},
 		{
-			"source": "darkskypark",
-			"target": "cities4tnight",
+			"source": "agomezroldan",
+			"target": "kokehtz",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "darkskypark",
+			"source": "agomezroldan",
+			"target": "jmartinezmoran",
 			"value": 1
 		},
 		{
-			"source": "myspacecraft",
-			"target": "cities4tnight",
+			"source": "jmartinezmoran",
+			"target": "agomezroldan",
+			"value": 3
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "cielosboreales",
+			"value": 4
+		},
+		{
+			"source": "elsegundoluz",
+			"target": "cefalopodo",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "myspacecraft",
+			"source": "elsegundoluz",
+			"target": "pmisson",
 			"value": 1
 		},
 		{
-			"source": "cei_cambio",
-			"target": "cities4tnight",
+			"source": "jmartinezmoran",
+			"target": "elsegundoluz",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "cei_cambio",
+			"source": "anpcen",
+			"target": "anpcen",
+			"value": 2
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "el_lobo_rayado",
+			"value": 3
+		},
+		{
+			"source": "el_lobo_rayado",
+			"target": "el_lobo_rayado",
+			"value": 2
+		},
+		{
+			"source": "tamilflashnews",
+			"target": "greenpeaceindia",
+			"value": 3
+		},
+		{
+			"source": "turkitm",
+			"target": "greenpeaceindia",
+			"value": 6
+		},
+		{
+			"source": "tamilflashnews",
+			"target": "space_station",
+			"value": 3
+		},
+		{
+			"source": "turkitm",
+			"target": "tamilflashnews",
+			"value": 6
+		},
+		{
+			"source": "turkitm",
+			"target": "space_station",
+			"value": 6
+		},
+		{
+			"source": "astro_kimiya",
+			"target": "astro_kimiya",
 			"value": 1
 		},
 		{
-			"source": "annaalmecija",
-			"target": "cities4tnight",
+			"source": "janhattenbach",
+			"target": "janhattenbach",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "annaalmecija",
+			"source": "simoncnicholas1",
+			"target": "daveatcogs",
 			"value": 1
 		},
 		{
-			"source": "ispexnl",
-			"target": "cities4tnight",
+			"source": "simoncnicholas1",
+			"target": "astro_tim",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "ispexnl",
+			"source": "simoncnicholas1",
+			"target": "nig65",
 			"value": 1
 		},
 		{
-			"source": "skyglowproject",
-			"target": "cities4tnight",
+			"source": "simoncnicholas1",
+			"target": "pc0101",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "skyglowproject",
+			"source": "simoncnicholas1",
+			"target": "simoncnicholas1",
+			"value": 1
+		},
+		{
+			"source": "josianemeier",
+			"target": "pmisson",
+			"value": 3
+		},
+		{
+			"source": "josianemeier",
+			"target": "esa",
+			"value": 3
+		},
+		{
+			"source": "astro_alex",
+			"target": "astro_alex",
+			"value": 3
+		},
+		{
+			"source": "olivia_dsouza",
+			"target": "astro_alex",
+			"value": 5
+		},
+		{
+			"source": "jgcasta",
+			"target": "fisicas_ucm",
 			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "marioexposure",
+			"value": 3
+		},
+		{
+			"source": "marioexposure",
+			"target": "jmartinezmoran",
+			"value": 3
+		},
+		{
+			"source": "marioexposure",
+			"target": "pmisson",
+			"value": 3
 		},
 		{
-			"source": "pati_spinelli",
+			"source": "darksapiens",
 			"target": "cities4tnight",
+			"value": 8
+		},
+		{
+			"source": "richardcabrejas",
+			"target": "richardcabrejas",
+			"value": 3
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "stars4all_eu",
+			"value": 7
+		},
+		{
+			"source": "kokehtz",
+			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "pati_spinelli",
+			"source": "pmisson",
+			"target": "jmartinezmoran",
+			"value": 3
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "jmartinezmoran",
+			"value": 2
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "planetariomad",
+			"value": 6
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "kokehtz",
+			"value": 3
+		},
+		{
+			"source": "jmartinezmoran",
+			"target": "esa_es",
+			"value": 3
+		},
+		{
+			"source": "kokehtz",
+			"target": "jmartinezmoran",
 			"value": 1
 		},
 		{
-			"source": "profesor_seldon",
-			"target": "cities4tnight",
+			"source": "kokehtz",
+			"target": "kokehtz",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "profesor_seldon",
+			"source": "esa_es",
+			"target": "astrosamantha",
 			"value": 1
 		},
 		{
-			"source": "enriquedltorre",
-			"target": "cities4tnight",
+			"source": "astro_tim",
+			"target": "space_station",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "enriquedltorre",
+			"source": "stationcdrkelly",
+			"target": "space_station",
 			"value": 1
 		},
 		{
-			"source": "starslapalma",
-			"target": "cities4tnight",
+			"source": "astro_tim",
+			"target": "astro_timpeake",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "starslapalma",
+			"source": "stats_shg",
+			"target": "astro_timpeake",
+			"value": 2
+		},
+		{
+			"source": "eodetective",
+			"target": "astro_timpeake",
 			"value": 1
 		},
 		{
-			"source": "cielotiedra",
+			"source": "stats_shg",
+			"target": "eodetective",
+			"value": 2
+		},
+		{
+			"source": "stats_shg",
 			"target": "cities4tnight",
+			"value": 2
+		},
+		{
+			"source": "eodetective",
+			"target": "stats_shg",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "cielotiedra",
+			"source": "eodetective",
+			"target": "eodetective",
+			"value": 3
+		},
+		{
+			"source": "nacionrotonda",
+			"target": "nacionrotonda",
+			"value": 8
+		},
+		{
+			"source": "elakdawalla",
+			"target": "elakdawalla",
+			"value": 6
+		},
+		{
+			"source": "asuncionsj",
+			"target": "mediamusea",
+			"value": 3
+		},
+		{
+			"source": "hq_nutriword",
+			"target": "mediamusea",
+			"value": 4
+		},
+		{
+			"source": "mediamusea",
+			"target": "bynzelman",
 			"value": 1
 		},
 		{
-			"source": "sheilacrosby403",
-			"target": "cities4tnight",
+			"source": "mediamusea",
+			"target": "asuncionsj",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "sheilacrosby403",
+			"source": "mediamusea",
+			"target": "hq_nutriword",
 			"value": 1
 		},
 		{
-			"source": "martawithkiss",
+			"source": "mediamusea",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "martawithkiss",
+			"source": "planetariomad",
+			"target": "mediamusea",
+			"value": 2
+		},
+		{
+			"source": "asuncionsj",
+			"target": "bynzelman",
+			"value": 3
+		},
+		{
+			"source": "hq_nutriword",
+			"target": "bynzelman",
+			"value": 2
+		},
+		{
+			"source": "planetariomad",
+			"target": "bynzelman",
+			"value": 2
+		},
+		{
+			"source": "asuncionsj",
+			"target": "hq_nutriword",
+			"value": 3
+		},
+		{
+			"source": "hq_nutriword",
+			"target": "asuncionsj",
+			"value": 2
+		},
+		{
+			"source": "planetariomad",
+			"target": "hq_nutriword",
+			"value": 2
+		},
+		{
+			"source": "asuncionsj",
+			"target": "planetariomad",
 			"value": 1
 		},
 		{
-			"source": "astronomykerry",
+			"source": "planetariomad",
+			"target": "asuncionsj",
+			"value": 2
+		},
+		{
+			"source": "esa",
+			"target": "teleyinex",
+			"value": 1
+		},
+		{
+			"source": "teleyinex",
 			"target": "cities4tnight",
+			"value": 3
+		},
+		{
+			"source": "teleyinex",
+			"target": "crowdcrafting",
+			"value": 2
+		},
+		{
+			"source": "teleyinex",
+			"target": "esa",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "astronomykerry",
+			"source": "microsiervos",
+			"target": "microsiervos",
+			"value": 3
+		},
+		{
+			"source": "astro_tim",
+			"target": "esa",
 			"value": 1
 		},
 		{
-			"source": "astroandalus",
-			"target": "cities4tnight",
+			"source": "esa",
+			"target": "crowdcrafting",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "astroandalus",
+			"source": "nasa",
+			"target": "nasa",
+			"value": 2
+		},
+		{
+			"source": "helgavanleur",
+			"target": "helgavanleur",
+			"value": 3
+		},
+		{
+			"source": "planetariomad",
+			"target": "planetariomad",
+			"value": 3
+		},
+		{
+			"source": "planetariomad",
+			"target": "stationcdrkelly",
 			"value": 1
 		},
 		{
-			"source": "citizensciences",
-			"target": "cities4tnight",
+			"source": "andhaenel",
+			"target": "andhaenel",
+			"value": 2
+		},
+		{
+			"source": "cosmos4u",
+			"target": "andhaenel",
+			"value": 2
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "andhaenel",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "citizensciences",
+			"source": "cosmos4u",
+			"target": "skyglowberlin",
+			"value": 4
+		},
+		{
+			"source": "rainerkresken",
+			"target": "cosmos4u",
 			"value": 1
 		},
 		{
-			"source": "mobilemaggie",
-			"target": "cities4tnight",
+			"source": "skyglowberlin",
+			"target": "cosmos4u",
+			"value": 2
+		},
+		{
+			"source": "daveatcogs",
+			"target": "rasc_lpa",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "mobilemaggie",
+			"source": "rasc_lpa",
+			"target": "rasc_lpa",
+			"value": 5
+		},
+		{
+			"source": "rasc_lpa",
+			"target": "skyglowberlin",
+			"value": 4
+		},
+		{
+			"source": "rasc_lpa",
+			"target": "remiboucher",
+			"value": 4
+		},
+		{
+			"source": "remiboucher",
+			"target": "rasc_lpa",
+			"value": 9
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "rasc_lpa",
+			"value": 5
+		},
+		{
+			"source": "remiboucher",
+			"target": "skyglowberlin",
+			"value": 7
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "remiboucher",
+			"value": 5
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "kickstarter",
+			"value": 1
+		},
+		{
+			"source": "johnbarentine",
+			"target": "skyglowberlin",
 			"value": 1
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "johnbarentine",
+			"value": 3
+		},
+		{
+			"source": "lingenhoehl",
+			"target": "cities4tnight",
+			"value": 2
+		},
+		{
+			"source": "lingenhoehl",
+			"target": "skyglowberlin",
+			"value": 2
+		},
+		{
+			"source": "lingenhoehl",
+			"target": "rainerkresken",
+			"value": 2
+		},
+		{
+			"source": "rainerkresken",
+			"target": "lingenhoehl",
+			"value": 3
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "lingenhoehl",
+			"value": 3
+		},
+		{
+			"source": "eliottcnn",
+			"target": "eliottcnn",
+			"value": 3
 		},
 		{
-			"source": "ageekmom",
+			"source": "eliottcnn",
 			"target": "cities4tnight",
+			"value": 3
+		},
+		{
+			"source": "eugeniafessia",
+			"target": "astroterry",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "ageekmom",
+			"source": "pc0101",
+			"target": "astroterry",
 			"value": 1
 		},
 		{
-			"source": "idaphoenixarea",
-			"target": "cities4tnight",
+			"source": "nig65",
+			"target": "astro_tim",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "idaphoenixarea",
+			"source": "pc0101",
+			"target": "astro_tim",
+			"value": 2
+		},
+		{
+			"source": "nig65",
+			"target": "daveatcogs",
 			"value": 1
 		},
 		{
-			"source": "cciudadanaes",
-			"target": "cities4tnight",
+			"source": "nig65",
+			"target": "pc0101",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "cciudadanaes",
+			"source": "pc0101",
+			"target": "nig65",
+			"value": 2
+		},
+		{
+			"source": "daveatcogs",
+			"target": "thom_astro",
 			"value": 1
 		},
 		{
-			"source": "iricelino",
+			"source": "daveatcogs",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "iricelino",
+			"source": "olivia_dsouza",
+			"target": "daveatcogs",
+			"value": 5
+		},
+		{
+			"source": "pc0101",
+			"target": "daveatcogs",
+			"value": 3
+		},
+		{
+			"source": "thom_astro",
+			"target": "thom_astro",
+			"value": 2
+		},
+		{
+			"source": "pc0101",
+			"target": "thom_astro",
+			"value": 4
+		},
+		{
+			"source": "pmisson",
+			"target": "astro_reid",
 			"value": 1
 		},
 		{
-			"source": "inspide_me",
-			"target": "cities4tnight",
+			"source": "pmisson",
+			"target": "cefalopodo",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "inspide_me",
+			"source": "pmisson",
+			"target": "pmisson",
 			"value": 1
 		},
 		{
-			"source": "mayodarkskies",
-			"target": "cities4tnight",
+			"source": "jamesdavidhale",
+			"target": "pmisson",
+			"value": 3
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "pmisson",
+			"value": 2
+		},
+		{
+			"source": "pc0101",
+			"target": "pmisson",
+			"value": 10
+		},
+		{
+			"source": "rainerkresken",
+			"target": "skyglowberlin",
+			"value": 6
+		},
+		{
+			"source": "jamesdavidhale",
+			"target": "skyglowberlin",
+			"value": 3
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "rainerkresken",
+			"value": 5
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "skyglowberlin",
+			"value": 6
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "pc0101",
+			"value": 2
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "astrosamantha",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "mayodarkskies",
+			"source": "pc0101",
+			"target": "skyglowberlin",
+			"value": 4
+		},
+		{
+			"source": "pc0101",
+			"target": "jamesdavidhale",
+			"value": 3
+		},
+		{
+			"source": "rainerkresken",
+			"target": "pc0101",
 			"value": 1
 		},
 		{
-			"source": "adriannmorenoo",
-			"target": "cities4tnight",
+			"source": "pc0101",
+			"target": "rainerkresken",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "adriannmorenoo",
+			"source": "rocketman528",
+			"target": "pc0101",
+			"value": 3
+		},
+		{
+			"source": "pc0101",
+			"target": "rocketman528",
+			"value": 9
+		},
+		{
+			"source": "cefalopodo",
+			"target": "cefalopodo",
 			"value": 1
 		},
 		{
-			"source": "eu_sciencehub",
-			"target": "cities4tnight",
+			"source": "eugeniafessia",
+			"target": "cefalopodo",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "eu_sciencehub",
+			"source": "pc0101",
+			"target": "cefalopodo",
+			"value": 6
+		},
+		{
+			"source": "eugeniafessia",
+			"target": "pc0101",
 			"value": 1
+		},
+		{
+			"source": "pc0101",
+			"target": "eugeniafessia",
+			"value": 7
+		},
+		{
+			"source": "pc0101",
+			"target": "astro_pettit",
+			"value": 2
+		},
+		{
+			"source": "astro_reid",
+			"target": "astro_reid",
+			"value": 2
+		},
+		{
+			"source": "olivia_dsouza",
+			"target": "astro_reid",
+			"value": 2
+		},
+		{
+			"source": "pc0101",
+			"target": "astro_reid",
+			"value": 3
+		},
+		{
+			"source": "olivia_dsouza",
+			"target": "pc0101",
+			"value": 2
+		},
+		{
+			"source": "pc0101",
+			"target": "olivia_dsouza",
+			"value": 2
+		},
+		{
+			"source": "astro_clay",
+			"target": "pc0101",
+			"value": 2
 		},
 		{
-			"source": "urbanlightlab",
+			"source": "astro_clay",
 			"target": "cities4tnight",
 			"value": 1
 		},
 		{
-			"source": "cities4tnight",
-			"target": "urbanlightlab",
+			"source": "pc0101",
+			"target": "astro_clay",
+			"value": 2
+		},
+		{
+			"source": "astrosamantha",
+			"target": "astrosamantha",
+			"value": 2
+		},
+		{
+			"source": "pc0101",
+			"target": "astrosamantha",
+			"value": 2
+		},
+		{
+			"source": "pc0101",
+			"target": "stationcdrkelly",
 			"value": 1
+		},
+		{
+			"source": "passoluce",
+			"target": "luxemozione",
+			"value": 14
 		}
 	],
 	"nodes": [
 		{
 			"id": "cities4tnight",
 			"group": "cities4tnight",
-			"count": 2448
+			"count": 9103
 		},
 		{
-			"id": "urbanlightlab",
+			"id": "pc0101",
 			"group": "user",
-			"count": 2
+			"count": 442
 		},
 		{
-			"id": "cristian3c273",
+			"id": "skyglowberlin",
 			"group": "user",
-			"count": 2
+			"count": 357
 		},
 		{
-			"id": "juanjogom",
+			"id": "pmisson",
 			"group": "user",
-			"count": 2
+			"count": 224
 		},
 		{
-			"id": "sondas",
+			"id": "cefalopodo",
 			"group": "user",
-			"count": 2
+			"count": 190
 		},
 		{
-			"id": "astroidea",
+			"id": "eugeniafessia",
 			"group": "user",
-			"count": 2
+			"count": 130
 		},
 		{
-			"id": "astroinnova",
+			"id": "scifabric",
 			"group": "user",
-			"count": 2
+			"count": 116
 		},
 		{
-			"id": "astroyebes",
+			"id": "crowdcrafting",
 			"group": "user",
-			"count": 2
+			"count": 116
 		},
 		{
-			"id": "leoastronomada",
+			"id": "jmartinezmoran",
 			"group": "user",
-			"count": 2
+			"count": 115
 		},
 		{
-			"id": "pdaedalus",
+			"id": "stars4all_eu",
 			"group": "user",
-			"count": 2
+			"count": 102
 		},
 		{
-			"id": "ferortuno",
+			"id": "rocketman528",
 			"group": "user",
-			"count": 2
+			"count": 101
 		},
 		{
-			"id": "jj_scapes",
+			"id": "space_station",
 			"group": "user",
-			"count": 2
+			"count": 94
 		},
 		{
-			"id": "anastronomia",
+			"id": "planetariomad",
 			"group": "user",
-			"count": 2
+			"count": 92
 		},
 		{
-			"id": "jorgeherber",
+			"id": "thom_astro",
 			"group": "user",
-			"count": 2
+			"count": 91
 		},
 		{
-			"id": "lacolumnata",
+			"id": "rasc_lpa",
 			"group": "user",
-			"count": 2
+			"count": 87
 		},
 		{
-			"id": "blancassw",
+			"id": "astrosamantha",
 			"group": "user",
-			"count": 2
+			"count": 83
 		},
 		{
-			"id": "ciencialia",
+			"id": "esa",
 			"group": "user",
-			"count": 2
+			"count": 81
 		},
 		{
-			"id": "jastronomicas",
+			"id": "jgcasta",
 			"group": "user",
-			"count": 2
+			"count": 81
 		},
 		{
-			"id": "aahuesca",
+			"id": "idadarksky",
 			"group": "user",
-			"count": 2
+			"count": 76
 		},
 		{
-			"id": "palomarskies",
+			"id": "josianemeier",
 			"group": "user",
-			"count": 2
+			"count": 72
 		},
 		{
-			"id": "astroperseo",
+			"id": "stationcdrkelly",
 			"group": "user",
-			"count": 2
+			"count": 66
 		},
 		{
-			"id": "dechiuri",
+			"id": "astro_tim",
 			"group": "user",
-			"count": 2
+			"count": 59
 		},
 		{
-			"id": "cesarelapia",
+			"id": "daveatcogs",
 			"group": "user",
-			"count": 2
+			"count": 59
 		},
 		{
-			"id": "vtranchese",
+			"id": "teleyinex",
 			"group": "user",
-			"count": 2
+			"count": 57
 		},
 		{
-			"id": "archibaldvijesh",
+			"id": "astro_paolo",
 			"group": "user",
-			"count": 2
+			"count": 57
 		},
 		{
-			"id": "iberusbirding",
+			"id": "remiboucher",
 			"group": "user",
-			"count": 2
+			"count": 54
 		},
 		{
-			"id": "xhaju",
+			"id": "johnbarentine",
 			"group": "user",
-			"count": 2
+			"count": 52
 		},
 		{
-			"id": "mmanzano",
+			"id": "astro_reid",
 			"group": "user",
-			"count": 2
+			"count": 48
 		},
 		{
-			"id": "cosmocienciaes",
+			"id": "nasa",
 			"group": "user",
-			"count": 2
+			"count": 48
 		},
 		{
-			"id": "alpha_lyrae_uk",
+			"id": "astro_alex",
 			"group": "user",
-			"count": 2
+			"count": 47
 		},
 		{
-			"id": "cyberscicentre",
+			"id": "passoluce",
 			"group": "user",
-			"count": 2
+			"count": 46
 		},
 		{
-			"id": "citscicentral",
+			"id": "olivia_dsouza",
 			"group": "user",
-			"count": 2
+			"count": 42
 		},
 		{
-			"id": "citizencyberlab",
+			"id": "cienciaxpueblo",
 			"group": "user",
-			"count": 2
+			"count": 42
 		},
 		{
-			"id": "astroamics",
+			"id": "luxemozione",
 			"group": "user",
-			"count": 2
+			"count": 39
 		},
 		{
-			"id": "gallery_astro",
+			"id": "turkitm",
 			"group": "user",
-			"count": 2
+			"count": 39
 		},
 		{
-			"id": "satproject",
+			"id": "cosmos4u",
 			"group": "user",
-			"count": 2
+			"count": 38
 		},
 		{
-			"id": "paco_catala",
+			"id": "kickstarter",
 			"group": "user",
-			"count": 2
+			"count": 38
 		},
 		{
-			"id": "space_explorers",
+			"id": "janhattenbach",
 			"group": "user",
-			"count": 2
+			"count": 37
 		},
 		{
-			"id": "lanietankard",
+			"id": "el_lobo_rayado",
 			"group": "user",
-			"count": 2
+			"count": 37
 		},
 		{
-			"id": "aav_bae",
+			"id": "shedka",
 			"group": "user",
-			"count": 2
+			"count": 36
 		},
 		{
-			"id": "astrosabadell",
+			"id": "unicomplutense",
 			"group": "user",
-			"count": 2
+			"count": 36
 		},
 		{
-			"id": "bouquina",
+			"id": "esa_es",
 			"group": "user",
-			"count": 2
+			"count": 36
 		},
 		{
-			"id": "iauastroedu",
+			"id": "rainerkresken",
 			"group": "user",
-			"count": 2
+			"count": 34
 		},
 		{
-			"id": "paranosiss",
+			"id": "esa_italia",
 			"group": "user",
-			"count": 2
+			"count": 32
 		},
 		{
-			"id": "mar_tapia",
+			"id": "nacionrotonda",
 			"group": "user",
-			"count": 2
+			"count": 31
 		},
 		{
-			"id": "univerdecu",
+			"id": "astro_timpeake",
 			"group": "user",
-			"count": 2
+			"count": 29
 		},
 		{
-			"id": "innovaciudadana",
+			"id": "babaktafreshi",
 			"group": "user",
-			"count": 2
+			"count": 29
 		},
 		{
-			"id": "agnuca",
+			"id": "tamilflashnews",
 			"group": "user",
-			"count": 2
+			"count": 27
 		},
 		{
-			"id": "starlightgredos",
+			"id": "silviabroome",
 			"group": "user",
-			"count": 2
+			"count": 26
 		},
 		{
-			"id": "micronuria",
+			"id": "asuncionsj",
 			"group": "user",
-			"count": 2
+			"count": 26
 		},
 		{
-			"id": "spacehurricanes",
+			"id": "algolpito",
 			"group": "user",
-			"count": 2
+			"count": 26
 		},
 		{
-			"id": "crowdtassoc",
+			"id": "jamesdavidhale",
 			"group": "user",
-			"count": 2
+			"count": 26
 		},
 		{
-			"id": "cosmicconevent",
+			"id": "sergeyiss",
 			"group": "user",
-			"count": 2
+			"count": 25
 		},
 		{
-			"id": "maemmora",
+			"id": "eodetective",
 			"group": "user",
-			"count": 2
+			"count": 25
 		},
 		{
-			"id": "lovingastronomy",
+			"id": "astroterry",
 			"group": "user",
-			"count": 2
+			"count": 24
 		},
 		{
-			"id": "eo_open_science",
+			"id": "agomezroldan",
 			"group": "user",
-			"count": 2
+			"count": 24
 		},
 		{
-			"id": "darkwightskies",
+			"id": "nasa_astronauts",
 			"group": "user",
-			"count": 2
+			"count": 24
 		},
 		{
-			"id": "rdeviguri",
+			"id": "greenpeaceindia",
 			"group": "user",
-			"count": 2
+			"count": 24
 		},
 		{
-			"id": "fiatphysica",
+			"id": "stars4all_es",
 			"group": "user",
-			"count": 2
+			"count": 23
 		},
 		{
-			"id": "luciavmartin",
+			"id": "robcorradinild",
 			"group": "user",
-			"count": 2
+			"count": 23
 		},
 		{
-			"id": "omzamora",
+			"id": "javierarmentia",
 			"group": "user",
-			"count": 2
+			"count": 23
 		},
 		{
-			"id": "universolq",
+			"id": "hq_nutriword",
 			"group": "user",
-			"count": 2
+			"count": 23
 		},
 		{
-			"id": "beerdecoded",
+			"id": "divulgamadrid",
 			"group": "user",
-			"count": 2
+			"count": 22
 		},
 		{
-			"id": "dasilvaarnaudmp",
+			"id": "mediamusea",
 			"group": "user",
-			"count": 2
+			"count": 22
 		},
 		{
-			"id": "aascv",
+			"id": "csa_asc",
 			"group": "user",
-			"count": 2
+			"count": 22
 		},
 		{
-			"id": "antoinemopa",
+			"id": "kokehtz",
 			"group": "user",
-			"count": 2
+			"count": 21
 		},
 		{
-			"id": "stezanos",
+			"id": "anpcen",
 			"group": "user",
-			"count": 2
+			"count": 21
 		},
 		{
-			"id": "smastronomia",
+			"id": "pybossa",
 			"group": "user",
-			"count": 2
+			"count": 20
 		},
 		{
-			"id": "xxiicea",
+			"id": "astro_kimiya",
 			"group": "user",
-			"count": 2
+			"count": 20
 		},
 		{
-			"id": "ugecviewpoints",
+			"id": "youtube",
 			"group": "user",
-			"count": 2
+			"count": 19
 		},
 		{
-			"id": "astronomiaon",
+			"id": "cielosboreales",
 			"group": "user",
-			"count": 2
+			"count": 19
 		},
 		{
-			"id": "pollutionend",
+			"id": "ocorcho",
 			"group": "user",
-			"count": 2
+			"count": 19
 		},
 		{
-			"id": "julie_omonde",
+			"id": "elakdawalla",
 			"group": "user",
-			"count": 2
+			"count": 19
 		},
 		{
-			"id": "andrewxhill",
+			"id": "sky_live_tv",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "aitorbultza",
+			"id": "nasa_johnson",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "darkskypark",
+			"id": "darksapiens",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "myspacecraft",
+			"id": "bynzelman",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "cei_cambio",
+			"id": "andhaenel",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "annaalmecija",
+			"id": "carlosceta22",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "ispexnl",
+			"id": "richardcabrejas",
 			"group": "user",
-			"count": 2
+			"count": 18
 		},
 		{
-			"id": "skyglowproject",
+			"id": "marioexposure",
 			"group": "user",
-			"count": 2
+			"count": 16
 		},
 		{
-			"id": "pati_spinelli",
+			"id": "microsiervos",
 			"group": "user",
-			"count": 2
+			"count": 16
 		},
 		{
-			"id": "profesor_seldon",
+			"id": "alex_riveiro",
 			"group": "user",
-			"count": 2
+			"count": 16
 		},
 		{
-			"id": "enriquedltorre",
+			"id": "esaspaceflight",
 			"group": "user",
-			"count": 2
+			"count": 16
 		},
 		{
-			"id": "starslapalma",
+			"id": "eliottcnn",
 			"group": "user",
-			"count": 2
+			"count": 15
 		},
 		{
-			"id": "cielotiedra",
+			"id": "elbesoenlaluna",
 			"group": "user",
-			"count": 2
+			"count": 15
 		},
 		{
-			"id": "sheilacrosby403",
+			"id": "lingenhoehl",
 			"group": "user",
-			"count": 2
+			"count": 15
 		},
 		{
-			"id": "martawithkiss",
+			"id": "fisicas_ucm",
 			"group": "user",
-			"count": 2
+			"count": 15
 		},
 		{
-			"id": "astronomykerry",
+			"id": "lhammerbeck",
 			"group": "user",
-			"count": 2
+			"count": 15
 		},
 		{
-			"id": "astroandalus",
+			"id": "astro_pettit",
 			"group": "user",
-			"count": 2
+			"count": 15
 		},
 		{
-			"id": "citizensciences",
+			"id": "nig65",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "mobilemaggie",
+			"id": "astrolapalma",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "ageekmom",
+			"id": "eglezguardia",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "idaphoenixarea",
+			"id": "helgavanleur",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "cciudadanaes",
+			"id": "stats_shg",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "iricelino",
+			"id": "simoncnicholas1",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "inspide_me",
+			"id": "medialabprado",
 			"group": "user",
-			"count": 2
+			"count": 14
 		},
 		{
-			"id": "mayodarkskies",
+			"id": "astro_clay",
 			"group": "user",
-			"count": 2
+			"count": 13
 		},
 		{
-			"id": "adriannmorenoo",
+			"id": "cielobuio",
 			"group": "user",
-			"count": 2
+			"count": 13
 		},
 		{
-			"id": "eu_sciencehub",
+			"id": "elsegundoluz",
 			"group": "user",
-			"count": 2
+			"count": 13
 		}
 	]
 });

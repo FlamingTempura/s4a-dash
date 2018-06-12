@@ -434,6 +434,126 @@ window.socialmedia.push({
 		{
 			"tag": "contaminacionluminica",
 			"count": 17
+		},
+		{
+			"tag": "stars4all",
+			"count": 17
+		},
+		{
+			"tag": "geminidas15",
+			"count": 17
+		},
+		{
+			"tag": "lapalma",
+			"count": 16
+		},
+		{
+			"tag": "colaboradoresdeltiempo",
+			"count": 16
+		},
+		{
+			"tag": "opendata",
+			"count": 15
+		},
+		{
+			"tag": "led",
+			"count": 15
+		},
+		{
+			"tag": "auroras16",
+			"count": 15
+		},
+		{
+			"tag": "eclipse",
+			"count": 15
+		},
+		{
+			"tag": "perseidas2016",
+			"count": 14
+		},
+		{
+			"tag": "preservingskies",
+			"count": 13
+		},
+		{
+			"tag": "groenlandia",
+			"count": 13
+		},
+		{
+			"tag": "climathon",
+			"count": 13
+		},
+		{
+			"tag": "perseidas",
+			"count": 13
+		},
+		{
+			"tag": "lunareclipse",
+			"count": 12
+		},
+		{
+			"tag": "indonesia",
+			"count": 12
+		},
+		{
+			"tag": "gemínidas",
+			"count": 12
+		},
+		{
+			"tag": "dsifair2017",
+			"count": 12
+		},
+		{
+			"tag": "romangordo",
+			"count": 12
+		},
+		{
+			"tag": "findecientífico",
+			"count": 12
+		},
+		{
+			"tag": "palu",
+			"count": 11
+		},
+		{
+			"tag": "lptmm2017",
+			"count": 11
+		},
+		{
+			"tag": "astrotourism",
+			"count": 11
+		},
+		{
+			"tag": "toledo",
+			"count": 10
+		},
+		{
+			"tag": "islandia",
+			"count": 10
+		},
+		{
+			"tag": "opendataday",
+			"count": 10
+		},
+		{
+			"tag": "ottenerife",
+			"count": 9
+		},
+		{
+			"tag": "namibia",
+			"count": 9
+		},
+		{
+			"tag": "geminidas",
+			"count": 9
+		},
+		{
+			"tag": "unaestrellaundeseo",
+			"count": 9
+		},
+		{
+			"tag": "canarias",
+			"count": 9
 		}
 	],
 	"hashtagsIn": [
@@ -515,6 +635,26 @@ window.socialmedia.push({
 		},
 		{
 			"tag": "envirotech",
+			"count": 1
+		},
+		{
+			"tag": "farolapp",
+			"count": 1
+		},
+		{
+			"tag": "yes",
+			"count": 1
+		},
+		{
+			"tag": "sts",
+			"count": 1
+		},
+		{
+			"tag": "totalsolareclipse",
+			"count": 1
+		},
+		{
+			"tag": "lpigathering",
 			"count": 1
 		}
 	],
@@ -624,364 +764,29 @@ window.socialmedia.push({
 	],
 	"links": [
 		{
-			"source": "auguverse",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "auguverse",
-			"value": 1
-		},
-		{
-			"source": "calaraltoobs",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "calaraltoobs",
-			"value": 1
-		},
-		{
-			"source": "re_glo",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "re_glo",
-			"value": 1
-		},
-		{
-			"source": "yeg_darksky",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "yeg_darksky",
-			"value": 1
-		},
-		{
-			"source": "cphd",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cphd",
-			"value": 1
-		},
-		{
-			"source": "astroamics",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "astroamics",
-			"value": 1
-		},
-		{
-			"source": "saving_food",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "saving_food",
-			"value": 1
-		},
-		{
-			"source": "netcommonseu",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "netcommonseu",
-			"value": 1
-		},
-		{
-			"source": "mazizoneeu",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "mazizoneeu",
-			"value": 1
-		},
-		{
-			"source": "mmoreno_cosmos",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "mmoreno_cosmos",
-			"value": 1
-		},
-		{
-			"source": "astronomiared",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "astronomiared",
-			"value": 1
-		},
-		{
-			"source": "darkskyaus",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "darkskyaus",
-			"value": 1
-		},
-		{
-			"source": "joanmariegalat",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "joanmariegalat",
-			"value": 1
-		},
-		{
-			"source": "anneaulsebrook",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "anneaulsebrook",
-			"value": 1
-		},
-		{
-			"source": "stephencheatley",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "stephencheatley",
-			"value": 1
-		},
-		{
-			"source": "dr_adele_powell",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "dr_adele_powell",
-			"value": 1
-		},
-		{
-			"source": "lightaware1",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "lightaware1",
-			"value": 1
-		},
-		{
-			"source": "idaphoenixarea",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "idaphoenixarea",
-			"value": 1
-		},
-		{
-			"source": "nightscenes",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "nightscenes",
-			"value": 1
-		},
-		{
-			"source": "nuitfrance",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "nuitfrance",
-			"value": 1
-		},
-		{
-			"source": "megara_project",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "megara_project",
-			"value": 1
-		},
-		{
-			"source": "worldspaceweek",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "worldspaceweek",
-			"value": 1
-		},
-		{
-			"source": "blueamanita",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "blueamanita",
-			"value": 1
-		},
-		{
-			"source": "astro_cantillo",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "astro_cantillo",
-			"value": 1
-		},
-		{
-			"source": "ascen_eng",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "ascen_eng",
-			"value": 1
-		},
-		{
-			"source": "carmenes_exopl",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "carmenes_exopl",
-			"value": 1
-		},
-		{
-			"source": "elsegundoluz",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "elsegundoluz",
-			"value": 1
-		},
-		{
-			"source": "roderickpeeble",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "roderickpeeble",
-			"value": 1
-		},
-		{
-			"source": "urbanlightlab",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "urbanlightlab",
-			"value": 1
-		},
-		{
-			"source": "crisscorone",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "crisscorone",
-			"value": 1
-		},
-		{
-			"source": "kerrydarksky",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "kerrydarksky",
-			"value": 1
-		},
-		{
-			"source": "manugargil",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "manugargil",
-			"value": 1
-		},
-		{
 			"source": "joluherto",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "joluherto",
-			"value": 1
+			"value": 5
 		},
 		{
-			"source": "bu_qiong",
+			"source": "stars4all_eu",
+			"target": "casado_starry",
+			"value": 5
+		},
+		{
+			"source": "hartometienes",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "bu_qiong",
-			"value": 1
-		},
-		{
-			"source": "oaputp",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "oaputp",
-			"value": 1
-		},
-		{
-			"source": "oficinaeuroucm",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "oficinaeuroucm",
-			"value": 1
+			"target": "hartometienes",
+			"value": 5
 		},
 		{
 			"source": "sergejzr",
@@ -991,17 +796,32 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "sergejzr",
-			"value": 1
+			"value": 10
 		},
 		{
-			"source": "olivergajda",
+			"source": "stars4all_eu",
+			"target": "gc_gciencia",
+			"value": 5
+		},
+		{
+			"source": "marcospm",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "olivergajda",
-			"value": 1
+			"target": "marcospm",
+			"value": 6
+		},
+		{
+			"source": "theritz",
+			"target": "stars4all_eu",
+			"value": 2
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "theritz",
+			"value": 2
 		},
 		{
 			"source": "livestars4all",
@@ -1011,7 +831,52 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "livestars4all",
+			"value": 12
+		},
+		{
+			"source": "juliovias",
+			"target": "stars4all_eu",
 			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "juliovias",
+			"value": 5
+		},
+		{
+			"source": "xamanmefredo",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "xamanmefredo",
+			"value": 4
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "fundstarlight",
+			"value": 11
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "elmundoes",
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "el_pais",
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "youtube",
+			"value": 4
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "efeciencia",
+			"value": 8
 		},
 		{
 			"source": "ipmenendez",
@@ -1021,17 +886,27 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "ipmenendez",
-			"value": 1
+			"value": 3
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "efefuturo",
+			"value": 12
 		},
 		{
 			"source": "cielosboreales",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "cielosboreales",
-			"value": 1
+			"value": 7
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "asierarranz",
+			"value": 4
 		},
 		{
 			"source": "jmartinezmoran",
@@ -1041,37 +916,67 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "jmartinezmoran",
-			"value": 1
+			"value": 9
 		},
 		{
-			"source": "ramonlarramendi",
+			"source": "stars4all_eu",
+			"target": "rtve",
+			"value": 8
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "rtveteleplaneta",
+			"value": 13
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "stormhour",
+			"value": 12
+		},
+		{
+			"source": "idafensp",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "ramonlarramendi",
-			"value": 1
+			"target": "idafensp",
+			"value": 6
 		},
 		{
-			"source": "preservesounds",
+			"source": "jamesdavidhale",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "preservesounds",
-			"value": 1
-		},
-		{
-			"source": "bestgalaxypics",
-			"target": "stars4all_eu",
+			"target": "jamesdavidhale",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "bestgalaxypics",
-			"value": 1
+			"target": "esa",
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "calgaryrasc",
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "canarias_es",
+			"value": 27
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "molasaber",
+			"value": 4
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "aquilatierratve",
+			"value": 19
 		},
 		{
 			"source": "agomezroldan",
@@ -1081,17 +986,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "agomezroldan",
-			"value": 1
-		},
-		{
-			"source": "orison_eu",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "orison_eu",
-			"value": 1
+			"value": 17
 		},
 		{
 			"source": "el_lobo_rayado",
@@ -1101,7 +996,22 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "el_lobo_rayado",
+			"value": 11
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "stars4all",
+			"value": 5
+		},
+		{
+			"source": "wwfespana",
+			"target": "stars4all_eu",
 			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "wwfespana",
+			"value": 7
 		},
 		{
 			"source": "the_solarsystem",
@@ -1111,17 +1021,12 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "the_solarsystem",
-			"value": 1
-		},
-		{
-			"source": "chronobionews",
-			"target": "stars4all_eu",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "chronobionews",
-			"value": 1
+			"target": "earthskyscience",
+			"value": 6
 		},
 		{
 			"source": "rlightorstarlt",
@@ -1131,7 +1036,32 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "rlightorstarlt",
+			"value": 4
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "eu_h2020",
+			"value": 5
+		},
+		{
+			"source": "otri_upm",
+			"target": "stars4all_eu",
 			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "otri_upm",
+			"value": 9
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "muncyt",
+			"value": 4
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "curtomil",
+			"value": 19
 		},
 		{
 			"source": "esimperl",
@@ -1141,27 +1071,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "esimperl",
-			"value": 1
-		},
-		{
-			"source": "cpheth",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "cpheth",
-			"value": 1
-		},
-		{
-			"source": "remiboucher",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "remiboucher",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "sjribas",
@@ -1171,17 +1081,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "sjribas",
-			"value": 1
-		},
-		{
-			"source": "peleonk",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "peleonk",
-			"value": 1
+			"value": 21
 		},
 		{
 			"source": "rutaestrellas",
@@ -1191,7 +1091,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "rutaestrellas",
-			"value": 1
+			"value": 26
 		},
 		{
 			"source": "rguezalarcon",
@@ -1201,17 +1101,12 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "rguezalarcon",
-			"value": 1
-		},
-		{
-			"source": "caronteastronom",
-			"target": "stars4all_eu",
-			"value": 1
+			"value": 8
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "caronteastronom",
-			"value": 1
+			"target": "informaticaupm",
+			"value": 5
 		},
 		{
 			"source": "crishernandezco",
@@ -1221,7 +1116,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "crishernandezco",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "oeg_upm",
@@ -1231,17 +1126,22 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "oeg_upm",
-			"value": 1
+			"value": 22
 		},
 		{
-			"source": "cccrdg",
+			"source": "stars4all_eu",
+			"target": "costlonne",
+			"value": 15
+		},
+		{
+			"source": "pibinko",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "cccrdg",
-			"value": 1
+			"target": "pibinko",
+			"value": 5
 		},
 		{
 			"source": "calidadedoceo",
@@ -1251,7 +1151,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "calidadedoceo",
-			"value": 1
+			"value": 5
 		},
 		{
 			"source": "agrupacionio",
@@ -1261,7 +1161,12 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "agrupacionio",
-			"value": 1
+			"value": 31
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "cefriel",
+			"value": 7
 		},
 		{
 			"source": "iricelino",
@@ -1271,37 +1176,32 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "iricelino",
-			"value": 1
+			"value": 35
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "kimberlykowal",
+			"value": 2
 		},
 		{
 			"source": "sarabpritchard",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 5
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "sarabpritchard",
-			"value": 1
+			"value": 12
 		},
 		{
-			"source": "fpasseri92",
+			"source": "kudhmud",
 			"target": "stars4all_eu",
 			"value": 1
 		},
 		{
 			"source": "stars4all_eu",
-			"target": "fpasseri92",
-			"value": 1
-		},
-		{
-			"source": "ppesca63",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "ppesca63",
-			"value": 1
+			"target": "kudhmud",
+			"value": 4
 		},
 		{
 			"source": "casadostarry1",
@@ -1311,7 +1211,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "casadostarry1",
-			"value": 1
+			"value": 17
 		},
 		{
 			"source": "iac_astrofisica",
@@ -1321,27 +1221,47 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "iac_astrofisica",
-			"value": 1
+			"value": 53
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "carlosceta22",
+			"value": 11
 		},
 		{
 			"source": "cielobuio",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "cielobuio",
-			"value": 1
+			"value": 8
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "globeatnight",
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "smarturbanlight",
+			"value": 5
 		},
 		{
 			"source": "dsi4eu",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "dsi4eu",
-			"value": 1
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "la_upm",
+			"value": 11
 		},
 		{
 			"source": "solis_syd",
@@ -1351,7 +1271,12 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "solis_syd",
-			"value": 1
+			"value": 5
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "itb_berlin",
+			"value": 11
 		},
 		{
 			"source": "eglezguardia",
@@ -1361,27 +1286,52 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "eglezguardia",
+			"value": 19
+		},
+		{
+			"source": "magnargj",
+			"target": "stars4all_eu",
 			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "magnargj",
+			"value": 6
+		},
+		{
+			"source": "romvaer",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "romvaer",
+			"value": 6
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "madrid",
+			"value": 6
 		},
 		{
 			"source": "savingourstars",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "savingourstars",
-			"value": 1
+			"value": 8
 		},
 		{
 			"source": "andhaenel",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "andhaenel",
-			"value": 1
+			"value": 18
 		},
 		{
 			"source": "stars4all_es",
@@ -1391,7 +1341,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "stars4all_es",
-			"value": 1
+			"value": 36
 		},
 		{
 			"source": "johnbarentine",
@@ -1401,7 +1351,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "johnbarentine",
-			"value": 1
+			"value": 54
 		},
 		{
 			"source": "shedka",
@@ -1411,7 +1361,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "shedka",
-			"value": 1
+			"value": 26
 		},
 		{
 			"source": "22ceta22",
@@ -1421,7 +1371,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "22ceta22",
-			"value": 1
+			"value": 9
 		},
 		{
 			"source": "planetariomad",
@@ -1431,7 +1381,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "planetariomad",
-			"value": 1
+			"value": 16
 		},
 		{
 			"source": "idadarksky",
@@ -1441,7 +1391,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "idadarksky",
-			"value": 1
+			"value": 46
 		},
 		{
 			"source": "andreasjechow",
@@ -1451,7 +1401,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "andreasjechow",
-			"value": 1
+			"value": 17
 		},
 		{
 			"source": "alessandro_manf",
@@ -1461,7 +1411,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "alessandro_manf",
-			"value": 1
+			"value": 9
 		},
 		{
 			"source": "rasc_lpa",
@@ -1471,17 +1421,17 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "rasc_lpa",
-			"value": 1
+			"value": 29
 		},
 		{
 			"source": "sky_live_tv",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "sky_live_tv",
-			"value": 1
+			"value": 199
 		},
 		{
 			"source": "leibnizigb",
@@ -1491,17 +1441,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "leibnizigb",
-			"value": 1
-		},
-		{
-			"source": "luminicaambient",
-			"target": "stars4all_eu",
-			"value": 1
-		},
-		{
-			"source": "stars4all_eu",
-			"target": "luminicaambient",
-			"value": 1
+			"value": 6
 		},
 		{
 			"source": "schroersibylle",
@@ -1511,7 +1451,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "schroersibylle",
-			"value": 1
+			"value": 18
 		},
 		{
 			"source": "salvabara",
@@ -1521,7 +1461,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "salvabara",
-			"value": 1
+			"value": 23
 		},
 		{
 			"source": "eurocrowd",
@@ -1531,17 +1471,32 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "eurocrowd",
+			"value": 8
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "fisicas_ucm",
+			"value": 10
+		},
+		{
+			"source": "_astroalex",
+			"target": "stars4all_eu",
+			"value": 3
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "_astroalex",
 			"value": 1
 		},
 		{
 			"source": "cefalopodo",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "cefalopodo",
-			"value": 1
+			"value": 130
 		},
 		{
 			"source": "capssieu",
@@ -1551,7 +1506,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "capssieu",
-			"value": 1
+			"value": 22
 		},
 		{
 			"source": "skyglowberlin",
@@ -1561,27 +1516,27 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "skyglowberlin",
-			"value": 1
+			"value": 71
 		},
 		{
 			"source": "ocorcho",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "ocorcho",
-			"value": 1
+			"value": 59
 		},
 		{
 			"source": "josianemeier",
 			"target": "stars4all_eu",
-			"value": 1
+			"value": 7
 		},
 		{
 			"source": "stars4all_eu",
 			"target": "josianemeier",
-			"value": 1
+			"value": 21
 		},
 		{
 			"source": "thomasraap",
@@ -1591,7 +1546,7 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "thomasraap",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "unicomplutense",
@@ -1601,7 +1556,27 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "unicomplutense",
+			"value": 55
+		},
+		{
+			"source": "raulclima",
+			"target": "stars4all_eu",
 			"value": 1
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "raulclima",
+			"value": 12
+		},
+		{
+			"source": "pmisson",
+			"target": "stars4all_eu",
+			"value": 2
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "pmisson",
+			"value": 76
 		},
 		{
 			"source": "cities4tnight",
@@ -1611,509 +1586,719 @@ window.socialmedia.push({
 		{
 			"source": "stars4all_eu",
 			"target": "cities4tnight",
+			"value": 66
+		},
+		{
+			"source": "stars4all_eu",
+			"target": "stars4all_eu",
+			"value": 184
+		},
+		{
+			"source": "ocorcho",
+			"target": "kimberlykowal",
 			"value": 1
+		},
+		{
+			"source": "kimberlykowal",
+			"target": "ocorcho",
+			"value": 1
+		},
+		{
+			"source": "kimberlykowal",
+			"target": "kimberlykowal",
+			"value": 1
+		},
+		{
+			"source": "kimberlykowal",
+			"target": "stars4all_eu",
+			"value": 1
+		},
+		{
+			"source": "johnbarentine",
+			"target": "johnbarentine",
+			"value": 1
+		},
+		{
+			"source": "cielosboreales",
+			"target": "cielosboreales",
+			"value": 2
+		},
+		{
+			"source": "cielosboreales",
+			"target": "cefalopodo",
+			"value": 1
+		},
+		{
+			"source": "molasaber",
+			"target": "molasaber",
+			"value": 1
+		},
+		{
+			"source": "cefalopodo",
+			"target": "fisicas_ucm",
+			"value": 1
+		},
+		{
+			"source": "_astroalex",
+			"target": "fisicas_ucm",
+			"value": 1
+		},
+		{
+			"source": "cefalopodo",
+			"target": "_astroalex",
+			"value": 2
+		},
+		{
+			"source": "_astroalex",
+			"target": "_astroalex",
+			"value": 1
+		},
+		{
+			"source": "_astroalex",
+			"target": "unicomplutense",
+			"value": 2
+		},
+		{
+			"source": "_astroalex",
+			"target": "cefalopodo",
+			"value": 2
+		},
+		{
+			"source": "cielobuio",
+			"target": "sarabpritchard",
+			"value": 1
+		},
+		{
+			"source": "andhaenel",
+			"target": "cielobuio",
+			"value": 1
+		},
+		{
+			"source": "andhaenel",
+			"target": "sarabpritchard",
+			"value": 1
+		},
+		{
+			"source": "dsi4eu",
+			"target": "eurocrowd",
+			"value": 1
+		},
+		{
+			"source": "dsi4eu",
+			"target": "capssieu",
+			"value": 1
+		},
+		{
+			"source": "savingourstars",
+			"target": "agomezroldan",
+			"value": 1
+		},
+		{
+			"source": "cefalopodo",
+			"target": "unicomplutense",
+			"value": 2
+		},
+		{
+			"source": "theritz",
+			"target": "unicomplutense",
+			"value": 1
+		},
+		{
+			"source": "theritz",
+			"target": "cefalopodo",
+			"value": 1
+		},
+		{
+			"source": "theritz",
+			"target": "pmisson",
+			"value": 1
+		},
+		{
+			"source": "iricelino",
+			"target": "iricelino",
+			"value": 1
+		},
+		{
+			"source": "the_solarsystem",
+			"target": "the_solarsystem",
+			"value": 1
+		},
+		{
+			"source": "jamesdavidhale",
+			"target": "cities4tnight",
+			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "cities4tnight",
+			"value": 1
+		},
+		{
+			"source": "jamesdavidhale",
+			"target": "shedka",
+			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "shedka",
+			"value": 1
+		},
+		{
+			"source": "jamesdavidhale",
+			"target": "skyglowberlin",
+			"value": 1
+		},
+		{
+			"source": "skyglowberlin",
+			"target": "skyglowberlin",
+			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "skyglowberlin",
+			"value": 1
+		},
+		{
+			"source": "jamesdavidhale",
+			"target": "eglezguardia",
+			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "eglezguardia",
+			"value": 1
+		},
+		{
+			"source": "jamesdavidhale",
+			"target": "pmisson",
+			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "jamesdavidhale",
+			"value": 1
+		},
+		{
+			"source": "pmisson",
+			"target": "pmisson",
+			"value": 1
+		},
+		{
+			"source": "josianemeier",
+			"target": "josianemeier",
+			"value": 4
+		},
+		{
+			"source": "sarabpritchard",
+			"target": "josianemeier",
+			"value": 1
+		},
+		{
+			"source": "sarabpritchard",
+			"target": "sarabpritchard",
+			"value": 5
 		}
 	],
 	"nodes": [
 		{
 			"id": "stars4all_eu",
 			"group": "stars4all_eu",
-			"count": 1091
-		},
-		{
-			"id": "chronobionews",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "auguverse",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "calaraltoobs",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "re_glo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "yeg_darksky",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cphd",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astroamics",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "saving_food",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "netcommonseu",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "mazizoneeu",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "mmoreno_cosmos",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astronomiared",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "darkskyaus",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "joanmariegalat",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "anneaulsebrook",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "stephencheatley",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "dr_adele_powell",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "lightaware1",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "idaphoenixarea",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "nightscenes",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "nuitfrance",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "megara_project",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "worldspaceweek",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "blueamanita",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astro_cantillo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ascen_eng",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "carmenes_exopl",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "elsegundoluz",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "roderickpeeble",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "urbanlightlab",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "crisscorone",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "kerrydarksky",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "manugargil",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "joluherto",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "bu_qiong",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "oaputp",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "oficinaeuroucm",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sergejzr",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "olivergajda",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "livestars4all",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ipmenendez",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cielosboreales",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "jmartinezmoran",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ramonlarramendi",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "preservesounds",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "bestgalaxypics",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "agomezroldan",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "orison_eu",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "el_lobo_rayado",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "the_solarsystem",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cities4tnight",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rlightorstarlt",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "esimperl",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cpheth",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "remiboucher",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sjribas",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "peleonk",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rutaestrellas",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rguezalarcon",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "caronteastronom",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "crishernandezco",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "oeg_upm",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cccrdg",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "calidadedoceo",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "agrupacionio",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "iricelino",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sarabpritchard",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "fpasseri92",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ppesca63",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "casadostarry1",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "iac_astrofisica",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cielobuio",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "dsi4eu",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "solis_syd",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "eglezguardia",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "savingourstars",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "andhaenel",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "stars4all_es",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "johnbarentine",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "shedka",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "22ceta22",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "planetariomad",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "idadarksky",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "andreasjechow",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "alessandro_manf",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "rasc_lpa",
-			"group": "user",
-			"count": 2
+			"count": 3836
 		},
 		{
 			"id": "sky_live_tv",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "leibnizigb",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "luminicaambient",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "schroersibylle",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "salvabara",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "eurocrowd",
-			"group": "user",
-			"count": 2
+			"count": 202
 		},
 		{
 			"id": "cefalopodo",
 			"group": "user",
-			"count": 2
+			"count": 144
 		},
 		{
-			"id": "capssieu",
+			"id": "pmisson",
 			"group": "user",
-			"count": 2
+			"count": 89
 		},
 		{
 			"id": "skyglowberlin",
 			"group": "user",
-			"count": 2
+			"count": 76
+		},
+		{
+			"id": "cities4tnight",
+			"group": "user",
+			"count": 69
 		},
 		{
 			"id": "ocorcho",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "josianemeier",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "thomasraap",
-			"group": "user",
-			"count": 2
+			"count": 63
 		},
 		{
 			"id": "unicomplutense",
 			"group": "user",
-			"count": 2
+			"count": 61
+		},
+		{
+			"id": "johnbarentine",
+			"group": "user",
+			"count": 57
+		},
+		{
+			"id": "iac_astrofisica",
+			"group": "user",
+			"count": 54
+		},
+		{
+			"id": "idadarksky",
+			"group": "user",
+			"count": 47
+		},
+		{
+			"id": "iricelino",
+			"group": "user",
+			"count": 38
+		},
+		{
+			"id": "josianemeier",
+			"group": "user",
+			"count": 37
+		},
+		{
+			"id": "stars4all_es",
+			"group": "user",
+			"count": 37
+		},
+		{
+			"id": "agrupacionio",
+			"group": "user",
+			"count": 32
+		},
+		{
+			"id": "rasc_lpa",
+			"group": "user",
+			"count": 30
+		},
+		{
+			"id": "sarabpritchard",
+			"group": "user",
+			"count": 30
+		},
+		{
+			"id": "shedka",
+			"group": "user",
+			"count": 29
+		},
+		{
+			"id": "canarias_es",
+			"group": "user",
+			"count": 27
+		},
+		{
+			"id": "rutaestrellas",
+			"group": "user",
+			"count": 27
+		},
+		{
+			"id": "capssieu",
+			"group": "user",
+			"count": 24
+		},
+		{
+			"id": "andhaenel",
+			"group": "user",
+			"count": 24
+		},
+		{
+			"id": "salvabara",
+			"group": "user",
+			"count": 24
+		},
+		{
+			"id": "oeg_upm",
+			"group": "user",
+			"count": 23
+		},
+		{
+			"id": "eglezguardia",
+			"group": "user",
+			"count": 22
+		},
+		{
+			"id": "sjribas",
+			"group": "user",
+			"count": 22
+		},
+		{
+			"id": "agomezroldan",
+			"group": "user",
+			"count": 19
+		},
+		{
+			"id": "aquilatierratve",
+			"group": "user",
+			"count": 19
+		},
+		{
+			"id": "curtomil",
+			"group": "user",
+			"count": 19
+		},
+		{
+			"id": "schroersibylle",
+			"group": "user",
+			"count": 19
+		},
+		{
+			"id": "casadostarry1",
+			"group": "user",
+			"count": 18
+		},
+		{
+			"id": "andreasjechow",
+			"group": "user",
+			"count": 18
+		},
+		{
+			"id": "planetariomad",
+			"group": "user",
+			"count": 17
+		},
+		{
+			"id": "costlonne",
+			"group": "user",
+			"count": 15
+		},
+		{
+			"id": "cielosboreales",
+			"group": "user",
+			"count": 14
+		},
+		{
+			"id": "_astroalex",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "raulclima",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "rtveteleplaneta",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "livestars4all",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "dsi4eu",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "cielobuio",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "efefuturo",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "fisicas_ucm",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "savingourstars",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "stormhour",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "el_lobo_rayado",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "fundstarlight",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "carlosceta22",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "la_upm",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "itb_berlin",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "sergejzr",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "otri_upm",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "alessandro_manf",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "eurocrowd",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "22ceta22",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "jmartinezmoran",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "rguezalarcon",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "jamesdavidhale",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "rtve",
+			"group": "user",
+			"count": 8
+		},
+		{
+			"id": "wwfespana",
+			"group": "user",
+			"count": 8
+		},
+		{
+			"id": "efeciencia",
+			"group": "user",
+			"count": 8
+		},
+		{
+			"id": "kimberlykowal",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "cefriel",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "joluherto",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "leibnizigb",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "romvaer",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "marcospm",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "magnargj",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "theritz",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "idafensp",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "earthskyscience",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "hartometienes",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "the_solarsystem",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "calidadedoceo",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "solis_syd",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "pibinko",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "molasaber",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "juliovias",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "madrid",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "gc_gciencia",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "eu_h2020",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "smarturbanlight",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "xamanmefredo",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "globeatnight",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "kudhmud",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "elmundoes",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "el_pais",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "thomasraap",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "esa",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "calgaryrasc",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "informaticaupm",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "stars4all",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "esimperl",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "casado_starry",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "rlightorstarlt",
+			"group": "user",
+			"count": 5
+		},
+		{
+			"id": "crishernandezco",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "muncyt",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "youtube",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "ipmenendez",
+			"group": "user",
+			"count": 4
+		},
+		{
+			"id": "asierarranz",
+			"group": "user",
+			"count": 4
 		}
 	]
 });

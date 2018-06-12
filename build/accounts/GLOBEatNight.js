@@ -1114,6 +1114,126 @@ window.socialmedia.push({
 		{
 			"tag": "globeatnight",
 			"count": 11
+		},
+		{
+			"tag": "safety",
+			"count": 11
+		},
+		{
+			"tag": "iauga",
+			"count": 10
+		},
+		{
+			"tag": "health",
+			"count": 10
+		},
+		{
+			"tag": "seaturtles",
+			"count": 10
+		},
+		{
+			"tag": "lighting",
+			"count": 9
+		},
+		{
+			"tag": "light",
+			"count": 8
+		},
+		{
+			"tag": "energy",
+			"count": 8
+		},
+		{
+			"tag": "gan",
+			"count": 8
+		},
+		{
+			"tag": "stars",
+			"count": 8
+		},
+		{
+			"tag": "gam2013",
+			"count": 8
+		},
+		{
+			"tag": "iyl2015",
+			"count": 7
+		},
+		{
+			"tag": "gan2015",
+			"count": 7
+		},
+		{
+			"tag": "led",
+			"count": 6
+		},
+		{
+			"tag": "dsablog",
+			"count": 6
+		},
+		{
+			"tag": "video",
+			"count": 6
+		},
+		{
+			"tag": "space",
+			"count": 6
+		},
+		{
+			"tag": "mountains",
+			"count": 5
+		},
+		{
+			"tag": "nocky",
+			"count": 5
+		},
+		{
+			"tag": "adoptast",
+			"count": 5
+		},
+		{
+			"tag": "lightatnight",
+			"count": 5
+		},
+		{
+			"tag": "pollution",
+			"count": 5
+		},
+		{
+			"tag": "perseid",
+			"count": 5
+		},
+		{
+			"tag": "skyglow",
+			"count": 4
+		},
+		{
+			"tag": "losingthedark",
+			"count": 4
+		},
+		{
+			"tag": "theendofnight",
+			"count": 4
+		},
+		{
+			"tag": "photo",
+			"count": 4
+		},
+		{
+			"tag": "calgary",
+			"count": 4
+		},
+		{
+			"tag": "darkskymeter",
+			"count": 4
+		},
+		{
+			"tag": "idsw2014",
+			"count": 4
+		},
+		{
+			"tag": "ontario",
+			"count": 4
 		}
 	],
 	"hashtagsIn": [
@@ -1195,6 +1315,66 @@ window.socialmedia.push({
 		},
 		{
 			"tag": "tucson",
+			"count": 1
+		},
+		{
+			"tag": "environmental",
+			"count": 1
+		},
+		{
+			"tag": "toxin",
+			"count": 1
+		},
+		{
+			"tag": "gps",
+			"count": 1
+		},
+		{
+			"tag": "skyglow",
+			"count": 1
+		},
+		{
+			"tag": "space",
+			"count": 1
+		},
+		{
+			"tag": "adventure",
+			"count": 1
+		},
+		{
+			"tag": "saveourearth",
+			"count": 1
+		},
+		{
+			"tag": "spaceed",
+			"count": 1
+		},
+		{
+			"tag": "pbl",
+			"count": 1
+		},
+		{
+			"tag": "spacetweep",
+			"count": 1
+		},
+		{
+			"tag": "walkthewalk",
+			"count": 1
+		},
+		{
+			"tag": "iauga",
+			"count": 1
+		},
+		{
+			"tag": "savethedate",
+			"count": 1
+		},
+		{
+			"tag": "chaneln5",
+			"count": 1
+		},
+		{
+			"tag": "nice06",
 			"count": 1
 		}
 	],
@@ -1304,368 +1484,18 @@ window.socialmedia.push({
 	],
 	"links": [
 		{
-			"source": "jtfburgess",
+			"source": "valarvarda",
 			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "mundhir",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "crayfordas",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "kam75",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "scopeguy",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "chunga_revenge",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "sungrazr",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "microsquid",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "chakradonor",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "elac_hlord3",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "f3rnytaa",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "hubblesky",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "williamlarge",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "ahenotri",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "madcat43",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "gmmartinezv",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "greenwisekids",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "chingas11",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "fellipy",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "lowiess",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "kr428",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "andreirusu_",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "dubsepp",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "greginohio",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "summer_ash",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "fgligor",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "soldepapel",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "launchpat",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "hankdolben",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "mamattingly",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "connectxnature",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "_____micha_____",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "matthewwasley",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "elven_meliux",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "jatnul",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "edlyneldun",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "juliehoogland",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "moonnanda",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "hoddergeography",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "el_irra1",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "willmort",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "pitisakk",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "wwp_planetarium",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "dowser01",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "lookingskywards",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "raykoerner",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "tarashnat",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "raulclima",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "_zoidb3rg_",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "lna_comunica",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "nicholas_gregg",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "preet33",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "joacotuk",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "jilleangeleyes",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "stargazer3000",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "cosmicmonsta",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "gaildesler",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "deapfreez_astro",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "scienceoffice",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "donegalskies",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "stargazingm31",
-			"target": "globeatnight",
-			"value": 1
+			"value": 3
 		},
 		{
 			"source": "palomarskies",
 			"target": "globeatnight",
-			"value": 1
+			"value": 6
 		},
 		{
 			"source": "globeatnight",
 			"target": "palomarskies",
-			"value": 1
-		},
-		{
-			"source": "astronomy_pari",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "globeatnight",
-			"target": "astronomy_pari",
-			"value": 1
-		},
-		{
-			"source": "sjastronomyclub",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "globeatnight",
-			"target": "sjastronomyclub",
-			"value": 1
-		},
-		{
-			"source": "alisastronomy",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "globeatnight",
-			"target": "alisastronomy",
-			"value": 1
-		},
-		{
-			"source": "lowellobs",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "globeatnight",
-			"target": "lowellobs",
-			"value": 1
-		},
-		{
-			"source": "spaceyliz",
-			"target": "globeatnight",
-			"value": 1
-		},
-		{
-			"source": "globeatnight",
-			"target": "spaceyliz",
 			"value": 1
 		},
 		{
@@ -1679,6 +1509,31 @@ window.socialmedia.push({
 			"value": 1
 		},
 		{
+			"source": "ma2tew",
+			"target": "globeatnight",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "ma2tew",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "abumaia",
+			"value": 2
+		},
+		{
+			"source": "org_space",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "org_space",
+			"value": 2
+		},
+		{
 			"source": "astrobookdrive",
 			"target": "globeatnight",
 			"value": 1
@@ -1686,17 +1541,42 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "astrobookdrive",
+			"value": 6
+		},
+		{
+			"source": "globeatnight",
+			"target": "eso_observatory",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "kc5lei",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "astronomyfm",
+			"value": 3
+		},
+		{
+			"source": "langitselatan",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "langitselatan",
 			"value": 1
 		},
 		{
 			"source": "skyglowno",
 			"target": "globeatnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "globeatnight",
 			"target": "skyglowno",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "idaquebec",
@@ -1706,7 +1586,7 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "idaquebec",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "darkskyfinder",
@@ -1716,7 +1596,22 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "darkskyfinder",
+			"value": 4
+		},
+		{
+			"source": "highroute",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "highroute",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "marscuriosity",
+			"value": 3
 		},
 		{
 			"source": "astronomyregina",
@@ -1726,7 +1621,47 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "astronomyregina",
+			"value": 3
+		},
+		{
+			"source": "dunlap_obs",
+			"target": "globeatnight",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "dunlap_obs",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "nasa",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "mikesalway",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "geoviews",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "jess_nnz",
 			"value": 1
+		},
+		{
+			"source": "mydarkskyuk",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "mydarkskyuk",
+			"value": 2
 		},
 		{
 			"source": "laddobs",
@@ -1736,7 +1671,42 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "laddobs",
+			"value": 2
+		},
+		{
+			"source": "astrosocietypac",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "astrosocietypac",
+			"value": 10
+		},
+		{
+			"source": "globeatnight",
+			"target": "virtualastro",
+			"value": 3
+		},
+		{
+			"source": "bulloj",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "bulloj",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "nrdc",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "exploreplanets",
+			"value": 3
 		},
 		{
 			"source": "rasc",
@@ -1746,17 +1716,52 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "rasc",
-			"value": 1
+			"value": 5
 		},
 		{
-			"source": "thilinah",
+			"source": "kreegan99",
 			"target": "globeatnight",
 			"value": 1
 		},
 		{
 			"source": "globeatnight",
-			"target": "thilinah",
+			"target": "kreegan99",
+			"value": 2
+		},
+		{
+			"source": "cosmicwandere05",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "cosmicwandere05",
+			"value": 2
+		},
+		{
+			"source": "thilinah",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "thilinah",
+			"value": 31
+		},
+		{
+			"source": "globeatnight",
+			"target": "apollosnebula",
+			"value": 2
+		},
+		{
+			"source": "chanderdevgun",
+			"target": "globeatnight",
+			"value": 5
+		},
+		{
+			"source": "globeatnight",
+			"target": "chanderdevgun",
+			"value": 8
 		},
 		{
 			"source": "darkskyobs",
@@ -1766,7 +1771,17 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "darkskyobs",
+			"value": 5
+		},
+		{
+			"source": "unawe",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "unawe",
+			"value": 8
 		},
 		{
 			"source": "lro_nasa",
@@ -1776,7 +1791,17 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "lro_nasa",
-			"value": 1
+			"value": 2
+		},
+		{
+			"source": "polarisdotca",
+			"target": "globeatnight",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "polarisdotca",
+			"value": 9
 		},
 		{
 			"source": "astropoetamee",
@@ -1786,7 +1811,42 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "astropoetamee",
+			"value": 9
+		},
+		{
+			"source": "siobservatory",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "siobservatory",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "astronomymag",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "earthhour",
+			"value": 9
+		},
+		{
+			"source": "halfastro",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "halfastro",
+			"value": 7
+		},
+		{
+			"source": "globeatnight",
+			"target": "soniashnyk",
+			"value": 4
 		},
 		{
 			"source": "starstryder",
@@ -1796,7 +1856,32 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "starstryder",
-			"value": 1
+			"value": 4
+		},
+		{
+			"source": "pe_robinson",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "pe_robinson",
+			"value": 3
+		},
+		{
+			"source": "uastronomer",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "uastronomer",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "cmdr_hadfield",
+			"value": 3
 		},
 		{
 			"source": "ivie97",
@@ -1806,6 +1891,66 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "ivie97",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "noisyastronomer",
+			"value": 6
+		},
+		{
+			"source": "globeatnight",
+			"target": "janhattenbach",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "galaxyzoo",
+			"value": 3
+		},
+		{
+			"source": "taniadominici",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "taniadominici",
+			"value": 7
+		},
+		{
+			"source": "globeatnight",
+			"target": "natgeo",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "denisp0",
+			"value": 2
+		},
+		{
+			"source": "2373m",
+			"target": "globeatnight",
+			"value": 12
+		},
+		{
+			"source": "globeatnight",
+			"target": "2373m",
+			"value": 12
+		},
+		{
+			"source": "globeatnight",
+			"target": "agilistaag",
+			"value": 1
+		},
+		{
+			"source": "9dognight",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "9dognight",
 			"value": 1
 		},
 		{
@@ -1816,7 +1961,7 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "kimberlykowal",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "goldpaintphoto",
@@ -1826,7 +1971,12 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "goldpaintphoto",
-			"value": 1
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "spacedotcom",
+			"value": 3
 		},
 		{
 			"source": "sheffield_astro",
@@ -1836,7 +1986,47 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "sheffield_astro",
+			"value": 2
+		},
+		{
+			"source": "nochezero_cl",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "nochezero_cl",
+			"value": 2
+		},
+		{
+			"source": "noaonorth",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "noaonorth",
+			"value": 6
+		},
+		{
+			"source": "globeatnight",
+			"target": "thestarhound",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "skyandtelescope",
+			"value": 5
+		},
+		{
+			"source": "globeatnight",
+			"target": "nightskyguy",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "thestartrail",
+			"value": 9
 		},
 		{
 			"source": "365daysofastro",
@@ -1846,7 +2036,7 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "365daysofastro",
-			"value": 1
+			"value": 16
 		},
 		{
 			"source": "astronomydave",
@@ -1856,7 +2046,7 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "astronomydave",
-			"value": 1
+			"value": 5
 		},
 		{
 			"source": "galileoteachers",
@@ -1866,7 +2056,17 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "galileoteachers",
+			"value": 13
+		},
+		{
+			"source": "paulbogard",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "paulbogard",
+			"value": 8
 		},
 		{
 			"source": "nightskynetwork",
@@ -1876,7 +2076,17 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "nightskynetwork",
+			"value": 24
+		},
+		{
+			"source": "darkskymeter",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "darkskymeter",
+			"value": 5
 		},
 		{
 			"source": "polcouncil",
@@ -1886,17 +2096,52 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "polcouncil",
-			"value": 1
+			"value": 21
 		},
 		{
-			"source": "rasc_lpa",
+			"source": "globeatnight",
+			"target": "ladycheron",
+			"value": 2
+		},
+		{
+			"source": "dfrctionspikes",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "dfrctionspikes",
+			"value": 2
+		},
+		{
+			"source": "verlustdernacht",
 			"target": "globeatnight",
 			"value": 1
 		},
 		{
 			"source": "globeatnight",
-			"target": "rasc_lpa",
+			"target": "verlustdernacht",
+			"value": 8
+		},
+		{
+			"source": "bluegrassgazer",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "bluegrassgazer",
+			"value": 2
+		},
+		{
+			"source": "rasc_lpa",
+			"target": "globeatnight",
+			"value": 3
+		},
+		{
+			"source": "globeatnight",
+			"target": "rasc_lpa",
+			"value": 35
 		},
 		{
 			"source": "cfds_uk",
@@ -1906,17 +2151,32 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "cfds_uk",
-			"value": 1
+			"value": 8
 		},
 		{
-			"source": "darkskyman",
+			"source": "cosmoquestx",
 			"target": "globeatnight",
 			"value": 1
 		},
 		{
 			"source": "globeatnight",
+			"target": "cosmoquestx",
+			"value": 4
+		},
+		{
+			"source": "darkskyman",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
 			"target": "darkskyman",
-			"value": 1
+			"value": 21
+		},
+		{
+			"source": "globeatnight",
+			"target": "badastronomer",
+			"value": 14
 		},
 		{
 			"source": "mikeawb",
@@ -1926,7 +2186,22 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "mikeawb",
+			"value": 5
+		},
+		{
+			"source": "globeatnight",
+			"target": "calgaryrasc",
+			"value": 6
+		},
+		{
+			"source": "mweasner",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "mweasner",
+			"value": 3
 		},
 		{
 			"source": "headlandsstars",
@@ -1936,26 +2211,51 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "headlandsstars",
-			"value": 1
+			"value": 4
 		},
 		{
 			"source": "stephtdouglas",
+			"target": "globeatnight",
+			"value": 4
+		},
+		{
+			"source": "globeatnight",
+			"target": "stephtdouglas",
+			"value": 4
+		},
+		{
+			"source": "alpha_lyrae_uk",
 			"target": "globeatnight",
 			"value": 1
 		},
 		{
 			"source": "globeatnight",
-			"target": "stephtdouglas",
+			"target": "alpha_lyrae_uk",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "loveisalabor",
 			"value": 1
 		},
 		{
 			"source": "skyglowberlin",
 			"target": "globeatnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "globeatnight",
 			"target": "skyglowberlin",
+			"value": 13
+		},
+		{
+			"source": "scottiemacneill",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "globeatnight",
+			"target": "scottiemacneill",
 			"value": 1
 		},
 		{
@@ -1966,529 +2266,694 @@ window.socialmedia.push({
 		{
 			"source": "globeatnight",
 			"target": "gam_awb",
+			"value": 38
+		},
+		{
+			"source": "johnbarentine",
+			"target": "globeatnight",
 			"value": 1
+		},
+		{
+			"source": "globeatnight",
+			"target": "johnbarentine",
+			"value": 9
 		},
 		{
 			"source": "awb_org",
 			"target": "globeatnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "globeatnight",
 			"target": "awb_org",
-			"value": 1
+			"value": 46
 		},
 		{
 			"source": "idadarksky",
 			"target": "globeatnight",
-			"value": 1
+			"value": 2
 		},
 		{
 			"source": "globeatnight",
 			"target": "idadarksky",
+			"value": 327
+		},
+		{
+			"source": "globeatnight",
+			"target": "globeatnight",
+			"value": 916
+		},
+		{
+			"source": "langitselatan",
+			"target": "idadarksky",
 			"value": 1
+		},
+		{
+			"source": "cfds_uk",
+			"target": "cfds_uk",
+			"value": 1
+		},
+		{
+			"source": "9dognight",
+			"target": "9dognight",
+			"value": 1
+		},
+		{
+			"source": "agilistaag",
+			"target": "9dognight",
+			"value": 1
+		},
+		{
+			"source": "agilistaag",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "polcouncil",
+			"target": "polcouncil",
+			"value": 1
+		},
+		{
+			"source": "nrdc",
+			"target": "nrdc",
+			"value": 1
+		},
+		{
+			"source": "earthhour",
+			"target": "earthhour",
+			"value": 1
+		},
+		{
+			"source": "jess_nnz",
+			"target": "earthhour",
+			"value": 1
+		},
+		{
+			"source": "jess_nnz",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "loveisalabor",
+			"target": "loveisalabor",
+			"value": 1
+		},
+		{
+			"source": "nlandnp",
+			"target": "idadarksky",
+			"value": 1
+		},
+		{
+			"source": "ladycheron",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "badastronomer",
+			"target": "badastronomer",
+			"value": 2
+		},
+		{
+			"source": "denisp0",
+			"target": "denisp0",
+			"value": 1
+		},
+		{
+			"source": "highroute",
+			"target": "idadarksky",
+			"value": 1
+		},
+		{
+			"source": "darkskyman",
+			"target": "idadarksky",
+			"value": 1
+		},
+		{
+			"source": "apollosnebula",
+			"target": "darkskyman",
+			"value": 1
+		},
+		{
+			"source": "abumaia",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "astronomyregina",
+			"target": "marscuriosity",
+			"value": 1
+		},
+		{
+			"source": "astronomyregina",
+			"target": "idadarksky",
+			"value": 1
+		},
+		{
+			"source": "apollosnebula",
+			"target": "idadarksky",
+			"value": 2
+		},
+		{
+			"source": "apollosnebula",
+			"target": "globeatnight",
+			"value": 1
+		},
+		{
+			"source": "idadarksky",
+			"target": "apollosnebula",
+			"value": 1
+		},
+		{
+			"source": "2373m",
+			"target": "darkskyfinder",
+			"value": 2
+		},
+		{
+			"source": "2373m",
+			"target": "anpcen",
+			"value": 1
+		},
+		{
+			"source": "idadarksky",
+			"target": "idadarksky",
+			"value": 1
+		},
+		{
+			"source": "2373m",
+			"target": "idadarksky",
+			"value": 2
+		},
+		{
+			"source": "kc5lei",
+			"target": "globeatnight",
+			"value": 2
+		},
+		{
+			"source": "palomarskies",
+			"target": "kc5lei",
+			"value": 2
 		}
 	],
 	"nodes": [
 		{
 			"id": "globeatnight",
 			"group": "globeatnight",
-			"count": 1700
-		},
-		{
-			"id": "polcouncil",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "palomarskies",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astronomy_pari",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sjastronomyclub",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "alisastronomy",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "lowellobs",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "spaceyliz",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "anpcen",
-			"group": "user",
-			"count": 2
+			"count": 4883
 		},
 		{
 			"id": "idadarksky",
 			"group": "user",
-			"count": 2
+			"count": 342
 		},
 		{
 			"id": "awb_org",
 			"group": "user",
-			"count": 2
+			"count": 48
 		},
 		{
 			"id": "gam_awb",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "skyglowberlin",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "stephtdouglas",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "headlandsstars",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "mikeawb",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "darkskyman",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astrobookdrive",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "cfds_uk",
-			"group": "user",
-			"count": 2
+			"count": 39
 		},
 		{
 			"id": "rasc_lpa",
 			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "laddobs",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "nightskynetwork",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "galileoteachers",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astronomydave",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "365daysofastro",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "skyglowno",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "sheffield_astro",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "goldpaintphoto",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "kimberlykowal",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "idaquebec",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "darkskyfinder",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astronomyregina",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "ivie97",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "starstryder",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "astropoetamee",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "lro_nasa",
-			"group": "user",
-			"count": 2
-		},
-		{
-			"id": "darkskyobs",
-			"group": "user",
-			"count": 2
+			"count": 38
 		},
 		{
 			"id": "thilinah",
 			"group": "user",
-			"count": 2
+			"count": 33
+		},
+		{
+			"id": "2373m",
+			"group": "user",
+			"count": 29
+		},
+		{
+			"id": "nightskynetwork",
+			"group": "user",
+			"count": 25
+		},
+		{
+			"id": "darkskyman",
+			"group": "user",
+			"count": 25
+		},
+		{
+			"id": "polcouncil",
+			"group": "user",
+			"count": 24
+		},
+		{
+			"id": "badastronomer",
+			"group": "user",
+			"count": 18
+		},
+		{
+			"id": "365daysofastro",
+			"group": "user",
+			"count": 17
+		},
+		{
+			"id": "skyglowberlin",
+			"group": "user",
+			"count": 15
+		},
+		{
+			"id": "galileoteachers",
+			"group": "user",
+			"count": 14
+		},
+		{
+			"id": "polarisdotca",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "chanderdevgun",
+			"group": "user",
+			"count": 13
+		},
+		{
+			"id": "earthhour",
+			"group": "user",
+			"count": 12
+		},
+		{
+			"id": "astrosocietypac",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "cfds_uk",
+			"group": "user",
+			"count": 11
+		},
+		{
+			"id": "astropoetamee",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "johnbarentine",
+			"group": "user",
+			"count": 10
+		},
+		{
+			"id": "taniadominici",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "unawe",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "thestartrail",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "paulbogard",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "palomarskies",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "verlustdernacht",
+			"group": "user",
+			"count": 9
+		},
+		{
+			"id": "dunlap_obs",
+			"group": "user",
+			"count": 8
+		},
+		{
+			"id": "stephtdouglas",
+			"group": "user",
+			"count": 8
+		},
+		{
+			"id": "halfastro",
+			"group": "user",
+			"count": 8
+		},
+		{
+			"id": "noaonorth",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "darkskyfinder",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "apollosnebula",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "ma2tew",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "astrobookdrive",
+			"group": "user",
+			"count": 7
+		},
+		{
+			"id": "mikeawb",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "astronomyregina",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "kc5lei",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "9dognight",
+			"group": "user",
+			"count": 6
+		},
+		{
+			"id": "darkskyobs",
+			"group": "user",
+			"count": 6
 		},
 		{
 			"id": "rasc",
 			"group": "user",
-			"count": 2
+			"count": 6
 		},
 		{
-			"id": "stargazingm31",
+			"id": "astronomydave",
 			"group": "user",
-			"count": 1
+			"count": 6
 		},
 		{
-			"id": "jtfburgess",
+			"id": "calgaryrasc",
 			"group": "user",
-			"count": 1
+			"count": 6
 		},
 		{
-			"id": "mundhir",
+			"id": "darkskymeter",
 			"group": "user",
-			"count": 1
+			"count": 6
 		},
 		{
-			"id": "crayfordas",
+			"id": "noisyastronomer",
 			"group": "user",
-			"count": 1
+			"count": 6
 		},
 		{
-			"id": "kam75",
+			"id": "skyglowno",
 			"group": "user",
-			"count": 1
+			"count": 6
 		},
 		{
-			"id": "scopeguy",
+			"id": "skyandtelescope",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "chunga_revenge",
+			"id": "cosmoquestx",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "sungrazr",
+			"id": "siobservatory",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "microsquid",
+			"id": "kimberlykowal",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "chakradonor",
+			"id": "headlandsstars",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "elac_hlord3",
+			"id": "highroute",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "f3rnytaa",
+			"id": "bulloj",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "hubblesky",
+			"id": "nrdc",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "williamlarge",
+			"id": "starstryder",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "ahenotri",
+			"id": "pe_robinson",
 			"group": "user",
-			"count": 1
+			"count": 5
 		},
 		{
-			"id": "madcat43",
+			"id": "thestarhound",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "gmmartinezv",
+			"id": "uastronomer",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "greenwisekids",
+			"id": "ivie97",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "chingas11",
+			"id": "natgeo",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "fellipy",
+			"id": "denisp0",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "lowiess",
+			"id": "astronomymag",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "kr428",
+			"id": "marscuriosity",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "andreirusu_",
+			"id": "soniashnyk",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "dubsepp",
+			"id": "nightskyguy",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "greginohio",
+			"id": "langitselatan",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "summer_ash",
+			"id": "dfrctionspikes",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "fgligor",
+			"id": "eso_observatory",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "soldepapel",
+			"id": "abumaia",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "launchpat",
+			"id": "mweasner",
 			"group": "user",
-			"count": 1
+			"count": 4
 		},
 		{
-			"id": "hankdolben",
+			"id": "lro_nasa",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "mamattingly",
+			"id": "jess_nnz",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "connectxnature",
+			"id": "mydarkskyuk",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "_____micha_____",
+			"id": "laddobs",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "matthewwasley",
+			"id": "idaquebec",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "elven_meliux",
+			"id": "alpha_lyrae_uk",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "jatnul",
+			"id": "galaxyzoo",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "edlyneldun",
+			"id": "virtualastro",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "juliehoogland",
+			"id": "janhattenbach",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "moonnanda",
+			"id": "nlandnp",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "hoddergeography",
+			"id": "nochezero_cl",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "el_irra1",
+			"id": "astronomyfm",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "willmort",
+			"id": "sheffield_astro",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "pitisakk",
+			"id": "cmdr_hadfield",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "wwp_planetarium",
+			"id": "scottiemacneill",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "dowser01",
+			"id": "bluegrassgazer",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "lookingskywards",
+			"id": "anpcen",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "raykoerner",
+			"id": "spacedotcom",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "tarashnat",
+			"id": "exploreplanets",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "raulclima",
+			"id": "org_space",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "_zoidb3rg_",
+			"id": "nasa",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "lna_comunica",
+			"id": "goldpaintphoto",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "nicholas_gregg",
+			"id": "kreegan99",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "preet33",
+			"id": "valarvarda",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "joacotuk",
+			"id": "cosmicwandere05",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "jilleangeleyes",
+			"id": "ladycheron",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "stargazer3000",
+			"id": "mikesalway",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "cosmicmonsta",
+			"id": "agilistaag",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "gaildesler",
+			"id": "loveisalabor",
 			"group": "user",
-			"count": 1
+			"count": 3
 		},
 		{
-			"id": "deapfreez_astro",
+			"id": "geoviews",
 			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "scienceoffice",
-			"group": "user",
-			"count": 1
-		},
-		{
-			"id": "donegalskies",
-			"group": "user",
-			"count": 1
+			"count": 3
 		}
 	]
 });

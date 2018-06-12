@@ -28,14 +28,12 @@ app.config(function ($urlServiceProvider) {
 		project.days.forEach((d, i) => {
 			let m = moment(d.day, 'YYYY-MM-DD');
 			d.date = m.toDate();
-			//d.day = m.format('DD MMM YYYY');
 			if (i === 0 && d.date < dateStart || !dateStart) { dateStart = d.date; }
 			if (i === project.days.length - 1 && d.date > dateEnd || !dateEnd) { dateEnd = d.date; }
 		});
 		project.months.forEach(d => {
 			let m = moment(d.month, 'YYYY-MM');
 			d.date = m.toDate();
-			//d.month = m.format('MMM YYYY');
 		});
 		project.subprojects = window.projects.filter(p => p.parent && (p.parent.id || p.parent) === project.id);
 		project.parent = window.projects.find(p => p.id === project.parent);
@@ -45,7 +43,12 @@ app.config(function ($urlServiceProvider) {
 			project.countries.forEach(d => d.name = countries[d.country]);
 		}
 	});
-
+	window.socialmedia.forEach(account => {
+		account.months.forEach(d => {
+			let m = moment(d.month, 'YYYY-MM');
+			d.date = m.toDate();
+		});
+	});
 });
 
 app.run(($rootScope, $transitions) => {
@@ -102,18 +105,70 @@ app.config($stateProvider => {
 		}
 	});
 
+
+	let combineData = () => {
+		let combined = {
+			totals: {},
+			months: []
+		};
+		window.socialmedia.forEach(account => {
+			if (!account.selected) { return; }
+			Object.entries(account.totals).forEach(([k, v]) => {
+				if (!combined.totals[k]) { combined.totals[k] = 0; }
+				combined.totals[k] += v;
+			});
+			account.months.forEach(month => {
+				let existing = combined.months.find(d => d.month === month.month);
+				if (!existing) {
+					existing = { month: month.month, date: month.date };
+					combined.months.push(existing);
+				}
+				Object.keys(account.totals).forEach(k => {
+					if (!existing[k]) { existing[k] = 0; }
+					existing[k] += month[k];
+				});
+			});
+			account.months = account.months.sort((a, b) => a.date - b.date);
+			['hashtagsOut', 'hashtagsIn'].forEach(k => {
+				if (!combined[k]) { combined[k] = []; }
+				if (account[k]) {
+					account[k].forEach(({ tag, count }) => {
+						let existing = combined[k].find(d => d.tag === tag);
+						if (!existing) {
+							combined[k].push({ tag, count });
+						} else {
+							existing.count += count;
+						}
+					});
+				}
+				combined[k] = combined[k].sort((a, b) => b.count - a.count).slice(0, 20);
+			});
+		});
+		console.log('combined', combined)
+		return combined;
+	};
+
 	$stateProvider.state('socialmedia', {
 		url: '/socialmedia',
 		templateUrl: '/templates/socialmedia.html',
 		controller: function ($scope, $rootScope) {
 			$scope.socialmedia = window.socialmedia;
+			$scope.socialmedia[1].selected = true;
 			$rootScope.currentState = 'socialmedia';
+			$scope.y = 'posts';
+			$scope.hashtagsIn = false;
+			$scope.twitter = $scope.socialmedia.filter(d => d.type === 'twitter');
+			$scope.facebook = $scope.socialmedia.filter(d => d.type === 'facebook');
 			$scope.socialmedia.forEach((s, i) => {
 				$scope.$watch(`socialmedia[${i}].selected`, () => {
-					refreshChart();
-					refreshHashtags();
+					//refreshChart();
+					//refreshHashtags();
+					console.log('recombine');
+					$scope.combined = combineData();
 				});
 			});
+
+			
 			let refreshChart = () => {
 				let months = {},
 					allTags = {};
@@ -130,12 +185,12 @@ app.config($stateProvider => {
 								tweetsOut: 0
 							};
 						}
-						Object.entries(bin.hashtags).forEach(([tag, count]) => {
+						/*Object.entries(bin.hashtags).forEach(([tag, count]) => {
 							if (!month.tags[tag]) { month.tags[tag] = 0; }
 							if (!allTags[tag]) { allTags[tag] = 0; }
 							month.tags[tag] += count;
 							allTags[tag] += count;
-						});
+						});*/
 						month.tweetsIn += bin.tweetsIn;
 						month.tweetsOut += bin.tweetsOut;
 					});
@@ -147,20 +202,28 @@ app.config($stateProvider => {
 			};
 
 			let refreshHashtags = () => {
-				let hashtags = {};
+				let hashtagsIn = {};
+				let hashtagsOut = {};
 				$scope.socialmedia.forEach(account => {
 					if (!account.selected) { return; }
-					account.months.forEach(m => {
-						Object.entries(m.hashtags).forEach(([tag, count]) => {
-							if (!hashtags[tag]) { hashtags[tag] = 0; }
-							hashtags[tag] += count;
-						});
+					Object.entries(account.hashtagsOut || {}).forEach(({tag, count}) => {
+						if (!hashtagsOut[tag]) { hashtagsOut[tag] = 0; }
+						hashtagsOut[tag] += count;
+					});
+					Object.entries(account.hashtagsIn || {}).forEach(({tag, count}) => {
+						if (!hashtagsIn[tag]) { hashtagsIn[tag] = 0; }
+						hashtagsIn[tag] += count;
 					});
 				});
-				$scope.hashtags = Object.entries(hashtags)
+				$scope.hashtagsIn = Object.entries(hashtagsIn)
 					.map(([tag, count]) => ({ tag, count }))
 					.sort((a, b) => b.count - a.count)
 					.slice(0, 50);
+				$scope.hashtagsOut = Object.entries(hashtagsOut)
+					.map(([tag, count]) => ({ tag, count }))
+					.sort((a, b) => b.count - a.count)
+					.slice(0, 50);
+				$scope.hashtags = $scope.hashtagsOut;
 			};
 		}
 	});
@@ -466,11 +529,12 @@ app.component('effortgraph', {
 
 app.component('tweetline', {
 	bindings: {
-		data: '<'
+		data: '<',
+		y: '<'
 	},
 	controller: function ($element) {
 		this.$onChanges = () => {
-			let svg = d3.select($element[0]).append('svg').attr('width', 530).attr('height', 320),
+			let svg = d3.select($element[0]).append('svg').attr('width', 430).attr('height', 320),
 				margin = {top: 0, right: 0, bottom: 30, left: 20 },
 				width = +svg.attr("width") - margin.left - margin.right,
 				height = +svg.attr("height") - margin.top - margin.bottom;
@@ -501,12 +565,12 @@ app.component('tweetline', {
 				.attr('class', 'y axis');
 			
 			this.$onChanges = () => {
-				let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
+				let data = (this.data || []).filter(d => d.date > dateStart && d.date < dateEnd);
 
-				y.domain([1, d3.max(data, d => d.tweetsOut + 1)]);
+				y.domain([0, d3.max(data, d => d[this.y])]);
 
-				area.y0(y(1))
-					.y1(d => y(d.tweetsOut + 1));
+				area.y0(y(0))
+					.y1(d => y(d[this.y]));
 
 				path.datum(data)
 					.transition()
@@ -532,7 +596,7 @@ app.component('dgraph', {
 	controller: function ($element) {
 		this.$onChanges = () => {
 			let svg = d3.select($element[0]).append('svg')
-					.attr('width', 960)
+					.attr('width', 660)
 					.attr('height', 700),
 				width = +svg.attr("width"),
 				height = +svg.attr("height");
@@ -572,12 +636,12 @@ app.component('dgraph', {
 					links = {};
 
 				window.socialmedia.forEach(sm => { // combine the nodes and links of the selected projects
-					sm.nodes.forEach(node => {
+					(sm.nodes || []).forEach(node => {
 						if (!nodes[node.id]) { nodes[node.id] = { id: node.id, count: 0, group: 'user' }; }
 						if (node.group !== 'user') { nodes[node.id].group = node.group; }
 						nodes[node.id].count += node.count;
 					});
-					sm.links.forEach(link => {
+					(sm.links || []).forEach(link => {
 						let id = `${link.source}:${link.target}`;
 						if (!links[id]) { links[id] = { source: link.source, target: link.target, value: 0 }; }
 						links[id].value += link.value;
