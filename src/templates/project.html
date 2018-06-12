@@ -6,7 +6,7 @@
 		<li><strong>{{ project.contributions | number }}</strong>
 			contributions</li>
 
-		<li><strong>{{ project.users.length | number }}</strong>
+		<li ng-if="project.users"><strong>{{ project.users.length | number }}</strong>
 			users</li>
 
 		<li><strong>{{ project.months.length | number }}</strong>
@@ -65,7 +65,7 @@
 	</div>
 	<div ng-if="project.countries">
 		<h3>Top Countries</h3>
-		<div>
+		<div ng-if="project.users">
 			<a ng-class="{ active: !countryContributors }" ng-click="countryContributors = false">Contributions</a>
 			<a ng-class="{ active: countryContributors }" ng-click="countryContributors = true">Contributors</a>
 		</div>
@@ -85,7 +85,7 @@
 
 <div class="project-view">
 
-	<div class="options" style="float: right">
+	<div class="options" style="float: right" ng-if="project.users">
 		<a ng-click="y = 'contributions'" ng-class="{ active: y === 'contributions' }">Contributions</a>
 		<a ng-click="y = 'users'" ng-class="{ active: y === 'users' }">Contributors</a>
 		<a ng-click="y = 'starters'" ng-class="{ active: y === 'starters' }">New Contributors</a>
@@ -120,8 +120,7 @@
 		<weekdaygraph data="project.weekdays" axis="i === projects.length - 1" y="y" width="700" height="250"></weekdaygraph>
 	</div>
 
-
-	<div class="effortgraph">
+	<div class="effortgraph" ng-if="project.users && !project.hideDistributionOfEffort">
 		<h3>Distribution of effort</h3>
 		<effortgraph data="project.users" axis="i === projects.length - 1" y="y" width="700" height="300"></effortgraph>
 	</div>

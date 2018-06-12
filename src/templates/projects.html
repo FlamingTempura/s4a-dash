@@ -24,7 +24,7 @@
 
 		<daygraph data="project.days" y="y"></daygraph>
 
-		<effortgraph data="project.users" y="y"></effortgraph>
+		<effortgraph data="project.users" y="y" ng-if="!project.hideDistributionOfEffort"></effortgraph>
 
 	</div>
 </div>

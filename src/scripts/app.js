@@ -17,6 +17,14 @@ app.config(function ($urlServiceProvider) {
 	$urlServiceProvider.rules.otherwise({ state: 'projects' });
 
 	window.projects.forEach(project => {
+		if (['dark-sky-meter', 'globe-at-night', 'sky-quality-meter', 'loss-of-the-night', 'my-sky-at-night'].includes(project.id)) {
+			project.months.forEach(d => delete d.users);
+			project.days.forEach(d => delete d.users);
+			delete project.users;
+		}
+		if (project.id === 'european-photometer-network') {
+			project.hideDistributionOfEffort = true;
+		}
 		project.days.forEach((d, i) => {
 			let m = moment(d.day, 'YYYY-MM-DD');
 			d.date = m.toDate();
