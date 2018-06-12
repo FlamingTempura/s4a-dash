@@ -4,11 +4,11 @@
 	<a ng-click="y = 'starters'" ng-class="{ active: y === 'starters' }">New Contributors</a>
 </div>
 
-<h1>Stars4All Project {{ yTitles[y] | capitalize }}</h1>
+<h1>Stars4All Community Health Monitor</h1>
 
-<p>This dashboard summarises the amount of contributions and contributors for each Stars4All project.</p>
+<p>This dashboard summarises the amount of community health for each Stars4All LPI.</p>
 
-<p>Below, each project is listed with the number of contributions (a submission made by a user) and contributors (a user who has made a contribution). The charts display the number of {{ yTitles[y] }} per weekday (left), the number of {{ yTitles[y] }} over time (centre), and the amount of submissions each contributor has made. Click a project to view more details.</p>
+<p>Below, each LPI is listed with the number of contributions (a submission made by a user) and contributors (a user who has made a contribution). The charts display the number of {{ yTitles[y] }} per weekday (left), the number of {{ yTitles[y] }} over time (centre), and the amount of submissions each contributor has made. Click a LPI to view more details.</p>
 
 <div class="projects">
 	<div ng-repeat="(i, project) in projects" class="project" ui-sref="project({ id: project.id })">

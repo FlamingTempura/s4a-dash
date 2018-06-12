@@ -14,7 +14,7 @@
 
 		<li>Date range for data: {{ project.days[0].date | date:'dd MMM yyyy' }} to {{ project.days[project.days.length - 1].date | date:'dd MMM yyyy' }}. </li>
 
-		<li><a ng-href="project.url">Project website</a></li>
+		<li><a ng-href="project.url">LPI website</a></li>
 	</ul>
 	<div>
 		<h3>Recent trends</h3>
@@ -79,7 +79,7 @@
 </div>
 
 <div class="breadcrumb">
-	<a ui-sref="projects">Projects</a> &gt;
+	<a ui-sref="projects">Light Pollution Indicators</a> &gt;
 	<a ui-sref="project({ id: project.id })">{{ project.name }}</a>
 </div>
 
