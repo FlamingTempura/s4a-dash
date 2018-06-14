@@ -69,6 +69,21 @@
 				</span>
 			</li>
 		</ul>
+	</div>
+
+	<div>
+		<h3>Predictions</h3>
+
+		<p>By the end of the year, expect:</p>
+
+		<ul>
+			<li ng-if="month.contributions">
+				<strong>{{ forecast(project.contributions - month.contributions, project.contributions) | number }}</strong> contributions
+			</li>
+			<li ng-if="month.users">
+				<strong>{{ forecast(project.users.length - month.users, project.users.length) | number }}</strong> contributors
+			</li>
+		</ul>
 
 		<!-- <div ng-if="month.tasks">
 			{{ month.tasks | number }} tasks

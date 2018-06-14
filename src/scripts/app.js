@@ -77,7 +77,7 @@ app.run(($rootScope, $transitions) => {
 		'GlobeatNight FB Full': 'Globe At Night',
 		'LossOfTheNightFB': 'Loss of the Night',
 		'Sky Live TV FB Full': 'Sky Live.TV'
-	}
+	};
 });
 
 app.config($stateProvider => {
@@ -98,25 +98,13 @@ app.config($stateProvider => {
 			$scope.project = window.projects.find(p => p.id === $state.params.id);
 			$scope.month = $scope.project.months[$scope.project.months.length - 1];
 			$scope.prevMonth = $scope.project.months[$scope.project.months.length - 2];
-			/*
-
-
-			if ($scope.project.users) {
-				$scope.usersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.users.ids + m.users.ips }));
-				$scope.newUsersOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.newUsers.ids + m.newUsers.ips }));
-			}
-			if ($scope.project.contributions) {
-				$scope.contributionsOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.contributions }));
-			}
-			if ($scope.project.complete) {
-				$scope.completeOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.complete }));
-			}
-			if ($scope.project.tasks) {
-				$scope.tasksOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.tasks }));
-			}
-			$scope.rowsOverTime = $scope.project.months.map(m => ({ label: m.month, value: m.rows }));
-
-			*/
+			
+			$scope.forecast = (prevMonth, thisMonth) => {
+				let delta = (thisMonth - prevMonth) / 30;
+				let days = moment().endOf('year').diff(moment(), 'days');
+				console.log(days, delta);
+				return Math.round(thisMonth + days * delta);
+			};
 		}
 	});
 
