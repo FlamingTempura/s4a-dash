@@ -57821,8 +57821,8 @@
   app.run(($rootScope, $transitions) => {
   	$rootScope.yTitles = {
   		contributions: 'contributions',
-  		users: 'contributers',
-  		starters: 'new contributers'
+  		users: 'contributors',
+  		starters: 'new contributors'
   	};
   	$rootScope.y = 'contributions';
   	$rootScope.countryContributors = false;
