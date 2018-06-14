@@ -71,7 +71,7 @@ const processTwitter = id => {
 			}
 
 			let officialAccount = Object.entries(possibleOfficialAccounts)
-				.sort((a, b) => a[0] - b[0])
+				.sort((a, b) => b[1] - a[1])
 				[0][0];
 
 			let date = moment(dateStart).startOf('month').toDate(),
@@ -227,7 +227,7 @@ const processFacebook = id => {
 			} while (true);
 
 			officialAccount = Object.entries(possibleOfficialAccounts)
-				.sort((a, b) => a[0] - b[0])
+				.sort((a, b) => b[1] - a[1])
 				[0][0];
 
 			let date = moment(dateStart).startOf('month').toDate();
@@ -339,7 +339,7 @@ const processWeirdFile = id => { // for stars4all Facebook.xlsx
 			} while (true);
 
 			officialAccount = Object.entries(possibleOfficialAccounts)
-				.sort((a, b) => a[0] - b[0])
+				.sort((a, b) => b[1] - a[1])
 				[0][0];
 
 			let date = moment(dateStart).startOf('month').toDate();
@@ -408,7 +408,7 @@ const run = (id) => {
 
 fs.ensureDir(`${__dirname}/build/accounts`)
 	.then(() => {
-		if (id && id.match(/^[A-Za-z0-9-]+$/)) {
+		if (id && id.match(/^[A-Za-z0-9" -]+$/)) {
 			run(id);
 		} else {
 			fs.readdir(`${__dirname}/data/socialmedia`)
