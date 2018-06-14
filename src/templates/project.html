@@ -76,6 +76,17 @@
 			</li>
 		</ul>
 	</div>
+	<ul ng-if="project.nOfPlayer">
+		<li><strong>{{ project.nOfPlayer | number }}</strong> players</li>
+		<li><strong>{{ project.totalLifePlayddHHmmss }}</strong> time played</li>
+		<li><strong>{{ project.completedTasks | number }}</strong> completed tasks</li>
+		<li><strong>{{ project.startedTasks | number }}</strong> started tasks</li>
+		<li><strong>{{ project.totalTasks | number }}</strong> total tasks</li>
+		<li><strong>{{ project.completion }}%</strong> complete</li>
+		<li><strong>{{ project.throughput }}</strong> throughput (solved per hour)</li>
+		<li><strong>{{ project.alp }}</strong> the average life play (time per player)</li>
+		<li><strong>{{ project.contribution }}</strong> expected contribution (solved per player)</li>
+	</ul>
 </div>
 
 <div class="breadcrumb">

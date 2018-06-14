@@ -4,6 +4,15 @@ window.projects.push({
 		"./data/night-knights.csv"
 	],
 	"id": "night-knights",
+	"nOfPlayer": "1249",
+	"totalLifePlayddHHmmss": "7 11:48:17",
+	"completedTasks": "36031",
+	"startedTasks": "37428",
+	"totalTasks": "39612",
+	"completion": "90.96",
+	"throughput": "200.39",
+	"alp": "8.64",
+	"contribution": "28.85",
 	"contributions": 265578,
 	"rows": 265578,
 	"days": [

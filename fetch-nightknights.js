@@ -17,7 +17,7 @@ const authenticate = () => {
 
 authenticate()
 	.then(token => {
-		console.log('getting solved tasks')
+		console.log('getting solved tasks');
 		return request({
 			method: 'GET',
 			url: 'https://www.nightknights.eu/rest/donetasks/?timestamp=',
@@ -29,7 +29,21 @@ authenticate()
 			console.log('successfully fetched tasks done');
 			stringify(data, { header: true }, (err, str) => {
 				fs.writeFileSync(`${__dirname}/data/night-knights.csv`, str, 'utf8');
-				console.log(`written csv to ${__dirname}/data/nightknights.csv`);
+				console.log(`written csv to ${__dirname}/data/night-knights.csv`);
+			});
+		})
+		.then(() => {
+			console.log('getting evaluation data');
+			return request({
+				method: 'GET',
+				url: 'https://www.nightknights.eu/rest/evaluation',
+				json: true,
+				headers: {
+					'Authorization': `Bearer ${token}`
+				}
+			}).then(data => {
+				console.log('successfully fetched evaluation data');
+				fs.writeFileSync(`${__dirname}/data/night-knights-eval.json`, JSON.stringify(data), 'utf8');
 			});
 		});
 	});

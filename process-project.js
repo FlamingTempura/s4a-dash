@@ -42,6 +42,12 @@ const generate = id => {
 			});
 		}, { concurrency: 4 })
 		.then(() => {
+			if (project.metrics) {
+				return project.metrics();
+			}
+		})
+		.then(metrics => {
+			Object.assign(project, metrics);
 			console.log(rows[0]);
 			console.log('Structuring data...');
 			let days = {},
