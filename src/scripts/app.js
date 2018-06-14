@@ -94,7 +94,6 @@ app.config($stateProvider => {
 		url: '/project/:id',
 		templateUrl: '/templates/project.html',
 		controller: function ($state, $scope, $rootScope) {
-
 			$rootScope.currentState = 'projects';
 			$scope.project = window.projects.find(p => p.id === $state.params.id);
 			$scope.month = $scope.project.months[$scope.project.months.length - 1];
@@ -160,7 +159,6 @@ app.config($stateProvider => {
 				combined[k] = combined[k].sort((a, b) => b.count - a.count).slice(0, 20);
 			});
 		});
-		console.log('combined', combined)
 		return combined;
 	};
 
@@ -182,7 +180,6 @@ app.config($stateProvider => {
 					prevVal = val;
 					//refreshChart();
 					//refreshHashtags();
-					console.log('recombine');
 					$scope.combined = combineData();
 					if (forceGraphUpdate) {
 						forceGraphUpdate();
@@ -218,7 +215,6 @@ app.config($stateProvider => {
 				});
 				let ks = Object.keys(months).sort();
 				months = ks.map(k => months[k]);
-				console.log(months);
 				$scope.data = months;
 			};
 
@@ -359,7 +355,6 @@ app.component('daygraph', {
 
 			this.$onChanges = () => {
 				let data = this.data.filter(d => d.date > dateStart && d.date < dateEnd);
-				console.log(data);
 
 				y.domain([1, d3.max(data, d => d[this.y] + 1)]);
 
@@ -458,7 +453,7 @@ app.component('weekdaygraph', {
 	}
 });
 
-app.component('effortgraph', {
+app.component('effortgraphold', {
 	bindings: {
 		data: '<',
 		y: '<',
@@ -547,6 +542,87 @@ app.component('effortgraph', {
 	}
 });
 
+
+
+app.component('effortgraph', {
+	bindings: {
+		data: '<',
+		y: '<',
+		width: '@',
+		height: '@'
+	},
+	controller: function ($element) {
+		this.$onChanges = () => {
+			let svg = d3.select($element[0]).append('svg')
+					.attr('width', this.width || 190)
+					.attr('height', this.height || chartHeight),
+				margin = {top: 10, right: 10, bottom: 50, left: 50 },
+				width = +svg.attr("width") - margin.left - margin.right,
+				height = +svg.attr("height") - margin.top - margin.bottom;
+
+			let g = svg.append("g")
+				.attr("transform", `translate(${margin.left},${margin.top})`);
+
+			let x = d3.scaleLinear()
+				.rangeRound([0, width]);
+
+			let y = d3.scaleLinear()
+				.range([height, 0]);
+
+			let path = g.append("path")
+				.attr('class', 'area');
+
+			let area = d3.area()
+				.x(d => x(d.index))
+				.y1(d => y(d.count));
+
+			let xaxis = g.append("g")
+				.attr('class', 'x axis rotate')
+				.attr("transform", `translate(0,${height})`);
+
+			let yaxis = g.append("g")
+				.attr('class', 'y axis');
+
+			xaxis.append("text")
+				.attr('class', 'label')
+				.attr("y", 22)
+				.attr('x', width)
+				.attr("dy", ".71em")
+				.style("text-anchor", "end")
+				.text("Users");
+
+			yaxis.append("text")
+				.attr('class', 'label')
+				.attr("transform", "rotate(-90)")
+				.attr("y", -margin.left)
+				.attr("dy", ".71em")
+				.style("text-anchor", "end")
+				.text("Number of contributions");
+
+			this.$onChanges = () => {
+				let data = this.data.map(user => user.contributions)
+						.sort((a, b) => b - a)
+						.map((count, index) => ({ index, count }));
+
+				x.domain([0, data.length]);
+				y.domain([0, data[0].count]);
+
+				area.y0(y(1));
+
+				path.datum(data)
+					.transition()
+					.duration(500)
+					.attr("d", area);
+
+				xaxis.call(d3.axisBottom(x)
+					.tickFormat(s => Math.floor(s * 100)));
+
+				yaxis.call(d3.axisLeft(y));
+			};
+			this.$onChanges();
+		};
+	}
+});
 
 app.component('tweetline', {
 	bindings: {
@@ -670,8 +746,6 @@ app.component('dgraph', {
 						links[id].value += link.value;
 					});
 				});
-
-				console.log(Object.values(nodes));
 
 				let graph = {};
 				graph.nodes = Object.values(nodes).map(n => Object.assign({}, n)); // d3 mutates objects :'(
