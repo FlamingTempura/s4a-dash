@@ -1,4 +1,4 @@
-# Star4all project dashboard
+# Stars4all project dashboard
 
 A web interface for viewing and visualising contribution and social media activity for stars4all projects.
 
