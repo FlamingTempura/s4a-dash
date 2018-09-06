@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --ignore ./build -e js,html,less build.js",
-    "generate-data": "node --max-old-space-size=10000 ./generate-dataset"
+    "dev": "nodemon --ignore ./build -e js,html,less build.js"
   },
   "author": "",
   "license": "ISC",
