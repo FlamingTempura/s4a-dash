@@ -41,10 +41,10 @@ A parser includes the following:
 * `files` (string[]): an array of paths to data in CSV format
 * `filter` (boolean, optional): a function which returns true if the row should be parsed. A row object is provided as an argument.
 * `parseRow` (function): a function to process each row. A row object is provided as an argument, and an object with the following properties should be returned
-    * date (Date): when the contribution was made
-    * isContribution (boolean): is the row a valid contribution
-    * user (string/number): the user ID associated with the contribution
-    * country (string, optional): the country of the user who made the contribution
+    * `date` (Date): when the contribution was made
+    * `isContribution` (boolean): is the row a valid contribution
+    * `user` (string/number): the user ID associated with the contribution
+    * `country` (string, optional): the country of the user who made the contribution
 * `note` (string): any additional notes
 
 When creating a parser, or updating the data for a project, perform the following to update the dashboard:
