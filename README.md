@@ -61,7 +61,7 @@ To update the dashboard after adding/updating social media data:
 1. run `node process-socialmedia <id>` (where ID is the data filename without the extension)
 2. run `node build` (this step is only necessary when adding or removing social media data)
 
-### Technical information
+## Technical information
 
 To keep things simple and secure, the dashboard is served as static HTML with no server component.  This means that it must be rebuilt to update it.
 
